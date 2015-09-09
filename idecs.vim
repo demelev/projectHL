@@ -106,7 +106,7 @@ autocmd BufReadPost * :call SetProjectSyntax()| call SetProjectColors()
 
 " connect tags lists
 let g:TagHighlightSettings['UserLibraries'] = []
-let g:TagHighlightSettings['UserLibrariesDir'] = "~/.vim/highlight"
+let g:TagHighlightSettings['UserLibrariesDir'] = expand("~/").".vim/highlight"
 let s:libraries = g:TagHighlightSettings['UserLibraries']
 "let g:TagHighlightSettings['TagFileName'] = g:projectTagsFile
 "let g:TagHighlightSettings['TypesFileNameForce'] = "types_c.taghl"
@@ -120,7 +120,7 @@ endfor
 
 function! UpdateLibrariesHL()
     for tl in g:thirdTags
-        let g:TagHighlightSettings['TagFileName'] = "~/.vim/tags/".tl[0].".tags"
+        let g:TagHighlightSettings['TagFileName'] = expand('~/').".vim/tags/".tl[0].".tags"
         let g:TagHighlightSettings['TypesFileNameForce'] = tl[0].".taghl"
         UpdateTypesFileOnly
     endfor

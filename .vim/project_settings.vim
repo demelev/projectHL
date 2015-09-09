@@ -3,11 +3,9 @@
 "  -->
 "let g:TagHighlightSettings['UserLibraryDir'] = getcwd()
 
-let g:unityTags   = ["unity5", 
-            \"~/.vim/tags/unity5"]
+let g:unityTags   = ["unity5", ["~/.vim/tags/unity5/"]]
 
-let g:dotNetTags   = ["dotNet", 
-            \"~/.vim/tags/dotNet"]
+let g:dotNetTags   = ["dotNet", ["~/.vim/tags/dotNet/"]]
 
 let g:thirdTags   = [unityTags, dotNetTags]
 
