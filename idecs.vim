@@ -14,17 +14,32 @@ set sessionoptions-=options
 au VimLeave * :mksession! .vim/ide.session
 
 let g:projectDir = getcwd()
-" Загружаем ранее сохраненную сессию -->
-    if getfsize(".vim/ide.session") >= 0
-        source .vim/ide.session
-    endif
-" Загружаем ранее сохраненную сессию <--
-cd "".g:projectDir
-" Загружаем настройки данного проекта
-so .vim/project_settings.vim
 
-"Устанавливает правила синтаксиса, специфичные для данного проекта.
-" -->
+" Загружаем ранее сохраненную сессию -->
+if getfsize(".vim/ide.session") >= 0
+    silent source .vim/ide.session
+endif
+
+" Загружаем ранее сохраненную сессию <--
+exec "cd ".g:projectDir
+
+"""
+" Добавляем путь в runtimepath
+let addRuntime = "set runtimepath+=".g:projectDir."/.vim"
+exec addRuntime
+
+let g:projectTagsFile = "tags"
+"""
+"" Загружаем настройки данного проекта
+if getfsize(".vim/project_settings.vim") >= 0
+    source .vim/project_settings.vim
+endif
+
+exec 'set tags+='.g:projectTagsFile
+
+
+""Устанавливает правила синтаксиса, специфичные для данного проекта.
+"" -->
     function! SetProjectSyntax()
         if getfsize(".vim/syntax.vim") >= 0
             source .vim/syntax.vim
@@ -33,6 +48,9 @@ so .vim/project_settings.vim
 " <--
 call SetProjectSyntax()
 
+if getfsize(".vim\project_snippets.snippets") >= 0
+    ExtractSnipFile(".vim", "project_snippets.snippets");
+endif
 "Устанавливаем цветовую схему для этого проекта
 " -->
     function! SetProjectColors()
@@ -50,14 +68,14 @@ function! UpdateTags()
   let fullpath = expand("%:p")
   exec 'cd '.g:projectDir
   let cwd = g:projectDir.'\'
-  let tagfilename = cwd . "/project_tags"
   let f = substitute(fullpath, escape(cwd, '.\'), "", "")
 
   execute "Dispatch! .vim\\UpdateTags.bat ".escape(f,'.\')." \"".f."\" ".v:servername
 endfunction
+command! UpdateProjectHighlight call UpdateTags()
 
 function! UpdateMainTags()
-    let command = "silent !ctags ".g:ctagsOptions
+    let command = "silent !ctags -f ".g:projectTagsFile." ".g:ctagsOptions
 
     for i in g:excludeDirs
         let command .= ' --exclude="'.i.'"'
@@ -74,7 +92,7 @@ command! UpdateMainTags call UpdateMainTags()
 function! UpdateThirdTags( name )
     for third in g:thirdTags
         if third[0] == a:name
-            let command = ' silent !ctags -R -f ' . a:name . ' --c\#-kinds=cimnp --fields=+ianmzS --extra=+fq '
+            let command = ' silent !ctags '.g:ctagsOptions.' -f ' . a:name 
             for i in third[1]
                 let command .= ' "'.i.'"'
             endfor
@@ -82,11 +100,16 @@ function! UpdateThirdTags( name )
         endif
     endfor
 endfunction
-"call UpdateTagsForChangedFiles()
-"
+
+autocmd BufWritePost *.cs,*.cpp,*.h,*.c,*.hpp call UpdateTags()
+autocmd BufReadPost * :call SetProjectSyntax()| call SetProjectColors()
+
 " connect tags lists
 let g:TagHighlightSettings['UserLibraries'] = []
+let g:TagHighlightSettings['UserLibrariesDir'] = "~/.vim/highlight"
 let s:libraries = g:TagHighlightSettings['UserLibraries']
+"let g:TagHighlightSettings['TagFileName'] = g:projectTagsFile
+"let g:TagHighlightSettings['TypesFileNameForce'] = "types_c.taghl"
 
 for thirdLibrary in g:thirdTags 
     call add(s:libraries, thirdLibrary[0].'.taghl')
@@ -97,14 +120,16 @@ endfor
 
 function! UpdateLibrariesHL()
     for tl in g:thirdTags
-        let g:TagHighlightSettings['TagFileName'] = tl[0]
+        let g:TagHighlightSettings['TagFileName'] = "~/.vim/tags/".tl[0].".tags"
         let g:TagHighlightSettings['TypesFileNameForce'] = tl[0].".taghl"
         UpdateTypesFileOnly
     endfor
 
-    let g:TagHighlightSettings['TagFileName'] = "project_tags"
+    let g:TagHighlightSettings['TagFileName'] = g:projectTagsFile
     let g:TagHighlightSettings['TypesFileNameForce'] = "types_c.taghl"
 endfunction
+
+" -->
 function! UpdateLibrariesTags()
     for tl in g:thirdTags
         call UpdateThirdTags(tl[0])
@@ -113,13 +138,9 @@ function! UpdateLibrariesTags()
     call UpdateLibrariesHL()
 endfunction
 command! UpdateLibrariesTags call UpdateLibrariesTags()
-autocmd BufWritePost *.cs call UpdateTags()
-autocmd BufReadPost *.cs :call SetProjectSyntax()| call SetProjectColors()
 
-let g:TagHighlightSettings['TagFileName'] = "project_tags"
-let g:TagHighlightSettings['TypesFileNameForce'] = "types_c.taghl"
-set tags+=project_tags
+"-->
+"function! UpdateProjectHL()
 
-map <a-m> :CtrlPBufTag<cr>
-map <a-b> :CtrlPBuff<cr>
-
+"endfunction
+ReadTypes
