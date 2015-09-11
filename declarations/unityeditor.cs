@@ -10,6 +10,7 @@
 // WARNING:Skipped nested type: UnityEditor.EditorGUI+PopupMenuEvent
 // WARNING:Skipped nested type: UnityEditor.EditorGUI+PopupCallbackInfo
 // WARNING:Skipped nested type: UnityEditor.EditorGUI+PropertyScope
+// WARNING:Skipped nested type: UnityEditor.EditorGUI+ColorBrightnessFieldStateObject
 // WARNING:Skipped nested type: UnityEditor.EditorGUI+GUIContents
 // WARNING:Skipped nested type: UnityEditor.EditorGUI+GUIContents+IconName
 // WARNING:Skipped nested type: UnityEditor.EditorGUI+VUMeter
@@ -21,20 +22,25 @@
 // WARNING:Skipped nested type: UnityEditor.EditorGUILayout+HorizontalScrollViewScope
 // WARNING:Skipped nested type: UnityEditor.EditorGUILayout+FadeGroupScope
 // WARNING:Skipped nested type: UnityEditor.HandleUtility+SavedCamera
+// WARNING:Skipped nested type: UnityEditor.ContainerWindow+Styles
 // WARNING:Skipped nested type: UnityEditor.Editor+Styles
-// WARNING:Skipped nested type: UnityEditor.PlayerSettings+XboxOne
+// WARNING:Skipped nested type: UnityEditor.PlayerSettings+PSM
+// WARNING:Skipped nested type: UnityEditor.PlayerSettings+Android
+// WARNING:Skipped nested type: UnityEditor.PlayerSettings+BlackBerry
+// WARNING:Skipped nested type: UnityEditor.PlayerSettings+iOS
+// WARNING:Skipped nested type: UnityEditor.PlayerSettings+Nintendo3DS
 // WARNING:Skipped nested type: UnityEditor.PlayerSettings+PS3
 // WARNING:Skipped nested type: UnityEditor.PlayerSettings+PS4
 // WARNING:Skipped nested type: UnityEditor.PlayerSettings+PSVita
-// WARNING:Skipped nested type: UnityEditor.PlayerSettings+Android
-// WARNING:Skipped nested type: UnityEditor.PlayerSettings+iOS
-// WARNING:Skipped nested type: UnityEditor.PlayerSettings+WSA
-// WARNING:Skipped nested type: UnityEditor.PlayerSettings+BlackBerry
-// WARNING:Skipped nested type: UnityEditor.PlayerSettings+Tizen
-// WARNING:Skipped nested type: UnityEditor.PlayerSettings+PSM
 // WARNING:Skipped nested type: UnityEditor.PlayerSettings+SamsungTV
+// WARNING:Skipped nested type: UnityEditor.PlayerSettings+Tizen
+// WARNING:Skipped nested type: UnityEditor.PlayerSettings+WSA
+// WARNING:Skipped nested type: UnityEditor.PlayerSettings+WiiU
+// WARNING:Skipped nested type: UnityEditor.PlayerSettings+XboxOne
 // WARNING:Skipped nested type: UnityEditor.ScriptableWizard+Styles
 // WARNING:Skipped nested type: UnityEditor.GenericMenu+MenuItem
+// WARNING:Skipped nested type: UnityEditor.SketchUpImportDlg+Styles
+// WARNING:Skipped nested type: UnityEditor.SketchUpImporterModelEditor+Styles
 // WARNING:Skipped nested type: UnityEditor.AssetPostprocessingInternal+CompareAssetImportPriority
 // WARNING:Skipped nested type: UnityEditor.AssetPostprocessingInternal+PostprocessStack
 // WARNING:Skipped nested type: UnityEditor.AttributeHelper+CompareMenuIndex
@@ -80,7 +86,6 @@
 // WARNING:Skipped nested type: UnityEditor.CurveEditorWindow+Styles
 // WARNING:Skipped nested type: UnityEditor.AnimationEventTimeLine+EventComparer
 // WARNING:Skipped nested type: UnityEditor.AnimationEventTimeLine+EventLineContextMenuObject
-// WARNING:Skipped nested type: UnityEditor.AnimationWindow+Styles
 // WARNING:Skipped nested type: UnityEditor.EditorGUIExt+Styles
 // WARNING:Skipped nested type: UnityEditor.EditorGUIExt+MinMaxSliderState
 // WARNING:Skipped nested type: UnityEditor.AnnotationWindow+Styles
@@ -132,6 +137,7 @@
 // WARNING:Skipped nested type: UnityEditor.GameViewSizesMenuModifyItemUI+Styles
 // WARNING:Skipped nested type: UnityEditor.AssetSaveDialog+Styles
 // WARNING:Skipped nested type: UnityEditor.BumpMapSettingsFixingWindow+Styles
+// WARNING:Skipped nested type: UnityEditor.ColorPicker+HDRValues
 // WARNING:Skipped nested type: UnityEditor.ColorPicker+Styles
 // WARNING:Skipped nested type: UnityEditor.EyeDropper+Styles
 // WARNING:Skipped nested type: UnityEditor.ColumnView+Styles
@@ -148,7 +154,7 @@
 // WARNING:Skipped nested type: UnityEditor.ListViewShared+ListViewElementsEnumerator
 // WARNING:Skipped nested type: UnityEditor.MaskFieldGUI+MaskCallbackInfo
 // WARNING:Skipped nested type: UnityEditor.ObjectPreviewPopup+Styles
-// WARNING:Skipped nested type: UnityEditor.PackageExport+Constants
+// WARNING:Skipped nested type: UnityEditor.PackageExport+Styles
 // WARNING:Skipped nested type: UnityEditor.PackageImport+Constants
 // WARNING:Skipped nested type: UnityEditor.PackageImportTreeView+PackageImportTreeViewItem
 // WARNING:Skipped nested type: UnityEditor.PackageImportTreeView+PackageImportTreeViewGUI
@@ -206,6 +212,8 @@
 // WARNING:Skipped nested type: UnityEditor.AnimatorInspector+Styles
 // WARNING:Skipped nested type: UnityEditor.AssetBundleNameGUI+Styles
 // WARNING:Skipped nested type: UnityEditor.AssetStoreAssetInspector+Styles
+// WARNING:Skipped nested type: UnityEditor.AudioManagerInspector+Styles
+// WARNING:Skipped nested type: UnityEditor.AudioMixerControllerInspector+Texts
 // WARNING:Skipped nested type: UnityEditor.AudioSourceInspector+AudioCurveWrapper
 // WARNING:Skipped nested type: UnityEditor.AudioSourceInspector+Styles
 // WARNING:Skipped nested type: UnityEditor.BodyMaskEditor+Styles
@@ -214,6 +222,8 @@
 // WARNING:Skipped nested type: UnityEditor.BillboardAssetInspector+GUIStyles
 // WARNING:Skipped nested type: UnityEditor.BlendTreeInspector+Styles
 // WARNING:Skipped nested type: UnityEditor.CameraEditor+Styles
+// WARNING:Skipped nested type: UnityEditor.ComputeShaderInspector+Styles
+// WARNING:Skipped nested type: UnityEditor.CubemapPreview+Styles
 // WARNING:Skipped nested type: UnityEditor.ObjectPreview+Styles
 // WARNING:Skipped nested type: UnityEditor.GameObjectInspector+Styles
 // WARNING:Skipped nested type: UnityEditor.GraphicsSettingsInspector+Styles
@@ -269,9 +279,6 @@
 // WARNING:Skipped nested type: UnityEditor.PlayerSettingsEditor+Styles
 // WARNING:Skipped nested type: UnityEditor.PlayerSettingsEditor+WebPlayerTemplateManager
 // WARNING:Skipped nested type: UnityEditor.WebTemplateManagerBase+Styles
-// WARNING:Skipped nested type: UnityEditor.BuildUploadCompletedWindow+Styles
-// WARNING:Skipped nested type: UnityEditor.BuildUploadCompletedWindow+Content
-// WARNING:Skipped nested type: UnityEditor.UploadingBuildsMonitor+Content
 // WARNING:Skipped nested type: UnityEditor.ParticleEffectUI+Texts
 // WARNING:Skipped nested type: UnityEditor.ParticleSystemUI+Texts
 // WARNING:Skipped nested type: UnityEditor.ParticleSystemWindow+Texts
@@ -312,6 +319,9 @@
 // WARNING:Skipped nested type: UnityEditor.PresetLibraryEditor`1+SettingsMenu+ViewModeData[T]
 // WARNING:Skipped nested type: UnityEditor.PresetLibraryManager+LibraryCache
 // WARNING:Skipped nested type: UnityEditor.MemoryTreeList+Styles
+// WARNING:Skipped nested type: UnityEditor.NetworkDetailStats+NetworkStatsSequence
+// WARNING:Skipped nested type: UnityEditor.NetworkDetailStats+NetworkOperationEntryDetails
+// WARNING:Skipped nested type: UnityEditor.NetworkDetailStats+NetworkOperationDetails
 // WARNING:Skipped nested type: UnityEditor.ProfilerWindow+Styles
 // WARNING:Skipped nested type: UnityEditor.FilteredHierarchy+FilterResult
 // WARNING:Skipped nested type: UnityEditor.LightingWindow+Styles
@@ -329,111 +339,126 @@
 // WARNING:Skipped nested type: UnityEditor.SpriteUtilityWindow+Styles
 // WARNING:Skipped nested type: UnityEditor.TerrainInspector+Styles
 // WARNING:Skipped nested type: UnityEditor.MenuUtils+MenuCallbackObject
-// WARNING:Skipped nested type: UnityEditor.SerializedProperty+<GetEnumerator>c__Iterator0
-// WARNING:Skipped nested type: UnityEditor.AssemblyHelper+<FindImplementors>c__Iterator1`1[T]
-// WARNING:Skipped nested type: UnityEditor.Settings+<Prefs>c__Iterator2`1[T]
-// WARNING:Skipped nested type: UnityEditor.WindowLayout+<FindEditorWindowsOfType>c__Iterator4`1[T]
-// WARNING:Skipped nested type: UnityEditor.AudioImporterInspector+<GetAllAudioImporterTargets>c__Iterator5
-// WARNING:Skipped nested type: UnityEditor.EditorWindow+<GetWindow>c__AnonStorey9`1[T]
-// WARNING:Skipped nested type: UnityEditor.FileUtil+<CopyDirectoryFiltered>c__AnonStoreyA
-// WARNING:Skipped nested type: UnityEditor.FileUtil+<GetAllFilesRecursive>c__AnonStoreyB
-// WARNING:Skipped nested type: UnityEditor.PluginImporter+<GetImporters>c__AnonStoreyC
-// WARNING:Skipped nested type: UnityEditor.PlayerSettings+<GetPlatformName>c__AnonStoreyD
-// WARNING:Skipped nested type: UnityEditor.AssemblyHelper+<AddReferencedAssembliesRecurse>c__AnonStorey21
-// WARNING:Skipped nested type: UnityEditor.AssemblyHelper+<AddReferencedAssembliesRecurse>c__AnonStorey22
-// WARNING:Skipped nested type: UnityEditor.AssemblyHelper+<AddReferencedAssembliesRecurse>c__AnonStorey23
-// WARNING:Skipped nested type: UnityEditor.BuildPlayerWindow+<EnsureLoggedInAndBuild>c__AnonStorey24
-// WARNING:Skipped nested type: UnityEditor.ManagedEditorCodeRebuilder+<GetOutputStream>c__AnonStorey25
-// WARNING:Skipped nested type: UnityEditor.CustomEditorAttributes+<FindCustomEditorTypeByType>c__AnonStorey26
-// WARNING:Skipped nested type: UnityEditor.CustomEditorAttributes+<FindCustomEditorTypeByType>c__AnonStorey28
-// WARNING:Skipped nested type: UnityEditor.CustomEditorAttributes+<FindCustomEditorTypeByType>c__AnonStorey27
-// WARNING:Skipped nested type: UnityEditor.EditorAssemblies+<SubclassesOf>c__AnonStorey29
-// WARNING:Skipped nested type: UnityEditor.ObjectListArea+<QueryAssetStore>c__AnonStorey2C
-// WARNING:Skipped nested type: UnityEditor.ObjectListArea+<BeginPing>c__AnonStorey30
-// WARNING:Skipped nested type: UnityEditor.ObjectListArea+<BeginPing>c__AnonStorey2F
-// WARNING:Skipped nested type: UnityEditor.ObjectListArea+<QueryAssetStore>c__AnonStorey2C+<QueryAssetStore>c__AnonStorey2D
-// WARNING:Skipped nested type: UnityEditor.ObjectListArea+<QueryAssetStore>c__AnonStorey2C+<QueryAssetStore>c__AnonStorey2E
-// WARNING:Skipped nested type: UnityEditor.PointEditor+<MovePoints>c__AnonStorey31
-// WARNING:Skipped nested type: UnityEditor.TreeViewGUI+<BeginPingNode>c__AnonStorey32
-// WARNING:Skipped nested type: UnityEditor.TreeViewGUI+<BeginPingNode>c__AnonStorey33
-// WARNING:Skipped nested type: UnityEditor.PopupList+InputData+<BuildQuery>c__AnonStorey34
-// WARNING:Skipped nested type: UnityEditor.SceneHierarchyWindow+<HandleContextClick>c__AnonStorey35
-// WARNING:Skipped nested type: UnityEditor.AnimationEventPopup+<GetEventNameForLogicGraphEvent>c__AnonStorey36
-// WARNING:Skipped nested type: UnityEditor.AnnotationWindow+<GetAInfo>c__AnonStorey38
-// WARNING:Skipped nested type: UnityEditor.SceneFXWindow+<Draw>c__AnonStorey39
-// WARNING:Skipped nested type: UnityEditor.AssetStoreAssetSelection+<AddAsset>c__AnonStorey3B
-// WARNING:Skipped nested type: UnityEditor.AssetStoreAssetSelection+<AddAsset>c__AnonStorey3A
-// WARNING:Skipped nested type: UnityEditor.AssetStoreAssetSelection+<DownloadStaticPreview>c__AnonStorey3D
-// WARNING:Skipped nested type: UnityEditor.AssetStoreAssetSelection+<RefreshFromServer>c__AnonStorey3E
-// WARNING:Skipped nested type: UnityEditor.AssetStoreAssetSelection+<AddAsset>c__AnonStorey3A+<AddAsset>c__AnonStorey3C
-// WARNING:Skipped nested type: UnityEditor.AssetStoreClient+<WrapLoginCallback>c__AnonStorey3F
-// WARNING:Skipped nested type: UnityEditor.AssetStoreClient+<WrapJsonCallback>c__AnonStorey40
-// WARNING:Skipped nested type: UnityEditor.AssetStoreClient+<SearchAssets>c__AnonStorey41
-// WARNING:Skipped nested type: UnityEditor.AssetStoreClient+<AssetsInfo>c__AnonStorey42
-// WARNING:Skipped nested type: UnityEditor.AssetStoreClient+<DirectPurchase>c__AnonStorey43
-// WARNING:Skipped nested type: UnityEditor.AssetStoreClient+<BuildPackage>c__AnonStorey44
-// WARNING:Skipped nested type: UnityEditor.AssetStoreInstaBuyWindow+<DownloadPackage>c__AnonStorey45
-// WARNING:Skipped nested type: UnityEditor.AssetStoreLoginWindow+<Login>c__AnonStorey46
-// WARNING:Skipped nested type: UnityEditor.AssetStorePreviewManager+<SetupTextureDownload>c__AnonStorey47
-// WARNING:Skipped nested type: UnityEditor.AudioCurveRendering+<DrawFilledCurve>c__AnonStorey48
-// WARNING:Skipped nested type: UnityEditor.DuckVolumeGUI+<CurveDisplay>c__AnonStorey49
-// WARNING:Skipped nested type: UnityEditor.DuckVolumeGUI+<CurveDisplay>c__AnonStorey4A
-// WARNING:Skipped nested type: UnityEditor.ParamEqGUI+<ParamEqualizerCurveEditor>c__AnonStorey4B
-// WARNING:Skipped nested type: UnityEditor.ParamEqGUI+<ParamEqualizerCurveEditor>c__AnonStorey4C
-// WARNING:Skipped nested type: UnityEditor.AudioMixerChannelStripView+<GroupClicked>c__AnonStorey4D
-// WARNING:Skipped nested type: UnityEditor.AudioMixerChannelStripView+<DoEffectSlotInsertEffectPopup>c__AnonStorey4E
-// WARNING:Skipped nested type: UnityEditor.AudioMixerEffectView+<AudioMixerEffectView>c__AnonStorey4F
-// WARNING:Skipped nested type: UnityEditor.AudioMixerEffectView+<ShowEffectContextMenu>c__AnonStorey50
-// WARNING:Skipped nested type: UnityEditor.AudioGroupTreeViewGUI+<OpenGroupContextMenu>c__AnonStorey51
-// WARNING:Skipped nested type: UnityEditor.AssemblyTypeInfoGenerator+<AddType>c__AnonStorey52
-// WARNING:Skipped nested type: UnityEditor.AssemblyTypeInfoGenerator+<MakeGenericInstance>c__AnonStorey53
-// WARNING:Skipped nested type: UnityEditor.GccCompiler+<CompileDynamicLibrary>c__AnonStorey5B
-// WARNING:Skipped nested type: UnityEditor.AssetPopupBackend+<ShowAssetsPopupMenu>c__AnonStorey60`1[T]
-// WARNING:Skipped nested type: UnityEditor.FlexibleMenu+<EditExistingItem>c__AnonStorey61
-// WARNING:Skipped nested type: UnityEditor.TreeView+<SetSelection>c__AnonStorey62
-// WARNING:Skipped nested type: UnityEditor.TreeViewUtility+<FindItemsInList>c__AnonStorey63
-// WARNING:Skipped nested type: UnityEditor.TreeViewUtility+<FindItemInList>c__AnonStorey64`1[T]
-// WARNING:Skipped nested type: UnityEditor.SpeedTreeImporterInspector+<GetLODInfoArray>c__AnonStorey66
-// WARNING:Skipped nested type: UnityEditor.AddComponentWindow+<CreateComponentTree>c__AnonStorey67
-// WARNING:Skipped nested type: UnityEditor.AddComponentWindow+NewScriptElement+<ClassExists>c__AnonStorey68
-// WARNING:Skipped nested type: UnityEditor.AssetStoreAssetInspector+<LoginAndImport>c__AnonStorey69
-// WARNING:Skipped nested type: UnityEditor.AvatarMaskInspector+<FillNodeInfos>c__AnonStorey6A
-// WARNING:Skipped nested type: UnityEditor.AvatarMaskUtility+<UpdateTransformMask>c__AnonStorey6B
-// WARNING:Skipped nested type: UnityEditor.AvatarMaskUtility+<UpdateTransformMask>c__AnonStorey6C
-// WARNING:Skipped nested type: UnityEditor.AvatarMaskUtility+<SetActiveHumanTransforms>c__AnonStorey6D
-// WARNING:Skipped nested type: UnityEditor.AvatarMaskUtility+<TokeniseHumanTransformsPath>c__AnonStorey6E
-// WARNING:Skipped nested type: UnityEditor.AvatarMaskUtility+<TokeniseHumanTransformsPath>c__AnonStorey6F
-// WARNING:Skipped nested type: UnityEditor.AvatarMaskUtility+<TokeniseHumanTransformsPath>c__AnonStorey70
-// WARNING:Skipped nested type: UnityEditor.EditorSettingsInspector+<OnInspectorGUI>c__AnonStorey71
-// WARNING:Skipped nested type: UnityEditor.EditorSettingsInspector+<OnInspectorGUI>c__AnonStorey72
-// WARNING:Skipped nested type: UnityEditor.InspectorWindow+<CreateTracker>c__AnonStorey73
-// WARNING:Skipped nested type: UnityEditor.LabelGUI+<InitLabelCache>c__AnonStorey74
-// WARNING:Skipped nested type: UnityEditor.LabelGUI+<DrawLabelList>c__AnonStorey75
-// WARNING:Skipped nested type: UnityEditor.LODGroupEditor+<HandleAddRenderer>c__AnonStorey76
-// WARNING:Skipped nested type: UnityEditor.LODGroupEditor+<GetRenderers>c__AnonStorey77
-// WARNING:Skipped nested type: UnityEditor.LODGroupGUI+<SetSelectedLODLevelPercentage>c__AnonStorey78
-// WARNING:Skipped nested type: UnityEditor.MaterialEnumDrawer+<MaterialEnumDrawer>c__AnonStorey79
-// WARNING:Skipped nested type: UnityEditor.RectTransformEditor+<FloatFieldLabelAbove>c__AnonStorey7A
-// WARNING:Skipped nested type: UnityEditor.RectTransformEditor+<FloatField>c__AnonStorey7B
-// WARNING:Skipped nested type: UnityEditor.ShaderInspector+<ShowShaderErrors>c__AnonStorey7C
-// WARNING:Skipped nested type: UnityEditor.ShaderInspector+<ShowShaderErrors>c__AnonStorey7D
-// WARNING:Skipped nested type: UnityEditor.AvatarEditor+<SwitchToAssetMode>c__AnonStorey7E
-// WARNING:Skipped nested type: UnityEditor.AvatarMappingEditor+<GetBoneState>c__AnonStorey7F
-// WARNING:Skipped nested type: UnityEditor.AvatarMappingEditor+<ApplyTemplate>c__AnonStorey80
-// WARNING:Skipped nested type: UnityEditor.AvatarSetupTool+BoneWrapper+<Reset>c__AnonStorey81
-// WARNING:Skipped nested type: UnityEditor.UploadingBuildsMonitor+<HandleNoSession>c__AnonStorey84
-// WARNING:Skipped nested type: UnityEditor.AttachProfilerUI+<AddLastIPProfiler>c__AnonStorey85
-// WARNING:Skipped nested type: UnityEditor.AttachProfilerUI+<AddPlayerProfilers>c__AnonStorey86
-// WARNING:Skipped nested type: UnityEditor.AttachProfilerUI+<AddDeviceProfilers>c__AnonStorey87
-// WARNING:Skipped nested type: UnityEditor.AttachProfilerUI+<AddEnterIPProfiler>c__AnonStorey88
-// WARNING:Skipped nested type: UnityEditor.PropertyHandler+<AddMenuItems>c__AnonStorey89
-// WARNING:Skipped nested type: UnityEditor.PropertyHandler+<AddMenuItems>c__AnonStorey8A
-// WARNING:Skipped nested type: UnityEditor.ScriptAttributeUtility+<BuildDrawerTypeForTypeDictionary>c__AnonStorey8B
-// WARNING:Skipped nested type: UnityEditor.SpriteRectCache+<GetIndex>c__AnonStorey8D
-// WARNING:Skipped nested type: UnityEditor.AssemblyReferenceChecker+<HasReferenceToMethod>c__AnonStorey8F
-// WARNING:Skipped nested type: UnityEditor.AssemblyReferenceChecker+<HasDefinedMethod>c__AnonStorey90
-// WARNING:Skipped nested type: UnityEditor.AssemblyReferenceChecker+<HasReferenceToType>c__AnonStorey91
-// WARNING:Skipped nested type: UnityEditor.AssemblyReferenceChecker+<WhoReferencesClass>c__AnonStorey92
+// WARNING:Skipped nested type: UnityEditor.Json+Parser
+// WARNING:Skipped nested type: UnityEditor.Json+Serializer
+// WARNING:Skipped nested type: UnityEditor.PluginImporter+<GetExtensionPlugins>c__Iterator0
+// WARNING:Skipped nested type: UnityEditor.SerializedProperty+<GetEnumerator>c__Iterator1
+// WARNING:Skipped nested type: UnityEditor.AssemblyHelper+<FindImplementors>c__Iterator2`1[T]
+// WARNING:Skipped nested type: UnityEditor.AttributeHelper+<CallMethodsWithAttribute>c__Iterator3`1[T]
+// WARNING:Skipped nested type: UnityEditor.Settings+<Prefs>c__Iterator4`1[T]
+// WARNING:Skipped nested type: UnityEditor.WindowLayout+<FindEditorWindowsOfType>c__Iterator6`1[T]
+// WARNING:Skipped nested type: UnityEditor.AudioImporterInspector+<GetAllAudioImporterTargets>c__Iterator7
+// WARNING:Skipped nested type: UnityEditor.EditorWindow+<GetWindow>c__AnonStoreyB`1[T]
+// WARNING:Skipped nested type: UnityEditor.FileUtil+<CopyDirectoryFiltered>c__AnonStoreyC
+// WARNING:Skipped nested type: UnityEditor.FileUtil+<GetAllFilesRecursive>c__AnonStoreyD
+// WARNING:Skipped nested type: UnityEditor.PluginImporter+<GetImporters>c__AnonStoreyE
+// WARNING:Skipped nested type: UnityEditor.PlayerSettings+<GetPlatformName>c__AnonStoreyF
+// WARNING:Skipped nested type: UnityEditor.TreeViewGUI+<BeginPingNode>c__AnonStorey24
+// WARNING:Skipped nested type: UnityEditor.TreeViewGUI+<BeginPingNode>c__AnonStorey25
+// WARNING:Skipped nested type: UnityEditor.AssemblyHelper+<AddReferencedAssembliesRecurse>c__AnonStorey26
+// WARNING:Skipped nested type: UnityEditor.AssemblyHelper+<AddReferencedAssembliesRecurse>c__AnonStorey27
+// WARNING:Skipped nested type: UnityEditor.AssemblyHelper+<AddReferencedAssembliesRecurse>c__AnonStorey28
+// WARNING:Skipped nested type: UnityEditor.AssetPostprocessingInternal+<AllPostProcessorMethodsNamed>c__AnonStorey29
+// WARNING:Skipped nested type: UnityEditor.ManagedEditorCodeRebuilder+<GetOutputStream>c__AnonStorey2A
+// WARNING:Skipped nested type: UnityEditor.CustomEditorAttributes+<FindCustomEditorTypeByType>c__AnonStorey2B
+// WARNING:Skipped nested type: UnityEditor.CustomEditorAttributes+<FindCustomEditorTypeByType>c__AnonStorey2D
+// WARNING:Skipped nested type: UnityEditor.CustomEditorAttributes+<FindCustomEditorTypeByType>c__AnonStorey2C
+// WARNING:Skipped nested type: UnityEditor.EditorAssemblies+<SubclassesOf>c__AnonStorey2E
+// WARNING:Skipped nested type: UnityEditor.ObjectListArea+<QueryAssetStore>c__AnonStorey31
+// WARNING:Skipped nested type: UnityEditor.ObjectListArea+<BeginPing>c__AnonStorey35
+// WARNING:Skipped nested type: UnityEditor.ObjectListArea+<BeginPing>c__AnonStorey34
+// WARNING:Skipped nested type: UnityEditor.ObjectListArea+<QueryAssetStore>c__AnonStorey31+<QueryAssetStore>c__AnonStorey32
+// WARNING:Skipped nested type: UnityEditor.ObjectListArea+<QueryAssetStore>c__AnonStorey31+<QueryAssetStore>c__AnonStorey33
+// WARNING:Skipped nested type: UnityEditor.PointEditor+<MovePoints>c__AnonStorey36
+// WARNING:Skipped nested type: UnityEditor.PopupList+InputData+<BuildQuery>c__AnonStorey37
+// WARNING:Skipped nested type: UnityEditor.SceneHierarchyWindow+<HandleContextClick>c__AnonStorey38
+// WARNING:Skipped nested type: UnityEditor.AnimationEventPopup+<GetEventNameForLogicGraphEvent>c__AnonStorey39
+// WARNING:Skipped nested type: UnityEditor.CurveEditor+<TranslateSelectedKeys>c__AnonStorey3B
+// WARNING:Skipped nested type: UnityEditor.CurveEditor+<SetSelectedKeyPositions>c__AnonStorey3C
+// WARNING:Skipped nested type: UnityEditor.CurveEditor+<SelectPoints>c__AnonStorey3D
+// WARNING:Skipped nested type: UnityEditor.CurveEditor+<SelectPoints>c__AnonStorey3E
+// WARNING:Skipped nested type: UnityEditor.CurveEditor+<SelectPoints>c__AnonStorey3F
+// WARNING:Skipped nested type: UnityEditor.CurveEditor+<SelectPoints>c__AnonStorey40
+// WARNING:Skipped nested type: UnityEditor.CurveEditor+<PointFieldForSelection>c__AnonStorey41
+// WARNING:Skipped nested type: UnityEditor.AnnotationWindow+<GetAInfo>c__AnonStorey42
+// WARNING:Skipped nested type: UnityEditor.SceneFXWindow+<Draw>c__AnonStorey43
+// WARNING:Skipped nested type: UnityEditor.AssetStoreAssetSelection+<AddAsset>c__AnonStorey45
+// WARNING:Skipped nested type: UnityEditor.AssetStoreAssetSelection+<AddAsset>c__AnonStorey44
+// WARNING:Skipped nested type: UnityEditor.AssetStoreAssetSelection+<DownloadStaticPreview>c__AnonStorey47
+// WARNING:Skipped nested type: UnityEditor.AssetStoreAssetSelection+<RefreshFromServer>c__AnonStorey48
+// WARNING:Skipped nested type: UnityEditor.AssetStoreAssetSelection+<AddAsset>c__AnonStorey44+<AddAsset>c__AnonStorey46
+// WARNING:Skipped nested type: UnityEditor.AssetStoreClient+<WrapLoginCallback>c__AnonStorey49
+// WARNING:Skipped nested type: UnityEditor.AssetStoreClient+<WrapJsonCallback>c__AnonStorey4A
+// WARNING:Skipped nested type: UnityEditor.AssetStoreClient+<SearchAssets>c__AnonStorey4B
+// WARNING:Skipped nested type: UnityEditor.AssetStoreClient+<AssetsInfo>c__AnonStorey4C
+// WARNING:Skipped nested type: UnityEditor.AssetStoreClient+<DirectPurchase>c__AnonStorey4D
+// WARNING:Skipped nested type: UnityEditor.AssetStoreClient+<BuildPackage>c__AnonStorey4E
+// WARNING:Skipped nested type: UnityEditor.AssetStoreInstaBuyWindow+<DownloadPackage>c__AnonStorey4F
+// WARNING:Skipped nested type: UnityEditor.AssetStoreLoginWindow+<Login>c__AnonStorey50
+// WARNING:Skipped nested type: UnityEditor.AssetStorePreviewManager+<SetupTextureDownload>c__AnonStorey51
+// WARNING:Skipped nested type: UnityEditor.AudioCurveRendering+<DrawFilledCurve>c__AnonStorey52
+// WARNING:Skipped nested type: UnityEditor.DuckVolumeGUI+<CurveDisplay>c__AnonStorey53
+// WARNING:Skipped nested type: UnityEditor.DuckVolumeGUI+<CurveDisplay>c__AnonStorey54
+// WARNING:Skipped nested type: UnityEditor.ParamEqGUI+<ParamEqualizerCurveEditor>c__AnonStorey55
+// WARNING:Skipped nested type: UnityEditor.ParamEqGUI+<ParamEqualizerCurveEditor>c__AnonStorey56
+// WARNING:Skipped nested type: UnityEditor.AudioMixerChannelStripView+<GroupClicked>c__AnonStorey57
+// WARNING:Skipped nested type: UnityEditor.AudioMixerChannelStripView+<DoEffectSlotInsertEffectPopup>c__AnonStorey58
+// WARNING:Skipped nested type: UnityEditor.AudioMixerEffectView+<AudioMixerEffectView>c__AnonStorey59
+// WARNING:Skipped nested type: UnityEditor.AudioMixerEffectView+<ShowEffectContextMenu>c__AnonStorey5A
+// WARNING:Skipped nested type: UnityEditor.AudioGroupTreeViewGUI+<OpenGroupContextMenu>c__AnonStorey5B
+// WARNING:Skipped nested type: UnityEditor.AssemblyTypeInfoGenerator+<AddType>c__AnonStorey5C
+// WARNING:Skipped nested type: UnityEditor.AssemblyTypeInfoGenerator+<MakeGenericInstance>c__AnonStorey5D
+// WARNING:Skipped nested type: UnityEditor.GccCompiler+<CompileDynamicLibrary>c__AnonStorey65
+// WARNING:Skipped nested type: UnityEditor.AssetPopupBackend+<ShowAssetsPopupMenu>c__AnonStorey6A`1[T]
+// WARNING:Skipped nested type: UnityEditor.Toolbar+<ShowUserMenu>c__AnonStorey6B
+// WARNING:Skipped nested type: UnityEditor.FlexibleMenu+<EditExistingItem>c__AnonStorey6C
+// WARNING:Skipped nested type: UnityEditor.TreeView+<SetSelection>c__AnonStorey6D
+// WARNING:Skipped nested type: UnityEditor.TreeView+<BeginNameEditing>c__AnonStorey6E
+// WARNING:Skipped nested type: UnityEditor.TreeViewUtility+<FindItemsInList>c__AnonStorey6F
+// WARNING:Skipped nested type: UnityEditor.TreeViewUtility+<FindItemInList>c__AnonStorey70`1[T]
+// WARNING:Skipped nested type: UnityEditor.PluginImporterInspector+<ResetValues>c__AnonStorey72
+// WARNING:Skipped nested type: UnityEditor.SpeedTreeImporterInspector+<GetLODInfoArray>c__AnonStorey73
+// WARNING:Skipped nested type: UnityEditor.AddComponentWindow+<CreateComponentTree>c__AnonStorey74
+// WARNING:Skipped nested type: UnityEditor.AddComponentWindow+NewScriptElement+<ClassExists>c__AnonStorey75
+// WARNING:Skipped nested type: UnityEditor.AssetStoreAssetInspector+<LoginAndImport>c__AnonStorey76
+// WARNING:Skipped nested type: UnityEditor.AvatarMaskInspector+<FillNodeInfos>c__AnonStorey77
+// WARNING:Skipped nested type: UnityEditor.AvatarMaskUtility+<UpdateTransformMask>c__AnonStorey78
+// WARNING:Skipped nested type: UnityEditor.AvatarMaskUtility+<UpdateTransformMask>c__AnonStorey79
+// WARNING:Skipped nested type: UnityEditor.AvatarMaskUtility+<SetActiveHumanTransforms>c__AnonStorey7A
+// WARNING:Skipped nested type: UnityEditor.AvatarMaskUtility+<TokeniseHumanTransformsPath>c__AnonStorey7B
+// WARNING:Skipped nested type: UnityEditor.AvatarMaskUtility+<TokeniseHumanTransformsPath>c__AnonStorey7C
+// WARNING:Skipped nested type: UnityEditor.AvatarMaskUtility+<TokeniseHumanTransformsPath>c__AnonStorey7D
+// WARNING:Skipped nested type: UnityEditor.EditorSettingsInspector+<OnInspectorGUI>c__AnonStorey7E
+// WARNING:Skipped nested type: UnityEditor.EditorSettingsInspector+<OnInspectorGUI>c__AnonStorey7F
+// WARNING:Skipped nested type: UnityEditor.InspectorWindow+<CreateTracker>c__AnonStorey80
+// WARNING:Skipped nested type: UnityEditor.LabelGUI+<InitLabelCache>c__AnonStorey81
+// WARNING:Skipped nested type: UnityEditor.LabelGUI+<DrawLabelList>c__AnonStorey82
+// WARNING:Skipped nested type: UnityEditor.LODGroupEditor+<HandleAddRenderer>c__AnonStorey83
+// WARNING:Skipped nested type: UnityEditor.LODGroupEditor+<GetRenderers>c__AnonStorey84
+// WARNING:Skipped nested type: UnityEditor.LODGroupGUI+<SetSelectedLODLevelPercentage>c__AnonStorey85
+// WARNING:Skipped nested type: UnityEditor.MaterialEnumDrawer+<MaterialEnumDrawer>c__AnonStorey86
+// WARNING:Skipped nested type: UnityEditor.RectTransformEditor+<FloatFieldLabelAbove>c__AnonStorey87
+// WARNING:Skipped nested type: UnityEditor.RectTransformEditor+<FloatField>c__AnonStorey88
+// WARNING:Skipped nested type: UnityEditor.ShaderInspector+<ShaderErrorListUI>c__AnonStorey89
+// WARNING:Skipped nested type: UnityEditor.ShaderInspector+<ShaderErrorListUI>c__AnonStorey8A
+// WARNING:Skipped nested type: UnityEditor.AvatarEditor+<SwitchToAssetMode>c__AnonStorey8B
+// WARNING:Skipped nested type: UnityEditor.AvatarMappingEditor+<GetBoneState>c__AnonStorey8C
+// WARNING:Skipped nested type: UnityEditor.AvatarMappingEditor+<ApplyTemplate>c__AnonStorey8D
+// WARNING:Skipped nested type: UnityEditor.AvatarSetupTool+BoneWrapper+<Reset>c__AnonStorey8E
+// WARNING:Skipped nested type: UnityEditor.PlayerSettingsEditor+<GraphicsAPIsGUIOnePlatform>c__AnonStorey8F
+// WARNING:Skipped nested type: UnityEditor.PlayerSettingsEditor+<GraphicsAPIsGUIOnePlatform>c__AnonStorey90
+// WARNING:Skipped nested type: UnityEditor.AttachProfilerUI+<AddLastIPProfiler>c__AnonStorey95
+// WARNING:Skipped nested type: UnityEditor.AttachProfilerUI+<AddPlayerProfilers>c__AnonStorey96
+// WARNING:Skipped nested type: UnityEditor.AttachProfilerUI+<AddDeviceProfilers>c__AnonStorey97
+// WARNING:Skipped nested type: UnityEditor.AttachProfilerUI+<AddEnterIPProfiler>c__AnonStorey98
+// WARNING:Skipped nested type: UnityEditor.PropertyHandler+<AddMenuItems>c__AnonStorey9A
+// WARNING:Skipped nested type: UnityEditor.PropertyHandler+<AddMenuItems>c__AnonStorey9B
+// WARNING:Skipped nested type: UnityEditor.ScriptAttributeUtility+<BuildDrawerTypeForTypeDictionary>c__AnonStorey9C
+// WARNING:Skipped nested type: UnityEditor.SpriteRectCache+<GetIndex>c__AnonStorey9E
+// WARNING:Skipped nested type: UnityEditor.AssemblyReferenceChecker+<HasReferenceToMethod>c__AnonStoreyA2
+// WARNING:Skipped nested type: UnityEditor.AssemblyReferenceChecker+<HasDefinedMethod>c__AnonStoreyA3
+// WARNING:Skipped nested type: UnityEditor.AssemblyReferenceChecker+<HasReferenceToType>c__AnonStoreyA4
+// WARNING:Skipped nested type: UnityEditor.AssemblyReferenceChecker+<WhoReferencesClass>c__AnonStoreyA5
 // WARNING:Skipped nested type: UnityEditorInternal.DopeSheetEditor+DopeSheetSelectionRect
 // WARNING:Skipped nested type: UnityEditorInternal.DopeSheetEditor+DopeSheetPopup
 // WARNING:Skipped nested type: UnityEditorInternal.ReorderableListWithRenameAndScrollView+State
@@ -453,57 +478,64 @@
 // WARNING:Skipped nested type: UnityEditorInternal.Chart+Styles
 // WARNING:Skipped nested type: UnityEditorInternal.ProfilerHierarchyGUI+Styles
 // WARNING:Skipped nested type: UnityEditorInternal.ProfilerHierarchyGUI+SearchResults
+// WARNING:Skipped nested type: UnityEditorInternal.ProfilerInstrumentationPopup+InputData
 // WARNING:Skipped nested type: UnityEditorInternal.ProfilerTimelineGUI+Styles
 // WARNING:Skipped nested type: UnityEditorInternal.SpriteEditorMenu+Styles
-// WARNING:Skipped nested type: UnityEditorInternal.AnimationWindowState+<GetAggregateKeys>c__AnonStorey37
-// WARNING:Skipped nested type: UnityEditorInternal.AssemblyStripper+<BackupInputFolderIfNeeded>c__AnonStorey5C
-// WARNING:Skipped nested type: UnityEditorInternal.AssemblyStripper+<StripAssembliesTo>c__AnonStorey5D
-// WARNING:Skipped nested type: UnityEditorInternal.IL2CPPBuilder+<GetUserAssemblies>c__AnonStorey5E
-// WARNING:Skipped nested type: UnityEditor.Animations.AnimatorState+<FindTransition>c__AnonStoreyE
-// WARNING:Skipped nested type: UnityEditor.Animations.AnimatorStateMachine+<RemoveAnyStateTransition>c__AnonStoreyF
-// WARNING:Skipped nested type: UnityEditor.Animations.AnimatorStateMachine+<RemoveEntryTransition>c__AnonStorey10
-// WARNING:Skipped nested type: UnityEditor.Animations.AnimatorStateMachine+<FindState>c__AnonStorey11
-// WARNING:Skipped nested type: UnityEditor.Animations.AnimatorStateMachine+<HasState>c__AnonStorey12
-// WARNING:Skipped nested type: UnityEditor.Animations.AnimatorStateMachine+<IsDirectParent>c__AnonStorey13
-// WARNING:Skipped nested type: UnityEditor.Animations.AnimatorStateMachine+<HasStateMachine>c__AnonStorey14
-// WARNING:Skipped nested type: UnityEditor.Animations.AnimatorStateMachine+<HasTransition>c__AnonStorey15
-// WARNING:Skipped nested type: UnityEditor.Animations.AnimatorStateMachine+<FindParent>c__AnonStorey16
-// WARNING:Skipped nested type: UnityEditor.Animations.AnimatorStateMachine+<FindStateMachine>c__AnonStorey17
-// WARNING:Skipped nested type: UnityEditor.Animations.AnimatorStateMachine+<FindStateMachine>c__AnonStorey18
-// WARNING:Skipped nested type: UnityEditor.Animations.AnimatorStateMachine+<FindStateMachine>c__AnonStorey19
-// WARNING:Skipped nested type: UnityEditor.Animations.AnimatorStateMachine+<FindTransition>c__AnonStorey1A
+// WARNING:Skipped nested type: UnityEditorInternal.AnimationWindowState+<GetAggregateKeys>c__AnonStorey3A
+// WARNING:Skipped nested type: UnityEditorInternal.AssemblyStripper+<BackupInputFolderIfNeeded>c__AnonStorey66
+// WARNING:Skipped nested type: UnityEditorInternal.AssemblyStripper+<StripAssembliesTo>c__AnonStorey67
+// WARNING:Skipped nested type: UnityEditorInternal.IL2CPPBuilder+<GetUserAssemblies>c__AnonStorey68
+// WARNING:Skipped nested type: UnityEditorInternal.ProfilerInstrumentationPopup+InputData+<BuildQuery>c__AnonStorey99
+// WARNING:Skipped nested type: UnityEditor.Animations.AnimatorState+<FindTransition>c__AnonStorey10
+// WARNING:Skipped nested type: UnityEditor.Animations.AnimatorStateMachine+<RemoveAnyStateTransition>c__AnonStorey11
+// WARNING:Skipped nested type: UnityEditor.Animations.AnimatorStateMachine+<RemoveEntryTransition>c__AnonStorey12
+// WARNING:Skipped nested type: UnityEditor.Animations.AnimatorStateMachine+<FindState>c__AnonStorey13
+// WARNING:Skipped nested type: UnityEditor.Animations.AnimatorStateMachine+<FindState>c__AnonStorey14
+// WARNING:Skipped nested type: UnityEditor.Animations.AnimatorStateMachine+<HasState>c__AnonStorey15
+// WARNING:Skipped nested type: UnityEditor.Animations.AnimatorStateMachine+<IsDirectParent>c__AnonStorey16
+// WARNING:Skipped nested type: UnityEditor.Animations.AnimatorStateMachine+<HasStateMachine>c__AnonStorey17
+// WARNING:Skipped nested type: UnityEditor.Animations.AnimatorStateMachine+<HasTransition>c__AnonStorey18
+// WARNING:Skipped nested type: UnityEditor.Animations.AnimatorStateMachine+<FindParent>c__AnonStorey19
+// WARNING:Skipped nested type: UnityEditor.Animations.AnimatorStateMachine+<FindStateMachine>c__AnonStorey1A
+// WARNING:Skipped nested type: UnityEditor.Animations.AnimatorStateMachine+<FindStateMachine>c__AnonStorey1B
+// WARNING:Skipped nested type: UnityEditor.Animations.AnimatorStateMachine+<FindStateMachine>c__AnonStorey1C
+// WARNING:Skipped nested type: UnityEditor.Animations.AnimatorStateMachine+<FindTransition>c__AnonStorey1D
 // WARNING:Skipped nested type: UnityEditor.Audio.AudioMixerController+ConnectionNode
-// WARNING:Skipped nested type: UnityEditor.Audio.AudioMixerController+<ContainsExposedParameter>c__AnonStorey1B
-// WARNING:Skipped nested type: UnityEditor.Audio.AudioMixerController+<RemoveExposedParameter>c__AnonStorey1C
-// WARNING:Skipped nested type: UnityEditor.Audio.AudioMixerController+<AreAnyOfTheGroupsInTheListAncestors>c__AnonStorey1D
-// WARNING:Skipped nested type: UnityEditor.Audio.AudioMixerController+<RemoveAncestorGroups>c__AnonStorey1E
-// WARNING:Skipped nested type: UnityEditor.Audio.AudioMixerController+<SanitizeGroupViews>c__AnonStorey1F
-// WARNING:Skipped nested type: UnityEditor.Audio.AudioMixerController+<GetCurrentViewGroupList>c__AnonStorey20
+// WARNING:Skipped nested type: UnityEditor.Audio.AudioMixerController+<ContainsExposedParameter>c__AnonStorey1E
+// WARNING:Skipped nested type: UnityEditor.Audio.AudioMixerController+<RemoveExposedParameter>c__AnonStorey1F
+// WARNING:Skipped nested type: UnityEditor.Audio.AudioMixerController+<AreAnyOfTheGroupsInTheListAncestors>c__AnonStorey20
+// WARNING:Skipped nested type: UnityEditor.Audio.AudioMixerController+<RemoveAncestorGroups>c__AnonStorey21
+// WARNING:Skipped nested type: UnityEditor.Audio.AudioMixerController+<SanitizeGroupViews>c__AnonStorey22
+// WARNING:Skipped nested type: UnityEditor.Audio.AudioMixerController+<GetCurrentViewGroupList>c__AnonStorey23
 // WARNING:Skipped nested type: UnityEditor.VersionControl.WindowPending+Styles
-// WARNING:Skipped nested type: UnityEditor.VersionControl.AssetList+<FilterChildren>c__AnonStorey95
-// WARNING:Skipped nested type: UnityEditor.VersionControl.WindowPending+<PopulateListControl>c__AnonStorey96
-// WARNING:Skipped nested type: UnityEditor.VersionControl.WindowPending+<GetEmptyChangeSetsCandidates>c__AnonStorey97
+// WARNING:Skipped nested type: UnityEditor.VersionControl.AssetList+<FilterChildren>c__AnonStoreyA8
+// WARNING:Skipped nested type: UnityEditor.VersionControl.WindowPending+<PopulateListControl>c__AnonStoreyA9
+// WARNING:Skipped nested type: UnityEditor.VersionControl.WindowPending+<GetEmptyChangeSetsCandidates>c__AnonStoreyAA
 // WARNING:Skipped nested type: GenerateIconsWithMipLevels+InputData
+// WARNING:Skipped nested type: DesktopStandalonePostProcessor+ScriptingImplementations
 // WARNING:Skipped nested type: NativeCompiler+Counter
 // WARNING:Skipped nested type: PreviewGUI+Styles
 // WARNING:Skipped nested type: ParticleSystemCurveEditor+Styles
 // WARNING:Skipped nested type: ParticleSystemCurveEditor+CurveData
-// WARNING:Skipped nested type: AssemblyValidation+<ValidationRuleTypesFor>c__Iterator3
-// WARNING:Skipped nested type: GenerateIconsWithMipLevels+<CreateIconWithMipLevels>c__AnonStorey2A
-// WARNING:Skipped nested type: GenerateIconsWithMipLevels+<GetIconAssetPaths>c__AnonStorey2B
-// WARNING:Skipped nested type: AssemblyValidation+<ValidationRulesFor>c__AnonStorey54
-// WARNING:Skipped nested type: AssemblyValidation+<RegisterValidationRuleForPlatform>c__AnonStorey55
-// WARNING:Skipped nested type: AssemblyValidation+<PriorityFor>c__AnonStorey56
-// WARNING:Skipped nested type: PostProcessWebPlayer+<GeneratePlayerParamsString>c__AnonStorey57
-// WARNING:Skipped nested type: NativeCompiler+<Aggregate>c__AnonStorey58
-// WARNING:Skipped nested type: NativeCompiler+<ParallelFor>c__AnonStorey59`1[T]
-// WARNING:Skipped nested type: ClangCompiler+<CompileDynamicLibrary>c__AnonStorey5A
-// WARNING:Skipped nested type: MSVCCompiler+<CompileDynamicLibrary>c__AnonStorey5F
+// WARNING:Skipped nested type: AssemblyValidation+<ValidationRuleTypesFor>c__Iterator5
+// WARNING:Skipped nested type: GenerateIconsWithMipLevels+<CreateIconWithMipLevels>c__AnonStorey2F
+// WARNING:Skipped nested type: GenerateIconsWithMipLevels+<GetIconAssetPaths>c__AnonStorey30
+// WARNING:Skipped nested type: AssemblyValidation+<ValidationRulesFor>c__AnonStorey5E
+// WARNING:Skipped nested type: AssemblyValidation+<RegisterValidationRuleForPlatform>c__AnonStorey5F
+// WARNING:Skipped nested type: AssemblyValidation+<PriorityFor>c__AnonStorey60
+// WARNING:Skipped nested type: PostProcessWebPlayer+<GeneratePlayerParamsString>c__AnonStorey61
+// WARNING:Skipped nested type: NativeCompiler+<Aggregate>c__AnonStorey62
+// WARNING:Skipped nested type: NativeCompiler+<ParallelFor>c__AnonStorey63`1[T]
+// WARNING:Skipped nested type: ClangCompiler+<CompileDynamicLibrary>c__AnonStorey64
+// WARNING:Skipped nested type: MSVCCompiler+<CompileDynamicLibrary>c__AnonStorey69
 // WARNING:Skipped nested type: UnityEditor.Sprites.DefaultPackerPolicy+Entry
-// WARNING:Skipped nested type: UnityEditor.Sprites.PackerWindow+<OnSelectionChange>c__AnonStorey8E
-// WARNING:Skipped nested type: UnityEditor.Modules.DefaultPluginImporterExtension+Property
-// WARNING:Skipped nested type: UnityEditor.Modules.DefaultPluginImporterExtension+<GetCompatiblePlugins>c__AnonStorey65
-// WARNING:Skipped nested type: UnityEditor.Modules.ModuleManager+<RegisterModulesFromLoadedAssemblies>c__AnonStorey83`1[T]
+// WARNING:Skipped nested type: UnityEditor.Sprites.PackerWindow+<OnSelectionChange>c__AnonStorey9F
+// WARNING:Skipped nested type: UnityEditor.Connect.UnityConnectPrefs+CloudPanelPref
+// WARNING:Skipped nested type: UnityEditor.Connect.UnityConnectServiceCollection+ServiceInfo
+// WARNING:Skipped nested type: UnityEditor.Connect.UnityConnectEditorWindow+<UrlsMatch>c__AnonStoreyA0
+// WARNING:Skipped nested type: UnityEditor.Connect.UnityConnectServiceCollection+<GetServiceFromUrl>c__AnonStoreyA1
+// WARNING:Skipped nested type: UnityEditor.Web.JSProxyMgr+<DoInvokeMessage>c__AnonStorey91
+// WARNING:Skipped nested type: UnityEditor.Web.WebScriptObject+<ProcessMessage>c__AnonStorey92
 // ERROR:Could not load file or assembly 'UnityScript, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. The system cannot find the file specified.
 
 // INFO:MMCSReflector::ImportedAssembly: UnityEditor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
@@ -597,6 +629,9 @@ namespace UnityEditor {
 		public static void StopAnimationMode(){}
 		public static bool InAnimationMode(){}
 		public static void StartAnimationMode(){}
+		internal static void StopAnimationPlaybackMode(){}
+		internal static bool InAnimationPlaybackMode(){}
+		internal static void StartAnimationPlaybackMode(){}
 		public static void BeginSampling(){}
 		public static void EndSampling(){}
 		public static void SampleAnimationClip(GameObject gameObject, AnimationClip clip, float time){}
@@ -604,12 +639,15 @@ namespace UnityEditor {
 		public AnimationMode(){}
 		private static AnimationMode(){}
 		public static Color animatedPropertyColor{ get	{} }
+		private static bool s_InAnimationPlaybackMode;
 		private static Color s_AnimatedPropertyColorLight;
 		private static Color s_AnimatedPropertyColorDark;
 	}
 
 	public sealed class	AssetDatabase: Object
 	{
+		private static String[] SearchAllAssets(SearchFilter searchFilter){}
+		private static String[] SearchInFolders(SearchFilter searchFilter){}
 		public static bool Contains(System.Object obj){}
 		public static bool Contains(int instanceID){}
 		public static string CreateFolder(string parentFolder, string newFolderName){}
@@ -617,6 +655,10 @@ namespace UnityEditor {
 		public static bool IsMainAsset(int instanceID){}
 		public static bool IsSubAsset(System.Object obj){}
 		public static bool IsSubAsset(int instanceID){}
+		public static bool IsForeignAsset(System.Object obj){}
+		public static bool IsForeignAsset(int instanceID){}
+		public static bool IsNativeAsset(System.Object obj){}
+		public static bool IsNativeAsset(int instanceID){}
 		public static string GenerateUniqueAssetPath(string path){}
 		public static void StartAssetEditing(){}
 		public static void StopAssetEditing(){}
@@ -642,9 +684,10 @@ namespace UnityEditor {
 		private static string GetAssetPathFromInstanceID(int instanceID){}
 		internal static int GetMainAssetInstanceID(string assetPath){}
 		public static string GetAssetOrScenePath(System.Object assetObject){}
-		public static string GetTextMetaDataPathFromAssetPath(string path){}
 		public static string GetTextMetaFilePathFromAssetPath(string path){}
+		public static string GetAssetPathFromTextMetaFilePath(string path){}
 		public static System.Object LoadAssetAtPath(string assetPath, Type type){}
+		public static T LoadAssetAtPath(string assetPath){}
 		public static System.Object LoadMainAssetAtPath(string assetPath){}
 		public static Object[] LoadAllAssetRepresentationsAtPath(string assetPath){}
 		public static Object[] LoadAllAssetsAtPath(string assetPath){}
@@ -688,16 +731,17 @@ namespace UnityEditor {
 		public static void ImportPackage(string packagePath, bool interactive){}
 		internal static string GetUniquePathNameAtSelectedPath(string fileName){}
 		public static bool IsOpenForEdit(System.Object assetObject){}
-		public static bool IsOpenForEdit(string assetPath){}
+		public static bool IsOpenForEdit(string assetOrMetaFilePath){}
 		public static bool IsOpenForEdit(System.Object assetObject, out string message){}
-		public static bool IsOpenForEdit(string assetPath, out string message){}
+		public static bool IsOpenForEdit(string assetOrMetaFilePath, out string message){}
+		public static bool IsMetaFileOpenForEdit(System.Object assetObject){}
+		public static bool IsMetaFileOpenForEdit(System.Object assetObject, out string message){}
 		public static System.Object GetBuiltinExtraResource(Type type, string path){}
 		public static T GetBuiltinExtraResource(string path){}
+		public static string GetTextMetaDataPathFromAssetPath(string path){}
 		public static String[] FindAssets(string filter){}
 		public static String[] FindAssets(string filter, String[] searchInFolders){}
 		private static String[] FindAssets(SearchFilter searchFilter){}
-		private static String[] SearchAllAssets(SearchFilter searchFilter){}
-		private static String[] SearchInFolders(SearchFilter searchFilter){}
 		public AssetDatabase(){}
 		bool isLocked{ get	{} }
 	}
@@ -720,8 +764,9 @@ namespace UnityEditor {
 
 	public sealed class	BuildPipeline: Object
 	{
-		internal static BuildTargetGroup GetBuildTargetGroup(BuildTarget platform){}
+		public static BuildTargetGroup GetBuildTargetGroup(BuildTarget platform){}
 		internal static BuildTargetGroup GetBuildTargetGroupByName(string platform){}
+		internal static BuildTarget GetBuildTargetByName(string platform){}
 		internal static string GetBuildTargetGroupDisplayName(BuildTargetGroup targetPlatformGroup){}
 		internal static string GetBuildTargetName(BuildTarget targetPlatform){}
 		internal static string GetEditorTargetName(){}
@@ -747,7 +792,6 @@ namespace UnityEditor {
 		public static bool BuildAssetBundleExplicitAssetNames(Object[] assets, String[] assetNames, string pathName, out uint crc, BuildAssetBundleOptions assetBundleOptions, BuildTarget targetPlatform){}
 		public static bool BuildAssetBundleExplicitAssetNames(Object[] assets, String[] assetNames, string pathName, out uint crc, BuildAssetBundleOptions assetBundleOptions){}
 		public static bool BuildAssetBundleExplicitAssetNames(Object[] assets, String[] assetNames, string pathName, out uint crc){}
-		internal static bool DoesBuildTargetSupportIl2cpp(BuildTarget target){}
 		private static bool BuildAssetBundleInternal(System.Object mainAsset, Object[] assets, String[] assetNames, string pathName, BuildAssetBundleOptions assetBundleOptions, BuildTarget targetPlatform, out uint crc){}
 		public static AssetBundleManifest BuildAssetBundles(string outputPath, BuildAssetBundleOptions assetBundleOptions){}
 		public static AssetBundleManifest BuildAssetBundles(string outputPath){}
@@ -805,7 +849,6 @@ namespace UnityEditor {
 		public static void LoadLevelAdditiveInPlayMode(string path){}
 		public static AsyncOperation LoadLevelAsyncInPlayMode(string path){}
 		public static AsyncOperation LoadLevelAdditiveAsyncInPlayMode(string path){}
-		private static AsyncOperation LoadLevelAsyncInPlayMode(string path, bool isAdditive){}
 		public static bool SaveScene(string path, bool saveAsCopy){}
 		public static bool SaveScene(string path){}
 		public static bool SaveScene(){}
@@ -836,6 +879,7 @@ namespace UnityEditor {
 		private static void Internal_CallProjectWindowHasChanged(){}
 		internal static void Internal_CallSearchHasChanged(){}
 		internal static void Internal_CallAssetLabelsHaveChanged(){}
+		internal static void Internal_CallAssetBundleNameChanged(){}
 		internal static void CallDelayed(CallbackFunction function, float timeFromNow){}
 		private static void CheckCallDelayed(){}
 		private static void Internal_PlaymodeStateChanged(){}
@@ -846,7 +890,7 @@ namespace UnityEditor {
 		internal static void ReportUNetWeaver(string filename, string msg, bool isError){}
 		public EditorApplication(){}
 		private static EditorApplication(){}
-		public static string currentScene{ get	{} }
+		public static string currentScene{ get	{} set	{} }
 		public static bool isPlaying{ get	{} set	{} }
 		public static bool isPlayingOrWillChangePlaymode{ get	{} }
 		public static bool isPaused{ get	{} set	{} }
@@ -855,6 +899,7 @@ namespace UnityEditor {
 		public static bool isRemoteConnected{ get	{} }
 		public static string applicationContentsPath{ get	{} }
 		public static string applicationPath{ get	{} }
+		public static bool isSceneDirty{ get	{} }
 		System.Object tagManager{ get	{} }
 		System.Object renderSettings{ get	{} }
 		public static double timeSinceStartup{ get	{} }
@@ -866,6 +911,7 @@ namespace UnityEditor {
 		public static CallbackFunction projectWindowChanged;
 		public static CallbackFunction searchChanged;
 		internal static CallbackFunction assetLabelsChanged;
+		internal static CallbackFunction assetBundleNameChanged;
 		public static CallbackFunction modifierKeysChanged;
 		public static CallbackFunction playmodeStateChanged;
 		internal static CallbackFunction globalEventHandler;
@@ -876,12 +922,28 @@ namespace UnityEditor {
 
 	public sealed class	EditorGUI: Object
 	{
+		internal static float Knob(Rect position, Vector2 knobSize, float currentValue, float start, float end, string unit, Color backgroundColor, Color activeColor, bool showValue, int id){}
+		internal static float OffsetKnob(Rect position, float currentValue, float start, float end, float median, string unit, Color backgroundColor, Color activeColor, GUIStyle knob, int id){}
+		internal static System.Object DoObjectField(Rect position, Rect dropRect, int id, System.Object obj, Type objType, SerializedProperty property, ObjectFieldValidator validator, bool allowSceneObjects){}
+		internal static System.Object DoObjectField(Rect position, Rect dropRect, int id, System.Object obj, Type objType, SerializedProperty property, ObjectFieldValidator validator, bool allowSceneObjects, GUIStyle style){}
+		private static void DrawObjectFieldLargeThumb(Rect position, int id, System.Object obj, GUIContent content){}
+		private static void DrawObjectFieldMiniThumb(Rect position, int id, System.Object obj, GUIContent content){}
+		internal static System.Object DoDropField(Rect position, int id, Type objType, ObjectFieldValidator validator, bool allowSceneObjects, GUIStyle style){}
+		internal static void TargetChoiceField(Rect position, SerializedProperty property, GUIContent label){}
+		internal static void TargetChoiceField(Rect position, SerializedProperty property, GUIContent label, TargetChoiceMenuFunction func){}
 		internal static string DoTextFieldDropDown(Rect rect, int id, string text, String[] dropDownElements, bool delayed){}
 		private static void <DoPropertyContextMenu>m__2(System.Object e){}
 		private static string <EnumPopupInternal>m__3(string x){}
 		private static string <EnumMaskFieldInternal>m__4(string x){}
 		private static string <EnumMaskFieldInternal>m__5(string x){}
 		private static string <EnumMaskField>m__6(string x){}
+		private static void <DoColorField>m__7(System.Object data, String[] options, int selected){}
+		public static System.Object ObjectField(Rect position, System.Object obj, Type objType, bool allowSceneObjects){}
+		public static System.Object ObjectField(Rect position, System.Object obj, Type objType){}
+		public static System.Object ObjectField(Rect position, string label, System.Object obj, Type objType, bool allowSceneObjects){}
+		public static System.Object ObjectField(Rect position, string label, System.Object obj, Type objType){}
+		public static System.Object ObjectField(Rect position, GUIContent label, System.Object obj, Type objType, bool allowSceneObjects){}
+		internal static void GetRectsForMiniThumbnailField(Rect position, out Rect thumbRect, out Rect labelRect){}
 		internal static System.Object MiniThumbnailObjectField(Rect position, GUIContent label, System.Object obj, Type objType, ObjectFieldValidator validator){}
 		public static System.Object ObjectField(Rect position, GUIContent label, System.Object obj, Type objType){}
 		internal static System.Object ValidateObjectFieldAssignment(Object[] references, Type objType, SerializedProperty property){}
@@ -918,7 +980,8 @@ namespace UnityEditor {
 		public static Color ColorField(Rect position, string label, Color value){}
 		public static Color ColorField(Rect position, GUIContent label, Color value){}
 		internal static Color ColorField(Rect position, GUIContent label, Color value, bool showEyedropper, bool showAlpha){}
-		private static Color DoColorField(Rect position, int id, Color value, bool showEyedropper, bool showAlpha){}
+		internal static Color ColorField(Rect position, GUIContent label, Color value, bool showEyedropper, bool showAlpha, bool hdr, ColorPickerHDRConfig hdrConfig){}
+		private static Color DoColorField(Rect position, int id, Color value, bool showEyedropper, bool showAlpha, bool hdr, ColorPickerHDRConfig hdrConfig){}
 		internal static Color ColorSelector(Rect activatorRect, Rect renderRect, int id, Color value){}
 		public static AnimationCurve CurveField(Rect position, AnimationCurve value){}
 		public static AnimationCurve CurveField(Rect position, string label, AnimationCurve value){}
@@ -957,8 +1020,6 @@ namespace UnityEditor {
 		internal static void LayerMaskField(Rect position, SerializedProperty property, GUIContent label, GUIStyle style){}
 		internal static void SetLayerMaskValueDelegate(System.Object userData, String[] options, int selected){}
 		internal static void ShowRepaints(){}
-		internal static void DrawBezier(Vector2 from, Vector2 to, Vector2 fromTangent, Vector2 toTangent, int thickness, Color color){}
-		internal static void DrawBezier(Vector2 from, Vector2 to, Vector2 fromTangent, Vector2 toTangent, int thickness, Color color, Texture tex){}
 		internal static void DrawTextureAlphaInternal(Rect position, Texture image, ScaleMode scaleMode, float imageAspect){}
 		internal static void DrawTextureTransparentInternal(Rect position, Texture image, ScaleMode scaleMode, float imageAspect){}
 		internal static void DrawTransparencyCheckerTexture(Rect position, ScaleMode scaleMode, float imageAspect){}
@@ -975,6 +1036,10 @@ namespace UnityEditor {
 		internal static string TextFieldDropDown(Rect position, GUIContent label, string text, String[] dropDownElement){}
 		internal static string DelayedTextFieldDropDown(Rect position, string text, String[] dropDownElement){}
 		internal static string DelayedTextFieldDropDown(Rect position, GUIContent label, string text, String[] dropDownElement){}
+		private static Enum EnumFlagsToInt(Type type, int value){}
+		internal static Color ColorBrightnessField(Rect r, GUIContent label, Color value, float minBrightness, float maxBrightness){}
+		internal static Color ColorBrightnessFieldInternal(Rect position, GUIContent label, Color value, float minBrightness, float maxBrightness, GUIStyle style){}
+		internal static Color DoColorBrightnessField(Rect rect, Rect dragRect, Color col, float minBrightness, float maxBrightness, GUIStyle style){}
 		internal static Gradient GradientField(Rect position, Gradient gradient){}
 		internal static Gradient GradientField(string label, Rect position, Gradient gradient){}
 		internal static Gradient GradientField(GUIContent label, Rect position, Gradient gradient){}
@@ -982,6 +1047,9 @@ namespace UnityEditor {
 		internal static Gradient GradientField(string label, Rect position, SerializedProperty property){}
 		internal static Gradient GradientField(GUIContent label, Rect position, SerializedProperty property){}
 		internal static Gradient DoGradientField(Rect position, int id, Gradient value, SerializedProperty property){}
+		internal static Color HexColorTextField(Rect rect, GUIContent label, Color color, bool showAlpha){}
+		internal static Color HexColorTextField(Rect rect, GUIContent label, Color color, bool showAlpha, GUIStyle style){}
+		internal static Color DoHexColorTextField(Rect rect, Color color, bool showAlpha, GUIStyle style){}
 		internal static bool ButtonMouseDown(Rect position, GUIContent content, FocusType focusType, GUIStyle style){}
 		internal static bool ButtonMouseDown(int id, Rect position, GUIContent content, GUIStyle style){}
 		internal static bool IconButton(int id, Rect position, GUIContent content, GUIStyle style){}
@@ -990,15 +1058,10 @@ namespace UnityEditor {
 		internal static bool ButtonWithDropdownList(GUIContent content, String[] buttonNames, MenuFunction2 callback, GUILayoutOption[] options){}
 		internal static void GameViewSizePopup(Rect buttonRect, GameViewSizeGroupType groupType, int selectedIndex, Action<Int32, Object> itemClickedCallback, GUIStyle guiStyle){}
 		public static void DrawRect(Rect rect, Color color){}
-		internal static float Knob(Rect position, Vector2 knobSize, float currentValue, float start, float end, string unit, Color backgroundColor, Color activeColor, bool showValue, int id){}
-		internal static float OffsetKnob(Rect position, float currentValue, float start, float end, float median, string unit, Color backgroundColor, Color activeColor, GUIStyle knob, int id){}
-		internal static System.Object DoObjectField(Rect position, Rect dropRect, int id, System.Object obj, Type objType, SerializedProperty property, ObjectFieldValidator validator, bool allowSceneObjects){}
-		internal static System.Object DoObjectField(Rect position, Rect dropRect, int id, System.Object obj, Type objType, SerializedProperty property, ObjectFieldValidator validator, bool allowSceneObjects, GUIStyle style){}
-		private static void DrawObjectFieldLargeThumb(Rect position, int id, System.Object obj, GUIContent content){}
-		private static void DrawObjectFieldMiniThumb(Rect position, int id, System.Object obj, GUIContent content){}
-		internal static System.Object DoDropField(Rect position, int id, Type objType, ObjectFieldValidator validator, bool allowSceneObjects, GUIStyle style){}
-		internal static void TargetChoiceField(Rect position, SerializedProperty property, GUIContent label){}
-		internal static void TargetChoiceField(Rect position, SerializedProperty property, GUIContent label, TargetChoiceMenuFunction func){}
+		public static float GetPropertyHeight(SerializedProperty property, GUIContent label, bool includeChildren){}
+		public static bool PropertyField(Rect position, SerializedProperty property){}
+		public static bool PropertyField(Rect position, SerializedProperty property, bool includeChildren){}
+		public static bool PropertyField(Rect position, SerializedProperty property, GUIContent label){}
 		public static bool PropertyField(Rect position, SerializedProperty property, GUIContent label, bool includeChildren){}
 		internal static void BeginHandleMixedValueContentColor(){}
 		internal static void EndHandleMixedValueContentColor(){}
@@ -1066,6 +1129,7 @@ namespace UnityEditor {
 		internal static string DelayedTextField(Rect position, string value, string allowedLetters, GUIStyle style){}
 		internal static string DelayedTextField(Rect position, int id, string value, string allowedLetters, GUIStyle style){}
 		internal static float DelayedFloatField(GUIContent label, float value){}
+		internal static float DelayedFloatField(Rect position, GUIContent label, float value, GUIStyle style){}
 		internal static int DelayedIntField(GUIContent label, int value){}
 		internal static int IntFieldInternal(Rect position, int value, GUIStyle style){}
 		internal static int IntFieldInternal(Rect position, GUIContent label, int value, GUIStyle style){}
@@ -1098,6 +1162,7 @@ namespace UnityEditor {
 		private static void Popup(Rect position, SerializedProperty property, GUIContent label){}
 		internal static void Popup(Rect position, SerializedProperty property, GUIContent[] displayedOptions, GUIContent label){}
 		private static Enum EnumPopupInternal(Rect position, GUIContent label, Enum selected, GUIStyle style){}
+		private static Enum EnumMaskPopupInternal(Rect position, GUIContent label, Enum selected, out int changedFlags, out bool changedToValue, GUIStyle style){}
 		private static int IntPopupInternal(Rect position, GUIContent label, int selectedValue, GUIContent[] displayedOptions, Int32[] optionValues, GUIStyle style){}
 		internal static void IntPopupInternal(Rect position, SerializedProperty property, GUIContent[] displayedOptions, Int32[] optionValues, GUIContent label){}
 		internal static void SortingLayerField(Rect position, GUIContent label, SerializedProperty layerID, GUIStyle style, GUIStyle labelStyle){}
@@ -1114,12 +1179,6 @@ namespace UnityEditor {
 		public static void ObjectField(Rect position, SerializedProperty property, Type objType, GUIContent label){}
 		internal static void ObjectField(Rect position, SerializedProperty property, Type objType, GUIContent label, GUIStyle style){}
 		private static void ObjectFieldInternal(Rect position, SerializedProperty property, Type objType, GUIContent label, GUIStyle style){}
-		public static System.Object ObjectField(Rect position, System.Object obj, Type objType, bool allowSceneObjects){}
-		public static System.Object ObjectField(Rect position, System.Object obj, Type objType){}
-		public static System.Object ObjectField(Rect position, string label, System.Object obj, Type objType, bool allowSceneObjects){}
-		public static System.Object ObjectField(Rect position, string label, System.Object obj, Type objType){}
-		public static System.Object ObjectField(Rect position, GUIContent label, System.Object obj, Type objType, bool allowSceneObjects){}
-		internal static void GetRectsForMiniThumbnailField(Rect position, out Rect thumbRect, out Rect labelRect){}
 		public static void LabelField(Rect position, string label){}
 		public static void LabelField(Rect position, string label, GUIStyle style){}
 		public static void LabelField(Rect position, GUIContent label){}
@@ -1186,6 +1245,10 @@ namespace UnityEditor {
 		public static Enum EnumPopup(Rect position, string label, Enum selected, GUIStyle style){}
 		public static Enum EnumPopup(Rect position, GUIContent label, Enum selected){}
 		public static Enum EnumPopup(Rect position, GUIContent label, Enum selected, GUIStyle style){}
+		internal static Enum EnumMaskPopup(Rect position, GUIContent label, Enum selected, out int changedFlags, out bool changedToValue){}
+		internal static Enum EnumMaskPopup(Rect position, GUIContent label, Enum selected, out int changedFlags, out bool changedToValue, GUIStyle style){}
+		public static Enum EnumMaskPopup(Rect position, GUIContent label, Enum selected){}
+		public static Enum EnumMaskPopup(Rect position, GUIContent label, Enum selected, GUIStyle style){}
 		public static int IntPopup(Rect position, int selectedValue, String[] displayedOptions, Int32[] optionValues){}
 		public static int IntPopup(Rect position, int selectedValue, String[] displayedOptions, Int32[] optionValues, GUIStyle style){}
 		public static int IntPopup(Rect position, int selectedValue, GUIContent[] displayedOptions, Int32[] optionValues){}
@@ -1243,10 +1306,6 @@ namespace UnityEditor {
 		public static void DrawPreviewTexture(Rect position, Texture image, Material mat, ScaleMode scaleMode, float imageAspect){}
 		public static float GetPropertyHeight(SerializedProperty property, GUIContent label){}
 		public static float GetPropertyHeight(SerializedProperty property){}
-		public static float GetPropertyHeight(SerializedProperty property, GUIContent label, bool includeChildren){}
-		public static bool PropertyField(Rect position, SerializedProperty property){}
-		public static bool PropertyField(Rect position, SerializedProperty property, bool includeChildren){}
-		public static bool PropertyField(Rect position, SerializedProperty property, GUIContent label){}
 		public EditorGUI(){}
 		private static EditorGUI(){}
 		public static bool showMixedValue{ get	{} set	{} }
@@ -1256,13 +1315,10 @@ namespace UnityEditor {
 		float indent{ get	{} }
 		Material alphaMaterial{ get	{} }
 		Material transparentMaterial{ get	{} }
-		Material gammaCorrectTransparentMaterial{ get	{} }
 		Texture2D transparentCheckerTexture{ get	{} }
 		Material lightmapRGBMMaterial{ get	{} }
 		Material lightmapDoubleLDRMaterial{ get	{} }
 		Material normalmapMaterial{ get	{} }
-		Material gammaCorrectMaterial{ get	{} }
-		Material gammaCorrectMaterialNoClip{ get	{} }
 		bool isCollectingTooltips{ get	{} set	{} }
 		private static RecycledTextEditor activeEditor;
 		internal static DelayedTextEditor s_DelayedTextEditor;
@@ -1348,24 +1404,23 @@ namespace UnityEditor {
 		internal readonly static string s_AllowedCharactersForInt;
 		private static SerializedProperty s_PendingPropertyKeyboardHandling;
 		private static SerializedProperty s_PendingPropertyDelete;
-		private static Material tmp;
-		private static Texture2D s_Texture;
-		private static int s_LastThickness;
 		internal static bool s_CollectingToolTips;
 		private readonly static int s_GradientHash;
 		private static int s_GradientID;
+		private readonly static GUIContent s_HDRWarning;
 		private static int s_ButtonMouseDownHash;
 		private static int s_MouseDeltaReaderHash;
 		private static Vector2 s_MouseDeltaReaderLastPos;
 		private static Dictionary<String, Int32> <>f__switch$map0;
 		private static Dictionary<String, Int32> <>f__switch$map1;
-		private static MenuFunction2 <>f__am$cache5F;
+		private static MenuFunction2 <>f__am$cache5D;
+		private static Func<String, String> <>f__am$cache5E;
+		private static Func<String, String> <>f__am$cache5F;
 		private static Func<String, String> <>f__am$cache60;
 		private static Func<String, String> <>f__am$cache61;
-		private static Func<String, String> <>f__am$cache62;
-		private static Func<String, String> <>f__am$cache63;
 		private static Dictionary<String, Int32> <>f__switch$map2;
 		private static Dictionary<String, Int32> <>f__switch$map3;
+		private static SelectMenuItemFunction <>f__am$cache64;
 		private static Dictionary<String, Int32> <>f__switch$map4;
 		private static Dictionary<String, Int32> <>f__switch$map5;
 		private const double kFoldoutExpandTimeout = null;
@@ -1392,6 +1447,9 @@ namespace UnityEditor {
 
 	public sealed class	EditorGUILayout: Object
 	{
+		public static string TagField(GUIContent label, string tag, GUIStyle style, GUILayoutOption[] options){}
+		public static int LayerField(int layer, GUILayoutOption[] options){}
+		public static int LayerField(int layer, GUIStyle style, GUILayoutOption[] options){}
 		public static int LayerField(string label, int layer, GUILayoutOption[] options){}
 		public static int LayerField(string label, int layer, GUIStyle style, GUILayoutOption[] options){}
 		public static int LayerField(GUIContent label, int layer, GUILayoutOption[] options){}
@@ -1431,6 +1489,7 @@ namespace UnityEditor {
 		public static Color ColorField(Color value, GUILayoutOption[] options){}
 		public static Color ColorField(string label, Color value, GUILayoutOption[] options){}
 		public static Color ColorField(GUIContent label, Color value, GUILayoutOption[] options){}
+		public static Color ColorField(GUIContent label, Color value, bool showEyedropper, bool showAlpha, bool hdr, ColorPickerHDRConfig hdrConfig, GUILayoutOption[] options){}
 		public static AnimationCurve CurveField(AnimationCurve value, GUILayoutOption[] options){}
 		public static AnimationCurve CurveField(string label, AnimationCurve value, GUILayoutOption[] options){}
 		public static AnimationCurve CurveField(GUIContent label, AnimationCurve value, GUILayoutOption[] options){}
@@ -1496,12 +1555,15 @@ namespace UnityEditor {
 		internal static string TextFieldDropDown(GUIContent label, string text, String[] dropDownElement){}
 		internal static string DelayedTextFieldDropDown(string text, String[] dropDownElement){}
 		internal static string DelayedTextFieldDropDown(GUIContent label, string text, String[] dropDownElement){}
+		internal static Color ColorBrightnessField(GUIContent label, Color value, float minBrightness, float maxBrightness, GUILayoutOption[] options){}
 		internal static Gradient GradientField(Gradient value, GUILayoutOption[] options){}
 		internal static Gradient GradientField(string label, Gradient value, GUILayoutOption[] options){}
 		internal static Gradient GradientField(GUIContent label, Gradient value, GUILayoutOption[] options){}
 		internal static Gradient GradientField(SerializedProperty value, GUILayoutOption[] options){}
 		internal static Gradient GradientField(string label, SerializedProperty value, GUILayoutOption[] options){}
 		internal static Gradient GradientField(GUIContent label, SerializedProperty value, GUILayoutOption[] options){}
+		internal static Color HexColorTextField(GUIContent label, Color color, bool showAlpha, GUILayoutOption[] options){}
+		internal static Color HexColorTextField(GUIContent label, Color color, bool showAlpha, GUIStyle style, GUILayoutOption[] options){}
 		internal static bool ButtonMouseDown(GUIContent content, FocusType focusType, GUIStyle style, GUILayoutOption[] options){}
 		internal static bool IconButton(int id, GUIContent content, GUIStyle style, GUILayoutOption[] options){}
 		internal static void GameViewSizePopup(GameViewSizeGroupType groupType, int selectedIndex, Action<Int32, Object> itemClickedCallback, GUIStyle style, GUILayoutOption[] options){}
@@ -1615,6 +1677,9 @@ namespace UnityEditor {
 		public static Enum EnumPopup(string label, Enum selected, GUIStyle style, GUILayoutOption[] options){}
 		public static Enum EnumPopup(GUIContent label, Enum selected, GUILayoutOption[] options){}
 		public static Enum EnumPopup(GUIContent label, Enum selected, GUIStyle style, GUILayoutOption[] options){}
+		public static Enum EnumMaskPopup(GUIContent label, Enum selected, GUILayoutOption[] options){}
+		internal static Enum EnumMaskPopup(GUIContent label, Enum selected, out int changedFlags, out bool changedToValue, GUILayoutOption[] options){}
+		internal static Enum EnumMaskPopup(GUIContent label, Enum selected, out int changedFlags, out bool changedToValue, GUIStyle style, GUILayoutOption[] options){}
 		public static int IntPopup(int selectedValue, String[] displayedOptions, Int32[] optionValues, GUILayoutOption[] options){}
 		public static int IntPopup(int selectedValue, String[] displayedOptions, Int32[] optionValues, GUIStyle style, GUILayoutOption[] options){}
 		public static int IntPopup(int selectedValue, GUIContent[] displayedOptions, Int32[] optionValues, GUILayoutOption[] options){}
@@ -1631,9 +1696,6 @@ namespace UnityEditor {
 		public static string TagField(string label, string tag, GUILayoutOption[] options){}
 		public static string TagField(string label, string tag, GUIStyle style, GUILayoutOption[] options){}
 		public static string TagField(GUIContent label, string tag, GUILayoutOption[] options){}
-		public static string TagField(GUIContent label, string tag, GUIStyle style, GUILayoutOption[] options){}
-		public static int LayerField(int layer, GUILayoutOption[] options){}
-		public static int LayerField(int layer, GUIStyle style, GUILayoutOption[] options){}
 		public EditorGUILayout(){}
 		private static EditorGUILayout(){}
 		float kLabelFloatMinW{ get	{} }
@@ -1645,18 +1707,35 @@ namespace UnityEditor {
 
 	public sealed class	EditorGUIUtility: GUIUtility
 	{
+		internal static Color GetPasteboardColor(){}
+		public static void AddCursorRect(Rect position, MouseCursor mouse){}
+		public static void AddCursorRect(Rect position, MouseCursor mouse, int controlID){}
+		private static void Internal_AddCursorRect(Rect r, MouseCursor m, int controlID){}
+		private static void INTERNAL_CALL_Internal_AddCursorRect(ref Rect r, MouseCursor m, int controlID){}
+		internal static Rect HandleHorizontalSplitter(Rect dragRect, float width, float minLeftSide, float minRightSide){}
+		internal static void DrawHorizontalSplitter(Rect dragRect){}
+		internal static void CleanCache(string text){}
+		internal static void SetSearchIndexOfControlIDList(int index){}
+		internal static int GetSearchIndexOfControlIDList(){}
 		internal static bool CanHaveKeyboardFocus(int id){}
 		public static void SetWantsMouseJumping(int wantz){}
 		public static void ShowObjectPicker(System.Object obj, bool allowSceneObjects, string searchFilter, int controlID){}
 		public static System.Object GetObjectPickerObject(){}
 		public static int GetObjectPickerControlID(){}
-		internal static GUIContent TextContent(string name){}
-		internal static GUIContent[] GetTextContentsForEnum(Type type){}
-		public static GUIContent IconContent(string name){}
+		internal static Rect PointsToPixels(Rect rect){}
+		internal static Rect PixelsToPoints(Rect rect){}
+		internal static Vector2 PointsToPixels(Vector2 position){}
+		internal static Vector2 PixelsToPoints(Vector2 position){}
+		public static string SerializeMainMenuToString(){}
+		public static void SetMenuLocalizationTestMode(bool onoff){}
+		internal static GUIContent TextContent(string textAndTooltip){}
+		internal static GUIContent TextContentWithIcon(string textAndTooltip, string icon){}
+		internal static String[] GetNameAndTooltipString(string nameAndTooltip){}
 		internal static Texture2D LoadIconRequired(string name){}
 		internal static Texture2D LoadIcon(string name){}
 		private static Texture2D LoadGeneratedIconOrNormalIcon(string name){}
 		internal static Texture2D LoadIconForSkin(string name, int skinIndex){}
+		public static GUIContent IconContent(string name){}
 		public static GUIContent IconContent(string name, string tooltip){}
 		internal static void Internal_SwitchSkin(){}
 		public static GUIContent ObjectContent(System.Object obj, Type type){}
@@ -1675,7 +1754,7 @@ namespace UnityEditor {
 		internal static Texture2D GetIconForObject(System.Object obj){}
 		internal static Texture2D GetHelpIcon(MessageType type){}
 		internal static GUIStyle GetBasicTextureStyle(Texture2D tex){}
-		private static void LoadScriptInfos(){}
+		internal static void NotifyLanguageChanged(SystemLanguage newLanguage){}
 		public static Texture2D FindTexture(string name){}
 		public static GUISkin GetBuiltinSkin(EditorSkin skin){}
 		public static System.Object LoadRequired(string path){}
@@ -1700,6 +1779,7 @@ namespace UnityEditor {
 		public static void RenderGameViewCameras(Rect cameraRect, int targetDisplay, bool gizmos, bool gui){}
 		private static void INTERNAL_CALL_RenderGameViewCameras(ref Rect cameraRect, int targetDisplay, bool gizmos, bool gui){}
 		public static void RenderGameViewCameras(Rect cameraRect, bool gizmos, bool gui){}
+		public static bool IsDisplayReferencedByCameras(int displayIndex){}
 		public static void RenderGameViewCameras(Rect cameraRect, Rect statsRect, bool gizmos, bool gui){}
 		public static void QueueGameViewInputEvent(Event evt){}
 		internal static void SetDefaultFont(Font font){}
@@ -1720,6 +1800,7 @@ namespace UnityEditor {
 		private static void Internal_SetupEventValues(System.Object evt){}
 		public static void DrawColorSwatch(Rect position, Color color){}
 		internal static void DrawColorSwatch(Rect position, Color color, bool showAlpha){}
+		internal static void DrawColorSwatch(Rect position, Color color, bool showAlpha, bool hdr){}
 		public static void DrawCurveSwatch(Rect position, AnimationCurve curve, SerializedProperty property, Color color, Color bgColor){}
 		public static void DrawCurveSwatch(Rect position, AnimationCurve curve, SerializedProperty property, Color color, Color bgColor, Rect curveRanges){}
 		public static void DrawRegionSwatch(Rect position, SerializedProperty property, SerializedProperty property2, Color color, Color bgColor, Rect curveRanges){}
@@ -1728,15 +1809,10 @@ namespace UnityEditor {
 		public static void RGBToHSV(Color rgbColor, out float H, out float S, out float V){}
 		private static void RGBToHSVHelper(float offset, float dominantcolor, float colorone, float colortwo, out float H, out float S, out float V){}
 		public static Color HSVToRGB(float H, float S, float V){}
-		public static void AddCursorRect(Rect position, MouseCursor mouse){}
-		public static void AddCursorRect(Rect position, MouseCursor mouse, int controlID){}
-		private static void Internal_AddCursorRect(Rect r, MouseCursor m, int controlID){}
-		private static void INTERNAL_CALL_Internal_AddCursorRect(ref Rect r, MouseCursor m, int controlID){}
-		internal static Rect HandleHorizontalSplitter(Rect dragRect, float width, float minLeftSide, float minRightSide){}
-		internal static void DrawHorizontalSplitter(Rect dragRect){}
-		internal static void CleanCache(string text){}
-		internal static void SetSearchIndexOfControlIDList(int index){}
-		internal static int GetSearchIndexOfControlIDList(){}
+		public static Color HSVToRGB(float H, float S, float V, bool hdr){}
+		internal static void SetPasteboardColor(Color color){}
+		private static void INTERNAL_CALL_SetPasteboardColor(ref Color color){}
+		internal static bool HasPasteboardColor(){}
 		public EditorGUIUtility(){}
 		private static EditorGUIUtility(){}
 		public static float singleLineHeight{ get	{} }
@@ -1760,6 +1836,7 @@ namespace UnityEditor {
 		EventType magnifyGestureEventType{ get	{} }
 		EventType swipeGestureEventType{ get	{} }
 		EventType rotateGestureEventType{ get	{} }
+		float pixelsPerPoint{ get	{} }
 		internal static int s_FontIsBold;
 		private static Texture2D s_InfoIcon;
 		private static Texture2D s_WarningIcon;
@@ -1775,7 +1852,6 @@ namespace UnityEditor {
 		private static GUIStyle s_BasicTextureStyle;
 		private static Hashtable s_TextGUIContents;
 		private static Hashtable s_IconGUIContents;
-		private static Hashtable s_ScriptInfos;
 		internal static int s_LastControlID;
 		private static bool s_HierarchyMode;
 		internal static bool s_WideMode;
@@ -2015,10 +2091,12 @@ namespace UnityEditor {
 		private static bool Internal_FindNearestVertex(Camera cam, Vector2 point, Transform[] objectsToSearch, Transform[] ignoreObjects, out Vector3 vertex){}
 		private static bool INTERNAL_CALL_Internal_FindNearestVertex(Camera cam, ref Vector2 point, Transform[] objectsToSearch, Transform[] ignoreObjects, out Vector3 vertex){}
 		public static GameObject PickGameObject(Vector2 position, out int materialIndex){}
+		public static GameObject PickGameObject(Vector2 position, GameObject[] ignore, out int materialIndex){}
 		public static GameObject PickGameObject(Vector2 position, bool selectPrefabRoot){}
-		private static GameObject FindSelectionBase(GameObject go){}
-		internal static GameObject Internal_PickClosestGO(Camera cam, int layers, Vector2 position, out int materialIndex){}
-		private static GameObject INTERNAL_CALL_Internal_PickClosestGO(Camera cam, int layers, ref Vector2 position, out int materialIndex){}
+		public static GameObject PickGameObject(Vector2 position, bool selectPrefabRoot, GameObject[] ignore){}
+		internal static GameObject FindSelectionBase(GameObject go){}
+		internal static GameObject Internal_PickClosestGO(Camera cam, int layers, Vector2 position, GameObject[] ignore, out int materialIndex){}
+		private static GameObject INTERNAL_CALL_Internal_PickClosestGO(Camera cam, int layers, ref Vector2 position, GameObject[] ignore, out int materialIndex){}
 		private static void InitHandleMaterials(){}
 		internal static void ApplyWireMaterial(){}
 		private static void Internal_SetHandleWireTextureIndex(int textureIndex){}
@@ -2058,15 +2136,23 @@ namespace UnityEditor {
 
 	public sealed class	EditorSettings: Object
 	{
+		private static string <get_projectGenerationUserExtensions>m__8(string s){}
 		public EditorSettings(){}
 		public static string unityRemoteDevice{ get	{} set	{} }
 		public static string unityRemoteCompression{ get	{} set	{} }
 		public static string unityRemoteResolution{ get	{} set	{} }
 		public static string externalVersionControl{ get	{} set	{} }
 		public static SerializationMode serializationMode{ get	{} set	{} }
+		public static bool webSecurityEmulationEnabled{ get	{} set	{} }
 		public static string webSecurityEmulationHostUrl{ get	{} set	{} }
 		public static EditorBehaviorMode defaultBehaviorMode{ get	{} set	{} }
 		public static SpritePackerMode spritePackerMode{ get	{} set	{} }
+		public static int spritePackerPaddingPower{ get	{} set	{} }
+		public static String[] projectGenerationUserExtensions{ get	{} set	{} }
+		public static String[] projectGenerationBuiltinExtensions{ get	{} }
+		string Internal_ProjectGenerationUserExtensions{ get	{} set	{} }
+		public static string projectGenerationRootNamespace{ get	{} set	{} }
+		private static Func<String, String> <>f__am$cache0;
 	}
 
 	public sealed class	EditorUserSettings: Object
@@ -2076,6 +2162,7 @@ namespace UnityEditor {
 		public EditorUserSettings(){}
 		public static bool AutomaticAdd{ get	{} set	{} }
 		public static bool WorkOffline{ get	{} set	{} }
+		public static bool showFailedCheckout{ get	{} set	{} }
 		bool DebugCmd{ get	{} set	{} }
 		bool DebugOut{ get	{} set	{} }
 		bool DebugCom{ get	{} set	{} }
@@ -2084,10 +2171,21 @@ namespace UnityEditor {
 
 	public class	EditorWindow: ScriptableObject
 	{
+		internal void MakeModal(ContainerWindow win){}
+		public static EditorWindow GetWindow(Type t, bool utility, string title){}
+		public static EditorWindow GetWindow(Type t, bool utility){}
+		public static EditorWindow GetWindow(Type t){}
+		public static EditorWindow GetWindow(Type t, bool utility, string title, bool focus){}
+		public static EditorWindow GetWindowWithRect(Type t, Rect rect, bool utility){}
+		public static EditorWindow GetWindowWithRect(Type t, Rect rect){}
+		public static EditorWindow GetWindowWithRect(Type t, Rect rect, bool utility, string title){}
 		public void BeginWindows(){}
 		public void EndWindows(){}
 		internal virtual void OnResized(){}
 		internal void CheckForWindowRepaint(){}
+		internal GUIContent GetLocalizedTitleContent(){}
+		internal static GUIContent GetLocalizedTitleContentFromType(Type t){}
+		private static EditorWindowTitleAttribute GetEditorWindowTitleAttribute(Type t){}
 		public void ShowNotification(GUIContent notification){}
 		public void RemoveNotification(){}
 		internal void DrawNotification(){}
@@ -2106,11 +2204,7 @@ namespace UnityEditor {
 		public void Show(bool immediateDisplay){}
 		public void ShowAuxWindow(){}
 		internal void ShowModal(){}
-		internal void MakeModal(ContainerWindow win){}
-		public static EditorWindow GetWindow(Type t, bool utility, string title){}
-		public static EditorWindow GetWindow(Type t, bool utility){}
-		public static EditorWindow GetWindow(Type t){}
-		public static EditorWindow GetWindow(Type t, bool utility, string title, bool focus){}
+		private static EditorWindow GetWindowPrivate(Type t, bool utility, string title, bool focus){}
 		public static T GetWindow(){}
 		public static T GetWindow(bool utility){}
 		public static T GetWindow(bool utility, string title){}
@@ -2123,9 +2217,7 @@ namespace UnityEditor {
 		public static void FocusWindowIfItsOpen(Type t){}
 		public static void FocusWindowIfItsOpen(){}
 		internal void RemoveFromDockArea(){}
-		public static EditorWindow GetWindowWithRect(Type t, Rect rect, bool utility){}
-		public static EditorWindow GetWindowWithRect(Type t, Rect rect){}
-		public static EditorWindow GetWindowWithRect(Type t, Rect rect, bool utility, string title){}
+		private static EditorWindow GetWindowWithRectPrivate(Type t, Rect rect, bool utility, string title){}
 		public static T GetWindowWithRect(Rect rect){}
 		public static T GetWindowWithRect(Rect rect, bool utility){}
 		public static T GetWindowWithRect(Rect rect, bool utility, string title){}
@@ -2153,18 +2245,17 @@ namespace UnityEditor {
 		public Vector2 minSize{ get	{} set	{} }
 		public Vector2 maxSize{ get	{} set	{} }
 		public string title{ get	{} set	{} }
-		GUIContent cachedTitleContent{ get	{} }
+		public GUIContent titleContent{ get	{} set	{} }
 		public int depthBufferBits{ get	{} set	{} }
 		public int antiAlias{ get	{} set	{} }
 		public Rect position{ get	{} set	{} }
 		private bool m_AutoRepaintOnSceneChange;
 		private Vector2 m_MinSize;
 		private Vector2 m_MaxSize;
-		internal string m_Title;
+		internal GUIContent m_TitleContent;
 		private int m_DepthBufferBits;
 		private int m_AntiAlias;
 		internal Rect m_Pos;
-		private GUIContent m_CachedTitleContent;
 		private Rect m_GameViewRect;
 		private bool m_DontClearBackground;
 		private bool m_WantsMouseMove;
@@ -2202,7 +2293,7 @@ namespace UnityEditor {
 		internal virtual SerializedObject GetSerializedObjectInternal(){}
 		private void CleanupPropertyEditor(){}
 		private void OnDisableINTERNAL(){}
-		internal void OnForceReloadInspector(){}
+		internal virtual void OnForceReloadInspector(){}
 		internal bool GetOptimizedGUIBlockImplementation(bool isDirty, bool isVisible, out OptimizedGUIBlock block, out float height){}
 		internal bool OptimizedInspectorGUIImplementation(Rect contentRect){}
 		protected static void DrawPropertiesExcluding(SerializedObject obj, String[] propertyToExclude){}
@@ -2235,6 +2326,8 @@ namespace UnityEditor {
 		internal static Rect DrawHeaderGUI(Editor editor, string header){}
 		internal static Rect DrawHeaderGUI(Editor editor, string header, float leftMargin){}
 		public virtual void DrawPreview(Rect previewArea){}
+		internal static bool IsAppropriateFileOpenForEdit(System.Object assetObject){}
+		internal static bool IsAppropriateFileOpenForEdit(System.Object assetObject, out string message){}
 		internal virtual bool IsEnabled(){}
 		internal bool IsOpenForEdit(){}
 		internal bool IsOpenForEdit(out string message){}
@@ -2308,6 +2401,8 @@ namespace UnityEditor {
 
 	public sealed class	Undo: Object
 	{
+		private static void GetRecordsInternal(System.Object undoRecords, System.Object redoRecords){}
+		internal static void GetRecords(List<String> undoRecords, List<String> redoRecords){}
 		public static void RegisterCompleteObjectUndo(System.Object objectToUndo, string name){}
 		public static void RegisterCompleteObjectUndo(Object[] objectsToUndo, string name){}
 		private static void RegisterCompleteObjectUndoMultiple(System.Object identifier, Object[] objectsToUndo, string name, int namePriority){}
@@ -2399,8 +2494,8 @@ namespace UnityEditor {
 		internal static string CombinePaths(String[] paths){}
 		internal static List<String> GetAllFilesRecursive(string path){}
 		internal static void WalkFilesystemRecursively(string path, Action<String> fileCallback, Func<String, Boolean> directoryCallback){}
-		private static bool <CopyDirectory>m__8(string f){}
-		private static bool <GetAllFilesRecursive>m__B(string p){}
+		private static bool <CopyDirectory>m__A(string f){}
+		private static bool <GetAllFilesRecursive>m__D(string p){}
 		public FileUtil(){}
 		private static Func<String, Boolean> <>f__am$cache0;
 		private static Func<String, Boolean> <>f__am$cache1;
@@ -2451,11 +2546,16 @@ namespace UnityEditor {
 		public static bool enableHeadlessMode{ get	{} set	{} }
 		public static bool buildScriptsOnly{ get	{} set	{} }
 		public static XboxBuildSubtarget xboxBuildSubtarget{ get	{} set	{} }
+		public static WiiUBuildDebugLevel wiiUBuildDebugLevel{ get	{} set	{} }
+		public static WiiUBuildOutput wiiuBuildOutput{ get	{} set	{} }
+		public static bool wiiUEnableNetAPI{ get	{} set	{} }
+		public static int wiiUBootMode{ get	{} set	{} }
 		public static XboxRunMethod xboxRunMethod{ get	{} set	{} }
 		public static int streamingInstallLaunchRange{ get	{} set	{} }
 		public static XboxOneDeployMethod xboxOneDeployMethod{ get	{} set	{} }
 		public static MobileTextureSubtarget androidBuildSubtarget{ get	{} set	{} }
 		public static WSASDK wsaSDK{ get	{} set	{} }
+		public static WSAUWPBuildType wsaUWPBuildType{ get	{} set	{} }
 		public static WSABuildAndRunDeployTarget wsaBuildAndRunDeployTarget{ get	{} set	{} }
 		public static bool wsaGenerateReferenceProjects{ get	{} set	{} }
 		public static MobileTextureSubtarget blackberryBuildSubtarget{ get	{} set	{} }
@@ -2463,7 +2563,6 @@ namespace UnityEditor {
 		public static MobileTextureSubtarget tizenBuildSubtarget{ get	{} set	{} }
 		public static bool webPlayerStreamed{ get	{} set	{} }
 		public static bool webPlayerOfflineDeployment{ get	{} set	{} }
-		public static bool webPlayerDeployOnline{ get	{} set	{} }
 		public static BuildTarget activeBuildTarget{ get	{} }
 		public static String[] activeScriptCompilationDefines{ get	{} }
 		public static bool development{ get	{} set	{} }
@@ -2472,6 +2571,9 @@ namespace UnityEditor {
 		public static bool allowDebugging{ get	{} set	{} }
 		public static bool exportAsGoogleAndroidProject{ get	{} set	{} }
 		public static bool symlinkLibraries{ get	{} set	{} }
+		bool symlinkTrampoline{ get	{} set	{} }
+		iOSBuildType iOSBuildConfigType{ get	{} set	{} }
+		public static bool n3dsCreateCIAFile{ get	{} set	{} }
 		public static bool installInBuildFolder{ get	{} set	{} }
 		public static Action activeBuildTargetChanged;
 	}
@@ -2670,6 +2772,7 @@ namespace UnityEditor {
 		public float animationScaleError{ get	{} set	{} }
 		public WrapMode animationWrapMode{ get	{} set	{} }
 		public ModelImporterAnimationType animationType{ get	{} set	{} }
+		public ModelImporterHumanoidOversampling humanoidOversampling{ get	{} set	{} }
 		public string motionNodeName{ get	{} set	{} }
 		public Avatar sourceAvatar{ get	{} set	{} }
 		Avatar sourceAvatarInternal{ get	{} set	{} }
@@ -2682,11 +2785,17 @@ namespace UnityEditor {
 
 	public sealed class	TextureImporter: AssetImporter
 	{
+		public void ReadTextureSettings(TextureImporterSettings dest){}
+		public void SetTextureSettings(TextureImporterSettings src){}
+		internal string GetImportWarnings(){}
 		public void ReadTextureImportInstructions(BuildTarget target, out TextureFormat desiredFormat, out ColorSpace colorSpace, out int compressionQuality){}
+		public bool GetAllowsAlphaSplitting(){}
+		public void SetAllowsAlphaSplitting(bool flag){}
 		public bool GetPlatformTextureSettings(string platform, out int maxTextureSize, out TextureImporterFormat textureFormat, out int compressionQuality){}
 		public bool GetPlatformTextureSettings(string platform, out int maxTextureSize, out TextureImporterFormat textureFormat){}
-		public void SetPlatformTextureSettings(string platform, int maxTextureSize, TextureImporterFormat textureFormat, int compressionQuality){}
+		public void SetPlatformTextureSettings(string platform, int maxTextureSize, TextureImporterFormat textureFormat, int compressionQuality, bool allowsAlphaSplit){}
 		public void SetPlatformTextureSettings(string platform, int maxTextureSize, TextureImporterFormat textureFormat){}
+		public void SetPlatformTextureSettings(string platform, int maxTextureSize, TextureImporterFormat textureFormat, bool allowsAlphaSplit){}
 		public void ClearPlatformTextureSettings(string platform){}
 		internal static TextureImporterFormat FullToSimpleTextureFormat(TextureImporterFormat format){}
 		internal static TextureImporterFormat SimpleToFullTextureFormat2(TextureImporterFormat simpleFormat, TextureImporterType tType, TextureImporterSettings settings, bool doesTextureContainAlpha, bool sourceWasHDR, BuildTarget destinationPlatform){}
@@ -2698,9 +2807,6 @@ namespace UnityEditor {
 		internal bool IsSourceTextureHDR(){}
 		public bool DoesSourceTextureHaveAlpha(){}
 		public bool DoesSourceTextureHaveColor(){}
-		public void ReadTextureSettings(TextureImporterSettings dest){}
-		public void SetTextureSettings(TextureImporterSettings src){}
-		internal string GetImportWarnings(){}
 		public TextureImporter(){}
 		public TextureImporterFormat textureFormat{ get	{} set	{} }
 		public int maxTextureSize{ get	{} set	{} }
@@ -2775,6 +2881,7 @@ namespace UnityEditor {
 		public float mipmapBias{ get	{} set	{} }
 		public TextureWrapMode wrapMode{ get	{} set	{} }
 		public int compressionQuality{ get	{} set	{} }
+		public bool allowsAlphaSplit{ get	{} set	{} }
 		public bool alphaIsTransparency{ get	{} set	{} }
 		public int spriteMode{ get	{} set	{} }
 		public float spritePixelsPerUnit{ get	{} set	{} }
@@ -2805,6 +2912,7 @@ namespace UnityEditor {
 		private int m_LinearTexture;
 		private int m_RGBM;
 		private int m_CompressionQuality;
+		private int m_AllowsAlphaSplit;
 		private int m_SpriteMode;
 		private uint m_SpriteExtrude;
 		private int m_SpriteMeshType;
@@ -2973,6 +3081,7 @@ namespace UnityEditor {
 		public static PluginImporter[] GetAllImporters(){}
 		public static PluginImporter[] GetImporters(string platformName){}
 		public static PluginImporter[] GetImporters(BuildTarget platform){}
+		internal static IEnumerable<PluginDesc> GetExtensionPlugins(BuildTarget target){}
 		public PluginImporter(){}
 		public bool isNativePlugin{ get	{} }
 	}
@@ -2981,14 +3090,13 @@ namespace UnityEditor {
 	{
 		internal static int GetAvailableShaderCompilerPlatforms(){}
 		internal static void FetchCachedErrors(Shader s){}
-		internal static int GetErrorCount(Shader s){}
-		internal static string GetShaderErrorMessage(Shader s, int index, bool includeDetails){}
-		internal static string GetShaderErrorPlatform(Shader s, int index){}
-		internal static bool GetShaderErrorWarning(Shader s, int index){}
-		internal static string GetShaderErrorFile(Shader s, int index, bool fileNameOnly){}
-		internal static int GetShaderErrorLine(Shader s, int index){}
+		internal static int GetShaderErrorCount(Shader s){}
+		internal static ShaderError[] GetShaderErrors(Shader s){}
+		internal static int GetComputeShaderErrorCount(ComputeShader s){}
+		internal static ShaderError[] GetComputeShaderErrors(ComputeShader s){}
 		internal static int GetComboCount(Shader s, bool usedBySceneOnly){}
 		internal static bool HasSurfaceShaders(Shader s){}
+		internal static bool HasFixedFunctionShaders(Shader s){}
 		internal static bool HasShaderSnippets(Shader s){}
 		public static int GetPropertyCount(Shader s){}
 		public static string GetPropertyDescription(Shader s, int propertyIdx){}
@@ -3006,9 +3114,10 @@ namespace UnityEditor {
 		internal static int GetLOD(Shader s){}
 		internal static string GetDependency(Shader s, string name){}
 		internal static int GetTextureBindingIndex(Shader s, int texturePropertyID){}
-		internal static bool DoesShaderContainFixedFunctionPasses(Shader s){}
 		internal static void OpenCompiledShader(Shader shader, int mode, int customPlatformsMask, bool includeAllVariants){}
+		internal static void OpenCompiledComputeShader(ComputeShader shader, bool allVariantsAndPlatforms){}
 		internal static void OpenParsedSurfaceShader(Shader shader){}
+		internal static void OpenGeneratedFixedFunctionShader(Shader shader){}
 		internal static void OpenShaderSnippets(Shader shader){}
 		internal static void OpenShaderCombinations(Shader shader, bool usedBySceneOnly){}
 		internal static void CalculateLightmapStrippingFromCurrentScene(){}
@@ -3023,7 +3132,6 @@ namespace UnityEditor {
 		private static void INTERNAL_set_rawViewportRect(ref Rect value){}
 		private static void INTERNAL_get_rawScissorRect(out Rect value){}
 		private static void INTERNAL_set_rawScissorRect(ref Rect value){}
-		internal static bool HasClip(Shader s){}
 		internal static void RecreateGfxDevice(){}
 		internal static void RecreateSkinnedMeshResources(){}
 		public static Shader CreateShaderAsset(string source){}
@@ -3054,6 +3162,11 @@ namespace UnityEditor {
 		internal static Texture2D GetIconForPlatformAtSize(string platform, int size){}
 		internal static void GetBatchingForPlatform(BuildTarget platform, out int staticBatching, out int dynamicBatching){}
 		internal static void SetBatchingForPlatform(BuildTarget platform, int staticBatching, int dynamicBatching){}
+		internal static GraphicsDeviceType[] GetSupportedGraphicsAPIs(BuildTarget platform){}
+		public static GraphicsDeviceType[] GetGraphicsAPIs(BuildTarget platform){}
+		public static void SetGraphicsAPIs(BuildTarget platform, GraphicsDeviceType[] apis){}
+		public static bool GetUseDefaultGraphicsAPIs(BuildTarget platform){}
+		public static void SetUseDefaultGraphicsAPIs(BuildTarget platform, bool automatic){}
 		internal static void SetTemplateCustomValue(string key, string value){}
 		internal static string GetTemplateCustomValue(string key){}
 		public static string GetScriptingDefineSymbolsForGroup(BuildTargetGroup targetGroup){}
@@ -3133,6 +3246,7 @@ namespace UnityEditor {
 		public static MacFullscreenMode macFullscreenMode{ get	{} set	{} }
 		public static D3D9FullscreenMode d3d9FullscreenMode{ get	{} set	{} }
 		public static D3D11FullscreenMode d3d11FullscreenMode{ get	{} set	{} }
+		public static bool virtualRealitySupported{ get	{} set	{} }
 		public static bool visibleInBackground{ get	{} set	{} }
 		public static bool forceSingleInstance{ get	{} set	{} }
 		public static bool alwaysDisplayWatermark{ get	{} set	{} }
@@ -3158,7 +3272,7 @@ namespace UnityEditor {
 		public static bool xboxEnableKinectAutoTracking{ get	{} }
 		public static bool xboxEnableSpeech{ get	{} }
 		public static uint xboxSpeechDB{ get	{} }
-		public static bool gpuSkinning{ get	{} }
+		public static bool gpuSkinning{ get	{} set	{} }
 		public static bool xboxPIXTextureCapture{ get	{} }
 		public static bool xboxEnableAvatar{ get	{} }
 		public static int xboxOneResolution{ get	{} }
@@ -3171,6 +3285,7 @@ namespace UnityEditor {
 		public static string bundleVersion{ get	{} set	{} }
 		public static bool statusBarHidden{ get	{} set	{} }
 		public static StrippingLevel strippingLevel{ get	{} set	{} }
+		public static bool stripEngineCode{ get	{} set	{} }
 		public static UIOrientation defaultInterfaceOrientation{ get	{} set	{} }
 		public static bool allowedAutorotateToPortrait{ get	{} set	{} }
 		public static bool allowedAutorotateToPortraitUpsideDown{ get	{} set	{} }
@@ -3217,6 +3332,8 @@ namespace UnityEditor {
 		public ScriptableWizard(){}
 		public string helpString{ get	{} set	{} }
 		public string errorString{ get	{} set	{} }
+		public string createButtonName{ get	{} set	{} }
+		public string otherButtonName{ get	{} set	{} }
 		public bool isValid{ get	{} set	{} }
 		private GenericInspector m_Inspector;
 		private string m_HelpString;
@@ -3242,7 +3359,7 @@ namespace UnityEditor {
 		internal static SerializedObject LoadFromCache(int instanceID){}
 		private PropertyModification ExtractPropertyModification(string propertyPath){}
 		public bool ApplyModifiedProperties(){}
-		internal bool ApplyModifiedPropertiesWithoutUndo(){}
+		public bool ApplyModifiedPropertiesWithoutUndo(){}
 		public void CopyFromSerializedProperty(SerializedProperty prop){}
 		public SerializedObject(System.Object obj){}
 		public SerializedObject(Object[] objs){}
@@ -3401,6 +3518,7 @@ namespace UnityEditor {
 		public static Transform[] GetTransforms(SelectionMode mode){}
 		public static Object[] GetFiltered(Type type, SelectionMode mode){}
 		internal static Object[] GetObjectsMode(SelectionMode mode){}
+		private static void Internal_CallSelectionChanged(){}
 		public Selection(){}
 		public static Transform[] transforms{ get	{} }
 		public static Transform activeTransform{ get	{} set	{} }
@@ -3412,6 +3530,7 @@ namespace UnityEditor {
 		public static Int32[] instanceIDs{ get	{} set	{} }
 		String[] assetGUIDsDeepSelection{ get	{} }
 		public static String[] assetGUIDs{ get	{} }
+		public static Action selectionChanged;
 	}
 
 	public sealed class	EditorUtility: Object
@@ -3427,6 +3546,7 @@ namespace UnityEditor {
 		public static bool DisplayDialog(string title, string message, string ok){}
 		public static int DisplayDialogComplex(string title, string message, string ok, string cancel, string alt){}
 		public static string OpenFilePanel(string title, string directory, string extension){}
+		public static string OpenFilePanelWithFilters(string title, string directory, String[] filters){}
 		public static string SaveFilePanel(string title, string directory, string defaultName, string extension){}
 		internal static string SaveBuildPanel(BuildTarget target, string title, string directory, string defaultName, string extension, out bool updateExistingBuild){}
 		public static int NaturalCompare(string a, string b){}
@@ -3460,6 +3580,8 @@ namespace UnityEditor {
 		public static bool BuildResourceFile(Object[] selection, string pathName){}
 		internal static void Internal_DisplayPopupMenu(Rect position, string menuItemPath, System.Object context, int contextUserData){}
 		private static void INTERNAL_CALL_Internal_DisplayPopupMenu(ref Rect position, string menuItemPath, System.Object context, int contextUserData){}
+		internal static void Internal_UpdateMenuTitleForLanguage(SystemLanguage newloc){}
+		internal static void Internal_UpdateAllMenus(){}
 		public static void DisplayPopupMenu(Rect position, string menuItemPath, MenuCommand command){}
 		internal static void DisplayObjectContextMenu(Rect position, System.Object context, int contextUserData){}
 		internal static void DisplayObjectContextMenu(Rect position, Object[] context, int contextUserData){}
@@ -3568,6 +3690,7 @@ namespace UnityEditor {
 		internal static bool HasHelpForObject(System.Object obj, bool defaultToMonoBehaviour){}
 		internal static string GetNiceHelpNameForObject(System.Object obj){}
 		internal static string GetNiceHelpNameForObject(System.Object obj, bool defaultToMonoBehaviour){}
+		public static string GetHelpURLForObject(System.Object obj){}
 		public static void ShowHelpForObject(System.Object obj){}
 		public static void ShowHelpPage(string page){}
 		public static void BrowseURL(string url){}
@@ -3723,7 +3846,8 @@ namespace UnityEditor {
 		internal static bool HasChildren(IEnumerable<GameObject> gameObjects){}
 		internal static ShouldIncludeChildren DisplayUpdateChildrenDialogIfNeeded(IEnumerable<GameObject> gameObjects, string title, string message){}
 		public static void SetParentAndAlign(GameObject child, GameObject parent){}
-		private static bool <HasChildren>m__10(GameObject go){}
+		private static void SetLayerRecursively(GameObject go, int layer){}
+		private static bool <HasChildren>m__12(GameObject go){}
 		public GameObjectUtility(){}
 		private static Func<GameObject, Boolean> <>f__am$cache0;
 	}
@@ -3923,6 +4047,7 @@ namespace UnityEditor {
 		private void INTERNAL_get_hueVariation(out Color value){}
 		private void INTERNAL_set_hueVariation(ref Color value){}
 		public void GenerateMaterials(){}
+		internal void SetMaterialVersionToCurrent(){}
 		public SpeedTreeImporter(){}
 		private static SpeedTreeImporter(){}
 		public bool hasImported{ get	{} }
@@ -3935,6 +4060,7 @@ namespace UnityEditor {
 		public float alphaTestRef{ get	{} set	{} }
 		public bool hasBillboard{ get	{} }
 		public bool enableSmoothLODTransition{ get	{} set	{} }
+		public bool animateCrossFading{ get	{} set	{} }
 		public float billboardTransitionCrossFadeWidth{ get	{} set	{} }
 		public float fadeOutWidth{ get	{} set	{} }
 		public Single[] LODHeights{ get	{} set	{} }
@@ -3946,7 +4072,20 @@ namespace UnityEditor {
 		public Boolean[] enableHue{ get	{} set	{} }
 		public int bestWindQuality{ get	{} }
 		public Int32[] windQualities{ get	{} set	{} }
+		bool materialsShouldBeRegenerated{ get	{} }
 		public readonly static String[] windQualityNames;
+	}
+
+	public sealed class	LocalizationDatabase: Object
+	{
+		internal static SystemLanguage GetDefaultEditorLanguage(){}
+		internal static void SetCurrentEditorLanguage(SystemLanguage lang){}
+		internal static SystemLanguage GetCurrentEditorLanguage(){}
+		internal static void ReadEditorLocalizationResources(){}
+		internal static SystemLanguage[] GetAvailableEditorLanguages(){}
+		public static string GetLocalizedString(string original){}
+		public static string MarkForTranslation(string value){}
+		public LocalizationDatabase(){}
 	}
 
 	public sealed class	Lightmapping: Object
@@ -3963,15 +4102,21 @@ namespace UnityEditor {
 		public static void Cancel(){}
 		private static void Internal_CallCompletedFunctions(){}
 		public static void Clear(){}
+		internal static void ClearSnapshot(){}
 		public static void Tetrahedralize(Vector3[] positions, out Int32[] outIndices, out Vector3[] outPositions){}
 		public static bool BakeReflectionProbe(ReflectionProbe probe, string path){}
 		internal static bool BakeReflectionProbeSnapshot(ReflectionProbe probe){}
 		internal static bool BakeAllReflectionProbesSnapshots(){}
 		public static void GetTerrainGIChunks(Terrain terrain, ref int numChunksX, ref int numChunksY){}
+		private static void SetLoadLevelForMultiLevelBake(bool enable){}
+		private static bool BakeMultipleScenes_Internal(String[] paths){}
+		public static void BakeMultipleScenes(String[] paths){}
 		public Lightmapping(){}
 		public static GIWorkflowMode giWorkflowMode{ get	{} set	{} }
 		bool realtimeLightmapsEnabled{ get	{} set	{} }
 		bool bakedLightmapsEnabled{ get	{} set	{} }
+		float indirectOutputScale{ get	{} set	{} }
+		float bounceBoost{ get	{} set	{} }
 		bool openRLEnabled{ get	{} set	{} }
 		ConcurrentJobsType concurrentJobsType{ get	{} set	{} }
 		long diskCacheSize{ get	{} }
@@ -3980,7 +4125,14 @@ namespace UnityEditor {
 		bool enlightenForceUpdates{ get	{} set	{} }
 		FilterMode filterMode{ get	{} set	{} }
 		public static bool isRunning{ get	{} }
+		public static LightmapSnapshot lightmapSnapshot{ get	{} set	{} }
 		public static OnCompletedFunction completed;
+	}
+
+	public sealed class	LightmapSnapshot: Object
+	{
+		public LightmapSnapshot(){}
+		string sceneGUID{ get	{} }
 	}
 
 	public sealed class	LightmapEditorSettings: Object
@@ -4002,6 +4154,7 @@ namespace UnityEditor {
 		public static float resolution{ get	{} set	{} }
 		public static float bakeResolution{ get	{} set	{} }
 		public static bool textureCompression{ get	{} set	{} }
+		public static ReflectionCubemapCompression reflectionCubemapCompression{ get	{} set	{} }
 		public static float aoMaxDistance{ get	{} set	{} }
 		public static int padding{ get	{} set	{} }
 		public static float aoContrast{ get	{} set	{} }
@@ -4054,6 +4207,7 @@ namespace UnityEditor {
 
 	public sealed class	TrueTypeFontImporter: AssetImporter
 	{
+		internal Font[] LookupFallbackFontReferences(String[] _names){}
 		internal bool IsFormatSupported(){}
 		public Font GenerateEditableFont(string path){}
 		public TrueTypeFontImporter(){}
@@ -4063,12 +4217,24 @@ namespace UnityEditor {
 		public bool includeFontData{ get	{} set	{} }
 		public bool use2xBehaviour{ get	{} set	{} }
 		public String[] fontNames{ get	{} set	{} }
+		public Font[] fontReferences{ get	{} set	{} }
 		public string customCharacters{ get	{} set	{} }
 		public string fontTTFName{ get	{} }
 		FontStyle style{ get	{} set	{} }
 		public int characterSpacing{ get	{} set	{} }
 		public int characterPadding{ get	{} set	{} }
 		public FontRenderingMode fontRenderingMode{ get	{} set	{} }
+	}
+
+	public sealed class	SketchUpImporter: ModelImporter
+	{
+		public SketchUpImportScene[] GetScenes(){}
+		public SketchUpImportCamera GetDefaultCamera(){}
+		internal SketchUpNodeInfo[] GetNodes(){}
+		public SketchUpImporter(){}
+		public double latitude{ get	{} }
+		public double longitude{ get	{} }
+		public double northCorrection{ get	{} }
 	}
 
 	public class	InitializeOnLoadAttribute: Attribute, _Attribute
@@ -4079,6 +4245,10 @@ namespace UnityEditor {
 	public class	InitializeOnLoadMethodAttribute: Attribute, _Attribute
 	{
 		public InitializeOnLoadMethodAttribute(){}
+	}
+
+	public interface IHasCustomMenu	{
+		void AddItemsToMenu(GenericMenu menu);
 	}
 
 	public sealed class	MaterialProperty: Object
@@ -4210,8 +4380,17 @@ namespace UnityEditor {
 		public abstract virtual string Vendor{ get	{} }
 	}
 
-	public interface IHasCustomMenu	{
-		void AddItemsToMenu(GenericMenu menu);
+	public class	ColorPickerHDRConfig: Object
+	{
+		internal static ColorPickerHDRConfig Temp(float minBrightness, float maxBrightness, float minExposure, float maxExposure){}
+		public ColorPickerHDRConfig(float minBrightness, float maxBrightness, float minExposureValue, float maxExposureValue){}
+		internal ColorPickerHDRConfig(ColorPickerHDRConfig other){}
+		private static ColorPickerHDRConfig(){}
+		public float minBrightness;
+		public float maxBrightness;
+		public float minExposureValue;
+		public float maxExposureValue;
+		private readonly static ColorPickerHDRConfig s_Temp;
 	}
 
 	public sealed class	EditorStyles: Object
@@ -4227,8 +4406,9 @@ namespace UnityEditor {
 		public static GUIStyle largeLabel{ get	{} }
 		public static GUIStyle boldLabel{ get	{} }
 		public static GUIStyle miniBoldLabel{ get	{} }
-		public static GUIStyle wordWrappedLabel{ get	{} }
+		public static GUIStyle centeredGreyMiniLabel{ get	{} }
 		public static GUIStyle wordWrappedMiniLabel{ get	{} }
+		public static GUIStyle wordWrappedLabel{ get	{} }
 		public static GUIStyle whiteLabel{ get	{} }
 		public static GUIStyle whiteMiniLabel{ get	{} }
 		public static GUIStyle whiteLargeLabel{ get	{} }
@@ -4299,8 +4479,9 @@ namespace UnityEditor {
 		private GUIStyle m_LargeLabel;
 		private GUIStyle m_BoldLabel;
 		private GUIStyle m_MiniBoldLabel;
-		private GUIStyle m_WordWrappedLabel;
+		private GUIStyle m_CenteredGreyMiniLabel;
 		private GUIStyle m_WordWrappedMiniLabel;
+		private GUIStyle m_WordWrappedLabel;
 		private GUIStyle m_WhiteLabel;
 		private GUIStyle m_WhiteMiniLabel;
 		private GUIStyle m_WhiteLargeLabel;
@@ -4441,7 +4622,9 @@ namespace UnityEditor {
 		private bool HasMultipleMixedShaderValues(){}
 		private void ShaderPopup(GUIStyle style){}
 		public virtual void Awake(){}
+		private void DetectShaderChanged(){}
 		public virtual void OnInspectorGUI(){}
+		private void CheckSetup(){}
 		internal virtual void OnAssetStoreInspectorGUI(){}
 		public void PropertiesChanged(){}
 		protected virtual void OnHeaderGUI(){}
@@ -4539,22 +4722,24 @@ namespace UnityEditor {
 		internal void OnSceneDrag(SceneView sceneView){}
 		internal void HandleSkybox(GameObject go, Event evt){}
 		internal void HandleRenderer(Renderer r, int materialIndex, Event evt){}
-		public void TexturePropertySingleLine(GUIContent label, MaterialProperty textureProp){}
-		public void TexturePropertySingleLine(GUIContent label, MaterialProperty textureProp, MaterialProperty extraProperty1){}
-		public void TexturePropertySingleLine(GUIContent label, MaterialProperty textureProp, MaterialProperty extraProperty1, MaterialProperty extraProperty2){}
-		public void TexturePropertyTwoLines(GUIContent label, MaterialProperty textureProp, MaterialProperty extraProperty1, GUIContent label2, MaterialProperty extraProperty2){}
+		public Rect TexturePropertySingleLine(GUIContent label, MaterialProperty textureProp){}
+		public Rect TexturePropertySingleLine(GUIContent label, MaterialProperty textureProp, MaterialProperty extraProperty1){}
+		public Rect TexturePropertySingleLine(GUIContent label, MaterialProperty textureProp, MaterialProperty extraProperty1, MaterialProperty extraProperty2){}
+		public Rect TexturePropertyWithHDRColor(GUIContent label, MaterialProperty textureProp, MaterialProperty colorProperty, ColorPickerHDRConfig hdrConfig, bool showAlpha){}
+		public Rect TexturePropertyTwoLines(GUIContent label, MaterialProperty textureProp, MaterialProperty extraProperty1, GUIContent label2, MaterialProperty extraProperty2){}
 		private Rect GetControlRectForSingleLine(){}
 		private void ExtraPropertyAfterTexture(Rect r, MaterialProperty property){}
-		private Rect GetRightAlignedFieldRect(Rect r){}
-		private Rect GetLeftAlignedFieldRect(Rect r){}
-		private Rect GetFlexibleRectBetweenLabelAndField(Rect r){}
-		private Rect GetFlexibleRectBetweenFieldAndRightEdge(Rect r){}
-		private Rect GetRectAfterLabelWidth(Rect r){}
+		public static Rect GetRightAlignedFieldRect(Rect r){}
+		public static Rect GetLeftAlignedFieldRect(Rect r){}
+		public static Rect GetFlexibleRectBetweenLabelAndField(Rect r){}
+		public static Rect GetFlexibleRectBetweenFieldAndRightEdge(Rect r){}
+		public static Rect GetRectAfterLabelWidth(Rect r){}
 		public MaterialEditor(){}
 		private static MaterialEditor(){}
 		bool forceVisible{ get	{} set	{} }
 		public bool isVisible{ get	{} }
 		private bool m_IsVisible;
+		private bool m_CheckSetup;
 		private Shader m_Shader;
 		private string m_InfoMessage;
 		private Vector2 m_PreviewDir;
@@ -4571,6 +4756,7 @@ namespace UnityEditor {
 		private PreviewRenderUtility m_PreviewUtility;
 		private bool <forceVisible>k__BackingField;
 		private static int s_ControlHash;
+		private static string s_PropBlockWarning;
 		private readonly static GUIContent s_TilingText;
 		private readonly static GUIContent s_OffsetText;
 		private readonly static Mesh[] s_Meshes;
@@ -4578,7 +4764,7 @@ namespace UnityEditor {
 		private readonly static GUIContent[] s_MeshIcons;
 		private readonly static GUIContent[] s_LightIcons;
 		private readonly static GUIContent[] s_TimeIcons;
-		private static Dictionary<String, Int32> <>f__switch$map17;
+		private static Dictionary<String, Int32> <>f__switch$map1A;
 		private const float kSpacingUnderTexture = null;
 		private const float kWarningMessageHeight = null;
 		private const float kMiniWarningMessageHeight = null;
@@ -4601,8 +4787,8 @@ namespace UnityEditor {
 		public float GetScaleFactor(float width, float height){}
 		public void BeginStaticPreview(Rect r){}
 		public void BeginPreview(Rect r, GUIStyle previewBackground){}
-		private void GammaBlit(){}
 		public Texture EndPreview(){}
+		public void EndAndDrawPreview(Rect r){}
 		public Texture2D EndStaticPreview(){}
 		public void DrawMesh(Mesh mesh, Vector3 pos, Quaternion rot, Material mat, int subMeshIndex){}
 		public void DrawMesh(Mesh mesh, Matrix4x4 matrix, Material mat, int subMeshIndex){}
@@ -4617,7 +4803,6 @@ namespace UnityEditor {
 		public float m_CameraFieldOfView;
 		public Light[] m_Light;
 		internal RenderTexture m_RenderTexture;
-		internal RenderTexture m_RenderTextureGammaCorrect;
 		private Rect m_TargetRect;
 		private SavedRenderTargetState m_SavedState;
 	}
@@ -4661,7 +4846,7 @@ namespace UnityEditor {
 		internal static int k_FavoritesStartInstanceID;
 		internal static string k_DraggingFavoriteGenericData;
 		internal static string k_IsFolderGenericData;
-		private static Dictionary<String, Int32> <>f__switch$map1A;
+		private static Dictionary<String, Int32> <>f__switch$map1D;
 	}
 
 	public class	SearchableEditorWindow: EditorWindow
@@ -4730,7 +4915,7 @@ namespace UnityEditor {
 		public virtual void OnDisable(){}
 		public void OnDestroy(){}
 		private void DoToolbarGUI(){}
-		private void ToggleAudio(){}
+		private void RefreshAudioPlay(){}
 		public void OnSelectionChange(){}
 		internal static void MenuMoveToFront(){}
 		internal static bool ValidateMenuMoveToFront(){}
@@ -4823,7 +5008,7 @@ namespace UnityEditor {
 		float cameraDistance{ get	{} }
 		public static ArrayList sceneViews{ get	{} }
 		public Camera camera{ get	{} }
-		DraggingLockedState draggingLocked{ set	{} }
+		DraggingLockedState draggingLocked{ get	{} set	{} }
 		bool viewIsLockedToObject{ get	{} set	{} }
 		GUIStyle effectsDropDownStyle{ get	{} }
 		public Vector3 pivot{ get	{} set	{} }
@@ -4901,7 +5086,7 @@ namespace UnityEditor {
 		private static Texture2D s_MipColorsTexture;
 		private static Tool s_CurrentTool;
 		private static GUIStyle s_DropDownStyle;
-		private static Dictionary<String, Int32> <>f__switch$map1B;
+		private static Dictionary<String, Int32> <>f__switch$map1E;
 		private const float kDefaultViewSize = null;
 		private const float kOrthoThresholdAngle = null;
 		private const float kOneOverSqrt2 = null;
@@ -5058,6 +5243,8 @@ namespace UnityEditor {
 
 	delegate void DelegateReceivedHeapshot(string fileName);
 
+	delegate bool GetComptability(PluginImporter imp);
+
 	delegate void OnAvatarChange();
 
 	delegate float GetFloatFromMotion(Motion motion, float mirrorMultiplier);
@@ -5113,6 +5300,7 @@ namespace UnityEditorInternal {
 
 	public sealed class	InternalEditorUtility: Object
 	{
+		public static Resolution GetDesktopResolution(){}
 		public static string TextifyEvent(Event evt){}
 		public static String[] GetAvailableDiffTools(){}
 		public static string GetNoDiffToolsDetectedMessage(){}
@@ -5134,8 +5322,9 @@ namespace UnityEditorInternal {
 		internal static MonoIsland[] GetMonoIslands(){}
 		public static bool Xbox360GenerateSPAConfig(string spaPath){}
 		public static bool Xbox360SaveSplashScreenToFile(Texture2D image, string spaPath){}
+		public static bool WiiUSaveStartupScreenToFile(Texture2D image, string path, int outputWidth, int outputHeight){}
 		public static bool CanConnectToCacheServer(){}
-		public static bool DetectDotNetDll(string path){}
+		public static DllType DetectDotNetDll(string path){}
 		public static string GetCrashReportFolder(){}
 		internal static bool RunningUnderWindows8(){}
 		internal static bool RunningUnderWindows8(bool orHigher){}
@@ -5161,8 +5350,8 @@ namespace UnityEditorInternal {
 		internal static bool IsScriptOrAssembly(string filename){}
 		internal static T ParentHasComponent(Transform trans){}
 		internal static IEnumerable<String> GetAllScriptGUIDs(){}
-		private static bool <GetAllScriptGUIDs>m__C(string asset){}
-		private static string <GetAllScriptGUIDs>m__D(string asset){}
+		private static bool <GetAllScriptGUIDs>m__E(string asset){}
+		private static string <GetAllScriptGUIDs>m__F(string asset){}
 		public static void BumpMapSettingsFixingWindowReportResult(int result){}
 		public static bool BumpMapTextureNeedsFixingInternal(Material material, string propName, bool flaggedAsNormal){}
 		internal static bool BumpMapTextureNeedsFixing(MaterialProperty prop){}
@@ -5196,10 +5385,10 @@ namespace UnityEditorInternal {
 		private static DragAndDropVisualMode INTERNAL_CALL_SceneViewDrag(System.Object dropUpon, ref Vector3 worldPosition, ref Vector2 viewportPosition, bool perform){}
 		public static void SetRectTransformTemporaryRect(RectTransform rectTransform, Rect rect){}
 		private static void INTERNAL_CALL_SetRectTransformTemporaryRect(RectTransform rectTransform, ref Rect rect){}
+		public static bool HasTeamLicense(){}
 		public static bool HasPro(){}
 		public static bool HasFreeLicense(){}
 		public static bool HasEduLicense(){}
-		public static bool HasProFeaturesEnabled(){}
 		public static bool HasAdvancedLicenseOnBuildTarget(BuildTarget target){}
 		public static Rect GetBoundsOfDesktopAtPoint(Vector2 pos){}
 		private static Rect INTERNAL_CALL_GetBoundsOfDesktopAtPoint(ref Vector2 pos){}
@@ -5241,8 +5430,8 @@ namespace UnityEditorInternal {
 		public static Color[] ReadScreenPixel(Vector2 pixelPos, int sizex, int sizey){}
 		private static Color[] INTERNAL_CALL_ReadScreenPixel(ref Vector2 pixelPos, int sizex, int sizey){}
 		public static void OpenPlayerConsole(){}
-		public static Resolution GetDesktopResolution(){}
 		public InternalEditorUtility(){}
+		public static bool isApplicationActive{ get	{} }
 		public static bool inBatchMode{ get	{} }
 		public static bool isHumanControllingUs{ get	{} }
 		public static Int32[] expandedProjectWindowItems{ get	{} set	{} }
@@ -5316,7 +5505,13 @@ namespace UnityEditorInternal {
 		public static void DirectIPConnect(string IP){}
 		public static void DirectURLConnect(string url){}
 		public static string GetOverviewText(ProfilerArea profilerArea, int frame){}
+		public static void RequestMemorySnapshot(){}
 		public static void RequestObjectMemoryInfo(){}
+		public static void QueryInstrumentableFunctions(){}
+		public static void QueryFunctionCallees(string fullName){}
+		public static void SetAutoInstrumentedAssemblies(InstrumentedAssemblyTypes value){}
+		public static void BeginInstrumentFunction(string fullName){}
+		public static void EndInstrumentFunction(string fullName){}
 		public ProfilerDriver(){}
 		public static int firstFrameIndex{ get	{} }
 		public static int lastFrameIndex{ get	{} }
@@ -5401,6 +5596,7 @@ namespace UnityEditorInternal {
 
 	public sealed class	RegistryUtil: Object
 	{
+		public static uint GetRegistryUInt32Value32(string subKey, string valueName){}
 		public static string GetRegistryStringValue32(string subKey, string valueName){}
 		public RegistryUtil(){}
 	}
@@ -5518,6 +5714,7 @@ namespace UnityEditorInternal {
 		public static void ResetToolToPrevious(){}
 		private static void EndSceneViewEditing(){}
 		public static void OnSelectionChange(){}
+		public static void QuitEditMode(){}
 		private static void DetectMainToolChange(){}
 		public static void DoEditModeInspectorModeButton(SceneViewEditMode mode, string label, GUIContent icon, Bounds bounds, Editor caller){}
 		public static void DoInspectorToolbar(SceneViewEditMode[] modes, GUIContent[] guiContents, Bounds bounds, Editor caller){}
@@ -5577,19 +5774,19 @@ namespace UnityEditorInternal {
 		private static string GetFormattedMethodName(string targetName, string methodName, string args, bool dynamic){}
 		private static void SetEventFunction(System.Object source){}
 		private static void ClearEventFunction(System.Object source){}
-		private static Type <GetEventParams>m__16C(ParameterInfo x){}
-		private static bool <CalculateMethodMap>m__16D(MethodInfo x){}
-		private static bool <CalculateMethodMap>m__16E(PropertyInfo x){}
-		private static MethodInfo <CalculateMethodMap>m__16F(PropertyInfo x){}
-		private static Type <BuildPopupList>m__170(ParameterInfo x){}
-		private static bool <BuildPopupList>m__171(Component c){}
-		private static string <BuildPopupList>m__172(Component c){}
-		private static string <BuildPopupList>m__173(string x){}
-		private static bool <BuildPopupList>m__174(IGrouping<String, String> g){}
-		private static string <BuildPopupList>m__175(IGrouping<String, String> g){}
-		private static string <GeneratePopUpForType>m__176(Type e){}
-		private static int <AddMethodsToMenu>m__177(ValidMethodMap e){}
-		private static string <AddMethodsToMenu>m__178(ValidMethodMap e){}
+		private static Type <GetEventParams>m__18F(ParameterInfo x){}
+		private static bool <CalculateMethodMap>m__190(MethodInfo x){}
+		private static bool <CalculateMethodMap>m__191(PropertyInfo x){}
+		private static MethodInfo <CalculateMethodMap>m__192(PropertyInfo x){}
+		private static Type <BuildPopupList>m__193(ParameterInfo x){}
+		private static bool <BuildPopupList>m__194(Component c){}
+		private static string <BuildPopupList>m__195(Component c){}
+		private static string <BuildPopupList>m__196(string x){}
+		private static bool <BuildPopupList>m__197(IGrouping<String, String> g){}
+		private static string <BuildPopupList>m__198(IGrouping<String, String> g){}
+		private static string <GeneratePopUpForType>m__199(Type e){}
+		private static int <AddMethodsToMenu>m__19A(ValidMethodMap e){}
+		private static string <AddMethodsToMenu>m__19B(ValidMethodMap e){}
 		public UnityEventDrawer(){}
 		private Styles m_Styles;
 		private string m_Text;
@@ -5697,6 +5894,8 @@ namespace UnityEditor.Animations {
 	public sealed class	BlendTree: Motion
 	{
 		private static void Internal_Create(BlendTree mono){}
+		internal int GetChildCount(){}
+		internal Motion GetChildMotion(int index){}
 		internal void SortChildren(){}
 		internal string GetRecursiveBlendParameter(int index){}
 		internal float GetRecursiveBlendParameterMin(int index){}
@@ -5718,6 +5917,7 @@ namespace UnityEditor.Animations {
 		public string blendParameterY{ get	{} set	{} }
 		public BlendTreeType blendType{ get	{} set	{} }
 		public ChildMotion[] children{ get	{} set	{} }
+		public bool useAutomaticThresholds{ get	{} set	{} }
 		int recursiveBlendParameterCount{ get	{} }
 	}
 
@@ -5756,6 +5956,7 @@ namespace UnityEditor.Animations {
 		public bool orderedInterruption{ get	{} set	{} }
 		public float exitTime{ get	{} set	{} }
 		public bool hasExitTime{ get	{} set	{} }
+		public bool hasFixedDuration{ get	{} set	{} }
 		public bool canTransitionToSelf{ get	{} set	{} }
 	}
 
@@ -5763,7 +5964,9 @@ namespace UnityEditor.Animations {
 	{
 		private static void Internal_Create(AnimatorState mono){}
 		internal void AddBehaviour(int instanceID){}
+		internal void RemoveBehaviour(int index){}
 		private ScriptableObject Internal_AddStateMachineBehaviourWithType(Type stateMachineBehaviourType){}
+		internal MonoScript GetBehaviourMonoScript(int index){}
 		public StateMachineBehaviour AddStateMachineBehaviour(Type stateMachineBehaviourType){}
 		public T AddStateMachineBehaviour(){}
 		public void AddTransition(AnimatorStateTransition transition){}
@@ -5779,15 +5982,22 @@ namespace UnityEditor.Animations {
 		internal AnimatorStateMachine FindParent(AnimatorStateMachine root){}
 		internal AnimatorStateTransition FindTransition(AnimatorState destinationState){}
 		public Motion GetMotion(){}
-		private bool <FindParent>m__11(ChildAnimatorStateMachine sm){}
+		private bool <FindParent>m__13(ChildAnimatorStateMachine sm){}
 		public AnimatorState(){}
 		public int nameHash{ get	{} }
 		public Motion motion{ get	{} set	{} }
 		public float speed{ get	{} set	{} }
+		public float cycleOffset{ get	{} set	{} }
 		public bool mirror{ get	{} set	{} }
 		public bool iKOnFeet{ get	{} set	{} }
 		public bool writeDefaultValues{ get	{} set	{} }
 		public string tag{ get	{} set	{} }
+		public string speedParameter{ get	{} set	{} }
+		public string cycleOffsetParameter{ get	{} set	{} }
+		public string mirrorParameter{ get	{} set	{} }
+		public bool speedParameterActive{ get	{} set	{} }
+		public bool cycleOffsetParameterActive{ get	{} set	{} }
+		public bool mirrorParameterActive{ get	{} set	{} }
 		public AnimatorStateTransition[] transitions{ get	{} set	{} }
 		public StateMachineBehaviour[] behaviours{ get	{} set	{} }
 		bool pushUndo{ set	{} }
@@ -5810,6 +6020,8 @@ namespace UnityEditor.Animations {
 		public AnimatorTransition[] GetStateMachineTransitions(AnimatorStateMachine sourceStateMachine){}
 		public void SetStateMachineTransitions(AnimatorStateMachine sourceStateMachine, AnimatorTransition[] transitions){}
 		internal void AddBehaviour(int instanceID){}
+		internal void RemoveBehaviour(int index){}
+		internal MonoScript GetBehaviourMonoScript(int index){}
 		private ScriptableObject Internal_AddStateMachineBehaviourWithType(Type stateMachineBehaviourType){}
 		public StateMachineBehaviour AddStateMachineBehaviour(Type stateMachineBehaviourType){}
 		public T AddStateMachineBehaviour(){}
@@ -5849,6 +6061,7 @@ namespace UnityEditor.Animations {
 		public AnimatorTransition AddEntryTransition(AnimatorStateMachine destinationStateMachine){}
 		public bool RemoveEntryTransition(AnimatorTransition transition){}
 		internal ChildAnimatorState FindState(int nameHash){}
+		internal ChildAnimatorState FindState(string name){}
 		internal bool HasState(AnimatorState state){}
 		internal bool IsDirectParent(AnimatorStateMachine stateMachine){}
 		internal bool HasStateMachine(AnimatorStateMachine child){}
@@ -5918,7 +6131,8 @@ namespace UnityEditor.Animations {
 	public sealed class	AnimatorController: RuntimeAnimatorController
 	{
 		private static void Internal_Create(AnimatorController mono){}
-		internal static AnimatorController GetEffectiveAnimatorController(Animator behavior){}
+		internal static AnimatorController GetEffectiveAnimatorController(Animator animator){}
+		internal static AnimatorControllerPlayable FindAnimatorControllerPlayable(Animator animator, AnimatorController controller){}
 		public static void SetAnimatorController(Animator behavior, AnimatorController controller){}
 		internal int IndexOfParameter(string name){}
 		internal void RenameParameter(string prevName, string newName){}
@@ -5927,17 +6141,26 @@ namespace UnityEditor.Animations {
 		public static StateMachineBehaviourContext[] FindStateMachineBehaviourContext(StateMachineBehaviour behaviour){}
 		public static int CreateStateMachineBehaviour(MonoScript script){}
 		internal static bool CanAddStateMachineBehaviours(){}
+		internal MonoScript GetBehaviourMonoScript(AnimatorState state, int layerIndex, int behaviourIndex){}
 		private ScriptableObject Internal_AddStateMachineBehaviourWithType(Type stateMachineBehaviourType, AnimatorState state, int layerIndex){}
 		public StateMachineBehaviour AddEffectiveStateMachineBehaviour(Type stateMachineBehaviourType, AnimatorState state, int layerIndex){}
 		public T AddEffectiveStateMachineBehaviour(AnimatorState state, int layerIndex){}
+		public T[] GetBehaviours(){}
+		internal ScriptableObject[] GetBehaviours(Type type){}
+		internal static T[] ConvertStateMachineBehaviour(ScriptableObject[] rawObjects){}
 		internal Object[] CollectObjectsUsingParameter(string parameterName){}
 		internal void AddStateEffectiveBehaviour(AnimatorState state, int layerIndex, int instanceID){}
+		internal void RemoveStateEffectiveBehaviour(AnimatorState state, int layerIndex, int behaviourIndex){}
+		internal StateMachineBehaviour[] Internal_GetEffectiveBehaviours(AnimatorState state, int layerIndex){}
+		internal void Internal_SetEffectiveBehaviours(AnimatorState state, int layerIndex, StateMachineBehaviour[] behaviours){}
 		internal static StateMachineBehaviourContext[] Internal_FindStateMachineBehaviourContext(ScriptableObject scriptableObject){}
 		internal string GetDefaultBlendTreeParameter(){}
 		internal static void OnInvalidateAnimatorController(AnimatorController controller){}
 		internal AnimatorStateMachine FindEffectiveRootStateMachine(int layerIndex){}
 		public void AddLayer(string name){}
 		public void AddLayer(AnimatorControllerLayer layer){}
+		internal void RemoveLayers(List<Int32> layerIndexes){}
+		private void RemoveLayerInternal(int index, ref AnimatorControllerLayer[] layerVector){}
 		public void RemoveLayer(int index){}
 		public void AddParameter(string name, AnimatorControllerParameterType type){}
 		public void AddParameter(AnimatorControllerParameter paramater){}
@@ -5966,10 +6189,17 @@ namespace UnityEditor.Animations {
 		int parameterCount{ get	{} }
 		int layerCount{ get	{} }
 		internal Action OnAnimatorControllerDirty;
-		private PushUndoIfNeeded undoHandler;
+		internal PushUndoIfNeeded undoHandler;
 		internal static AnimatorController lastActiveController;
 		internal static int lastActiveLayerIndex;
 		private const string kControllerExtension = null;
+	}
+
+	internal class	PushUndoIfNeededImpl: Object
+	{
+		public void DoUndo(System.Object target, string undoOperation){}
+		public PushUndoIfNeededImpl(bool pushUndo){}
+		public bool m_PushUndo;
 	}
 
 }
@@ -6075,6 +6305,8 @@ namespace UnityEditor.VersionControl {
 		public void Edit(){}
 		public System.Object Load(){}
 		internal static string StateToString(States state){}
+		internal static string AllStateToString(States state){}
+		internal string AllStateToString(){}
 		internal string StateToString(){}
 		public Asset(string clientPath){}
 		public States state{ get	{} }
@@ -6093,6 +6325,9 @@ namespace UnityEditor.VersionControl {
 
 	public sealed class	Provider: Object
 	{
+		public static Task Merge(AssetList assets, MergeMethod method){}
+		public static bool LockIsValid(AssetList assets){}
+		public static bool LockIsValid(Asset asset){}
 		public static bool UnlockIsValid(AssetList assets){}
 		public static bool UnlockIsValid(Asset asset){}
 		public static Task Lock(AssetList assets, bool locked){}
@@ -6125,7 +6360,7 @@ namespace UnityEditor.VersionControl {
 		private static Task Internal_Status(Asset[] assets, bool recursively){}
 		private static Task Internal_StatusStrings(String[] assetsProjectPaths, bool recursively){}
 		private static Task Internal_StatusAbsolutePath(string assetPath){}
-		private static bool Internal_CheckoutIsValid(Asset[] assets){}
+		private static bool Internal_CheckoutIsValid(Asset[] assets, CheckoutMode mode){}
 		private static Task Internal_Checkout(Asset[] assets, CheckoutMode mode){}
 		private static Task Internal_CheckoutStrings(String[] assets, CheckoutMode mode){}
 		private static bool Internal_PromptAndCheckoutIfNeeded(String[] assets, string promptIfCheckoutIsNeeded){}
@@ -6178,10 +6413,12 @@ namespace UnityEditor.VersionControl {
 		public static Task Status(string asset, bool recursively){}
 		public static Task Move(string from, string to){}
 		public static bool CheckoutIsValid(AssetList assets){}
+		public static bool CheckoutIsValid(AssetList assets, CheckoutMode mode){}
 		public static Task Checkout(AssetList assets, CheckoutMode mode){}
 		public static Task Checkout(String[] assets, CheckoutMode mode){}
 		public static Task Checkout(Object[] assets, CheckoutMode mode){}
 		public static bool CheckoutIsValid(Asset asset){}
+		public static bool CheckoutIsValid(Asset asset, CheckoutMode mode){}
 		public static Task Checkout(Asset asset, CheckoutMode mode){}
 		public static Task Checkout(string asset, CheckoutMode mode){}
 		public static Task Checkout(System.Object asset, CheckoutMode mode){}
@@ -6201,14 +6438,12 @@ namespace UnityEditor.VersionControl {
 		public static Task DiffHead(AssetList assets, bool includingMetaFiles){}
 		public static bool ResolveIsValid(AssetList assets){}
 		public static Task Resolve(AssetList assets, ResolveMethod resolveMethod){}
-		public static Task Merge(AssetList assets, MergeMethod method){}
-		public static bool LockIsValid(AssetList assets){}
-		public static bool LockIsValid(Asset asset){}
 		public Provider(){}
 		public static bool enabled{ get	{} }
 		public static bool isActive{ get	{} }
 		public static bool requiresNetwork{ get	{} }
 		public static bool hasChangelistSupport{ get	{} }
+		public static bool hasCheckoutSupport{ get	{} }
 		public static bool isVersioningFolders{ get	{} }
 		public static OnlineState onlineState{ get	{} }
 		public static string offlineReason{ get	{} }
@@ -6226,7 +6461,7 @@ namespace UnityEditor.VersionControl {
 		private Message[] Internal_GetMessages(){}
 		public void Dispose(){}
 		protected virtual void Finalize(){}
-		public Task(){}
+		internal Task(){}
 		public int userIdentifier{ get	{} set	{} }
 		public string text{ get	{} }
 		public string description{ get	{} }
@@ -6266,7 +6501,7 @@ namespace UnityEditor.VersionControl {
 		protected virtual void Finalize(){}
 		public void Show(){}
 		private static void Info(string message){}
-		public Message(){}
+		internal Message(){}
 		public Severity severity{ get	{} }
 		public string message{ get	{} }
 		private IntPtr m_thisDummy;
@@ -6276,7 +6511,7 @@ namespace UnityEditor.VersionControl {
 	{
 		public void Dispose(){}
 		protected virtual void Finalize(){}
-		public ConfigField(){}
+		internal ConfigField(){}
 		public string name{ get	{} }
 		public string label{ get	{} }
 		public string description{ get	{} }
@@ -6289,8 +6524,7 @@ namespace UnityEditor.VersionControl {
 	public sealed class	Plugin: Object
 	{
 		public void Dispose(){}
-		protected virtual void Finalize(){}
-		public Plugin(){}
+		internal Plugin(){}
 		public static Plugin[] availablePlugins{ get	{} }
 		public string name{ get	{} }
 		public ConfigField[] configFields{ get	{} }
@@ -6323,6 +6557,7 @@ namespace UnityEditor.Sprites {
 	public sealed class	PackerJob: Object
 	{
 		public void AddAtlas(string atlasName, AtlasSettings settings){}
+		private void AddAtlas_Internal(string atlasName, ref AtlasSettings settings){}
 		public void AssignToAtlas(string atlasName, Sprite sprite, SpritePackingMode packingMode, SpritePackingRotation packingRotation){}
 		internal PackerJob(){}
 	}
@@ -6339,7 +6574,7 @@ namespace UnityEditor.Sprites {
 		internal static string GetSelectedPolicyId(){}
 		internal static void ExecuteSelectedPolicy(BuildTarget target, Int32[] textureImporterInstanceIDs){}
 		internal static void SaveUnappliedTextureImporterSettings(){}
-		private static string <RegenerateList>m__2B(Type t){}
+		private static string <RegenerateList>m__2E(Type t){}
 		public Packer(){}
 		private static Packer(){}
 		public static String[] atlasNames{ get	{} }
@@ -6373,6 +6608,13 @@ namespace UnityEditor.Sprites {
 		void OnGroupAtlases(BuildTarget target, PackerJob job, Int32[] textureImporterInstanceIDs);
 		int GetVersion();
 	}
+
+}
+
+namespace UnityEditor.Web {
+	delegate void TaskCallback();
+
+	delegate void ExecCallback(System.Object result);
 
 }
 

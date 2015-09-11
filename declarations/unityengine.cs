@@ -1,3 +1,6 @@
+// WARNING:Skipped nested type: UnityEngine.Transform+Enumerator
+// WARNING:Skipped nested type: UnityEngine.SamsungTV+OpenAPI
+// WARNING:Skipped nested type: UnityEngine.Animation+Enumerator
 // WARNING:Skipped nested type: UnityEngine.GUI+ScrollViewState
 // WARNING:Skipped nested type: UnityEngine.GUI+Scope
 // WARNING:Skipped nested type: UnityEngine.GUI+GroupScope
@@ -9,86 +12,19 @@
 // WARNING:Skipped nested type: UnityEngine.GUILayout+AreaScope
 // WARNING:Skipped nested type: UnityEngine.GUILayout+ScrollViewScope
 // WARNING:Skipped nested type: UnityEngine.GUILayoutUtility+LayoutCache
-// WARNING:Skipped nested type: UnityEngine.Transform+Enumerator
-// WARNING:Skipped nested type: UnityEngine.Animation+Enumerator
 // WARNING:Skipped nested type: UnityEngine.InternalStaticBatchingUtility+SortGO
+// WARNING:Skipped nested type: UnityEngineInternal.APIUpdaterRuntimeServices+<ResolveType>c__AnonStorey6
+// WARNING:Skipped nested type: UnityEngine.Networking.Match.NetworkMatch+<ProcessMatchResponse>c__Iterator0`1[JSONRESPONSE]
+// WARNING:Skipped nested type: SimpleJson.Reflection.ReflectionUtils+ThreadSafeDictionary`2[TKey,TValue]
+// WARNING:Skipped nested type: SimpleJson.Reflection.ReflectionUtils+<GetConstructorByReflection>c__AnonStorey1
+// WARNING:Skipped nested type: SimpleJson.Reflection.ReflectionUtils+<GetGetMethodByReflection>c__AnonStorey2
+// WARNING:Skipped nested type: SimpleJson.Reflection.ReflectionUtils+<GetGetMethodByReflection>c__AnonStorey3
+// WARNING:Skipped nested type: SimpleJson.Reflection.ReflectionUtils+<GetSetMethodByReflection>c__AnonStorey4
+// WARNING:Skipped nested type: SimpleJson.Reflection.ReflectionUtils+<GetSetMethodByReflection>c__AnonStorey5
 
 // INFO:MMCSReflector::ImportedAssembly: UnityEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
 
 namespace UnityEngine {
-    public struct Vector3
-    {
-        public const float kEpsilon = 1e-005f;
-
-        public float x;
-        public float y;
-        public float z;
-
-        public Vector3(float x, float y);
-        public Vector3(float x, float y, float z);
-
-        public static Vector3 operator -(Vector3 a);
-        public static Vector3 operator -(Vector3 a, Vector3 b);
-        public static bool operator !=(Vector3 lhs, Vector3 rhs);
-        public static Vector3 operator *(float d, Vector3 a);
-        public static Vector3 operator *(Vector3 a, float d);
-        public static Vector3 operator /(Vector3 a, float d);
-        public static Vector3 operator +(Vector3 a, Vector3 b);
-        public static bool operator ==(Vector3 lhs, Vector3 rhs);
-
-        public static Vector3 back { get; }
-        public static Vector3 down { get; }
-        public static Vector3 forward { get; }
-        [Obsolete("Use Vector3.forward instead.")]
-        public static Vector3 fwd { get; }
-        public static Vector3 left { get; }
-        public float magnitude { get; }
-        public Vector3 normalized { get; }
-        public static Vector3 one { get; }
-        public static Vector3 right { get; }
-        public float sqrMagnitude { get; }
-        public static Vector3 up { get; }
-        public static Vector3 zero { get; }
-
-        public float this[int index] { get; set; }
-
-        public static float Angle(Vector3 from, Vector3 to);
-        [Obsolete("Use Vector3.Angle instead. AngleBetween uses radians instead of degrees and was deprecated for this reason")]
-        public static float AngleBetween(Vector3 from, Vector3 to);
-        public static Vector3 ClampMagnitude(Vector3 vector, float maxLength);
-        public static Vector3 Cross(Vector3 lhs, Vector3 rhs);
-        public static float Distance(Vector3 a, Vector3 b);
-        public static float Dot(Vector3 lhs, Vector3 rhs);
-        public override bool Equals(object other);
-        [Obsolete("Use Vector3.ProjectOnPlane instead.")]
-        public static Vector3 Exclude(Vector3 excludeThis, Vector3 fromThat);
-        public override int GetHashCode();
-        public static Vector3 Lerp(Vector3 from, Vector3 to, float t);
-        public static float Magnitude(Vector3 a);
-        public static Vector3 Max(Vector3 lhs, Vector3 rhs);
-        public static Vector3 Min(Vector3 lhs, Vector3 rhs);
-        public static Vector3 MoveTowards(Vector3 current, Vector3 target, float maxDistanceDelta);
-        public void Normalize();
-        public static Vector3 Normalize(Vector3 value);
-        public static void OrthoNormalize(ref Vector3 normal, ref Vector3 tangent);
-        public static void OrthoNormalize(ref Vector3 normal, ref Vector3 tangent, ref Vector3 binormal);
-        public static Vector3 Project(Vector3 vector, Vector3 onNormal);
-        public static Vector3 ProjectOnPlane(Vector3 vector, Vector3 planeNormal);
-        public static Vector3 Reflect(Vector3 inDirection, Vector3 inNormal);
-        public static Vector3 RotateTowards(Vector3 current, Vector3 target, float maxRadiansDelta, float maxMagnitudeDelta);
-        public void Scale(Vector3 scale);
-        public static Vector3 Scale(Vector3 a, Vector3 b);
-        public void Set(float new_x, float new_y, float new_z);
-        public static Vector3 Slerp(Vector3 from, Vector3 to, float t);
-        [ExcludeFromDocs]
-        public static Vector3 SmoothDamp(Vector3 current, Vector3 target, ref Vector3 currentVelocity, float smoothTime);
-        [ExcludeFromDocs]
-        public static Vector3 SmoothDamp(Vector3 current, Vector3 target, ref Vector3 currentVelocity, float smoothTime, float maxSpeed);
-        public static Vector3 SmoothDamp(Vector3 current, Vector3 target, ref Vector3 currentVelocity, float smoothTime, float maxSpeed, float deltaTime);
-        public static float SqrMagnitude(Vector3 a);
-        public override string ToString();
-        public string ToString(string format);
-    }
 	public sealed class	AssetBundleCreateRequest: AsyncOperation
 	{
 		internal void DisableCompatibilityChecks(){}
@@ -173,6 +109,7 @@ namespace UnityEngine {
 		public static string graphicsDeviceVendor{ get	{} }
 		public static int graphicsDeviceID{ get	{} }
 		public static int graphicsDeviceVendorID{ get	{} }
+		public static GraphicsDeviceType graphicsDeviceType{ get	{} }
 		public static string graphicsDeviceVersion{ get	{} }
 		public static int graphicsShaderLevel{ get	{} }
 		public static int graphicsPixelFillrate{ get	{} }
@@ -254,6 +191,7 @@ namespace UnityEngine {
 		public static string logFile{ get	{} set	{} }
 		public static bool enableBinaryLog{ get	{} set	{} }
 		public static bool enabled{ get	{} set	{} }
+		public static int maxNumberOfSamplesPerFrame{ get	{} set	{} }
 		public static uint usedHeapSize{ get	{} }
 	}
 
@@ -280,7 +218,7 @@ namespace UnityEngine {
 	public sealed class	Cursor: Object
 	{
 		private static void SetCursor(Texture2D texture, CursorMode cursorMode){}
-		public static void SetCursor(Texture2D texture, etector2 hotspot, CursorMode cursorMode){}
+		public static void SetCursor(Texture2D texture, Vector2 hotspot, CursorMode cursorMode){}
 		private static void INTERNAL_CALL_SetCursor(Texture2D texture, ref Vector2 hotspot, CursorMode cursorMode){}
 		public Cursor(){}
 		public static bool visible{ get	{} set	{} }
@@ -332,7 +270,6 @@ namespace UnityEngine {
 		public static Color ambientEquatorColor{ get	{} set	{} }
 		public static Color ambientGroundColor{ get	{} set	{} }
 		public static Color ambientLight{ get	{} set	{} }
-		public static float ambientSkyboxAmount{ get	{} set	{} }
 		public static float ambientIntensity{ get	{} set	{} }
 		public static SphericalHarmonicsL2 ambientProbe{ get	{} set	{} }
 		public static float reflectionIntensity{ get	{} set	{} }
@@ -344,6 +281,7 @@ namespace UnityEngine {
 		public static DefaultReflectionMode defaultReflectionMode{ get	{} set	{} }
 		public static int defaultReflectionResolution{ get	{} set	{} }
 		public static Cubemap customReflection{ get	{} set	{} }
+		public static float ambientSkyboxAmount{ get	{} set	{} }
 	}
 
 	public sealed class	QualitySettings: Object
@@ -364,6 +302,7 @@ namespace UnityEngine {
 		public static ShadowProjection shadowProjection{ get	{} set	{} }
 		public static int shadowCascades{ get	{} set	{} }
 		public static float shadowDistance{ get	{} set	{} }
+		public static float shadowNearPlaneOffset{ get	{} set	{} }
 		public static float shadowCascade2Split{ get	{} set	{} }
 		public static Vector3 shadowCascade4Split{ get	{} set	{} }
 		public static int masterTextureLimit{ get	{} set	{} }
@@ -394,13 +333,29 @@ namespace UnityEngine {
 		private static void Internal_Create(Mesh mono){}
 		public void Clear(bool keepVertexLayout){}
 		public void Clear(){}
+		public void SetVertices(List<Vector3> inVertices){}
+		private void SetVerticesInternal(System.Object vertices){}
+		public void SetNormals(List<Vector3> inNormals){}
+		private void SetNormalsInternal(System.Object normals){}
+		public void SetTangents(List<Vector4> inTangents){}
+		private void SetTangentsInternal(System.Object tangents){}
+		public void SetUVs(int channel, List<Vector2> uvs){}
+		public void SetUVs(int channel, List<Vector3> uvs){}
+		public void SetUVs(int channel, List<Vector4> uvs){}
+		private void SetUVInternal(System.Object uvs, int channel, int dim){}
 		private void INTERNAL_get_bounds(out Bounds value){}
 		private void INTERNAL_set_bounds(ref Bounds value){}
+		public void SetColors(List<Color> inColors){}
+		private void SetColorsInternal(System.Object colors){}
+		public void SetColors(List<Color32> inColors){}
+		private void SetColors32Internal(System.Object colors){}
 		public void RecalculateBounds(){}
 		public void RecalculateNormals(){}
 		public void Optimize(){}
 		public Int32[] GetTriangles(int submesh){}
 		public void SetTriangles(Int32[] triangles, int submesh){}
+		public void SetTriangles(List<Int32> inTriangles, int submesh){}
+		private void SetTrianglesInternal(System.Object triangles, int submesh){}
 		public Int32[] GetIndices(int submesh){}
 		public void SetIndices(Int32[] indices, MeshTopology topology, int submesh){}
 		public MeshTopology GetTopology(int submesh){}
@@ -430,6 +385,7 @@ namespace UnityEngine {
 		public BoneWeight[] boneWeights{ get	{} set	{} }
 		public Matrix4x4[] bindposes{ get	{} set	{} }
 		public int blendShapeCount{ get	{} }
+		public Vector2[] uv1{ get	{} set	{} }
 	}
 
 	public class	SkinnedMeshRenderer: Renderer
@@ -446,6 +402,7 @@ namespace UnityEngine {
 		public Mesh sharedMesh{ get	{} set	{} }
 		public bool updateWhenOffscreen{ get	{} set	{} }
 		public Bounds localBounds{ get	{} set	{} }
+		Transform actualRootBone{ get	{} }
 	}
 
 	public sealed class	Flare: Object
@@ -469,12 +426,14 @@ namespace UnityEngine {
 		internal void SetSubsetIndex(int index, int subSetIndexForMaterial){}
 		private void INTERNAL_get_worldToLocalMatrix(out Matrix4x4 value){}
 		private void INTERNAL_get_localToWorldMatrix(out Matrix4x4 value){}
+		private void INTERNAL_get_bounds(out Bounds value){}
 		private void INTERNAL_get_lightmapScaleOffset(out Vector4 value){}
 		private void INTERNAL_set_lightmapScaleOffset(ref Vector4 value){}
 		private void INTERNAL_get_realtimeLightmapScaleOffset(out Vector4 value){}
 		private void INTERNAL_set_realtimeLightmapScaleOffset(ref Vector4 value){}
 		public void SetPropertyBlock(MaterialPropertyBlock properties){}
 		public void GetPropertyBlock(MaterialPropertyBlock dest){}
+		internal void RenderNow(int material){}
 		private void GetClosestReflectionProbesInternal(System.Object result){}
 		public void GetClosestReflectionProbes(List<ReflectionProbeBlendInfo> result){}
 		public Renderer(){}
@@ -493,7 +452,7 @@ namespace UnityEngine {
 		public Material[] sharedMaterials{ get	{} set	{} }
 		public Bounds bounds{ get	{} }
 		public int lightmapIndex{ get	{} set	{} }
-		public int realtimeLightmapIndex{ get	{} }
+		public int realtimeLightmapIndex{ get	{} set	{} }
 		public Vector4 lightmapScaleOffset{ get	{} set	{} }
 		public Vector4 realtimeLightmapScaleOffset{ get	{} set	{} }
 		public bool isVisible{ get	{} }
@@ -503,6 +462,8 @@ namespace UnityEngine {
 		public string sortingLayerName{ get	{} set	{} }
 		public int sortingLayerID{ get	{} set	{} }
 		public int sortingOrder{ get	{} set	{} }
+		public Vector4 lightmapTilingOffset{ get	{} set	{} }
+		public Transform lightProbeAnchor{ get	{} set	{} }
 	}
 
 	public sealed class	Projector: Behaviour
@@ -516,6 +477,8 @@ namespace UnityEngine {
 		public float orthographicSize{ get	{} set	{} }
 		public int ignoreLayers{ get	{} set	{} }
 		public Material material{ get	{} set	{} }
+		public bool isOrthoGraphic{ get	{} set	{} }
+		public float orthoGraphicSize{ get	{} set	{} }
 	}
 
 	public sealed class	Skybox: Behaviour
@@ -588,6 +551,7 @@ namespace UnityEngine {
 		public Texture GetTexture(int nameID){}
 		public void Clear(){}
 		public MaterialPropertyBlock(){}
+		public bool isEmpty{ get	{} }
 		internal IntPtr m_Ptr;
 	}
 
@@ -608,8 +572,9 @@ namespace UnityEngine {
 		public static void DrawMesh(Mesh mesh, Matrix4x4 matrix, Material material, int layer, Camera camera){}
 		public static void DrawMesh(Mesh mesh, Matrix4x4 matrix, Material material, int layer){}
 		public static void DrawMesh(Mesh mesh, Matrix4x4 matrix, Material material, int layer, Camera camera, int submeshIndex, MaterialPropertyBlock properties, bool castShadows, bool receiveShadows){}
-		public static void DrawMesh(Mesh mesh, Matrix4x4 matrix, Material material, int layer, Camera camera, int submeshIndex, MaterialPropertyBlock properties, ShadowCastingMode castShadows){}
 		public static void DrawMesh(Mesh mesh, Matrix4x4 matrix, Material material, int layer, Camera camera, int submeshIndex, MaterialPropertyBlock properties, ShadowCastingMode castShadows, bool receiveShadows){}
+		public static void DrawMesh(Mesh mesh, Matrix4x4 matrix, Material material, int layer, Camera camera, int submeshIndex, MaterialPropertyBlock properties, ShadowCastingMode castShadows){}
+		public static void DrawMesh(Mesh mesh, Matrix4x4 matrix, Material material, int layer, Camera camera, int submeshIndex, MaterialPropertyBlock properties, ShadowCastingMode castShadows, bool receiveShadows, Transform probeAnchor){}
 		private static void Internal_DrawMeshTR(ref Internal_DrawMeshTRArguments arguments, MaterialPropertyBlock properties, Material material, Mesh mesh, Camera camera){}
 		private static void Internal_DrawMeshMatrix(ref Internal_DrawMeshMatrixArguments arguments, MaterialPropertyBlock properties, Material material, Mesh mesh, Camera camera){}
 		public static void DrawMeshNow(Mesh mesh, Vector3 position, Quaternion rotation){}
@@ -624,6 +589,8 @@ namespace UnityEngine {
 		public static void DrawProcedural(MeshTopology topology, int vertexCount){}
 		public static void DrawProceduralIndirect(MeshTopology topology, ComputeBuffer bufferWithArgs, int argsOffset){}
 		public static void DrawProceduralIndirect(MeshTopology topology, ComputeBuffer bufferWithArgs){}
+		internal static void DrawSprite(Sprite sprite, Matrix4x4 matrix, Material material, int layer, Camera camera, Color color, MaterialPropertyBlock properties){}
+		private static void INTERNAL_CALL_DrawSprite(Sprite sprite, ref Matrix4x4 matrix, Material material, int layer, Camera camera, ref Color color, MaterialPropertyBlock properties){}
 		public static void DrawTexture(Rect screenRect, Texture texture){}
 		public static void DrawTexture(Rect screenRect, Texture texture, Material mat){}
 		public static void DrawTexture(Rect screenRect, Texture texture, int leftBorder, int rightBorder, int topBorder, int bottomBorder){}
@@ -655,6 +622,8 @@ namespace UnityEngine {
 		private static void Internal_SetRandomWriteTargetRT(int index, RenderTexture uav){}
 		private static void Internal_SetRandomWriteTargetBuffer(int index, ComputeBuffer uav){}
 		internal static void SetupVertexLights(Light[] lights){}
+		internal static void CheckLoadActionValid(RenderBufferLoadAction load, string bufferType){}
+		internal static void CheckStoreActionValid(RenderBufferStoreAction store, string bufferType){}
 		internal static void SetRenderTargetImpl(RenderTargetSetup setup){}
 		internal static void SetRenderTargetImpl(RenderBuffer colorBuffer, RenderBuffer depthBuffer, int mipLevel, int face){}
 		internal static void SetRenderTargetImpl(RenderTexture rt, int mipLevel, int face){}
@@ -666,10 +635,17 @@ namespace UnityEngine {
 		public static void SetRenderTarget(RenderBuffer colorBuffer, RenderBuffer depthBuffer, int mipLevel){}
 		public static void SetRenderTarget(RenderBuffer colorBuffer, RenderBuffer depthBuffer, int mipLevel, CubemapFace face){}
 		public static void SetRenderTarget(RenderBuffer[] colorBuffers, RenderBuffer depthBuffer){}
-		internal static void SetRenderTarget(RenderTargetSetup setup){}
+		public static void SetRenderTarget(RenderTargetSetup setup){}
+		public static void DrawMesh(Mesh mesh, Vector3 position, Quaternion rotation){}
+		public static void DrawMesh(Mesh mesh, Vector3 position, Quaternion rotation, int materialIndex){}
+		public static void DrawMesh(Mesh mesh, Matrix4x4 matrix){}
+		public static void DrawMesh(Mesh mesh, Matrix4x4 matrix, int materialIndex){}
 		public Graphics(){}
 		public static RenderBuffer activeColorBuffer{ get	{} }
 		public static RenderBuffer activeDepthBuffer{ get	{} }
+		public static string deviceName{ get	{} }
+		public static string deviceVendor{ get	{} }
+		public static string deviceVersion{ get	{} }
 	}
 
 	public sealed class	LightmapData: Object
@@ -677,6 +653,7 @@ namespace UnityEngine {
 		public LightmapData(){}
 		public Texture2D lightmapFar{ get	{} set	{} }
 		public Texture2D lightmapNear{ get	{} set	{} }
+		public Texture2D lightmap{ get	{} set	{} }
 		internal Texture2D m_Light;
 		internal Texture2D m_Dir;
 	}
@@ -734,6 +711,9 @@ namespace UnityEngine {
 		public static bool autorotateToLandscapeRight{ get	{} set	{} }
 		public static ScreenOrientation orientation{ get	{} set	{} }
 		public static int sleepTimeout{ get	{} set	{} }
+		public static Resolution[] GetResolution{ get	{} }
+		public static bool showCursor{ get	{} set	{} }
+		private static bool <showCursor>k__BackingField;
 	}
 
 	public sealed class	SleepTimeout: Object
@@ -785,6 +765,9 @@ namespace UnityEngine {
 		public static void ClearWithSkybox(bool clearDepth, Camera camera){}
 		public static void InvalidateState(){}
 		public static void IssuePluginEvent(int eventID){}
+		public static void IssuePluginEvent(IntPtr callback, int eventID){}
+		private static void IssuePluginEventInternal(IntPtr callback, int eventID){}
+		public static void RenderTargetBarrier(){}
 		public GL(){}
 		public static Matrix4x4 modelview{ get	{} set	{} }
 		public static bool wireframe{ get	{} set	{} }
@@ -821,11 +804,42 @@ namespace UnityEngine {
 		public ImageEffectOpaque(){}
 	}
 
+	public class	GUIElement: Behaviour
+	{
+		public bool HitTest(Vector3 screenPosition, Camera camera){}
+		public bool HitTest(Vector3 screenPosition){}
+		private static bool INTERNAL_CALL_HitTest(GUIElement self, ref Vector3 screenPosition, Camera camera){}
+		public Rect GetScreenRect(Camera camera){}
+		public Rect GetScreenRect(){}
+		public GUIElement(){}
+	}
+
+	public sealed class	GUITexture: GUIElement
+	{
+		private void INTERNAL_get_color(out Color value){}
+		private void INTERNAL_set_color(ref Color value){}
+		private void INTERNAL_get_pixelInset(out Rect value){}
+		private void INTERNAL_set_pixelInset(ref Rect value){}
+		public GUITexture(){}
+		public Color color{ get	{} set	{} }
+		public Texture texture{ get	{} set	{} }
+		public Rect pixelInset{ get	{} set	{} }
+		public RectOffset border{ get	{} set	{} }
+	}
+
+	public sealed class	GUILayer: Behaviour
+	{
+		public GUIElement HitTest(Vector3 screenPosition){}
+		private static GUIElement INTERNAL_CALL_HitTest(GUILayer self, ref Vector3 screenPosition){}
+		public GUILayer(){}
+	}
+
 	public class	Texture: Object
 	{
 		public static void SetGlobalAnisotropicFilteringLimits(int forcedMin, int globalMax){}
 		private static int Internal_GetWidth(Texture mono){}
 		private static int Internal_GetHeight(Texture mono){}
+		private void INTERNAL_get_texelSize(out Vector2 value){}
 		public IntPtr GetNativeTexturePtr(){}
 		public int GetNativeTextureID(){}
 		public Texture(){}
@@ -861,6 +875,7 @@ namespace UnityEngine {
 		public void SetPixels32(int x, int y, int blockWidth, int blockHeight, Color32[] colors, int miplevel){}
 		public bool LoadImage(Byte[] data){}
 		public void LoadRawTextureData(Byte[] data){}
+		public Byte[] GetRawTextureData(){}
 		public Color[] GetPixels(){}
 		public Color[] GetPixels(int miplevel){}
 		public Color[] GetPixels(int x, int y, int blockWidth, int blockHeight, int miplevel){}
@@ -892,6 +907,7 @@ namespace UnityEngine {
 		public TextureFormat format{ get	{} }
 		public static Texture2D whiteTexture{ get	{} }
 		public static Texture2D blackTexture{ get	{} }
+		public bool alphaIsTransparency{ get	{} set	{} }
 	}
 
 	public sealed class	Cubemap: Texture
@@ -910,6 +926,7 @@ namespace UnityEngine {
 		public void SmoothEdges(int smoothRegionWidthInPixels){}
 		public void SmoothEdges(){}
 		public Cubemap(int size, TextureFormat format, bool mipmap){}
+		public int mipmapCount{ get	{} }
 		public TextureFormat format{ get	{} }
 	}
 
@@ -917,8 +934,12 @@ namespace UnityEngine {
 	{
 		public Color[] GetPixels(int miplevel){}
 		public Color[] GetPixels(){}
+		public Color32[] GetPixels32(int miplevel){}
+		public Color32[] GetPixels32(){}
 		public void SetPixels(Color[] colors, int miplevel){}
 		public void SetPixels(Color[] colors){}
+		public void SetPixels32(Color32[] colors, int miplevel){}
+		public void SetPixels32(Color32[] colors){}
 		public void Apply(bool updateMipmaps){}
 		public void Apply(){}
 		private static void Internal_Create(Texture3D mono, int width, int height, int depth, TextureFormat format, bool mipmap){}
@@ -1020,6 +1041,7 @@ namespace UnityEngine {
 		public ReflectionProbeClearFlags clearFlags{ get	{} set	{} }
 		public Color backgroundColor{ get	{} set	{} }
 		public float intensity{ get	{} set	{} }
+		public float blendDistance{ get	{} set	{} }
 		public bool boxProjection{ get	{} set	{} }
 		public Bounds bounds{ get	{} }
 		public ReflectionProbeMode mode{ get	{} set	{} }
@@ -1031,48 +1053,52 @@ namespace UnityEngine {
 		public Texture texture{ get	{} }
 	}
 
-	public class	GUIElement: Behaviour
-	{
-		public bool HitTest(Vector3 screenPosition, Camera camera){}
-		public bool HitTest(Vector3 screenPosition){}
-		private static bool INTERNAL_CALL_HitTest(GUIElement self, ref Vector3 screenPosition, Camera camera){}
-		public Rect GetScreenRect(Camera camera){}
-		public Rect GetScreenRect(){}
-		public GUIElement(){}
-	}
-
-	public sealed class	GUITexture: GUIElement
-	{
-		private void INTERNAL_get_color(out Color value){}
-		private void INTERNAL_set_color(ref Color value){}
-		private void INTERNAL_get_pixelInset(out Rect value){}
-		private void INTERNAL_set_pixelInset(ref Rect value){}
-		public GUITexture(){}
-		public Color color{ get	{} set	{} }
-		public Texture texture{ get	{} set	{} }
-		public Rect pixelInset{ get	{} set	{} }
-		public RectOffset border{ get	{} set	{} }
-	}
-
-	public sealed class	GUILayer: Behaviour
-	{
-		public GUIElement HitTest(Vector3 screenPosition){}
-		private static GUIElement INTERNAL_CALL_HitTest(GUILayer self, ref Vector3 screenPosition){}
-		public GUILayer(){}
-	}
-
 	public sealed class	LODGroup: Component
 	{
 		private void INTERNAL_get_localReferencePoint(out Vector3 value){}
 		private void INTERNAL_set_localReferencePoint(ref Vector3 value){}
 		public void RecalculateBounds(){}
-		public void SetLODS(LOD[] scriptingLODs){}
+		public LOD[] GetLODs(){}
+		public void SetLODS(LOD[] lods){}
+		public void SetLODs(LOD[] lods){}
 		public void ForceLOD(int index){}
 		public LODGroup(){}
 		public Vector3 localReferencePoint{ get	{} set	{} }
 		public float size{ get	{} set	{} }
 		public int lodCount{ get	{} }
+		public LODFadeMode fadeMode{ get	{} set	{} }
+		public bool animateCrossFading{ get	{} set	{} }
 		public bool enabled{ get	{} set	{} }
+		public static float crossFadeAnimationDuration{ get	{} set	{} }
+	}
+
+	public sealed class	CullingGroup: Object, IDisposable
+	{
+		protected virtual void Finalize(){}
+		public sealed virtual void Dispose(){}
+		public void SetBoundingSpheres(BoundingSphere[] array){}
+		public void SetBoundingSphereCount(int count){}
+		public void EraseSwapBack(int index){}
+		public static void EraseSwapBack(int index, T[] myArray, ref int size){}
+		public int QueryIndices(bool visible, Int32[] result, int firstIndex){}
+		public int QueryIndices(int distanceIndex, Int32[] result, int firstIndex){}
+		public int QueryIndices(bool visible, int distanceIndex, Int32[] result, int firstIndex){}
+		private int QueryIndices(bool visible, int distanceIndex, CullingQueryOptions options, Int32[] result, int firstIndex){}
+		public bool IsVisible(int index){}
+		public int GetDistance(int index){}
+		public void SetBoundingDistances(Single[] distances){}
+		public void SetDistanceReferencePoint(Vector3 point){}
+		private static void INTERNAL_CALL_SetDistanceReferencePoint(CullingGroup self, ref Vector3 point){}
+		public void SetDistanceReferencePoint(Transform transform){}
+		private static void SendEvents(CullingGroup cullingGroup, IntPtr eventsPtr, int count){}
+		private void Init(){}
+		private void FinalizerFailure(){}
+		public CullingGroup(){}
+		public StateChanged onStateChanged{ get	{} set	{} }
+		public bool enabled{ get	{} set	{} }
+		public Camera targetCamera{ get	{} set	{} }
+		internal IntPtr m_Ptr;
+		private StateChanged m_OnStateChanged;
 	}
 
 	public sealed class	Gradient: Object
@@ -1081,694 +1107,40 @@ namespace UnityEngine {
 		private void Cleanup(){}
 		protected virtual void Finalize(){}
 		public Color Evaluate(float time){}
+		private void INTERNAL_get_constantColor(out Color value){}
+		private void INTERNAL_set_constantColor(ref Color value){}
 		public void SetKeys(GradientColorKey[] colorKeys, GradientAlphaKey[] alphaKeys){}
 		public Gradient(){}
 		public GradientColorKey[] colorKeys{ get	{} set	{} }
 		public GradientAlphaKey[] alphaKeys{ get	{} set	{} }
+		Color constantColor{ get	{} set	{} }
 		internal IntPtr m_Ptr;
 	}
 
-	public class	GUI: Object
+	public sealed class	Handheld: Object
 	{
-		private static int DoButtonGrid(Rect position, int selected, GUIContent[] contents, int xCount, GUIStyle style, GUIStyle firstStyle, GUIStyle midStyle, GUIStyle lastStyle){}
-		private static Rect[] CalcMouseRects(Rect position, int count, int xCount, float elemWidth, float elemHeight, GUIStyle style, GUIStyle firstStyle, GUIStyle midStyle, GUIStyle lastStyle, bool addBorders){}
-		private static int GetButtonGridMouseSelection(Rect[] buttonRects, Vector2 mousePos, bool findNearest){}
-		public static float HorizontalSlider(Rect position, float value, float leftValue, float rightValue){}
-		public static float HorizontalSlider(Rect position, float value, float leftValue, float rightValue, GUIStyle slider, GUIStyle thumb){}
-		public static float VerticalSlider(Rect position, float value, float topValue, float bottomValue){}
-		public static float VerticalSlider(Rect position, float value, float topValue, float bottomValue, GUIStyle slider, GUIStyle thumb){}
-		public static float Slider(Rect position, float value, float size, float start, float end, GUIStyle slider, GUIStyle thumb, bool horiz, int id){}
-		public static float HorizontalScrollbar(Rect position, float value, float size, float leftValue, float rightValue){}
-		public static float HorizontalScrollbar(Rect position, float value, float size, float leftValue, float rightValue, GUIStyle style){}
-		internal static void InternalRepaintEditorWindow(){}
-		internal static bool ScrollerRepeatButton(int scrollerID, Rect rect, GUIStyle style){}
-		public static float VerticalScrollbar(Rect position, float value, float size, float topValue, float bottomValue){}
-		public static float VerticalScrollbar(Rect position, float value, float size, float topValue, float bottomValue, GUIStyle style){}
-		private static float Scroller(Rect position, float value, float size, float leftValue, float rightValue, GUIStyle slider, GUIStyle thumb, GUIStyle leftButton, GUIStyle rightButton, bool horiz){}
-		public static void BeginGroup(Rect position){}
-		public static void BeginGroup(Rect position, string text){}
-		public static void BeginGroup(Rect position, Texture image){}
-		public static void BeginGroup(Rect position, GUIContent content){}
-		public static void BeginGroup(Rect position, GUIStyle style){}
-		public static void BeginGroup(Rect position, string text, GUIStyle style){}
-		public static void BeginGroup(Rect position, Texture image, GUIStyle style){}
-		public static void BeginGroup(Rect position, GUIContent content, GUIStyle style){}
-		public static void EndGroup(){}
-		public static void BeginClip(Rect position){}
-		public static void EndClip(){}
-		public static Vector2 BeginScrollView(Rect position, Vector2 scrollPosition, Rect viewRect){}
-		public static Vector2 BeginScrollView(Rect position, Vector2 scrollPosition, Rect viewRect, bool alwaysShowHorizontal, bool alwaysShowVertical){}
-		public static Vector2 BeginScrollView(Rect position, Vector2 scrollPosition, Rect viewRect, GUIStyle horizontalScrollbar, GUIStyle verticalScrollbar){}
-		public static Vector2 BeginScrollView(Rect position, Vector2 scrollPosition, Rect viewRect, bool alwaysShowHorizontal, bool alwaysShowVertical, GUIStyle horizontalScrollbar, GUIStyle verticalScrollbar){}
-		protected static Vector2 DoBeginScrollView(Rect position, Vector2 scrollPosition, Rect viewRect, bool alwaysShowHorizontal, bool alwaysShowVertical, GUIStyle horizontalScrollbar, GUIStyle verticalScrollbar, GUIStyle background){}
-		internal static Vector2 BeginScrollView(Rect position, Vector2 scrollPosition, Rect viewRect, bool alwaysShowHorizontal, bool alwaysShowVertical, GUIStyle horizontalScrollbar, GUIStyle verticalScrollbar, GUIStyle background){}
-		public static void EndScrollView(){}
-		public static void EndScrollView(bool handleScrollWheel){}
-		internal static ScrollViewState GetTopScrollView(){}
-		public static void ScrollTo(Rect position){}
-		public static bool ScrollTowards(Rect position, float maxDelta){}
-		public static Rect Window(int id, Rect clientRect, WindowFunction func, string text){}
-		public static Rect Window(int id, Rect clientRect, WindowFunction func, Texture image){}
-		public static Rect Window(int id, Rect clientRect, WindowFunction func, GUIContent content){}
-		public static Rect Window(int id, Rect clientRect, WindowFunction func, string text, GUIStyle style){}
-		public static Rect Window(int id, Rect clientRect, WindowFunction func, Texture image, GUIStyle style){}
-		public static Rect Window(int id, Rect clientRect, WindowFunction func, GUIContent title, GUIStyle style){}
-		public static Rect ModalWindow(int id, Rect clientRect, WindowFunction func, string text){}
-		public static Rect ModalWindow(int id, Rect clientRect, WindowFunction func, Texture image){}
-		public static Rect ModalWindow(int id, Rect clientRect, WindowFunction func, GUIContent content){}
-		public static Rect ModalWindow(int id, Rect clientRect, WindowFunction func, string text, GUIStyle style){}
-		public static Rect ModalWindow(int id, Rect clientRect, WindowFunction func, Texture image, GUIStyle style){}
-		public static Rect ModalWindow(int id, Rect clientRect, WindowFunction func, GUIContent content, GUIStyle style){}
-		private static Rect DoModalWindow(int id, Rect clientRect, WindowFunction func, GUIContent content, GUIStyle style, GUISkin skin){}
-		private static Rect INTERNAL_CALL_DoModalWindow(int id, ref Rect clientRect, WindowFunction func, GUIContent content, GUIStyle style, GUISkin skin){}
-		internal static void CallWindowDelegate(WindowFunction func, int id, GUISkin _skin, int forceRect, float width, float height, GUIStyle style){}
-		private static Rect DoWindow(int id, Rect clientRect, WindowFunction func, GUIContent title, GUIStyle style, GUISkin skin, bool forceRectOnLayout){}
-		private static Rect INTERNAL_CALL_DoWindow(int id, ref Rect clientRect, WindowFunction func, GUIContent title, GUIStyle style, GUISkin skin, bool forceRectOnLayout){}
-		public static void DragWindow(Rect position){}
-		private static void INTERNAL_CALL_DragWindow(ref Rect position){}
-		public static void DragWindow(){}
-		public static void BringWindowToFront(int windowID){}
-		public static void BringWindowToBack(int windowID){}
-		public static void FocusWindow(int windowID){}
-		public static void UnfocusWindow(){}
-		internal static void BeginWindows(int skinMode, int editorWindowInstanceID){}
-		private static void Internal_BeginWindows(){}
-		internal static void EndWindows(){}
-		private static void Internal_EndWindows(){}
-		private static void INTERNAL_get_color(out Color value){}
-		private static void INTERNAL_set_color(ref Color value){}
-		private static void INTERNAL_get_backgroundColor(out Color value){}
-		private static void INTERNAL_set_backgroundColor(ref Color value){}
-		private static void INTERNAL_get_contentColor(out Color value){}
-		private static void INTERNAL_set_contentColor(ref Color value){}
-		private static string Internal_GetTooltip(){}
-		private static void Internal_SetTooltip(string value){}
-		private static string Internal_GetMouseTooltip(){}
-		public static void Label(Rect position, string text){}
-		public static void Label(Rect position, Texture image){}
-		public static void Label(Rect position, GUIContent content){}
-		public static void Label(Rect position, string text, GUIStyle style){}
-		public static void Label(Rect position, Texture image, GUIStyle style){}
-		public static void Label(Rect position, GUIContent content, GUIStyle style){}
-		private static void DoLabel(Rect position, GUIContent content, IntPtr style){}
-		private static void INTERNAL_CALL_DoLabel(ref Rect position, GUIContent content, IntPtr style){}
-		private static void InitializeGUIClipTexture(){}
-		public static void DrawTexture(Rect position, Texture image, ScaleMode scaleMode, bool alphaBlend){}
-		public static void DrawTexture(Rect position, Texture image, ScaleMode scaleMode){}
-		public static void DrawTexture(Rect position, Texture image){}
-		public static void DrawTexture(Rect position, Texture image, ScaleMode scaleMode, bool alphaBlend, float imageAspect){}
-		internal static bool CalculateScaledTextureRects(Rect position, ScaleMode scaleMode, float imageAspect, ref Rect outScreenRect, ref Rect outSourceRect){}
-		public static void DrawTextureWithTexCoords(Rect position, Texture image, Rect texCoords){}
-		public static void DrawTextureWithTexCoords(Rect position, Texture image, Rect texCoords, bool alphaBlend){}
-		public static void Box(Rect position, string text){}
-		public static void Box(Rect position, Texture image){}
-		public static void Box(Rect position, GUIContent content){}
-		public static void Box(Rect position, string text, GUIStyle style){}
-		public static void Box(Rect position, Texture image, GUIStyle style){}
-		public static void Box(Rect position, GUIContent content, GUIStyle style){}
-		public static bool Button(Rect position, string text){}
-		public static bool Button(Rect position, Texture image){}
-		public static bool Button(Rect position, GUIContent content){}
-		public static bool Button(Rect position, string text, GUIStyle style){}
-		public static bool Button(Rect position, Texture image, GUIStyle style){}
-		public static bool Button(Rect position, GUIContent content, GUIStyle style){}
-		private static bool DoButton(Rect position, GUIContent content, IntPtr style){}
-		private static bool INTERNAL_CALL_DoButton(ref Rect position, GUIContent content, IntPtr style){}
-		public static bool RepeatButton(Rect position, string text){}
-		public static bool RepeatButton(Rect position, Texture image){}
-		public static bool RepeatButton(Rect position, GUIContent content){}
-		public static bool RepeatButton(Rect position, string text, GUIStyle style){}
-		public static bool RepeatButton(Rect position, Texture image, GUIStyle style){}
-		public static bool RepeatButton(Rect position, GUIContent content, GUIStyle style){}
-		private static bool DoRepeatButton(Rect position, GUIContent content, GUIStyle style, FocusType focusType){}
-		public static string TextField(Rect position, string text){}
-		public static string TextField(Rect position, string text, int maxLength){}
-		public static string TextField(Rect position, string text, GUIStyle style){}
-		public static string TextField(Rect position, string text, int maxLength, GUIStyle style){}
-		public static string PasswordField(Rect position, string password, char maskChar){}
-		public static string PasswordField(Rect position, string password, char maskChar, int maxLength){}
-		public static string PasswordField(Rect position, string password, char maskChar, GUIStyle style){}
-		public static string PasswordField(Rect position, string password, char maskChar, int maxLength, GUIStyle style){}
-		internal static string PasswordFieldGetStrToShow(string password, char maskChar){}
-		public static string TextArea(Rect position, string text){}
-		public static string TextArea(Rect position, string text, int maxLength){}
-		public static string TextArea(Rect position, string text, GUIStyle style){}
-		public static string TextArea(Rect position, string text, int maxLength, GUIStyle style){}
-		private static string TextArea(Rect position, GUIContent content, int maxLength, GUIStyle style){}
-		internal static void DoTextField(Rect position, int id, GUIContent content, bool multiline, int maxLength, GUIStyle style){}
-		private static void HandleTextFieldEventForDesktop(Rect position, int id, GUIContent content, bool multiline, int maxLength, GUIStyle style, TextEditor editor){}
-		public static void SetNextControlName(string name){}
-		public static string GetNameOfFocusedControl(){}
-		public static void FocusControl(string name){}
-		public static bool Toggle(Rect position, bool value, string text){}
-		public static bool Toggle(Rect position, bool value, Texture image){}
-		public static bool Toggle(Rect position, bool value, GUIContent content){}
-		public static bool Toggle(Rect position, bool value, string text, GUIStyle style){}
-		public static bool Toggle(Rect position, bool value, Texture image, GUIStyle style){}
-		public static bool Toggle(Rect position, bool value, GUIContent content, GUIStyle style){}
-		public static bool Toggle(Rect position, int id, bool value, GUIContent content, GUIStyle style){}
-		internal static bool DoToggle(Rect position, int id, bool value, GUIContent content, IntPtr style){}
-		private static bool INTERNAL_CALL_DoToggle(ref Rect position, int id, bool value, GUIContent content, IntPtr style){}
-		public static int Toolbar(Rect position, int selected, String[] texts){}
-		public static int Toolbar(Rect position, int selected, Texture[] images){}
-		public static int Toolbar(Rect position, int selected, GUIContent[] content){}
-		public static int Toolbar(Rect position, int selected, String[] texts, GUIStyle style){}
-		public static int Toolbar(Rect position, int selected, Texture[] images, GUIStyle style){}
-		public static int Toolbar(Rect position, int selected, GUIContent[] contents, GUIStyle style){}
-		public static int SelectionGrid(Rect position, int selected, String[] texts, int xCount){}
-		public static int SelectionGrid(Rect position, int selected, Texture[] images, int xCount){}
-		public static int SelectionGrid(Rect position, int selected, GUIContent[] content, int xCount){}
-		public static int SelectionGrid(Rect position, int selected, String[] texts, int xCount, GUIStyle style){}
-		public static int SelectionGrid(Rect position, int selected, Texture[] images, int xCount, GUIStyle style){}
-		public static int SelectionGrid(Rect position, int selected, GUIContent[] contents, int xCount, GUIStyle style){}
-		internal static void FindStyles(ref GUIStyle style, out GUIStyle firstStyle, out GUIStyle midStyle, out GUIStyle lastStyle, string first, string mid, string last){}
-		internal static int CalcTotalHorizSpacing(int xCount, GUIStyle style, GUIStyle firstStyle, GUIStyle midStyle, GUIStyle lastStyle){}
-		public GUI(){}
-		private static GUI(){}
-		DateTime nextScrollStepTime{ get	{} set	{} }
-		int scrollTroughSide{ get	{} set	{} }
-		public static GUISkin skin{ get	{} set	{} }
-		public static Color color{ get	{} set	{} }
-		public static Color backgroundColor{ get	{} set	{} }
-		public static Color contentColor{ get	{} set	{} }
-		public static bool changed{ get	{} set	{} }
-		public static bool enabled{ get	{} set	{} }
-		public static Matrix4x4 matrix{ get	{} set	{} }
-		public static string tooltip{ get	{} set	{} }
-		string mouseTooltip{ get	{} }
-		Rect tooltipRect{ get	{} set	{} }
-		public static int depth{ get	{} set	{} }
-		Material blendMaterial{ get	{} }
-		Material blitMaterial{ get	{} }
-		bool usePageScrollbars{ get	{} }
-		private static float scrollStepSize;
-		private static int scrollControlID;
-		private static GUISkin s_Skin;
-		internal static Rect s_ToolTipRect;
-		private static int boxHash;
-		private static int repeatButtonHash;
-		private static int toggleHash;
-		private static int buttonGridHash;
-		private static int sliderHash;
-		private static int beginGroupHash;
-		private static int scrollviewHash;
-		private static GenericStack s_ScrollViewStates;
-		private static DateTime <nextScrollStepTime>k__BackingField;
-		private static int <scrollTroughSide>k__BackingField;
-	}
-
-	public sealed class	GUILayout: Object
-	{
-		public static void Label(Texture image, GUILayoutOption[] options){}
-		public static void Label(string text, GUILayoutOption[] options){}
-		public static void Label(GUIContent content, GUILayoutOption[] options){}
-		public static void Label(Texture image, GUIStyle style, GUILayoutOption[] options){}
-		public static void Label(string text, GUIStyle style, GUILayoutOption[] options){}
-		public static void Label(GUIContent content, GUIStyle style, GUILayoutOption[] options){}
-		private static void DoLabel(GUIContent content, GUIStyle style, GUILayoutOption[] options){}
-		public static void Box(Texture image, GUILayoutOption[] options){}
-		public static void Box(string text, GUILayoutOption[] options){}
-		public static void Box(GUIContent content, GUILayoutOption[] options){}
-		public static void Box(Texture image, GUIStyle style, GUILayoutOption[] options){}
-		public static void Box(string text, GUIStyle style, GUILayoutOption[] options){}
-		public static void Box(GUIContent content, GUIStyle style, GUILayoutOption[] options){}
-		private static void DoBox(GUIContent content, GUIStyle style, GUILayoutOption[] options){}
-		public static bool Button(Texture image, GUILayoutOption[] options){}
-		public static bool Button(string text, GUILayoutOption[] options){}
-		public static bool Button(GUIContent content, GUILayoutOption[] options){}
-		public static bool Button(Texture image, GUIStyle style, GUILayoutOption[] options){}
-		public static bool Button(string text, GUIStyle style, GUILayoutOption[] options){}
-		public static bool Button(GUIContent content, GUIStyle style, GUILayoutOption[] options){}
-		private static bool DoButton(GUIContent content, GUIStyle style, GUILayoutOption[] options){}
-		public static bool RepeatButton(Texture image, GUILayoutOption[] options){}
-		public static bool RepeatButton(string text, GUILayoutOption[] options){}
-		public static bool RepeatButton(GUIContent content, GUILayoutOption[] options){}
-		public static bool RepeatButton(Texture image, GUIStyle style, GUILayoutOption[] options){}
-		public static bool RepeatButton(string text, GUIStyle style, GUILayoutOption[] options){}
-		public static bool RepeatButton(GUIContent content, GUIStyle style, GUILayoutOption[] options){}
-		private static bool DoRepeatButton(GUIContent content, GUIStyle style, GUILayoutOption[] options){}
-		public static string TextField(string text, GUILayoutOption[] options){}
-		public static string TextField(string text, int maxLength, GUILayoutOption[] options){}
-		public static string TextField(string text, GUIStyle style, GUILayoutOption[] options){}
-		public static string TextField(string text, int maxLength, GUIStyle style, GUILayoutOption[] options){}
-		public static string PasswordField(string password, char maskChar, GUILayoutOption[] options){}
-		public static string PasswordField(string password, char maskChar, int maxLength, GUILayoutOption[] options){}
-		public static string PasswordField(string password, char maskChar, GUIStyle style, GUILayoutOption[] options){}
-		public static string PasswordField(string password, char maskChar, int maxLength, GUIStyle style, GUILayoutOption[] options){}
-		public static string TextArea(string text, GUILayoutOption[] options){}
-		public static string TextArea(string text, int maxLength, GUILayoutOption[] options){}
-		public static string TextArea(string text, GUIStyle style, GUILayoutOption[] options){}
-		public static string TextArea(string text, int maxLength, GUIStyle style, GUILayoutOption[] options){}
-		private static string DoTextField(string text, int maxLength, bool multiline, GUIStyle style, GUILayoutOption[] options){}
-		public static bool Toggle(bool value, Texture image, GUILayoutOption[] options){}
-		public static bool Toggle(bool value, string text, GUILayoutOption[] options){}
-		public static bool Toggle(bool value, GUIContent content, GUILayoutOption[] options){}
-		public static bool Toggle(bool value, Texture image, GUIStyle style, GUILayoutOption[] options){}
-		public static bool Toggle(bool value, string text, GUIStyle style, GUILayoutOption[] options){}
-		public static bool Toggle(bool value, GUIContent content, GUIStyle style, GUILayoutOption[] options){}
-		private static bool DoToggle(bool value, GUIContent content, GUIStyle style, GUILayoutOption[] options){}
-		public static int Toolbar(int selected, String[] texts, GUILayoutOption[] options){}
-		public static int Toolbar(int selected, Texture[] images, GUILayoutOption[] options){}
-		public static int Toolbar(int selected, GUIContent[] content, GUILayoutOption[] options){}
-		public static int Toolbar(int selected, String[] texts, GUIStyle style, GUILayoutOption[] options){}
-		public static int Toolbar(int selected, Texture[] images, GUIStyle style, GUILayoutOption[] options){}
-		public static int Toolbar(int selected, GUIContent[] contents, GUIStyle style, GUILayoutOption[] options){}
-		public static int SelectionGrid(int selected, String[] texts, int xCount, GUILayoutOption[] options){}
-		public static int SelectionGrid(int selected, Texture[] images, int xCount, GUILayoutOption[] options){}
-		public static int SelectionGrid(int selected, GUIContent[] content, int xCount, GUILayoutOption[] options){}
-		public static int SelectionGrid(int selected, String[] texts, int xCount, GUIStyle style, GUILayoutOption[] options){}
-		public static int SelectionGrid(int selected, Texture[] images, int xCount, GUIStyle style, GUILayoutOption[] options){}
-		public static int SelectionGrid(int selected, GUIContent[] contents, int xCount, GUIStyle style, GUILayoutOption[] options){}
-		public static float HorizontalSlider(float value, float leftValue, float rightValue, GUILayoutOption[] options){}
-		public static float HorizontalSlider(float value, float leftValue, float rightValue, GUIStyle slider, GUIStyle thumb, GUILayoutOption[] options){}
-		private static float DoHorizontalSlider(float value, float leftValue, float rightValue, GUIStyle slider, GUIStyle thumb, GUILayoutOption[] options){}
-		public static float VerticalSlider(float value, float leftValue, float rightValue, GUILayoutOption[] options){}
-		public static float VerticalSlider(float value, float leftValue, float rightValue, GUIStyle slider, GUIStyle thumb, GUILayoutOption[] options){}
-		private static float DoVerticalSlider(float value, float leftValue, float rightValue, GUIStyle slider, GUIStyle thumb, GUILayoutOption[] options){}
-		public static float HorizontalScrollbar(float value, float size, float leftValue, float rightValue, GUILayoutOption[] options){}
-		public static float HorizontalScrollbar(float value, float size, float leftValue, float rightValue, GUIStyle style, GUILayoutOption[] options){}
-		public static float VerticalScrollbar(float value, float size, float topValue, float bottomValue, GUILayoutOption[] options){}
-		public static float VerticalScrollbar(float value, float size, float topValue, float bottomValue, GUIStyle style, GUILayoutOption[] options){}
-		public static void Space(float pixels){}
-		public static void FlexibleSpace(){}
-		public static void BeginHorizontal(GUILayoutOption[] options){}
-		public static void BeginHorizontal(GUIStyle style, GUILayoutOption[] options){}
-		public static void BeginHorizontal(string text, GUIStyle style, GUILayoutOption[] options){}
-		public static void BeginHorizontal(Texture image, GUIStyle style, GUILayoutOption[] options){}
-		public static void BeginHorizontal(GUIContent content, GUIStyle style, GUILayoutOption[] options){}
-		public static void EndHorizontal(){}
-		public static void BeginVertical(GUILayoutOption[] options){}
-		public static void BeginVertical(GUIStyle style, GUILayoutOption[] options){}
-		public static void BeginVertical(string text, GUIStyle style, GUILayoutOption[] options){}
-		public static void BeginVertical(Texture image, GUIStyle style, GUILayoutOption[] options){}
-		public static void BeginVertical(GUIContent content, GUIStyle style, GUILayoutOption[] options){}
-		public static void EndVertical(){}
-		public static void BeginArea(Rect screenRect){}
-		public static void BeginArea(Rect screenRect, string text){}
-		public static void BeginArea(Rect screenRect, Texture image){}
-		public static void BeginArea(Rect screenRect, GUIContent content){}
-		public static void BeginArea(Rect screenRect, GUIStyle style){}
-		public static void BeginArea(Rect screenRect, string text, GUIStyle style){}
-		public static void BeginArea(Rect screenRect, Texture image, GUIStyle style){}
-		public static void BeginArea(Rect screenRect, GUIContent content, GUIStyle style){}
-		public static void EndArea(){}
-		public static Vector2 BeginScrollView(Vector2 scrollPosition, GUILayoutOption[] options){}
-		public static Vector2 BeginScrollView(Vector2 scrollPosition, bool alwaysShowHorizontal, bool alwaysShowVertical, GUILayoutOption[] options){}
-		public static Vector2 BeginScrollView(Vector2 scrollPosition, GUIStyle horizontalScrollbar, GUIStyle verticalScrollbar, GUILayoutOption[] options){}
-		public static Vector2 BeginScrollView(Vector2 scrollPosition, GUIStyle style){}
-		public static Vector2 BeginScrollView(Vector2 scrollPosition, GUIStyle style, GUILayoutOption[] options){}
-		public static Vector2 BeginScrollView(Vector2 scrollPosition, bool alwaysShowHorizontal, bool alwaysShowVertical, GUIStyle horizontalScrollbar, GUIStyle verticalScrollbar, GUILayoutOption[] options){}
-		public static Vector2 BeginScrollView(Vector2 scrollPosition, bool alwaysShowHorizontal, bool alwaysShowVertical, GUIStyle horizontalScrollbar, GUIStyle verticalScrollbar, GUIStyle background, GUILayoutOption[] options){}
-		public static void EndScrollView(){}
-		internal static void EndScrollView(bool handleScrollWheel){}
-		public static Rect Window(int id, Rect screenRect, WindowFunction func, string text, GUILayoutOption[] options){}
-		public static Rect Window(int id, Rect screenRect, WindowFunction func, Texture image, GUILayoutOption[] options){}
-		public static Rect Window(int id, Rect screenRect, WindowFunction func, GUIContent content, GUILayoutOption[] options){}
-		public static Rect Window(int id, Rect screenRect, WindowFunction func, string text, GUIStyle style, GUILayoutOption[] options){}
-		public static Rect Window(int id, Rect screenRect, WindowFunction func, Texture image, GUIStyle style, GUILayoutOption[] options){}
-		public static Rect Window(int id, Rect screenRect, WindowFunction func, GUIContent content, GUIStyle style, GUILayoutOption[] options){}
-		private static Rect DoWindow(int id, Rect screenRect, WindowFunction func, GUIContent content, GUIStyle style, GUILayoutOption[] options){}
-		public static GUILayoutOption Width(float width){}
-		public static GUILayoutOption MinWidth(float minWidth){}
-		public static GUILayoutOption MaxWidth(float maxWidth){}
-		public static GUILayoutOption Height(float height){}
-		public static GUILayoutOption MinHeight(float minHeight){}
-		public static GUILayoutOption MaxHeight(float maxHeight){}
-		public static GUILayoutOption ExpandWidth(bool expand){}
-		public static GUILayoutOption ExpandHeight(bool expand){}
-		public GUILayout(){}
-	}
-
-	public class	GUILayoutUtility: Object
-	{
-		internal static LayoutCache SelectIDList(int instanceID, bool isWindow){}
-		internal static void Begin(int instanceID){}
-		internal static void BeginWindow(int windowID, GUIStyle style, GUILayoutOption[] options){}
-		public static void BeginGroup(string GroupName){}
-		public static void EndGroup(string groupName){}
-		internal static void Layout(){}
-		internal static void LayoutFromEditorWindow(){}
-		internal static float LayoutFromInspector(float width){}
-		internal static void LayoutFreeGroup(GUILayoutGroup toplevel){}
-		private static void LayoutSingleGroup(GUILayoutGroup i){}
-		private static Rect Internal_GetWindowRect(int windowID){}
-		private static void Internal_MoveWindow(int windowID, Rect r){}
-		private static void INTERNAL_CALL_Internal_MoveWindow(int windowID, ref Rect r){}
-		internal static Rect GetWindowsBounds(){}
-		private static GUILayoutGroup CreateGUILayoutGroupInstanceOfType(Type LayoutType){}
-		internal static GUILayoutGroup BeginLayoutGroup(GUIStyle style, GUILayoutOption[] options, Type LayoutType){}
-		internal static void EndLayoutGroup(){}
-		internal static GUILayoutGroup BeginLayoutArea(GUIStyle style, Type LayoutType){}
-		internal static GUILayoutGroup DoBeginLayoutArea(GUIStyle style, Type LayoutType){}
-		public static Rect GetRect(GUIContent content, GUIStyle style){}
-		public static Rect GetRect(GUIContent content, GUIStyle style, GUILayoutOption[] options){}
-		private static Rect DoGetRect(GUIContent content, GUIStyle style, GUILayoutOption[] options){}
-		public static Rect GetRect(float width, float height){}
-		public static Rect GetRect(float width, float height, GUIStyle style){}
-		public static Rect GetRect(float width, float height, GUILayoutOption[] options){}
-		public static Rect GetRect(float width, float height, GUIStyle style, GUILayoutOption[] options){}
-		public static Rect GetRect(float minWidth, float maxWidth, float minHeight, float maxHeight){}
-		public static Rect GetRect(float minWidth, float maxWidth, float minHeight, float maxHeight, GUIStyle style){}
-		public static Rect GetRect(float minWidth, float maxWidth, float minHeight, float maxHeight, GUILayoutOption[] options){}
-		public static Rect GetRect(float minWidth, float maxWidth, float minHeight, float maxHeight, GUIStyle style, GUILayoutOption[] options){}
-		private static Rect DoGetRect(float minWidth, float maxWidth, float minHeight, float maxHeight, GUIStyle style, GUILayoutOption[] options){}
-		public static Rect GetLastRect(){}
-		public static Rect GetAspectRect(float aspect){}
-		public static Rect GetAspectRect(float aspect, GUIStyle style){}
-		public static Rect GetAspectRect(float aspect, GUILayoutOption[] options){}
-		public static Rect GetAspectRect(float aspect, GUIStyle style, GUILayoutOption[] options){}
-		private static Rect DoGetAspectRect(float aspect, GUIStyle style, GUILayoutOption[] options){}
-		public GUILayoutUtility(){}
-		private static GUILayoutUtility(){}
-		GUILayoutGroup topLevel{ get	{} }
-		GUIStyle spaceStyle{ get	{} }
-		private static Dictionary<Int32, LayoutCache> storedLayouts;
-		private static Dictionary<Int32, LayoutCache> storedWindows;
-		internal static LayoutCache current;
-		private static Rect kDummyRect;
-		private static GUIStyle s_SpaceStyle;
-	}
-
-	public sealed class	GUILayoutOption: Object
-	{
-		internal GUILayoutOption(Type type, System.Object value){}
-		internal Type type;
-		internal System.Object value;
-	}
-
-	public sealed class	ExitGUIException: Exception, ISerializable, _Exception
-	{
-		public ExitGUIException(){}
-	}
-
-	public class	GUIUtility: Object
-	{
-		public static int GetControlID(FocusType focus){}
-		public static int GetControlID(int hint, FocusType focus){}
-		public static int GetControlID(GUIContent contents, FocusType focus){}
-		public static int GetControlID(FocusType focus, Rect position){}
-		public static int GetControlID(int hint, FocusType focus, Rect position){}
-		public static int GetControlID(GUIContent contents, FocusType focus, Rect position){}
-		private static int Internal_GetNextControlID2(int hint, FocusType focusType, Rect rect){}
-		private static int INTERNAL_CALL_Internal_GetNextControlID2(int hint, FocusType focusType, ref Rect rect){}
-		public static System.Object GetStateObject(Type t, int controlID){}
-		public static System.Object QueryStateObject(Type t, int controlID){}
-		internal static int GetPermanentControlID(){}
-		private static int Internal_GetHotControl(){}
-		private static void Internal_SetHotControl(int value){}
-		internal static void UpdateUndoName(){}
-		public static void ExitGUI(){}
-		internal static void SetDidGUIWindowsEatLastEvent(bool value){}
-		internal static GUISkin GetDefaultSkin(){}
-		private static GUISkin Internal_GetDefaultSkin(int skinMode){}
-		private static System.Object Internal_GetBuiltinSkin(int skin){}
-		internal static GUISkin GetBuiltinSkin(int skin){}
-		internal static void BeginGUI(int skinMode, int instanceID, int useGUILayout){}
-		private static void Internal_ExitGUI(){}
-		internal static void EndGUI(int layoutType){}
-		internal static bool EndGUIFromException(Exception exception){}
-		internal static void CheckOnGUI(){}
-		internal static int Internal_GetGUIDepth(){}
-		public static Vector2 GUIToScreenPoint(Vector2 guiPoint){}
-		internal static Rect GUIToScreenRect(Rect guiRect){}
-		public static Vector2 ScreenToGUIPoint(Vector2 screenPoint){}
-		public static Rect ScreenToGUIRect(Rect screenRect){}
-		public static void RotateAroundPivot(float angle, Vector2 pivotPoint){}
-		public static void ScaleAroundPivot(Vector2 scale, Vector2 pivotPoint){}
-		public GUIUtility(){}
-		private static GUIUtility(){}
-		public static int hotControl{ get	{} set	{} }
-		public static int keyboardControl{ get	{} set	{} }
-		string systemCopyBuffer{ get	{} set	{} }
-		bool mouseUsed{ get	{} set	{} }
-		public static bool hasModalWindow{ get	{} }
-		bool textFieldInput{ get	{} set	{} }
-		internal static int s_SkinMode;
-		internal static int s_OriginalID;
-		internal static Vector2 s_EditorScreenPointOffset;
-		internal static bool s_HasKeyboardFocus;
-	}
-
-	public sealed class	GUISettings: Object
-	{
-		private static float Internal_GetCursorFlashSpeed(){}
-		public GUISettings(){}
-		public bool doubleClickSelectsWord{ get	{} set	{} }
-		public bool tripleClickSelectsLine{ get	{} set	{} }
-		public Color cursorColor{ get	{} set	{} }
-		public float cursorFlashSpeed{ get	{} set	{} }
-		public Color selectionColor{ get	{} set	{} }
-		private bool m_DoubleClickSelectsWord;
-		private bool m_TripleClickSelectsLine;
-		private Color m_CursorColor;
-		private float m_CursorFlashSpeed;
-		private Color m_SelectionColor;
-	}
-
-	public sealed class	GUISkin: ScriptableObject
-	{
-		internal void OnEnable(){}
-		internal void Apply(){}
-		private void BuildStyleCache(){}
-		public GUIStyle GetStyle(string styleName){}
-		public GUIStyle FindStyle(string styleName){}
-		internal void MakeCurrent(){}
-		public IEnumerator GetEnumerator(){}
-		public GUISkin(){}
-		public Font font{ get	{} set	{} }
-		public GUIStyle box{ get	{} set	{} }
-		public GUIStyle label{ get	{} set	{} }
-		public GUIStyle textField{ get	{} set	{} }
-		public GUIStyle textArea{ get	{} set	{} }
-		public GUIStyle button{ get	{} set	{} }
-		public GUIStyle toggle{ get	{} set	{} }
-		public GUIStyle window{ get	{} set	{} }
-		public GUIStyle horizontalSlider{ get	{} set	{} }
-		public GUIStyle horizontalSliderThumb{ get	{} set	{} }
-		public GUIStyle verticalSlider{ get	{} set	{} }
-		public GUIStyle verticalSliderThumb{ get	{} set	{} }
-		public GUIStyle horizontalScrollbar{ get	{} set	{} }
-		public GUIStyle horizontalScrollbarThumb{ get	{} set	{} }
-		public GUIStyle horizontalScrollbarLeftButton{ get	{} set	{} }
-		public GUIStyle horizontalScrollbarRightButton{ get	{} set	{} }
-		public GUIStyle verticalScrollbar{ get	{} set	{} }
-		public GUIStyle verticalScrollbarThumb{ get	{} set	{} }
-		public GUIStyle verticalScrollbarUpButton{ get	{} set	{} }
-		public GUIStyle verticalScrollbarDownButton{ get	{} set	{} }
-		public GUIStyle scrollView{ get	{} set	{} }
-		public GUIStyle[] customStyles{ get	{} set	{} }
-		public GUISettings settings{ get	{} }
-		GUIStyle error{ get	{} }
-		private Font m_Font;
-		private GUIStyle m_box;
-		private GUIStyle m_button;
-		private GUIStyle m_toggle;
-		private GUIStyle m_label;
-		private GUIStyle m_textField;
-		private GUIStyle m_textArea;
-		private GUIStyle m_window;
-		private GUIStyle m_horizontalSlider;
-		private GUIStyle m_horizontalSliderThumb;
-		private GUIStyle m_verticalSlider;
-		private GUIStyle m_verticalSliderThumb;
-		private GUIStyle m_horizontalScrollbar;
-		private GUIStyle m_horizontalScrollbarThumb;
-		private GUIStyle m_horizontalScrollbarLeftButton;
-		private GUIStyle m_horizontalScrollbarRightButton;
-		private GUIStyle m_verticalScrollbar;
-		private GUIStyle m_verticalScrollbarThumb;
-		private GUIStyle m_verticalScrollbarUpButton;
-		private GUIStyle m_verticalScrollbarDownButton;
-		private GUIStyle m_ScrollView;
-		internal GUIStyle[] m_CustomStyles;
-		private GUISettings m_Settings;
-		private Dictionary<String, GUIStyle> styles;
-		internal static GUIStyle ms_Error;
-		internal static SkinChangedDelegate m_SkinChanged;
-		internal static GUISkin current;
-	}
-
-	public sealed class	GUIContent: Object
-	{
-		internal static GUIContent Temp(string t){}
-		internal static GUIContent Temp(string t, string tooltip){}
-		internal static GUIContent Temp(Texture i){}
-		internal static GUIContent Temp(string t, Texture i){}
-		internal static void ClearStaticCache(){}
-		internal static GUIContent[] Temp(String[] texts){}
-		internal static GUIContent[] Temp(Texture[] images){}
-		public GUIContent(){}
-		public GUIContent(string text){}
-		public GUIContent(Texture image){}
-		public GUIContent(string text, Texture image){}
-		public GUIContent(string text, string tooltip){}
-		public GUIContent(Texture image, string tooltip){}
-		public GUIContent(string text, Texture image, string tooltip){}
-		public GUIContent(GUIContent src){}
-		private static GUIContent(){}
-		public string text{ get	{} set	{} }
-		public Texture image{ get	{} set	{} }
-		public string tooltip{ get	{} set	{} }
-		int hash{ get	{} }
-		private string m_Text;
-		private Texture m_Image;
-		private string m_Tooltip;
-		public static GUIContent none;
-		private static GUIContent s_Text;
-		private static GUIContent s_Image;
-		private static GUIContent s_TextImage;
-	}
-
-	public sealed class	GUIStyleState: Object
-	{
-		protected virtual void Finalize(){}
-		private void Init(){}
-		private void Cleanup(){}
-		private void SetBackgroundInternal(Texture2D value){}
-		private Texture2D GetBackgroundInternal(){}
-		private void INTERNAL_get_textColor(out Color value){}
-		private void INTERNAL_set_textColor(ref Color value){}
-		public GUIStyleState(){}
-		internal GUIStyleState(GUIStyle sourceStyle, IntPtr source){}
-		public Texture2D background{ get	{} set	{} }
-		public Color textColor{ get	{} set	{} }
-		internal IntPtr m_Ptr;
-		private GUIStyle m_SourceStyle;
-		private Texture2D m_Background;
-	}
-
-	public sealed class	RectOffset: Object
-	{
-		protected virtual void Finalize(){}
-		private void Init(){}
-		private void Cleanup(){}
-		public Rect Add(Rect rect){}
-		private static Rect INTERNAL_CALL_Add(RectOffset self, ref Rect rect){}
-		public Rect Remove(Rect rect){}
-		private static Rect INTERNAL_CALL_Remove(RectOffset self, ref Rect rect){}
-		public virtual string ToString(){}
-		public RectOffset(){}
-		internal RectOffset(GUIStyle sourceStyle, IntPtr source){}
-		public RectOffset(int left, int right, int top, int bottom){}
-		public int left{ get	{} set	{} }
-		public int right{ get	{} set	{} }
-		public int top{ get	{} set	{} }
-		public int bottom{ get	{} set	{} }
-		public int horizontal{ get	{} }
-		public int vertical{ get	{} }
-		internal IntPtr m_Ptr;
-		private GUIStyle m_SourceStyle;
-	}
-
-	public sealed class	GUIStyle: Object
-	{
-		internal static int Internal_GetNumCharactersThatFitWithinWidth(IntPtr target, string text, float width){}
-		public Vector2 CalcSize(GUIContent content){}
-		internal static void Internal_CalcSize(IntPtr target, GUIContent content, out Vector2 ret){}
-		public Vector2 CalcScreenSize(Vector2 contentSize){}
-		public float CalcHeight(GUIContent content, float width){}
-		private static float Internal_CalcHeight(IntPtr target, GUIContent content, float width){}
-		public void CalcMinMaxWidth(GUIContent content, out float minWidth, out float maxWidth){}
-		private static void Internal_CalcMinMaxWidth(IntPtr target, GUIContent content, out float minWidth, out float maxWidth){}
-		public virtual string ToString(){}
-		protected virtual void Finalize(){}
-		internal void InternalOnAfterDeserialize(){}
-		private void Init(){}
-		private void InitCopy(GUIStyle other){}
-		private void Cleanup(){}
-		private IntPtr GetStyleStatePtr(int idx){}
-		private void AssignStyleState(int idx, IntPtr srcStyleState){}
-		private IntPtr GetRectOffsetPtr(int idx){}
-		private void AssignRectOffset(int idx, IntPtr srcRectOffset){}
-		private void INTERNAL_get_contentOffset(out Vector2 value){}
-		private void INTERNAL_set_contentOffset(ref Vector2 value){}
-		private void INTERNAL_get_Internal_clipOffset(out Vector2 value){}
-		private void INTERNAL_set_Internal_clipOffset(ref Vector2 value){}
-		private static float Internal_GetLineHeight(IntPtr target){}
-		private void SetFontInternal(Font value){}
-		private Font GetFontInternal(){}
-		private static void Internal_Draw(IntPtr target, Rect position, GUIContent content, bool isHover, bool isActive, bool on, bool hasKeyboardFocus){}
-		private static void Internal_Draw(GUIContent content, ref Internal_DrawArguments arguments){}
-		public void Draw(Rect position, bool isHover, bool isActive, bool on, bool hasKeyboardFocus){}
-		public void Draw(Rect position, string text, bool isHover, bool isActive, bool on, bool hasKeyboardFocus){}
-		public void Draw(Rect position, Texture image, bool isHover, bool isActive, bool on, bool hasKeyboardFocus){}
-		public void Draw(Rect position, GUIContent content, bool isHover, bool isActive, bool on, bool hasKeyboardFocus){}
-		public void Draw(Rect position, GUIContent content, int controlID){}
-		public void Draw(Rect position, GUIContent content, int controlID, bool on){}
-		private static void Internal_Draw2(IntPtr style, Rect position, GUIContent content, int controlID, bool on){}
-		private static void INTERNAL_CALL_Internal_Draw2(IntPtr style, ref Rect position, GUIContent content, int controlID, bool on){}
-		internal void DrawPrefixLabel(Rect position, GUIContent content, int controlID){}
-		private static void Internal_DrawPrefixLabel(IntPtr style, Rect position, GUIContent content, int controlID, bool on){}
-		private static void INTERNAL_CALL_Internal_DrawPrefixLabel(IntPtr style, ref Rect position, GUIContent content, int controlID, bool on){}
-		private static float Internal_GetCursorFlashOffset(){}
-		private static void Internal_DrawCursor(IntPtr target, Rect position, GUIContent content, int pos, Color cursorColor){}
-		private static void INTERNAL_CALL_Internal_DrawCursor(IntPtr target, ref Rect position, GUIContent content, int pos, ref Color cursorColor){}
-		public void DrawCursor(Rect position, GUIContent content, int controlID, int Character){}
-		private static void Internal_DrawWithTextSelection(GUIContent content, ref Internal_DrawWithTextSelectionArguments arguments){}
-		internal void DrawWithTextSelection(Rect position, GUIContent content, int controlID, int firstSelectedCharacter, int lastSelectedCharacter, bool drawSelectionAsComposition){}
-		public void DrawWithTextSelection(Rect position, GUIContent content, int controlID, int firstSelectedCharacter, int lastSelectedCharacter){}
-		internal static void SetDefaultFont(Font font){}
-		public Vector2 GetCursorPixelPosition(Rect position, GUIContent content, int cursorStringIndex){}
-		internal static void Internal_GetCursorPixelPosition(IntPtr target, Rect position, GUIContent content, int cursorStringIndex, out Vector2 ret){}
-		private static void INTERNAL_CALL_Internal_GetCursorPixelPosition(IntPtr target, ref Rect position, GUIContent content, int cursorStringIndex, out Vector2 ret){}
-		public int GetCursorStringIndex(Rect position, GUIContent content, Vector2 cursorPixelPosition){}
-		internal static int Internal_GetCursorStringIndex(IntPtr target, Rect position, GUIContent content, Vector2 cursorPixelPosition){}
-		private static int INTERNAL_CALL_Internal_GetCursorStringIndex(IntPtr target, ref Rect position, GUIContent content, ref Vector2 cursorPixelPosition){}
-		internal int GetNumCharactersThatFitWithinWidth(string text, float width){}
-		public GUIStyle(){}
-		public GUIStyle(GUIStyle other){}
-		private static GUIStyle(){}
-		public string name{ get	{} set	{} }
-		public GUIStyleState normal{ get	{} set	{} }
-		public GUIStyleState hover{ get	{} set	{} }
-		public GUIStyleState active{ get	{} set	{} }
-		public GUIStyleState onNormal{ get	{} set	{} }
-		public GUIStyleState onHover{ get	{} set	{} }
-		public GUIStyleState onActive{ get	{} set	{} }
-		public GUIStyleState focused{ get	{} set	{} }
-		public GUIStyleState onFocused{ get	{} set	{} }
-		public RectOffset border{ get	{} set	{} }
-		public RectOffset margin{ get	{} set	{} }
-		public RectOffset padding{ get	{} set	{} }
-		public RectOffset overflow{ get	{} set	{} }
-		public ImagePosition imagePosition{ get	{} set	{} }
-		public TextAnchor alignment{ get	{} set	{} }
-		public bool wordWrap{ get	{} set	{} }
-		public TextClipping clipping{ get	{} set	{} }
-		public Vector2 contentOffset{ get	{} set	{} }
-		public Vector2 clipOffset{ get	{} set	{} }
-		Vector2 Internal_clipOffset{ get	{} set	{} }
-		public float fixedWidth{ get	{} set	{} }
-		public float fixedHeight{ get	{} set	{} }
-		public bool stretchWidth{ get	{} set	{} }
-		public bool stretchHeight{ get	{} set	{} }
-		public Font font{ get	{} set	{} }
-		public int fontSize{ get	{} set	{} }
-		public FontStyle fontStyle{ get	{} set	{} }
-		public bool richText{ get	{} set	{} }
-		public float lineHeight{ get	{} }
-		public static GUIStyle none{ get	{} }
-		public bool isHeightDependantOnWidth{ get	{} }
-		internal IntPtr m_Ptr;
-		private GUIStyleState m_Normal;
-		private GUIStyleState m_Hover;
-		private GUIStyleState m_Active;
-		private GUIStyleState m_Focused;
-		private GUIStyleState m_OnNormal;
-		private GUIStyleState m_OnHover;
-		private GUIStyleState m_OnActive;
-		private GUIStyleState m_OnFocused;
-		private RectOffset m_Border;
-		private RectOffset m_Padding;
-		private RectOffset m_Margin;
-		private RectOffset m_Overflow;
-		private Font m_FontInternal;
-		internal static bool showKeyboardFocus;
-		private static GUIStyle s_None;
+		public static bool PlayFullScreenMovie(string path, Color bgColor, FullScreenMovieControlMode controlMode, FullScreenMovieScalingMode scalingMode){}
+		public static bool PlayFullScreenMovie(string path, Color bgColor, FullScreenMovieControlMode controlMode){}
+		public static bool PlayFullScreenMovie(string path, Color bgColor){}
+		public static bool PlayFullScreenMovie(string path){}
+		private static bool INTERNAL_CALL_PlayFullScreenMovie(string path, ref Color bgColor, FullScreenMovieControlMode controlMode, FullScreenMovieScalingMode scalingMode){}
+		public static void Vibrate(){}
+		internal static void SetActivityIndicatorStyleImpl(int style){}
+		public static void SetActivityIndicatorStyle(ActivityIndicatorStyle style){}
+		public static void SetActivityIndicatorStyle(AndroidActivityIndicatorStyle style){}
+		public static int GetActivityIndicatorStyle(){}
+		public static void StartActivityIndicator(){}
+		public static void StopActivityIndicator(){}
+		public static void ClearShaderCache(){}
+		public Handheld(){}
+		public static bool use32BitDisplayBuffer{ get	{} set	{} }
 	}
 
 	public sealed class	TouchScreenKeyboard: Object
 	{
+		private void Destroy(){}
+		protected virtual void Finalize(){}
+		private void TouchScreenKeyboard_InternalConstructorHelper(ref TouchScreenKeyboard_InternalConstructorHelperArguments arguments, string text, string textPlaceholder){}
 		public static TouchScreenKeyboard Open(string text, TouchScreenKeyboardType keyboardType, bool autocorrection, bool multiline, bool secure, bool alert){}
 		public static TouchScreenKeyboard Open(string text, TouchScreenKeyboardType keyboardType, bool autocorrection, bool multiline, bool secure){}
 		public static TouchScreenKeyboard Open(string text, TouchScreenKeyboardType keyboardType, bool autocorrection, bool multiline){}
@@ -1776,69 +1148,18 @@ namespace UnityEngine {
 		public static TouchScreenKeyboard Open(string text, TouchScreenKeyboardType keyboardType){}
 		public static TouchScreenKeyboard Open(string text){}
 		public static TouchScreenKeyboard Open(string text, TouchScreenKeyboardType keyboardType, bool autocorrection, bool multiline, bool secure, bool alert, string textPlaceholder){}
-		public TouchScreenKeyboard(){}
+		private static void INTERNAL_get_area(out Rect value){}
+		public TouchScreenKeyboard(string text, TouchScreenKeyboardType keyboardType, bool autocorrection, bool multiline, bool secure, bool alert, string textPlaceholder){}
+		public static bool isSupported{ get	{} }
 		public string text{ get	{} set	{} }
 		public static bool hideInput{ get	{} set	{} }
 		public bool active{ get	{} set	{} }
 		public bool done{ get	{} }
 		public bool wasCanceled{ get	{} }
-		Rect area{ get	{} }
-		bool visible{ get	{} }
-		public static bool isSupported{ get	{} }
-	}
-
-	public sealed class	Event: Object
-	{
-		private void Init(){}
-		protected virtual void Finalize(){}
-		private void Cleanup(){}
-		private void InitCopy(Event other){}
-		private void InitPtr(IntPtr ptr){}
-		public EventType GetTypeForControl(int controlID){}
-		private void Internal_SetMousePosition(Vector2 value){}
-		private static void INTERNAL_CALL_Internal_SetMousePosition(Event self, ref Vector2 value){}
-		private void Internal_GetMousePosition(out Vector2 value){}
-		private void Internal_SetMouseDelta(Vector2 value){}
-		private static void INTERNAL_CALL_Internal_SetMouseDelta(Event self, ref Vector2 value){}
-		private void Internal_GetMouseDelta(out Vector2 value){}
-		private static void Internal_SetNativeEvent(IntPtr ptr){}
-		private static void Internal_MakeMasterEventCurrent(){}
-		public void Use(){}
-		public static bool PopEvent(Event outEvent){}
-		public static int GetEventCount(){}
-		public static Event KeyboardEvent(string key){}
-		public virtual int GetHashCode(){}
-		public virtual bool Equals(System.Object obj){}
-		public virtual string ToString(){}
-		public Event(){}
-		public Event(Event other){}
-		private Event(IntPtr ptr){}
-		public EventType rawType{ get	{} }
-		public EventType type{ get	{} set	{} }
-		public Vector2 mousePosition{ get	{} set	{} }
-		public Vector2 delta{ get	{} set	{} }
-		public Ray mouseRay{ get	{} set	{} }
-		public int button{ get	{} set	{} }
-		public EventModifiers modifiers{ get	{} set	{} }
-		public float pressure{ get	{} set	{} }
-		public int clickCount{ get	{} set	{} }
-		public char character{ get	{} set	{} }
-		public string commandName{ get	{} set	{} }
-		public KeyCode keyCode{ get	{} set	{} }
-		public bool shift{ get	{} set	{} }
-		public bool control{ get	{} set	{} }
-		public bool alt{ get	{} set	{} }
-		public bool command{ get	{} set	{} }
-		public bool capsLock{ get	{} set	{} }
-		public bool numeric{ get	{} set	{} }
-		public bool functionKey{ get	{} }
-		public static Event current{ get	{} set	{} }
-		public bool isKey{ get	{} }
-		public bool isMouse{ get	{} }
+		public int targetDisplay{ get	{} set	{} }
+		public static Rect area{ get	{} }
+		public static bool visible{ get	{} }
 		internal IntPtr m_Ptr;
-		private static Event s_Current;
-		private static Event s_MasterEvent;
-		private static Dictionary<String, Int32> <>f__switch$map0;
 	}
 
 	public sealed class	Gizmos: Object
@@ -2148,6 +1469,8 @@ namespace UnityEngine {
 		public static T GetBuiltinResource(string path){}
 		public static void UnloadAsset(System.Object assetToUnload){}
 		public static AsyncOperation UnloadUnusedAssets(){}
+		public static System.Object LoadAssetAtPath(string assetPath, Type type){}
+		public static T LoadAssetAtPath(string assetPath){}
 		public Resources(){}
 	}
 
@@ -2178,12 +1501,20 @@ namespace UnityEngine {
 	{
 		public static bool PrefetchSocketPolicy(string ip, int atPort){}
 		public static bool PrefetchSocketPolicy(string ip, int atPort, int timeout){}
+		public static string GetChainOfTrustValue(string name){}
+		private static string GetChainOfTrustValueInternal(string name, string publicKeyToken){}
 		private static MethodInfo GetUnityCrossDomainHelperMethod(string methodname){}
 		internal static string TokenToHex(Byte[] token){}
+		internal static void ClearVerifiedAssemblies(){}
 		public static Assembly LoadAndVerifyAssembly(Byte[] assemblyData, string authorizationKey){}
 		public static Assembly LoadAndVerifyAssembly(Byte[] assemblyData){}
 		private static Assembly LoadAndVerifyAssemblyInternal(Byte[] assemblyData){}
+		internal static bool VerifySignature(string file, Byte[] publicKey){}
 		public Security(){}
+		private static Security(){}
+		private static List<Assembly> _verifiedAssemblies;
+		private readonly static string kSignatureExtension;
+		private const string publicVerificationKey = null;
 	}
 
 	public sealed class	Shader: Object
@@ -2214,6 +1545,7 @@ namespace UnityEngine {
 		public static void WarmupAllShaders(){}
 		public Shader(){}
 		public bool isSupported{ get	{} }
+		string customEditor{ get	{} }
 		public int maximumLOD{ get	{} set	{} }
 		public static int globalMaximumLOD{ get	{} set	{} }
 		public int renderQueue{ get	{} }
@@ -2261,6 +1593,7 @@ namespace UnityEngine {
 		public bool HasProperty(int nameID){}
 		public string GetTag(string tag, bool searchFallbacks, string defaultValue){}
 		public string GetTag(string tag, bool searchFallbacks){}
+		public void SetOverrideTag(string tag, string val){}
 		public void Lerp(Material start, Material end, float t){}
 		public bool SetPass(int pass){}
 		public static Material Create(string scriptContents){}
@@ -2322,6 +1655,7 @@ namespace UnityEngine {
 		public ProceduralPropertyDescription[] GetProceduralPropertyDescriptions(){}
 		public bool HasProceduralProperty(string inputName){}
 		public bool GetProceduralBoolean(string inputName){}
+		public bool IsProceduralPropertyVisible(string inputName){}
 		public void SetProceduralBoolean(string inputName, bool value){}
 		public float GetProceduralFloat(string inputName){}
 		public void SetProceduralFloat(string inputName, float value){}
@@ -2343,7 +1677,7 @@ namespace UnityEngine {
 		public static void StopRebuilds(){}
 		public Texture[] GetGeneratedTextures(){}
 		public ProceduralTexture GetGeneratedTexture(string textureName){}
-		public ProceduralMaterial(){}
+		internal ProceduralMaterial(){}
 		public ProceduralCacheSize cacheSize{ get	{} set	{} }
 		public int animationUpdateRate{ get	{} set	{} }
 		public bool isProcessing{ get	{} }
@@ -2375,8 +1709,12 @@ namespace UnityEngine {
 		public static Sprite Create(Texture2D texture, Rect rect, Vector2 pivot, float pixelsPerUnit){}
 		public static Sprite Create(Texture2D texture, Rect rect, Vector2 pivot){}
 		private static Sprite INTERNAL_CALL_Create(Texture2D texture, ref Rect rect, ref Vector2 pivot, float pixelsPerUnit, uint extrude, SpriteMeshType meshType, ref Vector4 border){}
+		private void INTERNAL_get_bounds(out Bounds value){}
+		private void INTERNAL_get_rect(out Rect value){}
+		private void INTERNAL_get_textureRect(out Rect value){}
 		private static void Internal_GetTextureRectOffset(Sprite sprite, out Vector2 output){}
 		private static void Internal_GetPivot(Sprite sprite, out Vector2 output){}
+		private void INTERNAL_get_border(out Vector4 value){}
 		public void OverrideGeometry(Vector2[] vertices, UInt16[] triangles){}
 		public Sprite(){}
 		public Bounds bounds{ get	{} }
@@ -2435,6 +1773,7 @@ namespace UnityEngine {
 		public static WWW LoadFromCacheOrDownload(string url, int version, uint crc){}
 		public static WWW LoadFromCacheOrDownload(string url, Hash128 hash){}
 		public static WWW LoadFromCacheOrDownload(string url, Hash128 hash, uint crc){}
+		private static void CheckSecurityOnHeaders(String[] headers){}
 		private static String[] FlattenedHeadersFrom(Dictionary<String, String> headers){}
 		internal static Dictionary<String, String> ParseHTTPHeaderString(string input){}
 		public WWW(string url){}
@@ -2443,6 +1782,7 @@ namespace UnityEngine {
 		public WWW(string url, Byte[] postData, Hashtable headers){}
 		public WWW(string url, Byte[] postData, Dictionary<String, String> headers){}
 		internal WWW(string url, Hash128 hash, uint crc){}
+		private static WWW(){}
 		public Dictionary<String, String> responseHeaders{ get	{} }
 		string responseHeadersString{ get	{} }
 		public string text{ get	{} }
@@ -2464,6 +1804,9 @@ namespace UnityEngine {
 		public AssetBundle assetBundle{ get	{} }
 		public ThreadPriority threadPriority{ get	{} set	{} }
 		internal IntPtr m_Ptr;
+		private readonly static Char[] forbiddenCharacters;
+		private readonly static Char[] forbiddenCharactersForNames;
+		private readonly static String[] forbiddenHeaderKeys;
 	}
 
 	public sealed class	WWWForm: Object
@@ -2501,6 +1844,12 @@ namespace UnityEngine {
 		public static bool MarkAsUsed(string url, int version){}
 		public static bool MarkAsUsed(string url, Hash128 hash){}
 		private static bool INTERNAL_CALL_MarkAsUsed(string url, ref Hash128 hash){}
+		public static void SetNoBackupFlag(string url, int version){}
+		public static void SetNoBackupFlag(string url, Hash128 hash){}
+		private static void INTERNAL_CALL_SetNoBackupFlag(string url, ref Hash128 hash){}
+		public static void ResetNoBackupFlag(string url, int version){}
+		public static void ResetNoBackupFlag(string url, Hash128 hash){}
+		private static void INTERNAL_CALL_ResetNoBackupFlag(string url, ref Hash128 hash){}
 		public Caching(){}
 		public static CacheIndex[] index{ get	{} }
 		public static long spaceFree{ get	{} }
@@ -2520,6 +1869,15 @@ namespace UnityEngine {
 		public UnityEventQueueSystem(){}
 	}
 
+	public sealed class	ColorUtility: Object
+	{
+		internal static bool DoTryParseHtmlColor(string htmlString, out Color32 color){}
+		public static bool TryParseHtmlString(string htmlString, out Color color){}
+		public static string ToHtmlStringRGB(Color color){}
+		public static string ToHtmlStringRGBA(Color color){}
+		public ColorUtility(){}
+	}
+
 	public class	AsyncOperation: YieldInstruction
 	{
 		private void InternalDestroy(){}
@@ -2534,6 +1892,9 @@ namespace UnityEngine {
 
 	public sealed class	Application: Object
 	{
+		public static void RegisterLogCallback(LogCallback handler){}
+		public static void RegisterLogCallbackThreaded(LogCallback handler){}
+		private static void RegisterLogCallback(LogCallback handler, bool threaded){}
 		public static void Quit(){}
 		public static void CancelQuit(){}
 		public static void LoadLevel(int index){}
@@ -2543,6 +1904,9 @@ namespace UnityEngine {
 		public static AsyncOperation LoadLevelAdditiveAsync(int index){}
 		public static AsyncOperation LoadLevelAdditiveAsync(string levelName){}
 		private static AsyncOperation LoadLevelAsync(string monoLevelName, int index, bool additive, bool mustCompleteNextFrame){}
+		public static bool UnloadLevel(int index){}
+		public static bool UnloadLevel(string scenePath){}
+		private static bool UnloadLevel(string monoScenePath, int index){}
 		public static void LoadLevelAdditive(int index){}
 		public static void LoadLevelAdditive(string name){}
 		private static float GetStreamProgressForLevelByName(string levelName){}
@@ -2555,6 +1919,8 @@ namespace UnityEngine {
 		public static void CaptureScreenshot(string filename){}
 		public static bool HasProLicense(){}
 		internal static bool HasAdvancedLicense(){}
+		internal static bool HasARGV(string name){}
+		internal static string GetValueForARGV(string name){}
 		public static void DontDestroyOnLoad(System.Object mono){}
 		private static string ObjectToJSString(System.Object o){}
 		public static void ExternalCall(string functionName, Object[] args){}
@@ -2563,6 +1929,7 @@ namespace UnityEngine {
 		private static void Internal_ExternalCall(string script){}
 		internal static int GetBuildUnityVersion(){}
 		internal static int GetNumericUnityVersion(string version){}
+		internal static void InvokeOnAdvertisingIdentifierCallback(string advertisingId, bool trackingEnabled){}
 		public static void OpenURL(string url){}
 		public static void CommitSuicide(int mode){}
 		private static void CallLogCallback(string logString, string stackTrace, LogType type, bool invokedOnMainThread){}
@@ -2573,9 +1940,6 @@ namespace UnityEngine {
 		internal static void ReplyToUserAuthorizationRequest(bool reply){}
 		private static int GetUserAuthorizationRequestMode_Internal(){}
 		internal static UserAuthorization GetUserAuthorizationRequestMode(){}
-		public static void RegisterLogCallback(LogCallback handler){}
-		public static void RegisterLogCallbackThreaded(LogCallback handler){}
-		private static void RegisterLogCallback(LogCallback handler, bool threaded){}
 		public Application(){}
 		public static int loadedLevel{ get	{} }
 		public static string loadedLevelName{ get	{} }
@@ -2590,6 +1954,9 @@ namespace UnityEngine {
 		public static bool isConsolePlatform{ get	{} }
 		public static bool runInBackground{ get	{} set	{} }
 		public static bool isPlayer{ get	{} }
+		bool isBatchmode{ get	{} }
+		bool isHumanControllingUs{ get	{} }
+		bool isRunningUnitTests{ get	{} }
 		public static string dataPath{ get	{} }
 		public static string streamingAssetsPath{ get	{} }
 		public static string persistentDataPath{ get	{} }
@@ -2608,13 +1975,17 @@ namespace UnityEngine {
 		public static string webSecurityHostUrl{ get	{} }
 		public static int targetFrameRate{ get	{} set	{} }
 		public static SystemLanguage systemLanguage{ get	{} }
+		public static StackTraceLogType stackTraceLogType{ get	{} set	{} }
 		public static ThreadPriority backgroundLoadingPriority{ get	{} set	{} }
 		public static NetworkReachability internetReachability{ get	{} }
 		public static bool genuine{ get	{} }
 		public static bool genuineCheckAvailable{ get	{} }
 		bool submitAnalytics{ get	{} }
+		public static bool isShowingSplashScreen{ get	{} }
+		public static string absoluteUrl{ get	{} }
 		public static event	LogCallback logMessageReceived;
 		public static event	LogCallback logMessageReceivedThreaded;
+		internal static AdvertisingIdentifierCallback OnAdvertisingIdentifierCallback;
 		private static LogCallback s_LogCallbackHandler;
 		private static LogCallback s_LogCallbackHandlerThreaded;
 		private static LogCallback s_RegisterLogCallbackDeprecated;
@@ -2629,6 +2000,14 @@ namespace UnityEngine {
 
 	public sealed class	Camera: Behaviour
 	{
+		public Vector3 ScreenToViewportPoint(Vector3 position){}
+		private static Vector3 INTERNAL_CALL_ScreenToViewportPoint(Camera self, ref Vector3 position){}
+		public Vector3 ViewportToScreenPoint(Vector3 position){}
+		private static Vector3 INTERNAL_CALL_ViewportToScreenPoint(Camera self, ref Vector3 position){}
+		public Ray ViewportPointToRay(Vector3 position){}
+		private static Ray INTERNAL_CALL_ViewportPointToRay(Camera self, ref Vector3 position){}
+		public Ray ScreenPointToRay(Vector3 position){}
+		private static Ray INTERNAL_CALL_ScreenPointToRay(Camera self, ref Vector3 position){}
 		public static int GetAllCameras(Camera[] cameras){}
 		private static void FireOnPreCull(Camera cam){}
 		private static void FireOnPreRender(Camera cam){}
@@ -2653,14 +2032,19 @@ namespace UnityEngine {
 		public void RemoveCommandBuffers(CameraEvent evt){}
 		public void RemoveAllCommandBuffers(){}
 		public CommandBuffer[] GetCommandBuffers(CameraEvent evt){}
+		internal GameObject RaycastTry(Ray ray, float distance, int layerMask, QueryTriggerInteraction queryTriggerInteraction){}
 		internal GameObject RaycastTry(Ray ray, float distance, int layerMask){}
-		private static GameObject INTERNAL_CALL_RaycastTry(Camera self, ref Ray ray, float distance, int layerMask){}
+		private static GameObject INTERNAL_CALL_RaycastTry(Camera self, ref Ray ray, float distance, int layerMask, QueryTriggerInteraction queryTriggerInteraction){}
 		internal GameObject RaycastTry2D(Ray ray, float distance, int layerMask){}
 		private static GameObject INTERNAL_CALL_RaycastTry2D(Camera self, ref Ray ray, float distance, int layerMask){}
 		public Matrix4x4 CalculateObliqueMatrix(Vector4 clipPlane){}
 		private static Matrix4x4 INTERNAL_CALL_CalculateObliqueMatrix(Camera self, ref Vector4 clipPlane){}
 		internal void OnlyUsedForTesting1(){}
 		internal void OnlyUsedForTesting2(){}
+		public float GetScreenWidth(){}
+		public float GetScreenHeight(){}
+		public void DoClear(){}
+		internal String[] GetHDRWarnings(){}
 		private void INTERNAL_get_backgroundColor(out Color value){}
 		private void INTERNAL_set_backgroundColor(ref Color value){}
 		private void INTERNAL_get_rect(out Rect value){}
@@ -2691,14 +2075,6 @@ namespace UnityEngine {
 		private static Vector3 INTERNAL_CALL_ViewportToWorldPoint(Camera self, ref Vector3 position){}
 		public Vector3 ScreenToWorldPoint(Vector3 position){}
 		private static Vector3 INTERNAL_CALL_ScreenToWorldPoint(Camera self, ref Vector3 position){}
-		public Vector3 ScreenToViewportPoint(Vector3 position){}
-		private static Vector3 INTERNAL_CALL_ScreenToViewportPoint(Camera self, ref Vector3 position){}
-		public Vector3 ViewportToScreenPoint(Vector3 position){}
-		private static Vector3 INTERNAL_CALL_ViewportToScreenPoint(Camera self, ref Vector3 position){}
-		public Ray ViewportPointToRay(Vector3 position){}
-		private static Ray INTERNAL_CALL_ViewportPointToRay(Camera self, ref Vector3 position){}
-		public Ray ScreenPointToRay(Vector3 position){}
-		private static Ray INTERNAL_CALL_ScreenPointToRay(Camera self, ref Vector3 position){}
 		public Camera(){}
 		public float fov{ get	{} set	{} }
 		public float near{ get	{} set	{} }
@@ -2711,6 +2087,7 @@ namespace UnityEngine {
 		public bool hdr{ get	{} set	{} }
 		public float orthographicSize{ get	{} set	{} }
 		public bool orthographic{ get	{} set	{} }
+		public OpaqueSortMode opaqueSortMode{ get	{} set	{} }
 		public TransparencySortMode transparencySortMode{ get	{} set	{} }
 		public float depth{ get	{} set	{} }
 		public float aspect{ get	{} set	{} }
@@ -2731,6 +2108,8 @@ namespace UnityEngine {
 		public bool stereoEnabled{ get	{} }
 		public float stereoSeparation{ get	{} set	{} }
 		public float stereoConvergence{ get	{} set	{} }
+		public CameraType cameraType{ get	{} set	{} }
+		public bool stereoMirrorMode{ get	{} set	{} }
 		public int targetDisplay{ get	{} set	{} }
 		public static Camera main{ get	{} }
 		public static Camera current{ get	{} }
@@ -2742,6 +2121,8 @@ namespace UnityEngine {
 		public DepthTextureMode depthTextureMode{ get	{} set	{} }
 		public bool clearStencilAfterLightingPass{ get	{} set	{} }
 		public int commandBufferCount{ get	{} }
+		public bool isOrthoGraphic{ get	{} set	{} }
+		public static Camera mainCamera{ get	{} }
 		public static CameraCallback onPreCull;
 		public static CameraCallback onPreRender;
 		public static CameraCallback onPostRender;
@@ -2811,10 +2192,15 @@ namespace UnityEngine {
 		internal static void WriteLineToLogFile(string message){}
 		public static void LogException(Exception exception){}
 		public static void LogException(Exception exception, System.Object context){}
+		internal static void LogPlayerBuildError(string message, string file, int line, int column){}
 		public static void LogWarning(System.Object message){}
 		public static void LogWarning(System.Object message, System.Object context){}
 		public static void LogWarningFormat(string format, Object[] args){}
 		public static void LogWarningFormat(System.Object context, string format, Object[] args){}
+		public static void Assert(bool condition){}
+		public static void Assert(bool condition, string message){}
+		public static void Assert(bool condition, string format, Object[] args){}
+		internal static void LogAssertion(string message){}
 		internal static void OpenConsoleFile(){}
 		public Debug(){}
 		public static bool developerConsoleVisible{ get	{} set	{} }
@@ -2931,6 +2317,7 @@ namespace UnityEngine {
 
 	public sealed class	Compass: Object
 	{
+		private void INTERNAL_get_rawVector(out Vector3 value){}
 		public Compass(){}
 		public float magneticHeading{ get	{} }
 		public float trueHeading{ get	{} }
@@ -2961,10 +2348,14 @@ namespace UnityEngine {
 		public static bool GetKeyUp(string name){}
 		public static bool GetKeyUp(KeyCode key){}
 		public static String[] GetJoystickNames(){}
+		public static bool IsJoystickPreconfigured(string joystickName){}
 		public static bool GetMouseButton(int button){}
 		public static bool GetMouseButtonDown(int button){}
 		public static bool GetMouseButtonUp(int button){}
 		public static void ResetInputAxes(){}
+		private static void INTERNAL_get_mousePosition(out Vector3 value){}
+		private static void INTERNAL_get_mouseScrollDelta(out Vector2 value){}
+		private static void INTERNAL_get_acceleration(out Vector3 value){}
 		public static AccelerationEvent GetAccelerationEvent(int index){}
 		public static Touch GetTouch(int index){}
 		public static Quaternion GetRotation(int deviceID){}
@@ -3039,6 +2430,7 @@ namespace UnityEngine {
 		public HideFlags hideFlags{ get	{} set	{} }
 		private int m_InstanceID;
 		private IntPtr m_CachedPtr;
+		private string m_UnityRuntimeErrorString;
 	}
 
 	public class	Component: Object
@@ -3084,12 +2476,36 @@ namespace UnityEngine {
 		public Transform transform{ get	{} }
 		public GameObject gameObject{ get	{} }
 		public string tag{ get	{} set	{} }
+		public Component rigidbody{ get	{} }
+		public Component rigidbody2D{ get	{} }
+		public Component camera{ get	{} }
+		public Component light{ get	{} }
+		public Component animation{ get	{} }
+		public Component constantForce{ get	{} }
+		public Component renderer{ get	{} }
+		public Component audio{ get	{} }
+		public Component guiText{ get	{} }
+		public Component networkView{ get	{} }
+		public Component guiElement{ get	{} }
+		public Component guiTexture{ get	{} }
+		public Component collider{ get	{} }
+		public Component collider2D{ get	{} }
+		public Component hingeJoint{ get	{} }
+		public Component particleEmitter{ get	{} }
+		public Component particleSystem{ get	{} }
 	}
 
 	public sealed class	Light: Behaviour
 	{
 		private void INTERNAL_get_color(out Color value){}
 		private void INTERNAL_set_color(ref Color value){}
+		private void INTERNAL_get_areaSize(out Vector2 value){}
+		private void INTERNAL_set_areaSize(ref Vector2 value){}
+		public void AddCommandBuffer(LightEvent evt, CommandBuffer buffer){}
+		public void RemoveCommandBuffer(LightEvent evt, CommandBuffer buffer){}
+		public void RemoveCommandBuffers(LightEvent evt){}
+		public void RemoveAllCommandBuffers(){}
+		public CommandBuffer[] GetCommandBuffers(LightEvent evt){}
 		public static Light[] GetLights(LightType type, int layer){}
 		public Light(){}
 		public LightType type{ get	{} set	{} }
@@ -3110,6 +2526,8 @@ namespace UnityEngine {
 		public LightRenderMode renderMode{ get	{} set	{} }
 		public bool alreadyLightmapped{ get	{} set	{} }
 		public int cullingMask{ get	{} set	{} }
+		public Vector2 areaSize{ get	{} set	{} }
+		public int commandBufferCount{ get	{} }
 		public static int pixelLightCount{ get	{} set	{} }
 		public float shadowConstantBias{ get	{} set	{} }
 		public float shadowObjectSizeBias{ get	{} set	{} }
@@ -3168,6 +2586,10 @@ namespace UnityEngine {
 		public T AddComponent(){}
 		private static void Internal_CreateGameObject(GameObject mono, string name){}
 		public static GameObject Find(string name){}
+		public void SampleAnimation(System.Object clip, float time){}
+		public Component AddComponent(string className){}
+		public void PlayAnimation(System.Object animation){}
+		public void StopAnimation(){}
 		public GameObject(string name){}
 		public GameObject(){}
 		public GameObject(string name, Type[] components){}
@@ -3180,6 +2602,23 @@ namespace UnityEngine {
 		bool isStaticBatchable{ get	{} }
 		public string tag{ get	{} set	{} }
 		public GameObject gameObject{ get	{} }
+		public Component rigidbody{ get	{} }
+		public Component rigidbody2D{ get	{} }
+		public Component camera{ get	{} }
+		public Component light{ get	{} }
+		public Component animation{ get	{} }
+		public Component constantForce{ get	{} }
+		public Component renderer{ get	{} }
+		public Component audio{ get	{} }
+		public Component guiText{ get	{} }
+		public Component networkView{ get	{} }
+		public Component guiElement{ get	{} }
+		public Component guiTexture{ get	{} }
+		public Component collider{ get	{} }
+		public Component collider2D{ get	{} }
+		public Component hingeJoint{ get	{} }
+		public Component particleEmitter{ get	{} }
+		public Component particleSystem{ get	{} }
 	}
 
 	public class	Transform: Component, IEnumerable
@@ -3244,6 +2683,7 @@ namespace UnityEngine {
 		public void SetSiblingIndex(int index){}
 		public int GetSiblingIndex(){}
 		public Transform Find(string name){}
+		internal void SendTransformChangedScale(){}
 		private void INTERNAL_get_lossyScale(out Vector3 value){}
 		public bool IsChildOf(Transform parent){}
 		public Transform FindChild(string name){}
@@ -3254,6 +2694,7 @@ namespace UnityEngine {
 		private static void INTERNAL_CALL_RotateAroundLocal(Transform self, ref Vector3 axis, float angle){}
 		public Transform GetChild(int index){}
 		public int GetChildCount(){}
+		internal bool IsNonUniformScaleTransform(){}
 		protected Transform(){}
 		public Vector3 position{ get	{} set	{} }
 		public Vector3 localPosition{ get	{} set	{} }
@@ -3299,7 +2740,11 @@ namespace UnityEngine {
 		public static float Range(float min, float max){}
 		public static int Range(int min, int max){}
 		private static int RandomRangeInt(int min, int max){}
+		private static void INTERNAL_get_insideUnitSphere(out Vector3 value){}
 		private static void GetRandomUnitCircle(out Vector2 output){}
+		private static void INTERNAL_get_onUnitSphere(out Vector3 value){}
+		private static void INTERNAL_get_rotation(out Quaternion value){}
+		private static void INTERNAL_get_rotationUniform(out Quaternion value){}
 		public static float RandomRange(float min, float max){}
 		public static int RandomRange(int min, int max){}
 		public Random(){}
@@ -3343,8 +2788,246 @@ namespace UnityEngine {
 		public PlayerPrefs(){}
 	}
 
+	public class	AndroidJavaObject: Object, IDisposable
+	{
+		public sealed virtual void Dispose(){}
+		public void Call(string methodName, Object[] args){}
+		public void CallStatic(string methodName, Object[] args){}
+		public FieldType Get(string fieldName){}
+		public void Set(string fieldName, FieldType val){}
+		public FieldType GetStatic(string fieldName){}
+		public void SetStatic(string fieldName, FieldType val){}
+		public IntPtr GetRawObject(){}
+		public IntPtr GetRawClass(){}
+		public ReturnType Call(string methodName, Object[] args){}
+		public ReturnType CallStatic(string methodName, Object[] args){}
+		protected void DebugPrint(string msg){}
+		protected void DebugPrint(string call, string methodName, string signature, Object[] args){}
+		private void _AndroidJavaObject(string className, Object[] args){}
+		protected virtual void Finalize(){}
+		protected virtual void Dispose(bool disposing){}
+		protected void _Dispose(){}
+		protected void _Call(string methodName, Object[] args){}
+		protected ReturnType _Call(string methodName, Object[] args){}
+		protected FieldType _Get(string fieldName){}
+		protected void _Set(string fieldName, FieldType val){}
+		protected void _CallStatic(string methodName, Object[] args){}
+		protected ReturnType _CallStatic(string methodName, Object[] args){}
+		protected FieldType _GetStatic(string fieldName){}
+		protected void _SetStatic(string fieldName, FieldType val){}
+		internal static AndroidJavaObject AndroidJavaObjectDeleteLocalRef(IntPtr jobject){}
+		internal static AndroidJavaClass AndroidJavaClassDeleteLocalRef(IntPtr jclass){}
+		protected IntPtr _GetRawObject(){}
+		protected IntPtr _GetRawClass(){}
+		protected static AndroidJavaObject FindClass(string name){}
+		public AndroidJavaObject(string className, Object[] args){}
+		internal AndroidJavaObject(IntPtr jobject){}
+		internal AndroidJavaObject(){}
+		private static AndroidJavaObject(){}
+		AndroidJavaClass JavaLangClass{ get	{} }
+		private bool m_disposed;
+		protected IntPtr m_jobject;
+		protected IntPtr m_jclass;
+		private static bool enableDebugPrints;
+		private static AndroidJavaClass s_JavaLangClass;
+	}
+
+	public class	AndroidJavaClass: AndroidJavaObject, IDisposable
+	{
+		private void _AndroidJavaClass(string className){}
+		public AndroidJavaClass(string className){}
+		internal AndroidJavaClass(IntPtr jclass){}
+	}
+
+	public sealed class	AndroidJNIHelper: Object
+	{
+		public static IntPtr GetConstructorID(IntPtr javaClass){}
+		public static IntPtr GetConstructorID(IntPtr javaClass, string signature){}
+		public static IntPtr GetMethodID(IntPtr javaClass, string methodName, string signature){}
+		public static IntPtr GetMethodID(IntPtr javaClass, string methodName){}
+		public static IntPtr GetMethodID(IntPtr javaClass, string methodName, string signature, bool isStatic){}
+		public static IntPtr GetFieldID(IntPtr javaClass, string fieldName, string signature){}
+		public static IntPtr GetFieldID(IntPtr javaClass, string fieldName){}
+		public static IntPtr GetFieldID(IntPtr javaClass, string fieldName, string signature, bool isStatic){}
+		public static IntPtr CreateJavaRunnable(AndroidJavaRunnable jrunnable){}
+		public static IntPtr CreateJavaProxy(AndroidJavaProxy proxy){}
+		public static IntPtr ConvertToJNIArray(Array array){}
+		public static jvalue[] CreateJNIArgArray(Object[] args){}
+		public static void DeleteJNIArgArray(Object[] args, jvalue[] jniArgs){}
+		public static IntPtr GetConstructorID(IntPtr jclass, Object[] args){}
+		public static IntPtr GetMethodID(IntPtr jclass, string methodName, Object[] args, bool isStatic){}
+		public static string GetSignature(System.Object obj){}
+		public static string GetSignature(Object[] args){}
+		public static ArrayType ConvertFromJNIArray(IntPtr array){}
+		public static IntPtr GetMethodID(IntPtr jclass, string methodName, Object[] args, bool isStatic){}
+		public static IntPtr GetFieldID(IntPtr jclass, string fieldName, bool isStatic){}
+		public static string GetSignature(Object[] args){}
+		private AndroidJNIHelper(){}
+		public static bool debug{ get	{} set	{} }
+	}
+
+	public sealed class	AndroidJNI: Object
+	{
+		public static float GetStaticFloatField(IntPtr clazz, IntPtr fieldID){}
+		public static double GetStaticDoubleField(IntPtr clazz, IntPtr fieldID){}
+		public static void SetStaticStringField(IntPtr clazz, IntPtr fieldID, string val){}
+		public static void SetStaticObjectField(IntPtr clazz, IntPtr fieldID, IntPtr val){}
+		public static void SetStaticBooleanField(IntPtr clazz, IntPtr fieldID, bool val){}
+		public static void SetStaticByteField(IntPtr clazz, IntPtr fieldID, byte val){}
+		public static void SetStaticCharField(IntPtr clazz, IntPtr fieldID, char val){}
+		public static void SetStaticShortField(IntPtr clazz, IntPtr fieldID, short val){}
+		public static void SetStaticIntField(IntPtr clazz, IntPtr fieldID, int val){}
+		public static void SetStaticLongField(IntPtr clazz, IntPtr fieldID, long val){}
+		public static void SetStaticFloatField(IntPtr clazz, IntPtr fieldID, float val){}
+		public static void SetStaticDoubleField(IntPtr clazz, IntPtr fieldID, double val){}
+		public static IntPtr ToBooleanArray(Boolean[] array){}
+		public static IntPtr ToByteArray(Byte[] array){}
+		public static IntPtr ToCharArray(Char[] array){}
+		public static IntPtr ToShortArray(Int16[] array){}
+		public static IntPtr ToIntArray(Int32[] array){}
+		public static IntPtr ToLongArray(Int64[] array){}
+		public static IntPtr ToFloatArray(Single[] array){}
+		public static IntPtr ToDoubleArray(Double[] array){}
+		public static IntPtr ToObjectArray(IntPtr[] array, IntPtr arrayClass){}
+		public static IntPtr ToObjectArray(IntPtr[] array){}
+		public static Boolean[] FromBooleanArray(IntPtr array){}
+		public static Byte[] FromByteArray(IntPtr array){}
+		public static Char[] FromCharArray(IntPtr array){}
+		public static Int16[] FromShortArray(IntPtr array){}
+		public static Int32[] FromIntArray(IntPtr array){}
+		public static Int64[] FromLongArray(IntPtr array){}
+		public static Single[] FromFloatArray(IntPtr array){}
+		public static Double[] FromDoubleArray(IntPtr array){}
+		public static IntPtr[] FromObjectArray(IntPtr array){}
+		public static int GetArrayLength(IntPtr array){}
+		public static IntPtr NewBooleanArray(int size){}
+		public static IntPtr NewByteArray(int size){}
+		public static IntPtr NewCharArray(int size){}
+		public static IntPtr NewShortArray(int size){}
+		public static IntPtr NewIntArray(int size){}
+		public static IntPtr NewLongArray(int size){}
+		public static IntPtr NewFloatArray(int size){}
+		public static IntPtr NewDoubleArray(int size){}
+		public static IntPtr NewObjectArray(int size, IntPtr clazz, IntPtr obj){}
+		public static bool GetBooleanArrayElement(IntPtr array, int index){}
+		public static byte GetByteArrayElement(IntPtr array, int index){}
+		public static char GetCharArrayElement(IntPtr array, int index){}
+		public static short GetShortArrayElement(IntPtr array, int index){}
+		public static int GetIntArrayElement(IntPtr array, int index){}
+		public static long GetLongArrayElement(IntPtr array, int index){}
+		public static float GetFloatArrayElement(IntPtr array, int index){}
+		public static double GetDoubleArrayElement(IntPtr array, int index){}
+		public static IntPtr GetObjectArrayElement(IntPtr array, int index){}
+		public static void SetBooleanArrayElement(IntPtr array, int index, byte val){}
+		public static void SetByteArrayElement(IntPtr array, int index, sbyte val){}
+		public static void SetCharArrayElement(IntPtr array, int index, char val){}
+		public static void SetShortArrayElement(IntPtr array, int index, short val){}
+		public static void SetIntArrayElement(IntPtr array, int index, int val){}
+		public static void SetLongArrayElement(IntPtr array, int index, long val){}
+		public static void SetFloatArrayElement(IntPtr array, int index, float val){}
+		public static void SetDoubleArrayElement(IntPtr array, int index, double val){}
+		public static void SetObjectArrayElement(IntPtr array, int index, IntPtr obj){}
+		public static int AttachCurrentThread(){}
+		public static int DetachCurrentThread(){}
+		public static int GetVersion(){}
+		public static IntPtr FindClass(string name){}
+		public static IntPtr FromReflectedMethod(IntPtr refMethod){}
+		public static IntPtr FromReflectedField(IntPtr refField){}
+		public static IntPtr ToReflectedMethod(IntPtr clazz, IntPtr methodID, bool isStatic){}
+		public static IntPtr ToReflectedField(IntPtr clazz, IntPtr fieldID, bool isStatic){}
+		public static IntPtr GetSuperclass(IntPtr clazz){}
+		public static bool IsAssignableFrom(IntPtr clazz1, IntPtr clazz2){}
+		public static int Throw(IntPtr obj){}
+		public static int ThrowNew(IntPtr clazz, string message){}
+		public static IntPtr ExceptionOccurred(){}
+		public static void ExceptionDescribe(){}
+		public static void ExceptionClear(){}
+		public static void FatalError(string message){}
+		public static int PushLocalFrame(int capacity){}
+		public static IntPtr PopLocalFrame(IntPtr result){}
+		public static IntPtr NewGlobalRef(IntPtr obj){}
+		public static void DeleteGlobalRef(IntPtr obj){}
+		public static IntPtr NewLocalRef(IntPtr obj){}
+		public static void DeleteLocalRef(IntPtr obj){}
+		public static bool IsSameObject(IntPtr obj1, IntPtr obj2){}
+		public static int EnsureLocalCapacity(int capacity){}
+		public static IntPtr AllocObject(IntPtr clazz){}
+		public static IntPtr NewObject(IntPtr clazz, IntPtr methodID, jvalue[] args){}
+		public static IntPtr GetObjectClass(IntPtr obj){}
+		public static bool IsInstanceOf(IntPtr obj, IntPtr clazz){}
+		public static IntPtr GetMethodID(IntPtr clazz, string name, string sig){}
+		public static IntPtr GetFieldID(IntPtr clazz, string name, string sig){}
+		public static IntPtr GetStaticMethodID(IntPtr clazz, string name, string sig){}
+		public static IntPtr GetStaticFieldID(IntPtr clazz, string name, string sig){}
+		public static IntPtr NewStringUTF(string bytes){}
+		public static int GetStringUTFLength(IntPtr str){}
+		public static string GetStringUTFChars(IntPtr str){}
+		public static string CallStringMethod(IntPtr obj, IntPtr methodID, jvalue[] args){}
+		public static IntPtr CallObjectMethod(IntPtr obj, IntPtr methodID, jvalue[] args){}
+		public static int CallIntMethod(IntPtr obj, IntPtr methodID, jvalue[] args){}
+		public static bool CallBooleanMethod(IntPtr obj, IntPtr methodID, jvalue[] args){}
+		public static short CallShortMethod(IntPtr obj, IntPtr methodID, jvalue[] args){}
+		public static byte CallByteMethod(IntPtr obj, IntPtr methodID, jvalue[] args){}
+		public static char CallCharMethod(IntPtr obj, IntPtr methodID, jvalue[] args){}
+		public static float CallFloatMethod(IntPtr obj, IntPtr methodID, jvalue[] args){}
+		public static double CallDoubleMethod(IntPtr obj, IntPtr methodID, jvalue[] args){}
+		public static long CallLongMethod(IntPtr obj, IntPtr methodID, jvalue[] args){}
+		public static void CallVoidMethod(IntPtr obj, IntPtr methodID, jvalue[] args){}
+		public static string GetStringField(IntPtr obj, IntPtr fieldID){}
+		public static IntPtr GetObjectField(IntPtr obj, IntPtr fieldID){}
+		public static bool GetBooleanField(IntPtr obj, IntPtr fieldID){}
+		public static byte GetByteField(IntPtr obj, IntPtr fieldID){}
+		public static char GetCharField(IntPtr obj, IntPtr fieldID){}
+		public static short GetShortField(IntPtr obj, IntPtr fieldID){}
+		public static int GetIntField(IntPtr obj, IntPtr fieldID){}
+		public static long GetLongField(IntPtr obj, IntPtr fieldID){}
+		public static float GetFloatField(IntPtr obj, IntPtr fieldID){}
+		public static double GetDoubleField(IntPtr obj, IntPtr fieldID){}
+		public static void SetStringField(IntPtr obj, IntPtr fieldID, string val){}
+		public static void SetObjectField(IntPtr obj, IntPtr fieldID, IntPtr val){}
+		public static void SetBooleanField(IntPtr obj, IntPtr fieldID, bool val){}
+		public static void SetByteField(IntPtr obj, IntPtr fieldID, byte val){}
+		public static void SetCharField(IntPtr obj, IntPtr fieldID, char val){}
+		public static void SetShortField(IntPtr obj, IntPtr fieldID, short val){}
+		public static void SetIntField(IntPtr obj, IntPtr fieldID, int val){}
+		public static void SetLongField(IntPtr obj, IntPtr fieldID, long val){}
+		public static void SetFloatField(IntPtr obj, IntPtr fieldID, float val){}
+		public static void SetDoubleField(IntPtr obj, IntPtr fieldID, double val){}
+		public static string CallStaticStringMethod(IntPtr clazz, IntPtr methodID, jvalue[] args){}
+		public static IntPtr CallStaticObjectMethod(IntPtr clazz, IntPtr methodID, jvalue[] args){}
+		public static int CallStaticIntMethod(IntPtr clazz, IntPtr methodID, jvalue[] args){}
+		public static bool CallStaticBooleanMethod(IntPtr clazz, IntPtr methodID, jvalue[] args){}
+		public static short CallStaticShortMethod(IntPtr clazz, IntPtr methodID, jvalue[] args){}
+		public static byte CallStaticByteMethod(IntPtr clazz, IntPtr methodID, jvalue[] args){}
+		public static char CallStaticCharMethod(IntPtr clazz, IntPtr methodID, jvalue[] args){}
+		public static float CallStaticFloatMethod(IntPtr clazz, IntPtr methodID, jvalue[] args){}
+		public static double CallStaticDoubleMethod(IntPtr clazz, IntPtr methodID, jvalue[] args){}
+		public static long CallStaticLongMethod(IntPtr clazz, IntPtr methodID, jvalue[] args){}
+		public static void CallStaticVoidMethod(IntPtr clazz, IntPtr methodID, jvalue[] args){}
+		public static string GetStaticStringField(IntPtr clazz, IntPtr fieldID){}
+		public static IntPtr GetStaticObjectField(IntPtr clazz, IntPtr fieldID){}
+		public static bool GetStaticBooleanField(IntPtr clazz, IntPtr fieldID){}
+		public static byte GetStaticByteField(IntPtr clazz, IntPtr fieldID){}
+		public static char GetStaticCharField(IntPtr clazz, IntPtr fieldID){}
+		public static short GetStaticShortField(IntPtr clazz, IntPtr fieldID){}
+		public static int GetStaticIntField(IntPtr clazz, IntPtr fieldID){}
+		public static long GetStaticLongField(IntPtr clazz, IntPtr fieldID){}
+		private AndroidJNI(){}
+	}
+
+	public sealed class	AndroidInput: Object
+	{
+		public static Touch GetSecondaryTouch(int index){}
+		private AndroidInput(){}
+		public static int touchCountSecondary{ get	{} }
+		public static bool secondaryTouchEnabled{ get	{} }
+		public static int secondaryTouchWidth{ get	{} }
+		public static int secondaryTouchHeight{ get	{} }
+	}
+
 	public class	Motion: Object
 	{
+		private void INTERNAL_get_averageSpeed(out Vector3 value){}
 		public bool ValidateIfRetargetable(bool val){}
 		public Motion(){}
 		public float averageDuration{ get	{} }
@@ -3357,10 +3040,42 @@ namespace UnityEngine {
 		public bool isAnimatorMotion{ get	{} }
 	}
 
+	public sealed class	iPhoneSettings: Object
+	{
+		public static void StartLocationServiceUpdates(float desiredAccuracyInMeters, float updateDistanceInMeters){}
+		public static void StartLocationServiceUpdates(float desiredAccuracyInMeters){}
+		public static void StartLocationServiceUpdates(){}
+		public static void StopLocationServiceUpdates(){}
+		public iPhoneSettings(){}
+		public static bool verticalOrientation{ get	{} }
+		public static bool screenCanDarken{ get	{} }
+		public static LocationServiceStatus locationServiceStatus{ get	{} }
+		public static bool locationServiceEnabledByUser{ get	{} }
+		public static iPhoneScreenOrientation screenOrientation{ get	{} }
+		public static string uniqueIdentifier{ get	{} }
+		public static string name{ get	{} }
+		public static string model{ get	{} }
+		public static string systemName{ get	{} }
+		public static iPhoneNetworkReachability internetReachability{ get	{} }
+		public static string systemVersion{ get	{} }
+		public static iPhoneGeneration generation{ get	{} }
+	}
+
+	public sealed class	SamsungTV: Object
+	{
+		public static void SetSystemLanguage(SystemLanguage language){}
+		public SamsungTV(){}
+		public static TouchPadMode touchPadMode{ get	{} set	{} }
+		public static GestureMode gestureMode{ get	{} set	{} }
+		public static bool airMouseConnected{ get	{} }
+		public static bool gestureWorking{ get	{} }
+		public static GamePadMode gamePadMode{ get	{} set	{} }
+	}
+
 	public sealed class	BillboardAsset: Object
 	{
-		internal void MakeRenderMesh(Mesh mesh){}
-		internal void MakeMaterialProperties(MaterialPropertyBlock properties, Camera camera, float widthScale, float heightScale, float rotation){}
+		internal void MakeRenderMesh(Mesh mesh, float widthScale, float heightScale, float rotation){}
+		internal void MakeMaterialProperties(MaterialPropertyBlock properties, Camera camera){}
 		internal void MakePreviewMesh(Mesh mesh){}
 		public BillboardAsset(){}
 		public float width{ get	{} set	{} }
@@ -3438,6 +3153,7 @@ namespace UnityEngine {
 		private void Internal_Emit(ref Particle particle){}
 		internal static ParticleSystem[] GetParticleSystems(ParticleSystem root){}
 		private static void GetDirectParticleSystemChildrenRecursive(Transform transform, List<ParticleSystem> particleSystems){}
+		internal void SetupDefaultType(int type){}
 		public ParticleSystem(){}
 		public float startDelay{ get	{} set	{} }
 		public bool isPlaying{ get	{} }
@@ -3449,7 +3165,6 @@ namespace UnityEngine {
 		public float duration{ get	{} }
 		public float playbackSpeed{ get	{} set	{} }
 		public int particleCount{ get	{} }
-		public int safeCollisionEventSize{ get	{} }
 		public bool enableEmission{ get	{} set	{} }
 		public float emissionRate{ get	{} set	{} }
 		public float startSpeed{ get	{} set	{} }
@@ -3461,6 +3176,7 @@ namespace UnityEngine {
 		public int maxParticles{ get	{} set	{} }
 		public ParticleSystemSimulationSpace simulationSpace{ get	{} set	{} }
 		public uint randomSeed{ get	{} set	{} }
+		public int safeCollisionEventSize{ get	{} }
 	}
 
 	public sealed class	ParticleSystemRenderer: Renderer
@@ -3472,6 +3188,7 @@ namespace UnityEngine {
 		public float cameraVelocityScale{ get	{} set	{} }
 		public float maxParticleSize{ get	{} set	{} }
 		public Mesh mesh{ get	{} set	{} }
+		bool editorEnabled{ get	{} set	{} }
 	}
 
 	public sealed abstract	class	ParticlePhysicsExtensions: Object
@@ -3569,78 +3286,140 @@ namespace UnityEngine {
 		public AnimationCurve rotationCurve{ get	{} set	{} }
 	}
 
+	public class	ControllerColliderHit: Object
+	{
+		public ControllerColliderHit(){}
+		public CharacterController controller{ get	{} }
+		public Collider collider{ get	{} }
+		public Rigidbody rigidbody{ get	{} }
+		public GameObject gameObject{ get	{} }
+		public Transform transform{ get	{} }
+		public Vector3 point{ get	{} }
+		public Vector3 normal{ get	{} }
+		public Vector3 moveDirection{ get	{} }
+		public float moveLength{ get	{} }
+		bool push{ get	{} set	{} }
+		internal CharacterController m_Controller;
+		internal Collider m_Collider;
+		internal Vector3 m_Point;
+		internal Vector3 m_Normal;
+		internal Vector3 m_MoveDirection;
+		internal float m_MoveLength;
+		internal int m_Push;
+	}
+
+	public class	Collision: Object
+	{
+		public virtual IEnumerator GetEnumerator(){}
+		public Collision(){}
+		public Vector3 relativeVelocity{ get	{} }
+		public Rigidbody rigidbody{ get	{} }
+		public Collider collider{ get	{} }
+		public Transform transform{ get	{} }
+		public GameObject gameObject{ get	{} }
+		public ContactPoint[] contacts{ get	{} }
+		public Vector3 impulse{ get	{} }
+		public Vector3 impactForceSum{ get	{} }
+		public Vector3 frictionForceSum{ get	{} }
+		public Component other{ get	{} }
+		internal Vector3 m_Impulse;
+		internal Vector3 m_RelativeVelocity;
+		internal Rigidbody m_Rigidbody;
+		internal Collider m_Collider;
+		internal ContactPoint[] m_Contacts;
+	}
+
 	public class	Physics: Object
 	{
+		private static bool Internal_RaycastTest(Vector3 origin, Vector3 direction, float maxDistance, int layermask, QueryTriggerInteraction queryTriggerInteraction){}
+		private static bool INTERNAL_CALL_Internal_RaycastTest(ref Vector3 origin, ref Vector3 direction, float maxDistance, int layermask, QueryTriggerInteraction queryTriggerInteraction){}
 		private static void INTERNAL_get_gravity(out Vector3 value){}
 		private static void INTERNAL_set_gravity(ref Vector3 value){}
-		private static bool Internal_Raycast(Vector3 origin, Vector3 direction, out RaycastHit hitInfo, float maxDistance, int layermask){}
-		private static bool INTERNAL_CALL_Internal_Raycast(ref Vector3 origin, ref Vector3 direction, out RaycastHit hitInfo, float maxDistance, int layermask){}
-		private static bool Internal_CapsuleCast(Vector3 point1, Vector3 point2, float radius, Vector3 direction, out RaycastHit hitInfo, float maxDistance, int layermask){}
-		private static bool INTERNAL_CALL_Internal_CapsuleCast(ref Vector3 point1, ref Vector3 point2, float radius, ref Vector3 direction, out RaycastHit hitInfo, float maxDistance, int layermask){}
-		private static bool Internal_RaycastTest(Vector3 origin, Vector3 direction, float maxDistance, int layermask){}
-		private static bool INTERNAL_CALL_Internal_RaycastTest(ref Vector3 origin, ref Vector3 direction, float maxDistance, int layermask){}
+		public static bool Raycast(Vector3 origin, Vector3 direction, float maxDistance, int layerMask){}
 		public static bool Raycast(Vector3 origin, Vector3 direction, float maxDistance){}
 		public static bool Raycast(Vector3 origin, Vector3 direction){}
-		public static bool Raycast(Vector3 origin, Vector3 direction, float maxDistance, int layerMask){}
+		public static bool Raycast(Vector3 origin, Vector3 direction, float maxDistance, int layerMask, QueryTriggerInteraction queryTriggerInteraction){}
+		public static bool Raycast(Vector3 origin, Vector3 direction, out RaycastHit hitInfo, float maxDistance, int layerMask){}
 		public static bool Raycast(Vector3 origin, Vector3 direction, out RaycastHit hitInfo, float maxDistance){}
 		public static bool Raycast(Vector3 origin, Vector3 direction, out RaycastHit hitInfo){}
-		public static bool Raycast(Vector3 origin, Vector3 direction, out RaycastHit hitInfo, float maxDistance, int layerMask){}
+		public static bool Raycast(Vector3 origin, Vector3 direction, out RaycastHit hitInfo, float maxDistance, int layerMask, QueryTriggerInteraction queryTriggerInteraction){}
+		public static bool Raycast(Ray ray, float maxDistance, int layerMask){}
 		public static bool Raycast(Ray ray, float maxDistance){}
 		public static bool Raycast(Ray ray){}
-		public static bool Raycast(Ray ray, float maxDistance, int layerMask){}
+		public static bool Raycast(Ray ray, float maxDistance, int layerMask, QueryTriggerInteraction queryTriggerInteraction){}
+		public static bool Raycast(Ray ray, out RaycastHit hitInfo, float maxDistance, int layerMask){}
 		public static bool Raycast(Ray ray, out RaycastHit hitInfo, float maxDistance){}
 		public static bool Raycast(Ray ray, out RaycastHit hitInfo){}
-		public static bool Raycast(Ray ray, out RaycastHit hitInfo, float maxDistance, int layerMask){}
+		public static bool Raycast(Ray ray, out RaycastHit hitInfo, float maxDistance, int layerMask, QueryTriggerInteraction queryTriggerInteraction){}
+		public static RaycastHit[] RaycastAll(Ray ray, float maxDistance, int layerMask){}
 		public static RaycastHit[] RaycastAll(Ray ray, float maxDistance){}
 		public static RaycastHit[] RaycastAll(Ray ray){}
-		public static RaycastHit[] RaycastAll(Ray ray, float maxDistance, int layerMask){}
+		public static RaycastHit[] RaycastAll(Ray ray, float maxDistance, int layerMask, QueryTriggerInteraction queryTriggerInteraction){}
+		public static RaycastHit[] RaycastAll(Vector3 origin, Vector3 direction, float maxDistance, int layermask, QueryTriggerInteraction queryTriggerInteraction){}
 		public static RaycastHit[] RaycastAll(Vector3 origin, Vector3 direction, float maxDistance, int layermask){}
 		public static RaycastHit[] RaycastAll(Vector3 origin, Vector3 direction, float maxDistance){}
 		public static RaycastHit[] RaycastAll(Vector3 origin, Vector3 direction){}
-		private static RaycastHit[] INTERNAL_CALL_RaycastAll(ref Vector3 origin, ref Vector3 direction, float maxDistance, int layermask){}
-		public static bool Linecast(Vector3 start, Vector3 end){}
+		private static RaycastHit[] INTERNAL_CALL_RaycastAll(ref Vector3 origin, ref Vector3 direction, float maxDistance, int layermask, QueryTriggerInteraction queryTriggerInteraction){}
 		public static bool Linecast(Vector3 start, Vector3 end, int layerMask){}
-		public static bool Linecast(Vector3 start, Vector3 end, out RaycastHit hitInfo){}
+		public static bool Linecast(Vector3 start, Vector3 end){}
+		public static bool Linecast(Vector3 start, Vector3 end, int layerMask, QueryTriggerInteraction queryTriggerInteraction){}
 		public static bool Linecast(Vector3 start, Vector3 end, out RaycastHit hitInfo, int layerMask){}
+		public static bool Linecast(Vector3 start, Vector3 end, out RaycastHit hitInfo){}
+		public static bool Linecast(Vector3 start, Vector3 end, out RaycastHit hitInfo, int layerMask, QueryTriggerInteraction queryTriggerInteraction){}
+		public static Collider[] OverlapSphere(Vector3 position, float radius, int layerMask, QueryTriggerInteraction queryTriggerInteraction){}
 		public static Collider[] OverlapSphere(Vector3 position, float radius, int layerMask){}
 		public static Collider[] OverlapSphere(Vector3 position, float radius){}
-		private static Collider[] INTERNAL_CALL_OverlapSphere(ref Vector3 position, float radius, int layerMask){}
+		private static Collider[] INTERNAL_CALL_OverlapSphere(ref Vector3 position, float radius, int layerMask, QueryTriggerInteraction queryTriggerInteraction){}
+		public static bool CapsuleCast(Vector3 point1, Vector3 point2, float radius, Vector3 direction, float maxDistance, int layerMask){}
 		public static bool CapsuleCast(Vector3 point1, Vector3 point2, float radius, Vector3 direction, float maxDistance){}
 		public static bool CapsuleCast(Vector3 point1, Vector3 point2, float radius, Vector3 direction){}
-		public static bool CapsuleCast(Vector3 point1, Vector3 point2, float radius, Vector3 direction, float maxDistance, int layerMask){}
+		public static bool CapsuleCast(Vector3 point1, Vector3 point2, float radius, Vector3 direction, float maxDistance, int layerMask, QueryTriggerInteraction queryTriggerInteraction){}
+		public static bool CapsuleCast(Vector3 point1, Vector3 point2, float radius, Vector3 direction, out RaycastHit hitInfo, float maxDistance, int layerMask){}
 		public static bool CapsuleCast(Vector3 point1, Vector3 point2, float radius, Vector3 direction, out RaycastHit hitInfo, float maxDistance){}
 		public static bool CapsuleCast(Vector3 point1, Vector3 point2, float radius, Vector3 direction, out RaycastHit hitInfo){}
-		public static bool CapsuleCast(Vector3 point1, Vector3 point2, float radius, Vector3 direction, out RaycastHit hitInfo, float maxDistance, int layerMask){}
+		public static bool CapsuleCast(Vector3 point1, Vector3 point2, float radius, Vector3 direction, out RaycastHit hitInfo, float maxDistance, int layerMask, QueryTriggerInteraction queryTriggerInteraction){}
+		public static bool SphereCast(Vector3 origin, float radius, Vector3 direction, out RaycastHit hitInfo, float maxDistance, int layerMask){}
 		public static bool SphereCast(Vector3 origin, float radius, Vector3 direction, out RaycastHit hitInfo, float maxDistance){}
 		public static bool SphereCast(Vector3 origin, float radius, Vector3 direction, out RaycastHit hitInfo){}
-		public static bool SphereCast(Vector3 origin, float radius, Vector3 direction, out RaycastHit hitInfo, float maxDistance, int layerMask){}
+		public static bool SphereCast(Vector3 origin, float radius, Vector3 direction, out RaycastHit hitInfo, float maxDistance, int layerMask, QueryTriggerInteraction queryTriggerInteraction){}
+		public static bool SphereCast(Ray ray, float radius, float maxDistance, int layerMask){}
 		public static bool SphereCast(Ray ray, float radius, float maxDistance){}
 		public static bool SphereCast(Ray ray, float radius){}
-		public static bool SphereCast(Ray ray, float radius, float maxDistance, int layerMask){}
+		public static bool SphereCast(Ray ray, float radius, float maxDistance, int layerMask, QueryTriggerInteraction queryTriggerInteraction){}
+		public static bool SphereCast(Ray ray, float radius, out RaycastHit hitInfo, float maxDistance, int layerMask){}
 		public static bool SphereCast(Ray ray, float radius, out RaycastHit hitInfo, float maxDistance){}
 		public static bool SphereCast(Ray ray, float radius, out RaycastHit hitInfo){}
-		public static bool SphereCast(Ray ray, float radius, out RaycastHit hitInfo, float maxDistance, int layerMask){}
+		public static bool SphereCast(Ray ray, float radius, out RaycastHit hitInfo, float maxDistance, int layerMask, QueryTriggerInteraction queryTriggerInteraction){}
+		public static RaycastHit[] CapsuleCastAll(Vector3 point1, Vector3 point2, float radius, Vector3 direction, float maxDistance, int layermask, QueryTriggerInteraction queryTriggerInteraction){}
 		public static RaycastHit[] CapsuleCastAll(Vector3 point1, Vector3 point2, float radius, Vector3 direction, float maxDistance, int layermask){}
 		public static RaycastHit[] CapsuleCastAll(Vector3 point1, Vector3 point2, float radius, Vector3 direction, float maxDistance){}
 		public static RaycastHit[] CapsuleCastAll(Vector3 point1, Vector3 point2, float radius, Vector3 direction){}
-		private static RaycastHit[] INTERNAL_CALL_CapsuleCastAll(ref Vector3 point1, ref Vector3 point2, float radius, ref Vector3 direction, float maxDistance, int layermask){}
+		private static RaycastHit[] INTERNAL_CALL_CapsuleCastAll(ref Vector3 point1, ref Vector3 point2, float radius, ref Vector3 direction, float maxDistance, int layermask, QueryTriggerInteraction queryTriggerInteraction){}
+		public static RaycastHit[] SphereCastAll(Vector3 origin, float radius, Vector3 direction, float maxDistance, int layerMask){}
 		public static RaycastHit[] SphereCastAll(Vector3 origin, float radius, Vector3 direction, float maxDistance){}
 		public static RaycastHit[] SphereCastAll(Vector3 origin, float radius, Vector3 direction){}
-		public static RaycastHit[] SphereCastAll(Vector3 origin, float radius, Vector3 direction, float maxDistance, int layerMask){}
+		public static RaycastHit[] SphereCastAll(Vector3 origin, float radius, Vector3 direction, float maxDistance, int layerMask, QueryTriggerInteraction queryTriggerInteraction){}
+		public static RaycastHit[] SphereCastAll(Ray ray, float radius, float maxDistance, int layerMask){}
 		public static RaycastHit[] SphereCastAll(Ray ray, float radius, float maxDistance){}
 		public static RaycastHit[] SphereCastAll(Ray ray, float radius){}
-		public static RaycastHit[] SphereCastAll(Ray ray, float radius, float maxDistance, int layerMask){}
+		public static RaycastHit[] SphereCastAll(Ray ray, float radius, float maxDistance, int layerMask, QueryTriggerInteraction queryTriggerInteraction){}
+		public static bool CheckSphere(Vector3 position, float radius, int layerMask, QueryTriggerInteraction queryTriggerInteraction){}
 		public static bool CheckSphere(Vector3 position, float radius, int layerMask){}
 		public static bool CheckSphere(Vector3 position, float radius){}
-		private static bool INTERNAL_CALL_CheckSphere(ref Vector3 position, float radius, int layerMask){}
+		private static bool INTERNAL_CALL_CheckSphere(ref Vector3 position, float radius, int layerMask, QueryTriggerInteraction queryTriggerInteraction){}
+		public static bool CheckCapsule(Vector3 start, Vector3 end, float radius, int layermask, QueryTriggerInteraction queryTriggerInteraction){}
 		public static bool CheckCapsule(Vector3 start, Vector3 end, float radius, int layermask){}
 		public static bool CheckCapsule(Vector3 start, Vector3 end, float radius){}
-		private static bool INTERNAL_CALL_CheckCapsule(ref Vector3 start, ref Vector3 end, float radius, int layermask){}
+		private static bool INTERNAL_CALL_CheckCapsule(ref Vector3 start, ref Vector3 end, float radius, int layermask, QueryTriggerInteraction queryTriggerInteraction){}
 		public static void IgnoreCollision(Collider collider1, Collider collider2, bool ignore){}
 		public static void IgnoreCollision(Collider collider1, Collider collider2){}
 		public static void IgnoreLayerCollision(int layer1, int layer2, bool ignore){}
 		public static void IgnoreLayerCollision(int layer1, int layer2){}
 		public static bool GetIgnoreLayerCollision(int layer1, int layer2){}
+		private static bool Internal_Raycast(Vector3 origin, Vector3 direction, out RaycastHit hitInfo, float maxDistance, int layermask, QueryTriggerInteraction queryTriggerInteraction){}
+		private static bool INTERNAL_CALL_Internal_Raycast(ref Vector3 origin, ref Vector3 direction, out RaycastHit hitInfo, float maxDistance, int layermask, QueryTriggerInteraction queryTriggerInteraction){}
+		private static bool Internal_CapsuleCast(Vector3 point1, Vector3 point2, float radius, Vector3 direction, out RaycastHit hitInfo, float maxDistance, int layermask, QueryTriggerInteraction queryTriggerInteraction){}
+		private static bool INTERNAL_CALL_Internal_CapsuleCast(ref Vector3 point1, ref Vector3 point2, float radius, ref Vector3 direction, out RaycastHit hitInfo, float maxDistance, int layermask, QueryTriggerInteraction queryTriggerInteraction){}
 		public Physics(){}
 		public static Vector3 gravity{ get	{} set	{} }
 		public static float minPenetrationForPenalty{ get	{} set	{} }
@@ -3652,23 +3431,26 @@ namespace UnityEngine {
 		public static float maxAngularVelocity{ get	{} set	{} }
 		public static int solverIterationCount{ get	{} set	{} }
 		public static float sleepThreshold{ get	{} set	{} }
+		public static bool queriesHitTriggers{ get	{} set	{} }
 		public static float penetrationPenaltyForce{ get	{} set	{} }
-		public const int kIgnoreRaycastLayer = null;
-		public const int kDefaultRaycastLayers = null;
-		public const int kAllLayers = null;
 		public const int IgnoreRaycastLayer = null;
+		public const int kIgnoreRaycastLayer = null;
 		public const int DefaultRaycastLayers = null;
+		public const int kDefaultRaycastLayers = null;
 		public const int AllLayers = null;
+		public const int kAllLayers = null;
 	}
 
 	public sealed class	Rigidbody: Component
 	{
+		public bool SweepTest(Vector3 direction, out RaycastHit hitInfo, float maxDistance, QueryTriggerInteraction queryTriggerInteraction){}
 		public bool SweepTest(Vector3 direction, out RaycastHit hitInfo, float maxDistance){}
 		public bool SweepTest(Vector3 direction, out RaycastHit hitInfo){}
-		private static bool INTERNAL_CALL_SweepTest(Rigidbody self, ref Vector3 direction, out RaycastHit hitInfo, float maxDistance){}
+		private static bool INTERNAL_CALL_SweepTest(Rigidbody self, ref Vector3 direction, out RaycastHit hitInfo, float maxDistance, QueryTriggerInteraction queryTriggerInteraction){}
+		public RaycastHit[] SweepTestAll(Vector3 direction, float maxDistance, QueryTriggerInteraction queryTriggerInteraction){}
 		public RaycastHit[] SweepTestAll(Vector3 direction, float maxDistance){}
 		public RaycastHit[] SweepTestAll(Vector3 direction){}
-		private static RaycastHit[] INTERNAL_CALL_SweepTestAll(Rigidbody self, ref Vector3 direction, float maxDistance){}
+		private static RaycastHit[] INTERNAL_CALL_SweepTestAll(Rigidbody self, ref Vector3 direction, float maxDistance, QueryTriggerInteraction queryTriggerInteraction){}
 		public void SetMaxAngularVelocity(float a){}
 		private void INTERNAL_get_velocity(out Vector3 value){}
 		private void INTERNAL_set_velocity(ref Vector3 value){}
@@ -4026,8 +3808,6 @@ namespace UnityEngine {
 	public sealed class	PhysicMaterial: Object
 	{
 		private static void Internal_CreateDynamicsMaterial(PhysicMaterial mat, string name){}
-		private void INTERNAL_get_frictionDirection2(out Vector3 value){}
-		private void INTERNAL_set_frictionDirection2(ref Vector3 value){}
 		public PhysicMaterial(){}
 		public PhysicMaterial(string name){}
 		public float dynamicFriction{ get	{} set	{} }
@@ -4040,47 +3820,6 @@ namespace UnityEngine {
 		public PhysicMaterialCombine frictionCombine{ get	{} set	{} }
 		public PhysicMaterialCombine bounceCombine{ get	{} set	{} }
 		public Vector3 frictionDirection{ get	{} set	{} }
-	}
-
-	public class	Collision: Object
-	{
-		public virtual IEnumerator GetEnumerator(){}
-		public Collision(){}
-		public Vector3 relativeVelocity{ get	{} }
-		public Rigidbody rigidbody{ get	{} }
-		public Collider collider{ get	{} }
-		public Transform transform{ get	{} }
-		public GameObject gameObject{ get	{} }
-		public ContactPoint[] contacts{ get	{} }
-		public Vector3 impactForceSum{ get	{} }
-		public Vector3 frictionForceSum{ get	{} }
-		public Component other{ get	{} }
-		internal Vector3 m_RelativeVelocity;
-		internal Rigidbody m_Rigidbody;
-		internal Collider m_Collider;
-		internal ContactPoint[] m_Contacts;
-	}
-
-	public sealed class	ControllerColliderHit: Object
-	{
-		public ControllerColliderHit(){}
-		public CharacterController controller{ get	{} }
-		public Collider collider{ get	{} }
-		public Rigidbody rigidbody{ get	{} }
-		public GameObject gameObject{ get	{} }
-		public Transform transform{ get	{} }
-		public Vector3 point{ get	{} }
-		public Vector3 normal{ get	{} }
-		public Vector3 moveDirection{ get	{} }
-		public float moveLength{ get	{} }
-		bool push{ get	{} set	{} }
-		internal CharacterController m_Controller;
-		internal Collider m_Collider;
-		internal Vector3 m_Point;
-		internal Vector3 m_Normal;
-		internal Vector3 m_MoveDirection;
-		internal float m_MoveLength;
-		internal int m_Push;
 	}
 
 	public sealed class	CharacterController: Collider
@@ -4101,6 +3840,7 @@ namespace UnityEngine {
 		public Vector3 center{ get	{} set	{} }
 		public float slopeLimit{ get	{} set	{} }
 		public float stepOffset{ get	{} set	{} }
+		public float skinWidth{ get	{} set	{} }
 		public bool detectCollisions{ get	{} set	{} }
 	}
 
@@ -4140,9 +3880,6 @@ namespace UnityEngine {
 
 	public class	Physics2D: Object
 	{
-		private static int INTERNAL_CALL_CircleCastNonAlloc(ref Vector2 origin, float radius, ref Vector2 direction, RaycastHit2D[] results, float distance, int layerMask, float minDepth, float maxDepth){}
-		private static void Internal_BoxCast(Vector2 origin, Vector2 size, float angle, Vector2 direction, float distance, int layerMask, float minDepth, float maxDepth, out RaycastHit2D raycastHit){}
-		private static void INTERNAL_CALL_Internal_BoxCast(ref Vector2 origin, ref Vector2 size, float angle, ref Vector2 direction, float distance, int layerMask, float minDepth, float maxDepth, out RaycastHit2D raycastHit){}
 		public static RaycastHit2D BoxCast(Vector2 origin, Vector2 size, float angle, Vector2 direction, float distance, int layerMask, float minDepth){}
 		public static RaycastHit2D BoxCast(Vector2 origin, Vector2 size, float angle, Vector2 direction, float distance, int layerMask){}
 		public static RaycastHit2D BoxCast(Vector2 origin, Vector2 size, float angle, Vector2 direction, float distance){}
@@ -4283,14 +4020,16 @@ namespace UnityEngine {
 		public static int CircleCastNonAlloc(Vector2 origin, float radius, Vector2 direction, RaycastHit2D[] results, float distance, int layerMask){}
 		public static int CircleCastNonAlloc(Vector2 origin, float radius, Vector2 direction, RaycastHit2D[] results, float distance){}
 		public static int CircleCastNonAlloc(Vector2 origin, float radius, Vector2 direction, RaycastHit2D[] results){}
+		private static int INTERNAL_CALL_CircleCastNonAlloc(ref Vector2 origin, float radius, ref Vector2 direction, RaycastHit2D[] results, float distance, int layerMask, float minDepth, float maxDepth){}
+		private static void Internal_BoxCast(Vector2 origin, Vector2 size, float angle, Vector2 direction, float distance, int layerMask, float minDepth, float maxDepth, out RaycastHit2D raycastHit){}
+		private static void INTERNAL_CALL_Internal_BoxCast(ref Vector2 origin, ref Vector2 size, float angle, ref Vector2 direction, float distance, int layerMask, float minDepth, float maxDepth, out RaycastHit2D raycastHit){}
 		public Physics2D(){}
 		private static Physics2D(){}
 		public static int velocityIterations{ get	{} set	{} }
 		public static int positionIterations{ get	{} set	{} }
 		public static Vector2 gravity{ get	{} set	{} }
-		public static bool raycastsHitTriggers{ get	{} set	{} }
-		public static bool raycastsStartInColliders{ get	{} set	{} }
-		public static bool deleteStopsCallbacks{ get	{} set	{} }
+		public static bool queriesHitTriggers{ get	{} set	{} }
+		public static bool queriesStartInColliders{ get	{} set	{} }
 		public static bool changeStopsCallbacks{ get	{} set	{} }
 		public static float velocityThreshold{ get	{} set	{} }
 		public static float maxLinearCorrection{ get	{} set	{} }
@@ -4303,6 +4042,9 @@ namespace UnityEngine {
 		public static float timeToSleep{ get	{} set	{} }
 		public static float linearSleepTolerance{ get	{} set	{} }
 		public static float angularSleepTolerance{ get	{} set	{} }
+		public static bool raycastsHitTriggers{ get	{} set	{} }
+		public static bool raycastsStartInColliders{ get	{} set	{} }
+		public static bool deleteStopsCallbacks{ get	{} set	{} }
 		private static List<Rigidbody2D> m_LastDisabledRigidbody2D;
 		public const int IgnoreRaycastLayer = null;
 		public const int DefaultRaycastLayers = null;
@@ -4326,6 +4068,9 @@ namespace UnityEngine {
 		public bool IsAwake(){}
 		public void Sleep(){}
 		public void WakeUp(){}
+		public bool IsTouching(Collider2D collider){}
+		public bool IsTouchingLayers(int layerMask){}
+		public bool IsTouchingLayers(){}
 		public void AddForce(Vector2 force, ForceMode2D mode){}
 		public void AddForce(Vector2 force){}
 		private static void INTERNAL_CALL_AddForce(Rigidbody2D self, ref Vector2 force, ForceMode2D mode){}
@@ -4369,6 +4114,8 @@ namespace UnityEngine {
 		public float gravityScale{ get	{} set	{} }
 		public bool isKinematic{ get	{} set	{} }
 		public bool fixedAngle{ get	{} set	{} }
+		public bool freezeRotation{ get	{} set	{} }
+		public RigidbodyConstraints2D constraints{ get	{} set	{} }
 		public bool simulated{ get	{} set	{} }
 		public RigidbodyInterpolation2D interpolation{ get	{} set	{} }
 		public RigidbodySleepMode2D sleepMode{ get	{} set	{} }
@@ -4400,6 +4147,7 @@ namespace UnityEngine {
 	{
 		public CircleCollider2D(){}
 		public float radius{ get	{} set	{} }
+		public Vector2 center{ get	{} set	{} }
 	}
 
 	public sealed class	BoxCollider2D: Collider2D
@@ -4408,6 +4156,7 @@ namespace UnityEngine {
 		private void INTERNAL_set_size(ref Vector2 value){}
 		public BoxCollider2D(){}
 		public Vector2 size{ get	{} set	{} }
+		public Vector2 center{ get	{} set	{} }
 	}
 
 	public sealed class	EdgeCollider2D: Collider2D
@@ -4455,6 +4204,7 @@ namespace UnityEngine {
 		public Joint2D(){}
 		public Rigidbody2D connectedBody{ get	{} set	{} }
 		public bool enableCollision{ get	{} set	{} }
+		public bool collideConnected{ get	{} set	{} }
 	}
 
 	public class	AnchoredJoint2D: Joint2D
@@ -4579,6 +4329,7 @@ namespace UnityEngine {
 	public class	Effector2D: Behaviour
 	{
 		public Effector2D(){}
+		public bool useColliderMask{ get	{} set	{} }
 		public int colliderMask{ get	{} set	{} }
 		bool requiresCollider{ get	{} }
 		bool designedForTrigger{ get	{} }
@@ -4588,12 +4339,14 @@ namespace UnityEngine {
 	public sealed class	AreaEffector2D: Effector2D
 	{
 		public AreaEffector2D(){}
-		public float forceDirection{ get	{} set	{} }
+		public float forceAngle{ get	{} set	{} }
+		public bool useGlobalAngle{ get	{} set	{} }
 		public float forceMagnitude{ get	{} set	{} }
 		public float forceVariation{ get	{} set	{} }
 		public float drag{ get	{} set	{} }
 		public float angularDrag{ get	{} set	{} }
 		public EffectorSelection2D forceTarget{ get	{} set	{} }
+		public float forceDirection{ get	{} set	{} }
 	}
 
 	public sealed class	PointEffector2D: Effector2D
@@ -4612,10 +4365,14 @@ namespace UnityEngine {
 	public sealed class	PlatformEffector2D: Effector2D
 	{
 		public PlatformEffector2D(){}
+		public float sideAngleVariance{ get	{} set	{} }
 		public bool useOneWay{ get	{} set	{} }
 		public bool useSideFriction{ get	{} set	{} }
 		public bool useSideBounce{ get	{} set	{} }
-		public float sideAngleVariance{ get	{} set	{} }
+		public float surfaceArc{ get	{} set	{} }
+		public bool oneWay{ get	{} set	{} }
+		public bool sideFriction{ get	{} set	{} }
+		public bool sideBounce{ get	{} set	{} }
 	}
 
 	public sealed class	SurfaceEffector2D: Effector2D
@@ -4721,7 +4478,7 @@ namespace UnityEngine {
 		public static float GetAreaCost(int areaIndex){}
 		public static int GetAreaFromName(string areaName){}
 		public static NavMeshTriangulation CalculateTriangulation(){}
-		internal static void TriangulateInternal(ref Vector3[] vertices, ref Int32[] indices, ref Int32[] areas){}
+		internal static System.Object TriangulateInternal(){}
 		public static void Triangulate(out Vector3[] vertices, out Int32[] indices){}
 		public static void AddOffMeshLinks(){}
 		public static void RestoreNavMesh(){}
@@ -4795,12 +4552,14 @@ namespace UnityEngine {
 		public static AudioConfiguration GetConfiguration(){}
 		public static bool Reset(AudioConfiguration config){}
 		private static bool INTERNAL_CALL_Reset(ref AudioConfiguration config){}
-		internal void InvokeOnAudioConfigurationChanged(bool deviceWasChanged){}
+		internal static void InvokeOnAudioConfigurationChanged(bool deviceWasChanged){}
 		public AudioSettings(){}
 		public static AudioSpeakerMode driverCapabilities{ get	{} }
 		public static AudioSpeakerMode speakerMode{ get	{} set	{} }
 		public static double dspTime{ get	{} }
 		public static int outputSampleRate{ get	{} set	{} }
+		bool editingInPlaymode{ get	{} set	{} }
+		public static AudioSpeakerMode driverCaps{ get	{} }
 		public static event	AudioConfigurationChangeHandler OnAudioConfigurationChanged;
 	}
 
@@ -4865,12 +4624,16 @@ namespace UnityEngine {
 		public void PlayOneShot(AudioClip clip){}
 		public static void PlayClipAtPoint(AudioClip clip, Vector3 position){}
 		public static void PlayClipAtPoint(AudioClip clip, Vector3 position, float volume){}
+		public void SetCustomCurve(AudioSourceCurveType type, AnimationCurve curve){}
+		public AnimationCurve GetCustomCurve(AudioSourceCurveType type){}
 		private void GetOutputDataHelper(Single[] samples, int channel){}
 		public Single[] GetOutputData(int numSamples, int channel){}
 		public void GetOutputData(Single[] samples, int channel){}
 		private void GetSpectrumDataHelper(Single[] samples, int channel, FFTWindow window){}
 		public Single[] GetSpectrumData(int numSamples, int channel, FFTWindow window){}
 		public void GetSpectrumData(Single[] samples, int channel, FFTWindow window){}
+		public bool SetSpatializerFloat(int index, float value){}
+		public bool GetSpatializerFloat(int index, out float value){}
 		public AudioSource(){}
 		public float volume{ get	{} set	{} }
 		public float pitch{ get	{} set	{} }
@@ -4886,6 +4649,7 @@ namespace UnityEngine {
 		public AudioVelocityUpdateMode velocityUpdateMode{ get	{} set	{} }
 		public float panStereo{ get	{} set	{} }
 		public float spatialBlend{ get	{} set	{} }
+		public bool spatialize{ get	{} set	{} }
 		public float reverbZoneMix{ get	{} set	{} }
 		public bool bypassEffects{ get	{} set	{} }
 		public bool bypassListenerEffects{ get	{} set	{} }
@@ -4900,6 +4664,8 @@ namespace UnityEngine {
 		public float minVolume{ get	{} set	{} }
 		public float maxVolume{ get	{} set	{} }
 		public float rolloffFactor{ get	{} set	{} }
+		public float panLevel{ get	{} set	{} }
+		public float pan{ get	{} set	{} }
 	}
 
 	public sealed class	AudioReverbZone: Behaviour
@@ -4928,7 +4694,9 @@ namespace UnityEngine {
 	{
 		public AudioLowPassFilter(){}
 		public float cutoffFrequency{ get	{} set	{} }
+		public AnimationCurve customCutoffCurve{ get	{} set	{} }
 		public float lowpassResonanceQ{ get	{} set	{} }
+		public float lowpassResonaceQ{ get	{} set	{} }
 	}
 
 	public sealed class	AudioHighPassFilter: Behaviour
@@ -4936,6 +4704,7 @@ namespace UnityEngine {
 		public AudioHighPassFilter(){}
 		public float cutoffFrequency{ get	{} set	{} }
 		public float highpassResonanceQ{ get	{} set	{} }
+		public float highpassResonaceQ{ get	{} set	{} }
 	}
 
 	public sealed class	AudioDistortionFilter: Behaviour
@@ -4985,6 +4754,7 @@ namespace UnityEngine {
 		public float hfReference{ get	{} set	{} }
 		public float roomLF{ get	{} set	{} }
 		public float lfReference{ get	{} set	{} }
+		public float lFReference{ get	{} set	{} }
 	}
 
 	public sealed class	Microphone: Object
@@ -5023,6 +4793,7 @@ namespace UnityEngine {
 		private static void INTERNAL_CALL_Pause(WebCamTexture self){}
 		public void Stop(){}
 		private static void INTERNAL_CALL_Stop(WebCamTexture self){}
+		public void MarkNonReadable(){}
 		public Color GetPixel(int x, int y){}
 		public Color[] GetPixels(){}
 		public Color[] GetPixels(int x, int y, int blockWidth, int blockHeight){}
@@ -5039,6 +4810,7 @@ namespace UnityEngine {
 		public float requestedFPS{ get	{} set	{} }
 		public int requestedWidth{ get	{} set	{} }
 		public int requestedHeight{ get	{} set	{} }
+		public bool isReadable{ get	{} }
 		public static WebCamDevice[] devices{ get	{} }
 		public int videoRotationAngle{ get	{} }
 		public bool videoVerticallyMirrored{ get	{} }
@@ -5059,17 +4831,21 @@ namespace UnityEngine {
 		private void Internal_SetClipByName(string name, AnimationClip clip){}
 		private AnimationClip Internal_GetClip(AnimationClip originalClip, bool returnEffectiveClip){}
 		private void Internal_SetClip(AnimationClip originalClip, AnimationClip overrideClip){}
+		internal static void OnInvalidateOverrideController(AnimatorOverrideController controller){}
 		private AnimationClip[] GetOriginalClips(){}
 		private AnimationClip[] GetOverrideClips(){}
+		internal void PerformOverrideClipListCleanup(){}
 		public AnimatorOverrideController(){}
 		public RuntimeAnimatorController runtimeAnimatorController{ get	{} set	{} }
 		public AnimationClip this[string name] { get	{} set	{} }
 		public AnimationClip this[AnimationClip clip] { get	{} set	{} }
 		public AnimationClipPair[] clips{ get	{} set	{} }
+		internal OnOverrideControllerDirtyCallback OnOverrideControllerDirty;
 	}
 
 	public sealed class	AnimationEvent: Object
 	{
+		internal int GetHash(){}
 		public AnimationEvent(){}
 		public string data{ get	{} set	{} }
 		public string stringParameter{ get	{} set	{} }
@@ -5234,10 +5010,18 @@ namespace UnityEngine {
 		public AnimationBlendMode blendMode{ get	{} set	{} }
 	}
 
-	public sealed class	Animator: Behaviour
+	public sealed class	Animator: DirectorPlayer, IAnimatorControllerPlayable
 	{
+		private bool IsParameterControlledByCurveID(int id){}
+		private void SetFloatStringDamp(string name, float value, float dampTime, float deltaTime){}
+		private void SetFloatIDDamp(int id, float value, float dampTime, float deltaTime){}
+		internal void WriteDefaultPose(){}
 		public void Update(float deltaTime){}
 		public void Rebind(){}
+		public void ApplyBuiltinRootMotion(){}
+		internal void EvaluateController(){}
+		internal string GetCurrentStateName(int layerIndex){}
+		internal string GetNextStateName(int layerIndex){}
 		internal string ResolveHash(int hash){}
 		public Vector3 GetVector(string name){}
 		public Vector3 GetVector(int id){}
@@ -5247,35 +5031,53 @@ namespace UnityEngine {
 		public Quaternion GetQuaternion(int id){}
 		public void SetQuaternion(string name, Quaternion value){}
 		public void SetQuaternion(int id, Quaternion value){}
-		public string GetLayerName(int layerIndex){}
-		public int GetLayerIndex(string layerName){}
-		public float GetLayerWeight(int layerIndex){}
-		public void SetLayerWeight(int layerIndex, float weight){}
-		public AnimatorStateInfo GetCurrentAnimatorStateInfo(int layerIndex){}
-		public AnimatorStateInfo GetNextAnimatorStateInfo(int layerIndex){}
-		public AnimatorTransitionInfo GetAnimatorTransitionInfo(int layerIndex){}
-		public AnimatorClipInfo[] GetCurrentAnimatorClipInfo(int layerIndex){}
-		public AnimatorClipInfo[] GetNextAnimatorClipInfo(int layerIndex){}
-		public bool IsInTransition(int layerIndex){}
+		public AnimationInfo[] GetCurrentAnimationClipState(int layerIndex){}
+		public AnimationInfo[] GetNextAnimationClipState(int layerIndex){}
+		public sealed virtual string GetLayerName(int layerIndex){}
+		public sealed virtual int GetLayerIndex(string layerName){}
+		public sealed virtual float GetLayerWeight(int layerIndex){}
+		public sealed virtual void SetLayerWeight(int layerIndex, float weight){}
+		public sealed virtual AnimatorStateInfo GetCurrentAnimatorStateInfo(int layerIndex){}
+		public sealed virtual AnimatorStateInfo GetNextAnimatorStateInfo(int layerIndex){}
+		public sealed virtual AnimatorTransitionInfo GetAnimatorTransitionInfo(int layerIndex){}
+		public sealed virtual AnimatorClipInfo[] GetCurrentAnimatorClipInfo(int layerIndex){}
+		public sealed virtual AnimatorClipInfo[] GetNextAnimatorClipInfo(int layerIndex){}
+		public sealed virtual bool IsInTransition(int layerIndex){}
+		public sealed virtual AnimatorControllerParameter GetParameter(int index){}
+		private void INTERNAL_get_pivotPosition(out Vector3 value){}
 		public void MatchTarget(Vector3 matchPosition, Quaternion matchRotation, AvatarTarget targetBodyPart, MatchTargetWeightMask weightMask, float startNormalizedTime, float targetNormalizedTime){}
 		public void MatchTarget(Vector3 matchPosition, Quaternion matchRotation, AvatarTarget targetBodyPart, MatchTargetWeightMask weightMask, float startNormalizedTime){}
 		private static void INTERNAL_CALL_MatchTarget(Animator self, ref Vector3 matchPosition, ref Quaternion matchRotation, AvatarTarget targetBodyPart, ref MatchTargetWeightMask weightMask, float startNormalizedTime, float targetNormalizedTime){}
 		public void InterruptMatchTarget(bool completeMatch){}
 		public void InterruptMatchTarget(){}
 		public void ForceStateNormalizedTime(float normalizedTime){}
+		public void CrossFadeInFixedTime(string stateName, float transitionDuration, int layer){}
+		public void CrossFadeInFixedTime(string stateName, float transitionDuration){}
+		public sealed virtual void CrossFadeInFixedTime(string stateName, float transitionDuration, int layer, float fixedTime){}
+		public sealed virtual void CrossFadeInFixedTime(int stateNameHash, float transitionDuration, int layer, float fixedTime){}
+		public void CrossFadeInFixedTime(int stateNameHash, float transitionDuration, int layer){}
+		public void CrossFadeInFixedTime(int stateNameHash, float transitionDuration){}
 		public void CrossFade(string stateName, float transitionDuration, int layer){}
 		public void CrossFade(string stateName, float transitionDuration){}
-		public void CrossFade(string stateName, float transitionDuration, int layer, float normalizedTime){}
-		public void CrossFade(int stateNameHash, float transitionDuration, int layer, float normalizedTime){}
+		public sealed virtual void CrossFade(string stateName, float transitionDuration, int layer, float normalizedTime){}
+		public sealed virtual void CrossFade(int stateNameHash, float transitionDuration, int layer, float normalizedTime){}
 		public void CrossFade(int stateNameHash, float transitionDuration, int layer){}
 		public void CrossFade(int stateNameHash, float transitionDuration){}
+		public void PlayInFixedTime(string stateName, int layer){}
+		public void PlayInFixedTime(string stateName){}
+		public sealed virtual void PlayInFixedTime(string stateName, int layer, float fixedTime){}
+		public sealed virtual void PlayInFixedTime(int stateNameHash, int layer, float fixedTime){}
+		public void PlayInFixedTime(int stateNameHash, int layer){}
+		public void PlayInFixedTime(int stateNameHash){}
 		public void Play(string stateName, int layer){}
 		public void Play(string stateName){}
-		public void Play(string stateName, int layer, float normalizedTime){}
-		public void Play(int stateNameHash, int layer, float normalizedTime){}
+		public sealed virtual void Play(string stateName, int layer, float normalizedTime){}
+		public sealed virtual void Play(int stateNameHash, int layer, float normalizedTime){}
 		public void Play(int stateNameHash, int layer){}
 		public void Play(int stateNameHash){}
 		public void SetTarget(AvatarTarget targetIndex, float targetNormalizedTime){}
+		private void INTERNAL_get_targetPosition(out Vector3 value){}
+		private void INTERNAL_get_targetRotation(out Quaternion value){}
 		public bool IsControlled(Transform transform){}
 		internal bool IsBoneTransform(Transform transform){}
 		public Transform GetBoneTransform(HumanBodyBones humanBoneId){}
@@ -5283,7 +5085,7 @@ namespace UnityEngine {
 		public void StopPlayback(){}
 		public void StartRecording(int frameCount){}
 		public void StopRecording(){}
-		public bool HasState(int layerIndex, int stateID){}
+		public sealed virtual bool HasState(int layerIndex, int stateID){}
 		public static int StringToHash(string name){}
 		internal string GetStats(){}
 		private void CheckIfInIKPass(){}
@@ -5305,29 +5107,30 @@ namespace UnityEngine {
 		private void ResetTriggerString(string name){}
 		private void ResetTriggerID(int id){}
 		private bool IsParameterControlledByCurveString(string name){}
-		private bool IsParameterControlledByCurveID(int id){}
-		private void SetFloatStringDamp(string name, float value, float dampTime, float deltaTime){}
-		private void SetFloatIDDamp(int id, float value, float dampTime, float deltaTime){}
-		public float GetFloat(string name){}
-		public float GetFloat(int id){}
-		public void SetFloat(string name, float value){}
+		public sealed virtual float GetFloat(string name){}
+		public sealed virtual float GetFloat(int id){}
+		public sealed virtual void SetFloat(string name, float value){}
 		public void SetFloat(string name, float value, float dampTime, float deltaTime){}
-		public void SetFloat(int id, float value){}
+		public sealed virtual void SetFloat(int id, float value){}
 		public void SetFloat(int id, float value, float dampTime, float deltaTime){}
-		public bool GetBool(string name){}
-		public bool GetBool(int id){}
-		public void SetBool(string name, bool value){}
-		public void SetBool(int id, bool value){}
-		public int GetInteger(string name){}
-		public int GetInteger(int id){}
-		public void SetInteger(string name, int value){}
-		public void SetInteger(int id, int value){}
-		public void SetTrigger(string name){}
-		public void SetTrigger(int id){}
-		public void ResetTrigger(string name){}
-		public void ResetTrigger(int id){}
-		public bool IsParameterControlledByCurve(string name){}
-		public bool IsParameterControlledByCurve(int id){}
+		public sealed virtual bool GetBool(string name){}
+		public sealed virtual bool GetBool(int id){}
+		public sealed virtual void SetBool(string name, bool value){}
+		public sealed virtual void SetBool(int id, bool value){}
+		public sealed virtual int GetInteger(string name){}
+		public sealed virtual int GetInteger(int id){}
+		public sealed virtual void SetInteger(string name, int value){}
+		public sealed virtual void SetInteger(int id, int value){}
+		public sealed virtual void SetTrigger(string name){}
+		public sealed virtual void SetTrigger(int id){}
+		public sealed virtual void ResetTrigger(string name){}
+		public sealed virtual void ResetTrigger(int id){}
+		public sealed virtual bool IsParameterControlledByCurve(string name){}
+		public sealed virtual bool IsParameterControlledByCurve(int id){}
+		private void INTERNAL_get_deltaPosition(out Vector3 value){}
+		private void INTERNAL_get_deltaRotation(out Quaternion value){}
+		private void INTERNAL_get_velocity(out Vector3 value){}
+		private void INTERNAL_get_angularVelocity(out Vector3 value){}
 		private void INTERNAL_get_rootPosition(out Vector3 value){}
 		private void INTERNAL_set_rootPosition(ref Vector3 value){}
 		private void INTERNAL_get_rootRotation(out Quaternion value){}
@@ -5376,6 +5179,9 @@ namespace UnityEngine {
 		internal void SetLookAtWeightInternal(float weight, float bodyWeight, float headWeight){}
 		internal void SetLookAtWeightInternal(float weight, float bodyWeight){}
 		internal void SetLookAtWeightInternal(float weight){}
+		public void SetBoneLocalRotation(HumanBodyBones humanBoneId, Quaternion rotation){}
+		internal void SetBoneLocalRotationInternal(HumanBodyBones humanBoneId, Quaternion rotation){}
+		private static void INTERNAL_CALL_SetBoneLocalRotationInternal(Animator self, HumanBodyBones humanBoneId, ref Quaternion rotation){}
 		internal ScriptableObject GetBehaviour(Type type){}
 		public T GetBehaviour(){}
 		internal ScriptableObject[] GetBehaviours(Type type){}
@@ -5387,6 +5193,7 @@ namespace UnityEngine {
 		public bool hasRootMotion{ get	{} }
 		bool isRootPositionOrRotationControlledByCurves{ get	{} }
 		public float humanScale{ get	{} }
+		public bool isInitialized{ get	{} }
 		public Vector3 deltaPosition{ get	{} }
 		public Quaternion deltaRotation{ get	{} }
 		public Vector3 velocity{ get	{} }
@@ -5403,8 +5210,9 @@ namespace UnityEngine {
 		public Vector3 bodyPosition{ get	{} set	{} }
 		public Quaternion bodyRotation{ get	{} set	{} }
 		public bool stabilizeFeet{ get	{} set	{} }
-		public int layerCount{ get	{} }
+		public sealed virtual int layerCount{ get	{} }
 		public AnimatorControllerParameter[] parameters{ get	{} }
+		public sealed virtual int parameterCount{ get	{} }
 		public float feetPivotActive{ get	{} set	{} }
 		public float pivotWeight{ get	{} }
 		public Vector3 pivotPosition{ get	{} }
@@ -5423,7 +5231,7 @@ namespace UnityEngine {
 		public bool layersAffectMassCenter{ get	{} set	{} }
 		public float leftFeetBottomHeight{ get	{} }
 		public float rightFeetBottomHeight{ get	{} }
-		bool isInManagerList{ get	{} }
+		bool supportsOnAnimatorMove{ get	{} }
 		public bool logWarnings{ get	{} set	{} }
 		public bool fireEvents{ get	{} set	{} }
 	}
@@ -5433,7 +5241,7 @@ namespace UnityEngine {
 		public virtual bool Equals(System.Object o){}
 		public virtual int GetHashCode(){}
 		public AnimatorControllerParameter(){}
-		public string name{ get	{} }
+		public string name{ get	{} set	{} }
 		public int nameHash{ get	{} }
 		public AnimatorControllerParameterType type{ get	{} set	{} }
 		public float defaultFloat{ get	{} set	{} }
@@ -5456,7 +5264,8 @@ namespace UnityEngine {
 	public sealed class	AvatarBuilder: Object
 	{
 		public static Avatar BuildHumanAvatar(GameObject go, HumanDescription monoHumanDescription){}
-		private static Avatar INTERNAL_CALL_BuildHumanAvatar(GameObject go, ref HumanDescription monoHumanDescription){}
+		private static Avatar BuildHumanAvatarMono(GameObject go, HumanDescription monoHumanDescription){}
+		private static Avatar INTERNAL_CALL_BuildHumanAvatarMono(GameObject go, ref HumanDescription monoHumanDescription){}
 		public static Avatar BuildGenericAvatar(GameObject go, string rootMotionTransformName){}
 		public AvatarBuilder(){}
 	}
@@ -5479,7 +5288,7 @@ namespace UnityEngine {
 		internal Quaternion GetZYRoll(int humanId, Vector3 uvw){}
 		private static Quaternion INTERNAL_CALL_GetZYRoll(Avatar self, int humanId, ref Vector3 uvw){}
 		internal Vector3 GetLimitSign(int humanId){}
-		public Avatar(){}
+		private Avatar(){}
 		public bool isValid{ get	{} }
 		public bool isHuman{ get	{} }
 	}
@@ -5492,6 +5301,7 @@ namespace UnityEngine {
 		internal static bool HasCollider(Avatar avatar, int i){}
 		public static float GetMuscleDefaultMin(int i){}
 		public static float GetMuscleDefaultMax(int i){}
+		public static int GetParentBone(int i){}
 		public HumanTrait(){}
 		public static int MuscleCount{ get	{} }
 		public static String[] MuscleName{ get	{} }
@@ -5562,6 +5372,7 @@ namespace UnityEngine {
 		internal bool HasUser(GameObject user){}
 		internal void AddUser(GameObject user){}
 		internal void RemoveUser(GameObject user){}
+		private void INTERNAL_get_heightmapScale(out Vector3 value){}
 		private void INTERNAL_get_size(out Vector3 value){}
 		private void INTERNAL_set_size(ref Vector3 value){}
 		public float GetHeight(int x, int y){}
@@ -5570,7 +5381,7 @@ namespace UnityEngine {
 		public void SetHeights(int xBase, int yBase, Single[,] heights){}
 		private void Internal_SetHeights(int xBase, int yBase, int width, int height, Single[,] heights){}
 		private void Internal_SetHeightsDelayLOD(int xBase, int yBase, int width, int height, Single[,] heights){}
-		internal void SetHeightsDelayLOD(int xBase, int yBase, Single[,] heights){}
+		public void SetHeightsDelayLOD(int xBase, int yBase, Single[,] heights){}
 		public float GetSteepness(float x, float y){}
 		public Vector3 GetInterpolatedNormal(float x, float y){}
 		internal int GetAdjustedSize(int size){}
@@ -5589,6 +5400,8 @@ namespace UnityEngine {
 		internal void RemoveTreePrototype(int index){}
 		internal void RecalculateTreePositions(){}
 		internal void RemoveDetailPrototype(int index){}
+		internal bool NeedUpgradeScaledTreePrototypes(){}
+		internal void UpgradeScaledTreePrototype(){}
 		public Single[,,] GetAlphamaps(int x, int y, int width, int height){}
 		public void SetAlphamaps(int x, int y, Single[,,] map){}
 		private void Internal_SetAlphamaps(int x, int y, int width, int height, Single[,,] map){}
@@ -5623,20 +5436,23 @@ namespace UnityEngine {
 		public int alphamapHeight{ get	{} }
 		public int baseMapResolution{ get	{} set	{} }
 		int alphamapTextureCount{ get	{} }
-		Texture2D[] alphamapTextures{ get	{} }
+		public Texture2D[] alphamapTextures{ get	{} }
 		public SplatPrototype[] splatPrototypes{ get	{} set	{} }
 	}
 
 	public sealed class	Terrain: Behaviour
 	{
-		private void ShiftLightmapIndex(int offset){}
+		private void INTERNAL_get_lightmapScaleOffset(out Vector4 value){}
+		private void INTERNAL_set_lightmapScaleOffset(ref Vector4 value){}
+		private void INTERNAL_get_realtimeLightmapScaleOffset(out Vector4 value){}
+		private void INTERNAL_set_realtimeLightmapScaleOffset(ref Vector4 value){}
 		private void GetClosestReflectionProbesInternal(System.Object result){}
 		public void GetClosestReflectionProbes(List<ReflectionProbeBlendInfo> result){}
 		private void INTERNAL_get_legacySpecular(out Color value){}
 		private void INTERNAL_set_legacySpecular(ref Color value){}
 		public float SampleHeight(Vector3 worldPosition){}
 		private static float INTERNAL_CALL_SampleHeight(Terrain self, ref Vector3 worldPosition){}
-		internal void ApplyDelayedHeightmapModification(){}
+		public void ApplyDelayedHeightmapModification(){}
 		public void AddTreeInstance(TreeInstance instance){}
 		private static void INTERNAL_CALL_AddTreeInstance(Terrain self, ref TreeInstance instance){}
 		public void SetNeighbors(Terrain left, Terrain top, Terrain right, Terrain bottom){}
@@ -5660,6 +5476,9 @@ namespace UnityEngine {
 		public float basemapDistance{ get	{} set	{} }
 		public float splatmapDistance{ get	{} set	{} }
 		public int lightmapIndex{ get	{} set	{} }
+		public int realtimeLightmapIndex{ get	{} set	{} }
+		public Vector4 lightmapScaleOffset{ get	{} set	{} }
+		public Vector4 realtimeLightmapScaleOffset{ get	{} set	{} }
 		public bool castShadows{ get	{} set	{} }
 		public ReflectionProbeUsage reflectionProbeUsage{ get	{} set	{} }
 		public MaterialType materialType{ get	{} set	{} }
@@ -5668,6 +5487,7 @@ namespace UnityEngine {
 		public float legacyShininess{ get	{} set	{} }
 		public bool drawHeightmap{ get	{} set	{} }
 		public bool drawTreesAndFoliage{ get	{} set	{} }
+		public bool bakeLightProbesForTrees{ get	{} set	{} }
 		public static Terrain activeTerrain{ get	{} }
 		public static Terrain[] activeTerrains{ get	{} }
 	}
@@ -5756,9 +5576,10 @@ namespace UnityEngine {
 		private sealed virtual void System.IDisposable.Dispose(){}
 		private void Init(){}
 		private void Dispose_cpp(){}
-		internal bool Populate_Internal(string str, Font font, Color color, int fontSize, float lineSpacing, FontStyle style, bool richText, bool resizeTextForBestFit, int resizeTextMinSize, int resizeTextMaxSize, VerticalWrapMode verticalOverFlow, HorizontalWrapMode horizontalOverflow, bool updateBounds, TextAnchor anchor, Vector2 extents, Vector2 pivot, bool generateOutOfBounds){}
-		internal bool Populate_Internal_cpp(string str, Font font, Color color, int fontSize, float lineSpacing, FontStyle style, bool richText, bool resizeTextForBestFit, int resizeTextMinSize, int resizeTextMaxSize, int verticalOverFlow, int horizontalOverflow, bool updateBounds, TextAnchor anchor, float extentsX, float extentsY, float pivotX, float pivotY, bool generateOutOfBounds){}
-		private static bool INTERNAL_CALL_Populate_Internal_cpp(TextGenerator self, string str, Font font, ref Color color, int fontSize, float lineSpacing, FontStyle style, bool richText, bool resizeTextForBestFit, int resizeTextMinSize, int resizeTextMaxSize, int verticalOverFlow, int horizontalOverflow, bool updateBounds, TextAnchor anchor, float extentsX, float extentsY, float pivotX, float pivotY, bool generateOutOfBounds){}
+		internal bool Populate_Internal(string str, Font font, Color color, int fontSize, float scaleFactor, float lineSpacing, FontStyle style, bool richText, bool resizeTextForBestFit, int resizeTextMinSize, int resizeTextMaxSize, VerticalWrapMode verticalOverFlow, HorizontalWrapMode horizontalOverflow, bool updateBounds, TextAnchor anchor, Vector2 extents, Vector2 pivot, bool generateOutOfBounds){}
+		internal bool Populate_Internal_cpp(string str, Font font, Color color, int fontSize, float scaleFactor, float lineSpacing, FontStyle style, bool richText, bool resizeTextForBestFit, int resizeTextMinSize, int resizeTextMaxSize, int verticalOverFlow, int horizontalOverflow, bool updateBounds, TextAnchor anchor, float extentsX, float extentsY, float pivotX, float pivotY, bool generateOutOfBounds){}
+		private static bool INTERNAL_CALL_Populate_Internal_cpp(TextGenerator self, string str, Font font, ref Color color, int fontSize, float scaleFactor, float lineSpacing, FontStyle style, bool richText, bool resizeTextForBestFit, int resizeTextMinSize, int resizeTextMaxSize, int verticalOverFlow, int horizontalOverflow, bool updateBounds, TextAnchor anchor, float extentsX, float extentsY, float pivotX, float pivotY, bool generateOutOfBounds){}
+		private void INTERNAL_get_rectExtents(out Rect value){}
 		private void GetVerticesInternal(System.Object vertices){}
 		public UIVertex[] GetVerticesArray(){}
 		private void GetCharactersInternal(System.Object characters){}
@@ -5766,6 +5587,7 @@ namespace UnityEngine {
 		private void GetLinesInternal(System.Object lines){}
 		public UILineInfo[] GetLinesArray(){}
 		protected virtual void Finalize(){}
+		internal static void InvalidateAll(){}
 		private TextGenerationSettings ValidatedSettings(TextGenerationSettings settings){}
 		public void Invalidate(){}
 		public void GetCharacters(List<UICharInfo> characters){}
@@ -5777,6 +5599,7 @@ namespace UnityEngine {
 		private bool PopulateAlways(string str, TextGenerationSettings settings){}
 		public TextGenerator(){}
 		public TextGenerator(int initialCapacity){}
+		private static TextGenerator(){}
 		public Rect rectExtents{ get	{} }
 		public int vertexCount{ get	{} }
 		public int characterCount{ get	{} }
@@ -5797,6 +5620,9 @@ namespace UnityEngine {
 		private bool m_CachedVerts;
 		private bool m_CachedCharacters;
 		private bool m_CachedLines;
+		private int m_Id;
+		private static int s_NextId;
+		private readonly static Dictionary<Int32, WeakReference> s_Instances;
 	}
 
 	public sealed class	Canvas: Behaviour
@@ -5820,6 +5646,7 @@ namespace UnityEngine {
 		public bool overrideSorting{ get	{} set	{} }
 		public int sortingOrder{ get	{} set	{} }
 		public int sortingLayerID{ get	{} set	{} }
+		public int cachedSortingLayerValue{ get	{} }
 		public string sortingLayerName{ get	{} set	{} }
 		public static event	WillRenderCanvases willRenderCanvases;
 	}
@@ -5845,21 +5672,37 @@ namespace UnityEngine {
 		public Color GetColor(){}
 		public float GetAlpha(){}
 		public void SetAlpha(float alpha){}
+		public void SetVertices(List<UIVertex> vertices){}
+		public void SetVertices(UIVertex[] vertices, int size){}
+		public void EnableRectClipping(Rect rect){}
+		private static void INTERNAL_CALL_EnableRectClipping(CanvasRenderer self, ref Rect rect){}
+		public void DisableRectClipping(){}
+		public void SetMaterial(Material material, int index){}
 		public void SetMaterial(Material material, Texture texture){}
 		public Material GetMaterial(){}
-		public void SetVertices(List<UIVertex> vertices){}
-		private void SetVerticesInternal(System.Object vertices){}
-		public void SetVertices(UIVertex[] vertices, int size){}
-		private void SetVerticesInternalArray(UIVertex[] vertices, int size){}
+		public Material GetMaterial(int index){}
+		public void SetPopMaterial(Material material, int index){}
+		public Material GetPopMaterial(int index){}
+		public void SetTexture(Texture texture){}
+		public void SetMesh(Mesh mesh){}
 		public void Clear(){}
+		private static void RequestRefresh(){}
 		public CanvasRenderer(){}
 		public bool isMask{ get	{} set	{} }
+		public bool hasRectClipping{ get	{} }
+		public bool hasPopInstruction{ get	{} set	{} }
+		public int materialCount{ get	{} set	{} }
+		public int popMaterialCount{ get	{} set	{} }
 		public int relativeDepth{ get	{} }
+		public bool cull{ get	{} set	{} }
 		public int absoluteDepth{ get	{} }
+		public bool hasMoved{ get	{} }
+		public static event	OnRequestRebuild onRequestRebuild;
 	}
 
 	public sealed class	RectTransformUtility: Object
 	{
+		public static bool RectangleContainsScreenPoint(RectTransform rect, Vector2 screenPoint){}
 		public static bool RectangleContainsScreenPoint(RectTransform rect, Vector2 screenPoint, Camera cam){}
 		private static bool INTERNAL_CALL_RectangleContainsScreenPoint(RectTransform rect, ref Vector2 screenPoint, Camera cam){}
 		public static Vector2 PixelAdjustPoint(Vector2 point, Transform elementTransform, Canvas canvas){}
@@ -5884,6 +5727,762 @@ namespace UnityEngine {
 	{
 		public TerrainCollider(){}
 		public TerrainData terrainData{ get	{} set	{} }
+	}
+
+	public sealed class	Event: Object
+	{
+		protected virtual void Finalize(){}
+		private static void Internal_MakeMasterEventCurrent(){}
+		public static Event KeyboardEvent(string key){}
+		public virtual int GetHashCode(){}
+		public virtual bool Equals(System.Object obj){}
+		public virtual string ToString(){}
+		private void Init(){}
+		private void Cleanup(){}
+		private void InitCopy(Event other){}
+		private void InitPtr(IntPtr ptr){}
+		public EventType GetTypeForControl(int controlID){}
+		private void Internal_SetMousePosition(Vector2 value){}
+		private static void INTERNAL_CALL_Internal_SetMousePosition(Event self, ref Vector2 value){}
+		private void Internal_GetMousePosition(out Vector2 value){}
+		private void Internal_SetMouseDelta(Vector2 value){}
+		private static void INTERNAL_CALL_Internal_SetMouseDelta(Event self, ref Vector2 value){}
+		private void Internal_GetMouseDelta(out Vector2 value){}
+		private static void Internal_SetNativeEvent(IntPtr ptr){}
+		public void Use(){}
+		public static bool PopEvent(Event outEvent){}
+		public static int GetEventCount(){}
+		public Event(){}
+		public Event(Event other){}
+		private Event(IntPtr ptr){}
+		public Vector2 mousePosition{ get	{} set	{} }
+		public Vector2 delta{ get	{} set	{} }
+		public Ray mouseRay{ get	{} set	{} }
+		public bool shift{ get	{} set	{} }
+		public bool control{ get	{} set	{} }
+		public bool alt{ get	{} set	{} }
+		public bool command{ get	{} set	{} }
+		public bool capsLock{ get	{} set	{} }
+		public bool numeric{ get	{} set	{} }
+		public bool functionKey{ get	{} }
+		public static Event current{ get	{} set	{} }
+		public bool isKey{ get	{} }
+		public bool isMouse{ get	{} }
+		public EventType rawType{ get	{} }
+		public EventType type{ get	{} set	{} }
+		public int button{ get	{} set	{} }
+		public EventModifiers modifiers{ get	{} set	{} }
+		public float pressure{ get	{} set	{} }
+		public int clickCount{ get	{} set	{} }
+		public char character{ get	{} set	{} }
+		public string commandName{ get	{} set	{} }
+		public KeyCode keyCode{ get	{} set	{} }
+		internal IntPtr m_Ptr;
+		private static Event s_Current;
+		private static Event s_MasterEvent;
+		private static Dictionary<String, Int32> <>f__switch$map0;
+	}
+
+	public class	GUI: Object
+	{
+		public static Rect Window(int id, Rect clientRect, WindowFunction func, GUIContent title, GUIStyle style){}
+		public static Rect ModalWindow(int id, Rect clientRect, WindowFunction func, string text){}
+		public static Rect ModalWindow(int id, Rect clientRect, WindowFunction func, Texture image){}
+		public static Rect ModalWindow(int id, Rect clientRect, WindowFunction func, GUIContent content){}
+		public static Rect ModalWindow(int id, Rect clientRect, WindowFunction func, string text, GUIStyle style){}
+		public static Rect ModalWindow(int id, Rect clientRect, WindowFunction func, Texture image, GUIStyle style){}
+		public static Rect ModalWindow(int id, Rect clientRect, WindowFunction func, GUIContent content, GUIStyle style){}
+		internal static void CallWindowDelegate(WindowFunction func, int id, GUISkin _skin, int forceRect, float width, float height, GUIStyle style){}
+		public static void DragWindow(){}
+		internal static void BeginWindows(int skinMode, int editorWindowInstanceID){}
+		internal static void EndWindows(){}
+		private static void INTERNAL_get_color(out Color value){}
+		private static void INTERNAL_set_color(ref Color value){}
+		private static void INTERNAL_get_backgroundColor(out Color value){}
+		private static void INTERNAL_set_backgroundColor(ref Color value){}
+		private static void INTERNAL_get_contentColor(out Color value){}
+		private static void INTERNAL_set_contentColor(ref Color value){}
+		private static string Internal_GetTooltip(){}
+		private static void Internal_SetTooltip(string value){}
+		private static string Internal_GetMouseTooltip(){}
+		private static void DoLabel(Rect position, GUIContent content, IntPtr style){}
+		private static void INTERNAL_CALL_DoLabel(ref Rect position, GUIContent content, IntPtr style){}
+		private static void InitializeGUIClipTexture(){}
+		private static bool DoButton(Rect position, GUIContent content, IntPtr style){}
+		private static bool INTERNAL_CALL_DoButton(ref Rect position, GUIContent content, IntPtr style){}
+		public static void SetNextControlName(string name){}
+		public static string GetNameOfFocusedControl(){}
+		public static void FocusControl(string name){}
+		internal static bool DoToggle(Rect position, int id, bool value, GUIContent content, IntPtr style){}
+		private static bool INTERNAL_CALL_DoToggle(ref Rect position, int id, bool value, GUIContent content, IntPtr style){}
+		internal static void InternalRepaintEditorWindow(){}
+		private static Rect DoModalWindow(int id, Rect clientRect, WindowFunction func, GUIContent content, GUIStyle style, GUISkin skin){}
+		private static Rect INTERNAL_CALL_DoModalWindow(int id, ref Rect clientRect, WindowFunction func, GUIContent content, GUIStyle style, GUISkin skin){}
+		private static Rect DoWindow(int id, Rect clientRect, WindowFunction func, GUIContent title, GUIStyle style, GUISkin skin, bool forceRectOnLayout){}
+		private static Rect INTERNAL_CALL_DoWindow(int id, ref Rect clientRect, WindowFunction func, GUIContent title, GUIStyle style, GUISkin skin, bool forceRectOnLayout){}
+		public static void DragWindow(Rect position){}
+		private static void INTERNAL_CALL_DragWindow(ref Rect position){}
+		public static void BringWindowToFront(int windowID){}
+		public static void BringWindowToBack(int windowID){}
+		public static void FocusWindow(int windowID){}
+		public static void UnfocusWindow(){}
+		private static void Internal_BeginWindows(){}
+		private static void Internal_EndWindows(){}
+		internal static void DoSetSkin(GUISkin newSkin){}
+		public static void Label(Rect position, string text){}
+		public static void Label(Rect position, Texture image){}
+		public static void Label(Rect position, GUIContent content){}
+		public static void Label(Rect position, string text, GUIStyle style){}
+		public static void Label(Rect position, Texture image, GUIStyle style){}
+		public static void Label(Rect position, GUIContent content, GUIStyle style){}
+		public static void DrawTexture(Rect position, Texture image){}
+		public static void DrawTexture(Rect position, Texture image, ScaleMode scaleMode){}
+		public static void DrawTexture(Rect position, Texture image, ScaleMode scaleMode, bool alphaBlend){}
+		public static void DrawTexture(Rect position, Texture image, ScaleMode scaleMode, bool alphaBlend, float imageAspect){}
+		internal static bool CalculateScaledTextureRects(Rect position, ScaleMode scaleMode, float imageAspect, ref Rect outScreenRect, ref Rect outSourceRect){}
+		public static void DrawTextureWithTexCoords(Rect position, Texture image, Rect texCoords){}
+		public static void DrawTextureWithTexCoords(Rect position, Texture image, Rect texCoords, bool alphaBlend){}
+		public static void Box(Rect position, string text){}
+		public static void Box(Rect position, Texture image){}
+		public static void Box(Rect position, GUIContent content){}
+		public static void Box(Rect position, string text, GUIStyle style){}
+		public static void Box(Rect position, Texture image, GUIStyle style){}
+		public static void Box(Rect position, GUIContent content, GUIStyle style){}
+		public static bool Button(Rect position, string text){}
+		public static bool Button(Rect position, Texture image){}
+		public static bool Button(Rect position, GUIContent content){}
+		public static bool Button(Rect position, string text, GUIStyle style){}
+		public static bool Button(Rect position, Texture image, GUIStyle style){}
+		public static bool Button(Rect position, GUIContent content, GUIStyle style){}
+		public static bool RepeatButton(Rect position, string text){}
+		public static bool RepeatButton(Rect position, Texture image){}
+		public static bool RepeatButton(Rect position, GUIContent content){}
+		public static bool RepeatButton(Rect position, string text, GUIStyle style){}
+		public static bool RepeatButton(Rect position, Texture image, GUIStyle style){}
+		public static bool RepeatButton(Rect position, GUIContent content, GUIStyle style){}
+		private static bool DoRepeatButton(Rect position, GUIContent content, GUIStyle style, FocusType focusType){}
+		public static string TextField(Rect position, string text){}
+		public static string TextField(Rect position, string text, int maxLength){}
+		public static string TextField(Rect position, string text, GUIStyle style){}
+		public static string TextField(Rect position, string text, int maxLength, GUIStyle style){}
+		public static string PasswordField(Rect position, string password, char maskChar){}
+		public static string PasswordField(Rect position, string password, char maskChar, int maxLength){}
+		public static string PasswordField(Rect position, string password, char maskChar, GUIStyle style){}
+		public static string PasswordField(Rect position, string password, char maskChar, int maxLength, GUIStyle style){}
+		internal static string PasswordFieldGetStrToShow(string password, char maskChar){}
+		public static string TextArea(Rect position, string text){}
+		public static string TextArea(Rect position, string text, int maxLength){}
+		public static string TextArea(Rect position, string text, GUIStyle style){}
+		public static string TextArea(Rect position, string text, int maxLength, GUIStyle style){}
+		private static string TextArea(Rect position, GUIContent content, int maxLength, GUIStyle style){}
+		internal static void DoTextField(Rect position, int id, GUIContent content, bool multiline, int maxLength, GUIStyle style){}
+		internal static void DoTextField(Rect position, int id, GUIContent content, bool multiline, int maxLength, GUIStyle style, string secureText){}
+		internal static void DoTextField(Rect position, int id, GUIContent content, bool multiline, int maxLength, GUIStyle style, string secureText, char maskChar){}
+		private static void HandleTextFieldEventForTouchscreen(Rect position, int id, GUIContent content, bool multiline, int maxLength, GUIStyle style, string secureText, char maskChar, TextEditor editor){}
+		private static void HandleTextFieldEventForDesktop(Rect position, int id, GUIContent content, bool multiline, int maxLength, GUIStyle style, TextEditor editor){}
+		public static bool Toggle(Rect position, bool value, string text){}
+		public static bool Toggle(Rect position, bool value, Texture image){}
+		public static bool Toggle(Rect position, bool value, GUIContent content){}
+		public static bool Toggle(Rect position, bool value, string text, GUIStyle style){}
+		public static bool Toggle(Rect position, bool value, Texture image, GUIStyle style){}
+		public static bool Toggle(Rect position, bool value, GUIContent content, GUIStyle style){}
+		public static bool Toggle(Rect position, int id, bool value, GUIContent content, GUIStyle style){}
+		public static int Toolbar(Rect position, int selected, String[] texts){}
+		public static int Toolbar(Rect position, int selected, Texture[] images){}
+		public static int Toolbar(Rect position, int selected, GUIContent[] content){}
+		public static int Toolbar(Rect position, int selected, String[] texts, GUIStyle style){}
+		public static int Toolbar(Rect position, int selected, Texture[] images, GUIStyle style){}
+		public static int Toolbar(Rect position, int selected, GUIContent[] contents, GUIStyle style){}
+		public static int SelectionGrid(Rect position, int selected, String[] texts, int xCount){}
+		public static int SelectionGrid(Rect position, int selected, Texture[] images, int xCount){}
+		public static int SelectionGrid(Rect position, int selected, GUIContent[] content, int xCount){}
+		public static int SelectionGrid(Rect position, int selected, String[] texts, int xCount, GUIStyle style){}
+		public static int SelectionGrid(Rect position, int selected, Texture[] images, int xCount, GUIStyle style){}
+		public static int SelectionGrid(Rect position, int selected, GUIContent[] contents, int xCount, GUIStyle style){}
+		internal static void FindStyles(ref GUIStyle style, out GUIStyle firstStyle, out GUIStyle midStyle, out GUIStyle lastStyle, string first, string mid, string last){}
+		internal static int CalcTotalHorizSpacing(int xCount, GUIStyle style, GUIStyle firstStyle, GUIStyle midStyle, GUIStyle lastStyle){}
+		private static int DoButtonGrid(Rect position, int selected, GUIContent[] contents, int xCount, GUIStyle style, GUIStyle firstStyle, GUIStyle midStyle, GUIStyle lastStyle){}
+		private static Rect[] CalcMouseRects(Rect position, int count, int xCount, float elemWidth, float elemHeight, GUIStyle style, GUIStyle firstStyle, GUIStyle midStyle, GUIStyle lastStyle, bool addBorders){}
+		private static int GetButtonGridMouseSelection(Rect[] buttonRects, Vector2 mousePos, bool findNearest){}
+		public static float HorizontalSlider(Rect position, float value, float leftValue, float rightValue){}
+		public static float HorizontalSlider(Rect position, float value, float leftValue, float rightValue, GUIStyle slider, GUIStyle thumb){}
+		public static float VerticalSlider(Rect position, float value, float topValue, float bottomValue){}
+		public static float VerticalSlider(Rect position, float value, float topValue, float bottomValue, GUIStyle slider, GUIStyle thumb){}
+		public static float Slider(Rect position, float value, float size, float start, float end, GUIStyle slider, GUIStyle thumb, bool horiz, int id){}
+		public static float HorizontalScrollbar(Rect position, float value, float size, float leftValue, float rightValue){}
+		public static float HorizontalScrollbar(Rect position, float value, float size, float leftValue, float rightValue, GUIStyle style){}
+		internal static bool ScrollerRepeatButton(int scrollerID, Rect rect, GUIStyle style){}
+		public static float VerticalScrollbar(Rect position, float value, float size, float topValue, float bottomValue){}
+		public static float VerticalScrollbar(Rect position, float value, float size, float topValue, float bottomValue, GUIStyle style){}
+		private static float Scroller(Rect position, float value, float size, float leftValue, float rightValue, GUIStyle slider, GUIStyle thumb, GUIStyle leftButton, GUIStyle rightButton, bool horiz){}
+		public static void BeginGroup(Rect position){}
+		public static void BeginGroup(Rect position, string text){}
+		public static void BeginGroup(Rect position, Texture image){}
+		public static void BeginGroup(Rect position, GUIContent content){}
+		public static void BeginGroup(Rect position, GUIStyle style){}
+		public static void BeginGroup(Rect position, string text, GUIStyle style){}
+		public static void BeginGroup(Rect position, Texture image, GUIStyle style){}
+		public static void BeginGroup(Rect position, GUIContent content, GUIStyle style){}
+		public static void EndGroup(){}
+		public static void BeginClip(Rect position){}
+		public static void EndClip(){}
+		public static Vector2 BeginScrollView(Rect position, Vector2 scrollPosition, Rect viewRect){}
+		public static Vector2 BeginScrollView(Rect position, Vector2 scrollPosition, Rect viewRect, bool alwaysShowHorizontal, bool alwaysShowVertical){}
+		public static Vector2 BeginScrollView(Rect position, Vector2 scrollPosition, Rect viewRect, GUIStyle horizontalScrollbar, GUIStyle verticalScrollbar){}
+		public static Vector2 BeginScrollView(Rect position, Vector2 scrollPosition, Rect viewRect, bool alwaysShowHorizontal, bool alwaysShowVertical, GUIStyle horizontalScrollbar, GUIStyle verticalScrollbar){}
+		protected static Vector2 DoBeginScrollView(Rect position, Vector2 scrollPosition, Rect viewRect, bool alwaysShowHorizontal, bool alwaysShowVertical, GUIStyle horizontalScrollbar, GUIStyle verticalScrollbar, GUIStyle background){}
+		internal static Vector2 BeginScrollView(Rect position, Vector2 scrollPosition, Rect viewRect, bool alwaysShowHorizontal, bool alwaysShowVertical, GUIStyle horizontalScrollbar, GUIStyle verticalScrollbar, GUIStyle background){}
+		public static void EndScrollView(){}
+		public static void EndScrollView(bool handleScrollWheel){}
+		internal static ScrollViewState GetTopScrollView(){}
+		public static void ScrollTo(Rect position){}
+		public static bool ScrollTowards(Rect position, float maxDelta){}
+		public static Rect Window(int id, Rect clientRect, WindowFunction func, string text){}
+		public static Rect Window(int id, Rect clientRect, WindowFunction func, Texture image){}
+		public static Rect Window(int id, Rect clientRect, WindowFunction func, GUIContent content){}
+		public static Rect Window(int id, Rect clientRect, WindowFunction func, string text, GUIStyle style){}
+		public static Rect Window(int id, Rect clientRect, WindowFunction func, Texture image, GUIStyle style){}
+		public GUI(){}
+		private static GUI(){}
+		DateTime nextScrollStepTime{ get	{} set	{} }
+		int scrollTroughSide{ get	{} set	{} }
+		public static GUISkin skin{ get	{} set	{} }
+		public static Matrix4x4 matrix{ get	{} set	{} }
+		public static string tooltip{ get	{} set	{} }
+		string mouseTooltip{ get	{} }
+		Rect tooltipRect{ get	{} set	{} }
+		public static Color color{ get	{} set	{} }
+		public static Color backgroundColor{ get	{} set	{} }
+		public static Color contentColor{ get	{} set	{} }
+		public static bool changed{ get	{} set	{} }
+		public static bool enabled{ get	{} set	{} }
+		public static int depth{ get	{} set	{} }
+		Material blendMaterial{ get	{} }
+		Material blitMaterial{ get	{} }
+		bool usePageScrollbars{ get	{} }
+		private static float s_ScrollStepSize;
+		private static int s_ScrollControlId;
+		private static int s_HotTextField;
+		private readonly static int s_BoxHash;
+		private readonly static int s_RepeatButtonHash;
+		private readonly static int s_ToggleHash;
+		private readonly static int s_ButtonGridHash;
+		private readonly static int s_SliderHash;
+		private readonly static int s_BeginGroupHash;
+		private readonly static int s_ScrollviewHash;
+		private static GUISkin s_Skin;
+		internal static Rect s_ToolTipRect;
+		private static GenericStack s_ScrollViewStates;
+		private static DateTime <nextScrollStepTime>k__BackingField;
+		private static int <scrollTroughSide>k__BackingField;
+	}
+
+	public class	GUIContent: Object
+	{
+		internal static GUIContent Temp(string t){}
+		internal static GUIContent Temp(string t, string tooltip){}
+		internal static GUIContent Temp(Texture i){}
+		internal static GUIContent Temp(Texture i, string tooltip){}
+		internal static GUIContent Temp(string t, Texture i){}
+		internal static void ClearStaticCache(){}
+		internal static GUIContent[] Temp(String[] texts){}
+		internal static GUIContent[] Temp(Texture[] images){}
+		public GUIContent(){}
+		public GUIContent(string text){}
+		public GUIContent(Texture image){}
+		public GUIContent(string text, Texture image){}
+		public GUIContent(string text, string tooltip){}
+		public GUIContent(Texture image, string tooltip){}
+		public GUIContent(string text, Texture image, string tooltip){}
+		public GUIContent(GUIContent src){}
+		private static GUIContent(){}
+		public string text{ get	{} set	{} }
+		public Texture image{ get	{} set	{} }
+		public string tooltip{ get	{} set	{} }
+		int hash{ get	{} }
+		private string m_Text;
+		private Texture m_Image;
+		private string m_Tooltip;
+		private readonly static GUIContent s_Text;
+		private readonly static GUIContent s_Image;
+		private readonly static GUIContent s_TextImage;
+		public static GUIContent none;
+	}
+
+	public class	GUILayout: Object
+	{
+		public static void Label(Texture image, GUILayoutOption[] options){}
+		public static void Label(string text, GUILayoutOption[] options){}
+		public static void Label(GUIContent content, GUILayoutOption[] options){}
+		public static void Label(Texture image, GUIStyle style, GUILayoutOption[] options){}
+		public static void Label(string text, GUIStyle style, GUILayoutOption[] options){}
+		public static void Label(GUIContent content, GUIStyle style, GUILayoutOption[] options){}
+		private static void DoLabel(GUIContent content, GUIStyle style, GUILayoutOption[] options){}
+		public static void Box(Texture image, GUILayoutOption[] options){}
+		public static void Box(string text, GUILayoutOption[] options){}
+		public static void Box(GUIContent content, GUILayoutOption[] options){}
+		public static void Box(Texture image, GUIStyle style, GUILayoutOption[] options){}
+		public static void Box(string text, GUIStyle style, GUILayoutOption[] options){}
+		public static void Box(GUIContent content, GUIStyle style, GUILayoutOption[] options){}
+		private static void DoBox(GUIContent content, GUIStyle style, GUILayoutOption[] options){}
+		public static bool Button(Texture image, GUILayoutOption[] options){}
+		public static bool Button(string text, GUILayoutOption[] options){}
+		public static bool Button(GUIContent content, GUILayoutOption[] options){}
+		public static bool Button(Texture image, GUIStyle style, GUILayoutOption[] options){}
+		public static bool Button(string text, GUIStyle style, GUILayoutOption[] options){}
+		public static bool Button(GUIContent content, GUIStyle style, GUILayoutOption[] options){}
+		private static bool DoButton(GUIContent content, GUIStyle style, GUILayoutOption[] options){}
+		public static bool RepeatButton(Texture image, GUILayoutOption[] options){}
+		public static bool RepeatButton(string text, GUILayoutOption[] options){}
+		public static bool RepeatButton(GUIContent content, GUILayoutOption[] options){}
+		public static bool RepeatButton(Texture image, GUIStyle style, GUILayoutOption[] options){}
+		public static bool RepeatButton(string text, GUIStyle style, GUILayoutOption[] options){}
+		public static bool RepeatButton(GUIContent content, GUIStyle style, GUILayoutOption[] options){}
+		private static bool DoRepeatButton(GUIContent content, GUIStyle style, GUILayoutOption[] options){}
+		public static string TextField(string text, GUILayoutOption[] options){}
+		public static string TextField(string text, int maxLength, GUILayoutOption[] options){}
+		public static string TextField(string text, GUIStyle style, GUILayoutOption[] options){}
+		public static string TextField(string text, int maxLength, GUIStyle style, GUILayoutOption[] options){}
+		public static string PasswordField(string password, char maskChar, GUILayoutOption[] options){}
+		public static string PasswordField(string password, char maskChar, int maxLength, GUILayoutOption[] options){}
+		public static string PasswordField(string password, char maskChar, GUIStyle style, GUILayoutOption[] options){}
+		public static string PasswordField(string password, char maskChar, int maxLength, GUIStyle style, GUILayoutOption[] options){}
+		public static string TextArea(string text, GUILayoutOption[] options){}
+		public static string TextArea(string text, int maxLength, GUILayoutOption[] options){}
+		public static string TextArea(string text, GUIStyle style, GUILayoutOption[] options){}
+		public static string TextArea(string text, int maxLength, GUIStyle style, GUILayoutOption[] options){}
+		private static string DoTextField(string text, int maxLength, bool multiline, GUIStyle style, GUILayoutOption[] options){}
+		public static bool Toggle(bool value, Texture image, GUILayoutOption[] options){}
+		public static bool Toggle(bool value, string text, GUILayoutOption[] options){}
+		public static bool Toggle(bool value, GUIContent content, GUILayoutOption[] options){}
+		public static bool Toggle(bool value, Texture image, GUIStyle style, GUILayoutOption[] options){}
+		public static bool Toggle(bool value, string text, GUIStyle style, GUILayoutOption[] options){}
+		public static bool Toggle(bool value, GUIContent content, GUIStyle style, GUILayoutOption[] options){}
+		private static bool DoToggle(bool value, GUIContent content, GUIStyle style, GUILayoutOption[] options){}
+		public static int Toolbar(int selected, String[] texts, GUILayoutOption[] options){}
+		public static int Toolbar(int selected, Texture[] images, GUILayoutOption[] options){}
+		public static int Toolbar(int selected, GUIContent[] content, GUILayoutOption[] options){}
+		public static int Toolbar(int selected, String[] texts, GUIStyle style, GUILayoutOption[] options){}
+		public static int Toolbar(int selected, Texture[] images, GUIStyle style, GUILayoutOption[] options){}
+		public static int Toolbar(int selected, GUIContent[] contents, GUIStyle style, GUILayoutOption[] options){}
+		public static int SelectionGrid(int selected, String[] texts, int xCount, GUILayoutOption[] options){}
+		public static int SelectionGrid(int selected, Texture[] images, int xCount, GUILayoutOption[] options){}
+		public static int SelectionGrid(int selected, GUIContent[] content, int xCount, GUILayoutOption[] options){}
+		public static int SelectionGrid(int selected, String[] texts, int xCount, GUIStyle style, GUILayoutOption[] options){}
+		public static int SelectionGrid(int selected, Texture[] images, int xCount, GUIStyle style, GUILayoutOption[] options){}
+		public static int SelectionGrid(int selected, GUIContent[] contents, int xCount, GUIStyle style, GUILayoutOption[] options){}
+		public static float HorizontalSlider(float value, float leftValue, float rightValue, GUILayoutOption[] options){}
+		public static float HorizontalSlider(float value, float leftValue, float rightValue, GUIStyle slider, GUIStyle thumb, GUILayoutOption[] options){}
+		private static float DoHorizontalSlider(float value, float leftValue, float rightValue, GUIStyle slider, GUIStyle thumb, GUILayoutOption[] options){}
+		public static float VerticalSlider(float value, float leftValue, float rightValue, GUILayoutOption[] options){}
+		public static float VerticalSlider(float value, float leftValue, float rightValue, GUIStyle slider, GUIStyle thumb, GUILayoutOption[] options){}
+		private static float DoVerticalSlider(float value, float leftValue, float rightValue, GUIStyle slider, GUIStyle thumb, GUILayoutOption[] options){}
+		public static float HorizontalScrollbar(float value, float size, float leftValue, float rightValue, GUILayoutOption[] options){}
+		public static float HorizontalScrollbar(float value, float size, float leftValue, float rightValue, GUIStyle style, GUILayoutOption[] options){}
+		public static float VerticalScrollbar(float value, float size, float topValue, float bottomValue, GUILayoutOption[] options){}
+		public static float VerticalScrollbar(float value, float size, float topValue, float bottomValue, GUIStyle style, GUILayoutOption[] options){}
+		public static void Space(float pixels){}
+		public static void FlexibleSpace(){}
+		public static void BeginHorizontal(GUILayoutOption[] options){}
+		public static void BeginHorizontal(GUIStyle style, GUILayoutOption[] options){}
+		public static void BeginHorizontal(string text, GUIStyle style, GUILayoutOption[] options){}
+		public static void BeginHorizontal(Texture image, GUIStyle style, GUILayoutOption[] options){}
+		public static void BeginHorizontal(GUIContent content, GUIStyle style, GUILayoutOption[] options){}
+		public static void EndHorizontal(){}
+		public static void BeginVertical(GUILayoutOption[] options){}
+		public static void BeginVertical(GUIStyle style, GUILayoutOption[] options){}
+		public static void BeginVertical(string text, GUIStyle style, GUILayoutOption[] options){}
+		public static void BeginVertical(Texture image, GUIStyle style, GUILayoutOption[] options){}
+		public static void BeginVertical(GUIContent content, GUIStyle style, GUILayoutOption[] options){}
+		public static void EndVertical(){}
+		public static void BeginArea(Rect screenRect){}
+		public static void BeginArea(Rect screenRect, string text){}
+		public static void BeginArea(Rect screenRect, Texture image){}
+		public static void BeginArea(Rect screenRect, GUIContent content){}
+		public static void BeginArea(Rect screenRect, GUIStyle style){}
+		public static void BeginArea(Rect screenRect, string text, GUIStyle style){}
+		public static void BeginArea(Rect screenRect, Texture image, GUIStyle style){}
+		public static void BeginArea(Rect screenRect, GUIContent content, GUIStyle style){}
+		public static void EndArea(){}
+		public static Vector2 BeginScrollView(Vector2 scrollPosition, GUILayoutOption[] options){}
+		public static Vector2 BeginScrollView(Vector2 scrollPosition, bool alwaysShowHorizontal, bool alwaysShowVertical, GUILayoutOption[] options){}
+		public static Vector2 BeginScrollView(Vector2 scrollPosition, GUIStyle horizontalScrollbar, GUIStyle verticalScrollbar, GUILayoutOption[] options){}
+		public static Vector2 BeginScrollView(Vector2 scrollPosition, GUIStyle style){}
+		public static Vector2 BeginScrollView(Vector2 scrollPosition, GUIStyle style, GUILayoutOption[] options){}
+		public static Vector2 BeginScrollView(Vector2 scrollPosition, bool alwaysShowHorizontal, bool alwaysShowVertical, GUIStyle horizontalScrollbar, GUIStyle verticalScrollbar, GUILayoutOption[] options){}
+		public static Vector2 BeginScrollView(Vector2 scrollPosition, bool alwaysShowHorizontal, bool alwaysShowVertical, GUIStyle horizontalScrollbar, GUIStyle verticalScrollbar, GUIStyle background, GUILayoutOption[] options){}
+		public static void EndScrollView(){}
+		internal static void EndScrollView(bool handleScrollWheel){}
+		public static Rect Window(int id, Rect screenRect, WindowFunction func, string text, GUILayoutOption[] options){}
+		public static Rect Window(int id, Rect screenRect, WindowFunction func, Texture image, GUILayoutOption[] options){}
+		public static Rect Window(int id, Rect screenRect, WindowFunction func, GUIContent content, GUILayoutOption[] options){}
+		public static Rect Window(int id, Rect screenRect, WindowFunction func, string text, GUIStyle style, GUILayoutOption[] options){}
+		public static Rect Window(int id, Rect screenRect, WindowFunction func, Texture image, GUIStyle style, GUILayoutOption[] options){}
+		public static Rect Window(int id, Rect screenRect, WindowFunction func, GUIContent content, GUIStyle style, GUILayoutOption[] options){}
+		private static Rect DoWindow(int id, Rect screenRect, WindowFunction func, GUIContent content, GUIStyle style, GUILayoutOption[] options){}
+		public static GUILayoutOption Width(float width){}
+		public static GUILayoutOption MinWidth(float minWidth){}
+		public static GUILayoutOption MaxWidth(float maxWidth){}
+		public static GUILayoutOption Height(float height){}
+		public static GUILayoutOption MinHeight(float minHeight){}
+		public static GUILayoutOption MaxHeight(float maxHeight){}
+		public static GUILayoutOption ExpandWidth(bool expand){}
+		public static GUILayoutOption ExpandHeight(bool expand){}
+		public GUILayout(){}
+	}
+
+	public class	GUILayoutUtility: Object
+	{
+		internal static LayoutCache SelectIDList(int instanceID, bool isWindow){}
+		internal static void Begin(int instanceID){}
+		internal static void BeginWindow(int windowID, GUIStyle style, GUILayoutOption[] options){}
+		public static void BeginGroup(string GroupName){}
+		public static void EndGroup(string groupName){}
+		internal static void Layout(){}
+		internal static void LayoutFromEditorWindow(){}
+		internal static float LayoutFromInspector(float width){}
+		internal static void LayoutFreeGroup(GUILayoutGroup toplevel){}
+		private static void LayoutSingleGroup(GUILayoutGroup i){}
+		private static GUILayoutGroup CreateGUILayoutGroupInstanceOfType(Type LayoutType){}
+		internal static GUILayoutGroup BeginLayoutGroup(GUIStyle style, GUILayoutOption[] options, Type layoutType){}
+		internal static void EndLayoutGroup(){}
+		internal static GUILayoutGroup BeginLayoutArea(GUIStyle style, Type layoutType){}
+		internal static GUILayoutGroup DoBeginLayoutArea(GUIStyle style, Type layoutType){}
+		public static Rect GetRect(GUIContent content, GUIStyle style){}
+		public static Rect GetRect(GUIContent content, GUIStyle style, GUILayoutOption[] options){}
+		private static Rect DoGetRect(GUIContent content, GUIStyle style, GUILayoutOption[] options){}
+		public static Rect GetRect(float width, float height){}
+		public static Rect GetRect(float width, float height, GUIStyle style){}
+		public static Rect GetRect(float width, float height, GUILayoutOption[] options){}
+		public static Rect GetRect(float width, float height, GUIStyle style, GUILayoutOption[] options){}
+		public static Rect GetRect(float minWidth, float maxWidth, float minHeight, float maxHeight){}
+		public static Rect GetRect(float minWidth, float maxWidth, float minHeight, float maxHeight, GUIStyle style){}
+		public static Rect GetRect(float minWidth, float maxWidth, float minHeight, float maxHeight, GUILayoutOption[] options){}
+		public static Rect GetRect(float minWidth, float maxWidth, float minHeight, float maxHeight, GUIStyle style, GUILayoutOption[] options){}
+		private static Rect DoGetRect(float minWidth, float maxWidth, float minHeight, float maxHeight, GUIStyle style, GUILayoutOption[] options){}
+		public static Rect GetLastRect(){}
+		public static Rect GetAspectRect(float aspect){}
+		public static Rect GetAspectRect(float aspect, GUIStyle style){}
+		public static Rect GetAspectRect(float aspect, GUILayoutOption[] options){}
+		public static Rect GetAspectRect(float aspect, GUIStyle style, GUILayoutOption[] options){}
+		private static Rect DoGetAspectRect(float aspect, GUIStyle style, GUILayoutOption[] options){}
+		private static Rect Internal_GetWindowRect(int windowID){}
+		private static void Internal_MoveWindow(int windowID, Rect r){}
+		private static void INTERNAL_CALL_Internal_MoveWindow(int windowID, ref Rect r){}
+		internal static Rect GetWindowsBounds(){}
+		public GUILayoutUtility(){}
+		private static GUILayoutUtility(){}
+		GUILayoutGroup topLevel{ get	{} }
+		GUIStyle spaceStyle{ get	{} }
+		private readonly static Dictionary<Int32, LayoutCache> s_StoredLayouts;
+		private readonly static Dictionary<Int32, LayoutCache> s_StoredWindows;
+		internal static LayoutCache current;
+		private readonly static Rect kDummyRect;
+		private static GUIStyle s_SpaceStyle;
+	}
+
+	public sealed class	GUILayoutOption: Object
+	{
+		internal GUILayoutOption(Type type, System.Object value){}
+		internal Type type;
+		internal System.Object value;
+	}
+
+	public sealed class	GUISettings: Object
+	{
+		private static float Internal_GetCursorFlashSpeed(){}
+		public GUISettings(){}
+		public bool doubleClickSelectsWord{ get	{} set	{} }
+		public bool tripleClickSelectsLine{ get	{} set	{} }
+		public Color cursorColor{ get	{} set	{} }
+		public float cursorFlashSpeed{ get	{} set	{} }
+		public Color selectionColor{ get	{} set	{} }
+		private bool m_DoubleClickSelectsWord;
+		private bool m_TripleClickSelectsLine;
+		private Color m_CursorColor;
+		private float m_CursorFlashSpeed;
+		private Color m_SelectionColor;
+	}
+
+	public sealed class	GUISkin: ScriptableObject
+	{
+		internal void OnEnable(){}
+		internal void Apply(){}
+		private void BuildStyleCache(){}
+		public GUIStyle GetStyle(string styleName){}
+		public GUIStyle FindStyle(string styleName){}
+		internal void MakeCurrent(){}
+		public IEnumerator GetEnumerator(){}
+		public GUISkin(){}
+		public Font font{ get	{} set	{} }
+		public GUIStyle box{ get	{} set	{} }
+		public GUIStyle label{ get	{} set	{} }
+		public GUIStyle textField{ get	{} set	{} }
+		public GUIStyle textArea{ get	{} set	{} }
+		public GUIStyle button{ get	{} set	{} }
+		public GUIStyle toggle{ get	{} set	{} }
+		public GUIStyle window{ get	{} set	{} }
+		public GUIStyle horizontalSlider{ get	{} set	{} }
+		public GUIStyle horizontalSliderThumb{ get	{} set	{} }
+		public GUIStyle verticalSlider{ get	{} set	{} }
+		public GUIStyle verticalSliderThumb{ get	{} set	{} }
+		public GUIStyle horizontalScrollbar{ get	{} set	{} }
+		public GUIStyle horizontalScrollbarThumb{ get	{} set	{} }
+		public GUIStyle horizontalScrollbarLeftButton{ get	{} set	{} }
+		public GUIStyle horizontalScrollbarRightButton{ get	{} set	{} }
+		public GUIStyle verticalScrollbar{ get	{} set	{} }
+		public GUIStyle verticalScrollbarThumb{ get	{} set	{} }
+		public GUIStyle verticalScrollbarUpButton{ get	{} set	{} }
+		public GUIStyle verticalScrollbarDownButton{ get	{} set	{} }
+		public GUIStyle scrollView{ get	{} set	{} }
+		public GUIStyle[] customStyles{ get	{} set	{} }
+		public GUISettings settings{ get	{} }
+		GUIStyle error{ get	{} }
+		private Font m_Font;
+		private GUIStyle m_box;
+		private GUIStyle m_button;
+		private GUIStyle m_toggle;
+		private GUIStyle m_label;
+		private GUIStyle m_textField;
+		private GUIStyle m_textArea;
+		private GUIStyle m_window;
+		private GUIStyle m_horizontalSlider;
+		private GUIStyle m_horizontalSliderThumb;
+		private GUIStyle m_verticalSlider;
+		private GUIStyle m_verticalSliderThumb;
+		private GUIStyle m_horizontalScrollbar;
+		private GUIStyle m_horizontalScrollbarThumb;
+		private GUIStyle m_horizontalScrollbarLeftButton;
+		private GUIStyle m_horizontalScrollbarRightButton;
+		private GUIStyle m_verticalScrollbar;
+		private GUIStyle m_verticalScrollbarThumb;
+		private GUIStyle m_verticalScrollbarUpButton;
+		private GUIStyle m_verticalScrollbarDownButton;
+		private GUIStyle m_ScrollView;
+		internal GUIStyle[] m_CustomStyles;
+		private GUISettings m_Settings;
+		private Dictionary<String, GUIStyle> m_Styles;
+		internal static GUIStyle ms_Error;
+		internal static SkinChangedDelegate m_SkinChanged;
+		internal static GUISkin current;
+	}
+
+	public sealed class	GUIStyleState: Object
+	{
+		protected virtual void Finalize(){}
+		private void Init(){}
+		private void Cleanup(){}
+		private void SetBackgroundInternal(Texture2D value){}
+		private Texture2D GetBackgroundInternal(){}
+		private void INTERNAL_get_textColor(out Color value){}
+		private void INTERNAL_set_textColor(ref Color value){}
+		public GUIStyleState(){}
+		internal GUIStyleState(GUIStyle sourceStyle, IntPtr source){}
+		public Texture2D background{ get	{} set	{} }
+		public Color textColor{ get	{} set	{} }
+		internal IntPtr m_Ptr;
+		private readonly GUIStyle m_SourceStyle;
+		private Texture2D m_Background;
+	}
+
+	public sealed class	RectOffset: Object
+	{
+		protected virtual void Finalize(){}
+		public virtual string ToString(){}
+		private void Init(){}
+		private void Cleanup(){}
+		public Rect Add(Rect rect){}
+		private static Rect INTERNAL_CALL_Add(RectOffset self, ref Rect rect){}
+		public Rect Remove(Rect rect){}
+		private static Rect INTERNAL_CALL_Remove(RectOffset self, ref Rect rect){}
+		public RectOffset(){}
+		internal RectOffset(GUIStyle sourceStyle, IntPtr source){}
+		public RectOffset(int left, int right, int top, int bottom){}
+		public int left{ get	{} set	{} }
+		public int right{ get	{} set	{} }
+		public int top{ get	{} set	{} }
+		public int bottom{ get	{} set	{} }
+		public int horizontal{ get	{} }
+		public int vertical{ get	{} }
+		internal IntPtr m_Ptr;
+		private readonly GUIStyle m_SourceStyle;
+	}
+
+	public sealed class	GUIStyle: Object
+	{
+		internal static void Internal_GetCursorPixelPosition(IntPtr target, Rect position, GUIContent content, int cursorStringIndex, out Vector2 ret){}
+		private static void INTERNAL_CALL_Internal_GetCursorPixelPosition(IntPtr target, ref Rect position, GUIContent content, int cursorStringIndex, out Vector2 ret){}
+		internal static int Internal_GetCursorStringIndex(IntPtr target, Rect position, GUIContent content, Vector2 cursorPixelPosition){}
+		private static int INTERNAL_CALL_Internal_GetCursorStringIndex(IntPtr target, ref Rect position, GUIContent content, ref Vector2 cursorPixelPosition){}
+		internal static int Internal_GetNumCharactersThatFitWithinWidth(IntPtr target, string text, float width){}
+		internal static void Internal_CalcSize(IntPtr target, GUIContent content, out Vector2 ret){}
+		private static float Internal_CalcHeight(IntPtr target, GUIContent content, float width){}
+		private static void Internal_CalcMinMaxWidth(IntPtr target, GUIContent content, out float minWidth, out float maxWidth){}
+		protected virtual void Finalize(){}
+		internal void InternalOnAfterDeserialize(){}
+		private static void Internal_Draw(IntPtr target, Rect position, GUIContent content, bool isHover, bool isActive, bool on, bool hasKeyboardFocus){}
+		public void Draw(Rect position, bool isHover, bool isActive, bool on, bool hasKeyboardFocus){}
+		public void Draw(Rect position, string text, bool isHover, bool isActive, bool on, bool hasKeyboardFocus){}
+		public void Draw(Rect position, Texture image, bool isHover, bool isActive, bool on, bool hasKeyboardFocus){}
+		public void Draw(Rect position, GUIContent content, bool isHover, bool isActive, bool on, bool hasKeyboardFocus){}
+		public void Draw(Rect position, GUIContent content, int controlID){}
+		public void Draw(Rect position, GUIContent content, int controlID, bool on){}
+		internal void DrawPrefixLabel(Rect position, GUIContent content, int controlID){}
+		public void DrawCursor(Rect position, GUIContent content, int controlID, int Character){}
+		internal void DrawWithTextSelection(Rect position, GUIContent content, int controlID, int firstSelectedCharacter, int lastSelectedCharacter, bool drawSelectionAsComposition){}
+		public void DrawWithTextSelection(Rect position, GUIContent content, int controlID, int firstSelectedCharacter, int lastSelectedCharacter){}
+		public Vector2 GetCursorPixelPosition(Rect position, GUIContent content, int cursorStringIndex){}
+		public int GetCursorStringIndex(Rect position, GUIContent content, Vector2 cursorPixelPosition){}
+		internal int GetNumCharactersThatFitWithinWidth(string text, float width){}
+		public Vector2 CalcSize(GUIContent content){}
+		public Vector2 CalcScreenSize(Vector2 contentSize){}
+		public float CalcHeight(GUIContent content, float width){}
+		public void CalcMinMaxWidth(GUIContent content, out float minWidth, out float maxWidth){}
+		public virtual string ToString(){}
+		private void Init(){}
+		private void InitCopy(GUIStyle other){}
+		private void Cleanup(){}
+		private IntPtr GetStyleStatePtr(int idx){}
+		private void AssignStyleState(int idx, IntPtr srcStyleState){}
+		private IntPtr GetRectOffsetPtr(int idx){}
+		private void AssignRectOffset(int idx, IntPtr srcRectOffset){}
+		private void INTERNAL_get_contentOffset(out Vector2 value){}
+		private void INTERNAL_set_contentOffset(ref Vector2 value){}
+		private void INTERNAL_get_Internal_clipOffset(out Vector2 value){}
+		private void INTERNAL_set_Internal_clipOffset(ref Vector2 value){}
+		private static float Internal_GetLineHeight(IntPtr target){}
+		private void SetFontInternal(Font value){}
+		private Font GetFontInternal(){}
+		private static void Internal_Draw(GUIContent content, ref Internal_DrawArguments arguments){}
+		private static void Internal_Draw2(IntPtr style, Rect position, GUIContent content, int controlID, bool on){}
+		private static void INTERNAL_CALL_Internal_Draw2(IntPtr style, ref Rect position, GUIContent content, int controlID, bool on){}
+		private static void Internal_DrawPrefixLabel(IntPtr style, Rect position, GUIContent content, int controlID, bool on){}
+		private static void INTERNAL_CALL_Internal_DrawPrefixLabel(IntPtr style, ref Rect position, GUIContent content, int controlID, bool on){}
+		private static float Internal_GetCursorFlashOffset(){}
+		private static void Internal_DrawCursor(IntPtr target, Rect position, GUIContent content, int pos, Color cursorColor){}
+		private static void INTERNAL_CALL_Internal_DrawCursor(IntPtr target, ref Rect position, GUIContent content, int pos, ref Color cursorColor){}
+		private static void Internal_DrawWithTextSelection(GUIContent content, ref Internal_DrawWithTextSelectionArguments arguments){}
+		internal static void SetDefaultFont(Font font){}
+		public GUIStyle(){}
+		public GUIStyle(GUIStyle other){}
+		private static GUIStyle(){}
+		public GUIStyleState normal{ get	{} set	{} }
+		public GUIStyleState hover{ get	{} set	{} }
+		public GUIStyleState active{ get	{} set	{} }
+		public GUIStyleState onNormal{ get	{} set	{} }
+		public GUIStyleState onHover{ get	{} set	{} }
+		public GUIStyleState onActive{ get	{} set	{} }
+		public GUIStyleState focused{ get	{} set	{} }
+		public GUIStyleState onFocused{ get	{} set	{} }
+		public RectOffset border{ get	{} set	{} }
+		public RectOffset margin{ get	{} set	{} }
+		public RectOffset padding{ get	{} set	{} }
+		public RectOffset overflow{ get	{} set	{} }
+		public Vector2 clipOffset{ get	{} set	{} }
+		public Font font{ get	{} set	{} }
+		public float lineHeight{ get	{} }
+		public static GUIStyle none{ get	{} }
+		public bool isHeightDependantOnWidth{ get	{} }
+		public string name{ get	{} set	{} }
+		public ImagePosition imagePosition{ get	{} set	{} }
+		public TextAnchor alignment{ get	{} set	{} }
+		public bool wordWrap{ get	{} set	{} }
+		public TextClipping clipping{ get	{} set	{} }
+		public Vector2 contentOffset{ get	{} set	{} }
+		Vector2 Internal_clipOffset{ get	{} set	{} }
+		public float fixedWidth{ get	{} set	{} }
+		public float fixedHeight{ get	{} set	{} }
+		public bool stretchWidth{ get	{} set	{} }
+		public bool stretchHeight{ get	{} set	{} }
+		public int fontSize{ get	{} set	{} }
+		public FontStyle fontStyle{ get	{} set	{} }
+		public bool richText{ get	{} set	{} }
+		internal IntPtr m_Ptr;
+		private GUIStyleState m_Normal;
+		private GUIStyleState m_Hover;
+		private GUIStyleState m_Active;
+		private GUIStyleState m_Focused;
+		private GUIStyleState m_OnNormal;
+		private GUIStyleState m_OnHover;
+		private GUIStyleState m_OnActive;
+		private GUIStyleState m_OnFocused;
+		private RectOffset m_Border;
+		private RectOffset m_Padding;
+		private RectOffset m_Margin;
+		private RectOffset m_Overflow;
+		private Font m_FontInternal;
+		internal static bool showKeyboardFocus;
+		private static GUIStyle s_None;
+	}
+
+	public sealed class	ExitGUIException: Exception, ISerializable, _Exception
+	{
+		public ExitGUIException(){}
+	}
+
+	public class	GUIUtility: Object
+	{
+		public static int GetControlID(FocusType focus){}
+		public static int GetControlID(GUIContent contents, FocusType focus){}
+		public static int GetControlID(FocusType focus, Rect position){}
+		public static int GetControlID(int hint, FocusType focus, Rect position){}
+		public static int GetControlID(GUIContent contents, FocusType focus, Rect position){}
+		public static System.Object GetStateObject(Type t, int controlID){}
+		public static System.Object QueryStateObject(Type t, int controlID){}
+		public static void ExitGUI(){}
+		internal static GUISkin GetDefaultSkin(){}
+		internal static GUISkin GetBuiltinSkin(int skin){}
+		internal static void BeginGUI(int skinMode, int instanceID, int useGUILayout){}
+		internal static void SetSkin(int skinMode){}
+		internal static void EndGUI(int layoutType){}
+		internal static bool EndGUIFromException(Exception exception){}
+		internal static void CheckOnGUI(){}
+		public static Vector2 GUIToScreenPoint(Vector2 guiPoint){}
+		internal static Rect GUIToScreenRect(Rect guiRect){}
+		public static Vector2 ScreenToGUIPoint(Vector2 screenPoint){}
+		public static Rect ScreenToGUIRect(Rect screenRect){}
+		public static void RotateAroundPivot(float angle, Vector2 pivotPoint){}
+		public static void ScaleAroundPivot(Vector2 scale, Vector2 pivotPoint){}
+		private static float Internal_GetPixelsPerPoint(){}
+		public static int GetControlID(int hint, FocusType focus){}
+		private static int Internal_GetNextControlID2(int hint, FocusType focusType, Rect rect){}
+		private static int INTERNAL_CALL_Internal_GetNextControlID2(int hint, FocusType focusType, ref Rect rect){}
+		internal static int GetPermanentControlID(){}
+		private static int Internal_GetHotControl(){}
+		private static void Internal_SetHotControl(int value){}
+		internal static void UpdateUndoName(){}
+		internal static void SetDidGUIWindowsEatLastEvent(bool value){}
+		private static GUISkin Internal_GetDefaultSkin(int skinMode){}
+		private static System.Object Internal_GetBuiltinSkin(int skin){}
+		private static void Internal_ExitGUI(){}
+		internal static int Internal_GetGUIDepth(){}
+		public GUIUtility(){}
+		private static GUIUtility(){}
+		float pixelsPerPoint{ get	{} }
+		public static int hotControl{ get	{} set	{} }
+		public static int keyboardControl{ get	{} set	{} }
+		public static string systemCopyBuffer{ get	{} set	{} }
+		bool mouseUsed{ get	{} set	{} }
+		public static bool hasModalWindow{ get	{} }
+		bool textFieldInput{ get	{} set	{} }
+		internal static int s_SkinMode;
+		internal static int s_OriginalID;
+		internal static Vector2 s_EditorScreenPointOffset;
+		internal static bool s_HasKeyboardFocus;
+	}
+
+	public sealed class	AndroidJavaException: Exception, ISerializable, _Exception
+	{
+		internal AndroidJavaException(string message){}
+	}
+
+	public class	AndroidJavaProxy: Object
+	{
+		public virtual AndroidJavaObject Invoke(string methodName, Object[] args){}
+		public virtual AndroidJavaObject Invoke(string methodName, AndroidJavaObject[] javaArgs){}
+		public AndroidJavaProxy(string javaInterface){}
+		public AndroidJavaProxy(AndroidJavaClass javaInterface){}
+		public readonly AndroidJavaClass javaInterface;
 	}
 
 	public sealed class	DisallowMultipleComponent: Attribute, _Attribute
@@ -5911,6 +6510,17 @@ namespace UnityEngine {
 		private int m_Ordering;
 	}
 
+	public sealed class	CreateAssetMenuAttribute: Attribute, _Attribute
+	{
+		public CreateAssetMenuAttribute(){}
+		public string menuName{ get	{} set	{} }
+		public string fileName{ get	{} set	{} }
+		public int order{ get	{} set	{} }
+		private string <menuName>k__BackingField;
+		private string <fileName>k__BackingField;
+		private int <order>k__BackingField;
+	}
+
 	public sealed class	ContextMenu: Attribute, _Attribute
 	{
 		public ContextMenu(string name){}
@@ -5926,6 +6536,13 @@ namespace UnityEngine {
 	public sealed class	HideInInspector: Attribute, _Attribute
 	{
 		public HideInInspector(){}
+	}
+
+	public sealed class	HelpURLAttribute: Attribute, _Attribute
+	{
+		public HelpURLAttribute(string url){}
+		public string URL{ get	{} set	{} }
+		private string <URL>k__BackingField;
 	}
 
 	public class	ThreadSafeAttribute: Attribute, _Attribute
@@ -5986,6 +6603,7 @@ namespace UnityEngine {
 
 	public class	SpaceAttribute: PropertyAttribute, _Attribute
 	{
+		public SpaceAttribute(){}
 		public SpaceAttribute(float height){}
 		public readonly float height;
 	}
@@ -6018,9 +6636,24 @@ namespace UnityEngine {
 		public readonly int maxLines;
 	}
 
-	public class	RuntimeInitializeOnLoadMethodAttribute: Attribute, _Attribute
+	public sealed class	ColorUsageAttribute: PropertyAttribute, _Attribute
+	{
+		public ColorUsageAttribute(bool showAlpha){}
+		public ColorUsageAttribute(bool showAlpha, bool hdr, float minBrightness, float maxBrightness, float minExposureValue, float maxExposureValue){}
+		public readonly bool showAlpha;
+		public readonly bool hdr;
+		public readonly float minBrightness;
+		public readonly float maxBrightness;
+		public readonly float minExposureValue;
+		public readonly float maxExposureValue;
+	}
+
+	public class	RuntimeInitializeOnLoadMethodAttribute: PreserveAttribute, _Attribute
 	{
 		public RuntimeInitializeOnLoadMethodAttribute(){}
+		public RuntimeInitializeOnLoadMethodAttribute(RuntimeInitializeLoadType loadType){}
+		public RuntimeInitializeLoadType loadType{ get	{} set	{} }
+		private RuntimeInitializeLoadType <loadType>k__BackingField;
 	}
 
 	public sealed abstract	class	Types: Object
@@ -6101,6 +6734,13 @@ namespace UnityEngine {
 		public virtual void OnStateIK(Animator animator, AnimatorStateInfo stateInfo, int layerIndex){}
 		public virtual void OnStateMachineEnter(Animator animator, int stateMachinePathHash){}
 		public virtual void OnStateMachineExit(Animator animator, int stateMachinePathHash){}
+		public virtual void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex, AnimatorControllerPlayable controller){}
+		public virtual void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex, AnimatorControllerPlayable controller){}
+		public virtual void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex, AnimatorControllerPlayable controller){}
+		public virtual void OnStateMove(Animator animator, AnimatorStateInfo stateInfo, int layerIndex, AnimatorControllerPlayable controller){}
+		public virtual void OnStateIK(Animator animator, AnimatorStateInfo stateInfo, int layerIndex, AnimatorControllerPlayable controller){}
+		public virtual void OnStateMachineEnter(Animator animator, int stateMachinePathHash, AnimatorControllerPlayable controller){}
+		public virtual void OnStateMachineExit(Animator animator, int stateMachinePathHash, AnimatorControllerPlayable controller){}
 		protected StateMachineBehaviour(){}
 	}
 
@@ -6133,6 +6773,7 @@ namespace UnityEngine {
 		public void MoveGraphicalLineEnd(){}
 		public void MoveTextStart(){}
 		public void MoveTextEnd(){}
+		private int IndexOfEndOfLine(int startIndex){}
 		public void MoveParagraphForward(){}
 		public void MoveParagraphBackward(){}
 		public void MoveCursorToPosition(Vector2 cursorPosition){}
@@ -6184,22 +6825,26 @@ namespace UnityEngine {
 		public bool Paste(){}
 		private static void MapKey(string key, TextEditOp action){}
 		private void InitKeyActions(){}
-		public void ClampPos(){}
+		public void DetectFocusChange(){}
 		public TextEditor(){}
+		public Rect position{ get	{} set	{} }
+		public int cursorIndex{ get	{} set	{} }
+		public int selectIndex{ get	{} set	{} }
 		public bool hasSelection{ get	{} }
 		public string SelectedText{ get	{} }
-		public int pos;
-		public int selectPos;
+		public TouchScreenKeyboard keyboardOnScreen;
 		public int controlID;
 		public GUIContent content;
 		public GUIStyle style;
-		public Rect position;
 		public bool multiline;
 		public bool hasHorizontalCursorPos;
 		public bool isPasswordField;
 		internal bool m_HasFocus;
 		public Vector2 scrollOffset;
-		private bool m_TextHeightPotentiallyChanged;
+		private Rect m_Position;
+		private int m_CursorIndex;
+		private int m_SelectIndex;
+		private bool m_RevealCursor;
 		public Vector2 graphicalCursorPos;
 		public Vector2 graphicalSelectCursorPos;
 		private bool m_MouseDragSelectsWholeWords;
@@ -6228,9 +6873,116 @@ namespace UnityEngine {
 		private string _version;
 	}
 
-	delegate void WindowFunction(int id);
+	public sealed class	ADBannerView: Object
+	{
+		public static bool IsAvailable(Type type){}
+		public ADBannerView(Type type, Layout layout){}
+		public bool loaded{ get	{} }
+		public bool visible{ get	{} set	{} }
+		public Layout layout{ get	{} set	{} }
+		public Vector2 position{ get	{} set	{} }
+		public Vector2 size{ get	{} }
+		public static event	BannerWasClickedDelegate onBannerWasClicked;
+		public static event	BannerWasLoadedDelegate onBannerWasLoaded;
+	}
 
-	delegate void SkinChangedDelegate();
+	public sealed class	ADInterstitialAd: Object
+	{
+		protected virtual void Finalize(){}
+		public void Show(){}
+		public void ReloadAd(){}
+		public ADInterstitialAd(bool autoReload){}
+		public ADInterstitialAd(){}
+		public static bool isAvailable{ get	{} }
+		public bool loaded{ get	{} }
+		public static event	InterstitialWasLoadedDelegate onInterstitialWasLoaded;
+	}
+
+	public sealed class	iPhone: Object
+	{
+		public static void SetNoBackupFlag(string path){}
+		public static void ResetNoBackupFlag(string path){}
+		public iPhone(){}
+		public static iPhoneGeneration generation{ get	{} }
+		public static string vendorIdentifier{ get	{} }
+		public static string advertisingIdentifier{ get	{} }
+		public static bool advertisingTrackingEnabled{ get	{} }
+	}
+
+	public class	iPhoneUtils: Object
+	{
+		public static void PlayMovie(string path, Color bgColor, iPhoneMovieControlMode controlMode, iPhoneMovieScalingMode scalingMode){}
+		public static void PlayMovie(string path, Color bgColor, iPhoneMovieControlMode controlMode){}
+		public static void PlayMovie(string path, Color bgColor){}
+		public static void PlayMovieURL(string url, Color bgColor, iPhoneMovieControlMode controlMode, iPhoneMovieScalingMode scalingMode){}
+		public static void PlayMovieURL(string url, Color bgColor, iPhoneMovieControlMode controlMode){}
+		public static void PlayMovieURL(string url, Color bgColor){}
+		public static void Vibrate(){}
+		public iPhoneUtils(){}
+		public static bool isApplicationGenuine{ get	{} }
+		public static bool isApplicationGenuineAvailable{ get	{} }
+	}
+
+	public class	iPhoneInput: Object
+	{
+		public static iPhoneTouch GetTouch(int index){}
+		public static iPhoneAccelerationEvent GetAccelerationEvent(int index){}
+		public iPhoneInput(){}
+		public static iPhoneOrientation orientation{ get	{} }
+		public static LocationInfo lastLocation{ get	{} }
+		public static iPhoneAccelerationEvent[] accelerationEvents{ get	{} }
+		public static iPhoneTouch[] touches{ get	{} }
+		public static int touchCount{ get	{} }
+		public static bool multiTouchEnabled{ get	{} set	{} }
+		public static int accelerationEventCount{ get	{} }
+		public static Vector3 acceleration{ get	{} }
+	}
+
+	public class	iPhoneKeyboard: Object
+	{
+		public iPhoneKeyboard(){}
+		public string text{ get	{} set	{} }
+		public static bool hideInput{ get	{} set	{} }
+		public bool active{ get	{} set	{} }
+		public bool done{ get	{} }
+		public static Rect area{ get	{} }
+		public static bool visible{ get	{} }
+	}
+
+	public sealed class	LocalNotification: Object
+	{
+		public LocalNotification(){}
+		public DateTime fireDate{ get	{} set	{} }
+		public string timeZone{ get	{} set	{} }
+		public CalendarUnit repeatInterval{ get	{} set	{} }
+		public CalendarIdentifier repeatCalendar{ get	{} set	{} }
+		public string alertBody{ get	{} set	{} }
+		public string alertAction{ get	{} set	{} }
+		public bool hasAction{ get	{} set	{} }
+		public string alertLaunchImage{ get	{} set	{} }
+		public int applicationIconBadgeNumber{ get	{} set	{} }
+		public string soundName{ get	{} set	{} }
+		public static string defaultSoundName{ get	{} }
+		public IDictionary userInfo{ get	{} set	{} }
+	}
+
+	public sealed class	RemoteNotification: Object
+	{
+		public RemoteNotification(){}
+		public string alertBody{ get	{} }
+		public bool hasAction{ get	{} }
+		public int applicationIconBadgeNumber{ get	{} }
+		public string soundName{ get	{} }
+		public IDictionary userInfo{ get	{} }
+	}
+
+	public sealed class	NotificationServices: Object
+	{
+		public static void RegisterForRemoteNotificationTypes(RemoteNotificationType notificationTypes){}
+		public NotificationServices(){}
+	}
+
+	delegate void StateChanged(CullingGroupEvent sphere);
 
 	delegate void ReapplyDrivenProperties(RectTransform driven);
 
@@ -6246,19 +6998,29 @@ namespace UnityEngine {
 
 	delegate void PCMSetPositionCallback(int position);
 
+	delegate void OnOverrideControllerDirtyCallback();
+
 	delegate void FontTextureRebuildCallback();
 
 	delegate void WillRenderCanvases();
 
+	delegate void OnRequestRebuild();
+
+	delegate void WindowFunction(int id);
+
+	delegate void SkinChangedDelegate();
+
+	delegate void BannerWasClickedDelegate();
+
+	delegate void BannerWasLoadedDelegate();
+
+	delegate void InterstitialWasLoadedDelegate();
+
+	delegate void AndroidJavaRunnable();
+
 }
 
 namespace UnityEngineInternal {
-	public sealed class	Reproduction: Object
-	{
-		public static void CaptureScreenshot(){}
-		public Reproduction(){}
-	}
-
 	public sealed class	GIDebugVisualisation: Object
 	{
 		public static void ResetRuntimeInputTextures(){}
@@ -6276,7 +7038,13 @@ namespace UnityEngineInternal {
 	public sealed class	APIUpdaterRuntimeServices: Object
 	{
 		public static Component AddComponent(GameObject go, string sourceInfo, string name){}
+		private static Type ResolveType(string name, Assembly callingAssembly, string sourceInfo){}
+		private static bool IsMarkedAsObsolete(Type t){}
+		private static IEnumerable<Type> <ResolveType>m__8(Assembly a){}
 		public APIUpdaterRuntimeServices(){}
+		private static APIUpdaterRuntimeServices(){}
+		private static IList<Type> ComponentsFromUnityEngine;
+		private static Func<Assembly, IEnumerable<Type>> <>f__am$cache1;
 	}
 
 	public class	TypeInferenceRuleAttribute: Attribute, _Attribute
@@ -6316,6 +7084,14 @@ namespace UnityEngine.Rendering {
 		public void DrawRenderer(Renderer renderer, Material material, int submeshIndex, int shaderPass){}
 		public void DrawRenderer(Renderer renderer, Material material, int submeshIndex){}
 		public void DrawRenderer(Renderer renderer, Material material){}
+		public void DrawProcedural(Matrix4x4 matrix, Material material, int shaderPass, MeshTopology topology, int vertexCount, int instanceCount, MaterialPropertyBlock properties){}
+		public void DrawProcedural(Matrix4x4 matrix, Material material, int shaderPass, MeshTopology topology, int vertexCount, int instanceCount){}
+		public void DrawProcedural(Matrix4x4 matrix, Material material, int shaderPass, MeshTopology topology, int vertexCount){}
+		private static void INTERNAL_CALL_DrawProcedural(CommandBuffer self, ref Matrix4x4 matrix, Material material, int shaderPass, MeshTopology topology, int vertexCount, int instanceCount, MaterialPropertyBlock properties){}
+		public void DrawProceduralIndirect(Matrix4x4 matrix, Material material, int shaderPass, MeshTopology topology, ComputeBuffer bufferWithArgs, int argsOffset, MaterialPropertyBlock properties){}
+		public void DrawProceduralIndirect(Matrix4x4 matrix, Material material, int shaderPass, MeshTopology topology, ComputeBuffer bufferWithArgs, int argsOffset){}
+		public void DrawProceduralIndirect(Matrix4x4 matrix, Material material, int shaderPass, MeshTopology topology, ComputeBuffer bufferWithArgs){}
+		private static void INTERNAL_CALL_DrawProceduralIndirect(CommandBuffer self, ref Matrix4x4 matrix, Material material, int shaderPass, MeshTopology topology, ComputeBuffer bufferWithArgs, int argsOffset, MaterialPropertyBlock properties){}
 		public void SetRenderTarget(RenderTargetIdentifier rt){}
 		public void SetRenderTarget(RenderTargetIdentifier color, RenderTargetIdentifier depth){}
 		public void SetRenderTarget(RenderTargetIdentifier[] colors, RenderTargetIdentifier depth){}
@@ -6356,6 +7132,8 @@ namespace UnityEngine.Rendering {
 		public void SetGlobalTexture(string name, RenderTargetIdentifier value){}
 		public void SetGlobalTexture(int nameID, RenderTargetIdentifier value){}
 		private void SetGlobalTexture_Impl(int nameID, ref RenderTargetIdentifier rt){}
+		public void IssuePluginEvent(IntPtr callback, int eventID){}
+		private void IssuePluginEventInternal(IntPtr callback, int eventID){}
 		public CommandBuffer(){}
 		public string name{ get	{} set	{} }
 		public int sizeInBytes{ get	{} }
@@ -6374,6 +7152,387 @@ namespace UnityEngine.Sprites {
 		private static void Internal_GetMinSize(Sprite sprite, out Vector2 output){}
 		public DataUtility(){}
 	}
+
+}
+
+namespace UnityEngine.iOS {
+	public sealed class	ADBannerView: Object
+	{
+		private static IntPtr Native_CreateBanner(int type, int layout){}
+		private static void Native_ShowBanner(IntPtr view, bool show){}
+		private static void Native_MoveBanner(IntPtr view, Vector2 pos){}
+		private static void INTERNAL_CALL_Native_MoveBanner(IntPtr view, ref Vector2 pos){}
+		private static void Native_LayoutBanner(IntPtr view, int layout){}
+		private static bool Native_BannerTypeAvailable(int type){}
+		private static void Native_BannerPosition(IntPtr view, out Vector2 pos){}
+		private static void Native_BannerSize(IntPtr view, out Vector2 pos){}
+		private static bool Native_BannerAdLoaded(IntPtr view){}
+		private static bool Native_BannerAdVisible(IntPtr view){}
+		private static void Native_DestroyBanner(IntPtr view){}
+		public static bool IsAvailable(Type type){}
+		protected virtual void Finalize(){}
+		private Vector2 OSToScreenCoords(Vector2 v){}
+		private static void FireBannerWasClicked(){}
+		private static void FireBannerWasLoaded(){}
+		private static void FireBannerFailedToLoad(){}
+		public ADBannerView(Type type, Layout layout){}
+		private static ADBannerView(){}
+		public bool loaded{ get	{} }
+		public bool visible{ get	{} set	{} }
+		public Layout layout{ get	{} set	{} }
+		public Vector2 position{ get	{} set	{} }
+		public Vector2 size{ get	{} }
+		public static event	BannerWasClickedDelegate onBannerWasClicked;
+		public static event	BannerWasLoadedDelegate onBannerWasLoaded;
+		public static event	BannerFailedToLoadDelegate onBannerFailedToLoad;
+		private Layout _layout;
+		private IntPtr _bannerView;
+		private static bool _AlwaysFalseDummy;
+	}
+
+	public sealed class	ADInterstitialAd: Object
+	{
+		private static IntPtr Native_CreateInterstitial(bool autoReload){}
+		private static void Native_ShowInterstitial(IntPtr view){}
+		private static void Native_ReloadInterstitial(IntPtr view){}
+		private static bool Native_InterstitialAdLoaded(IntPtr view){}
+		private static bool Native_InterstitialAvailable(){}
+		private static void Native_DestroyInterstitial(IntPtr view){}
+		private void CtorImpl(bool autoReload){}
+		protected virtual void Finalize(){}
+		public void Show(){}
+		public void ReloadAd(){}
+		private static void FireInterstitialWasLoaded(){}
+		public ADInterstitialAd(bool autoReload){}
+		public ADInterstitialAd(){}
+		private static ADInterstitialAd(){}
+		public static bool isAvailable{ get	{} }
+		public bool loaded{ get	{} }
+		public static event	InterstitialWasLoadedDelegate onInterstitialWasLoaded;
+		private IntPtr interstitialView;
+		private static bool _AlwaysFalseDummy;
+	}
+
+	public sealed class	Device: Object
+	{
+		public static void SetNoBackupFlag(string path){}
+		public static void ResetNoBackupFlag(string path){}
+		private static string GetAdvertisingIdentifier(){}
+		public Device(){}
+		public static DeviceGeneration generation{ get	{} }
+		public static string systemVersion{ get	{} }
+		public static string vendorIdentifier{ get	{} }
+		public static string advertisingIdentifier{ get	{} }
+		public static bool advertisingTrackingEnabled{ get	{} }
+	}
+
+	public sealed class	LocalNotification: Object
+	{
+		private double GetFireDate(){}
+		private void SetFireDate(double dt){}
+		private void Destroy(){}
+		protected virtual void Finalize(){}
+		private void InitWrapper(){}
+		public LocalNotification(){}
+		private static LocalNotification(){}
+		public DateTime fireDate{ get	{} set	{} }
+		public string timeZone{ get	{} set	{} }
+		public CalendarUnit repeatInterval{ get	{} set	{} }
+		public CalendarIdentifier repeatCalendar{ get	{} set	{} }
+		public string alertBody{ get	{} set	{} }
+		public string alertAction{ get	{} set	{} }
+		public bool hasAction{ get	{} set	{} }
+		public string alertLaunchImage{ get	{} set	{} }
+		public int applicationIconBadgeNumber{ get	{} set	{} }
+		public string soundName{ get	{} set	{} }
+		public static string defaultSoundName{ get	{} }
+		public IDictionary userInfo{ get	{} set	{} }
+		private IntPtr notificationWrapper;
+		private static long m_NSReferenceDateTicks;
+	}
+
+	public sealed class	RemoteNotification: Object
+	{
+		private void Destroy(){}
+		protected virtual void Finalize(){}
+		private RemoteNotification(){}
+		public string alertBody{ get	{} }
+		public bool hasAction{ get	{} }
+		public int applicationIconBadgeNumber{ get	{} }
+		public string soundName{ get	{} }
+		public IDictionary userInfo{ get	{} }
+		private IntPtr notificationWrapper;
+	}
+
+	public sealed class	NotificationServices: Object
+	{
+		public static LocalNotification GetLocalNotification(int index){}
+		public static void ScheduleLocalNotification(LocalNotification notification){}
+		public static void PresentLocalNotificationNow(LocalNotification notification){}
+		public static void CancelLocalNotification(LocalNotification notification){}
+		public static void CancelAllLocalNotifications(){}
+		public static RemoteNotification GetRemoteNotification(int index){}
+		public static void ClearLocalNotifications(){}
+		public static void ClearRemoteNotifications(){}
+		public static void RegisterForNotifications(NotificationType notificationTypes){}
+		public static void RegisterForNotifications(NotificationType notificationTypes, bool registerForRemote){}
+		public static void UnregisterForRemoteNotifications(){}
+		public NotificationServices(){}
+		public static int localNotificationCount{ get	{} }
+		public static LocalNotification[] localNotifications{ get	{} }
+		public static LocalNotification[] scheduledLocalNotifications{ get	{} }
+		public static int remoteNotificationCount{ get	{} }
+		public static RemoteNotification[] remoteNotifications{ get	{} }
+		public static NotificationType enabledNotificationTypes{ get	{} }
+		public static Byte[] deviceToken{ get	{} }
+		public static string registrationError{ get	{} }
+	}
+
+	delegate void BannerWasClickedDelegate();
+
+	delegate void BannerWasLoadedDelegate();
+
+	delegate void BannerFailedToLoadDelegate();
+
+	delegate void InterstitialWasLoadedDelegate();
+
+}
+
+namespace UnityEngine.Experimental.Director {
+	public class	DirectorPlayer: Behaviour
+	{
+		public void Play(Playable playable, System.Object customData){}
+		public void Play(Playable playable){}
+		private void PlayInternal(Playable playable, System.Object customData){}
+		public void Stop(){}
+		public void SetTime(double time){}
+		public double GetTime(){}
+		public void SetTimeUpdateMode(DirectorUpdateMode mode){}
+		public DirectorUpdateMode GetTimeUpdateMode(){}
+		public DirectorPlayer(){}
+	}
+
+	public class	Playable: Object, IDisposable
+	{
+		private void Dispose(bool disposing){}
+		internal int GetUniqueIDInternal(){}
+		public static bool Connect(Playable source, Playable target){}
+		public static bool Connect(Playable source, Playable target, int sourceOutputPort, int targetInputPort){}
+		public static void Disconnect(Playable target, int inputPort){}
+		private void ReleaseEnginePlayable(){}
+		private void InstantiateEnginePlayable(){}
+		private int GenerateUniqueId(){}
+		private bool SetInputWeightInternal(int inputIndex, float weight){}
+		private float GetInputWeightInternal(int inputIndex){}
+		internal static bool ConnectInternal(Playable source, Playable target, int sourceOutputPort, int targetInputPort){}
+		internal static void DisconnectInternal(Playable target, int inputPort){}
+		public Playable GetInput(int inputPort){}
+		public Playable[] GetInputs(){}
+		public void ClearInputs(){}
+		public Playable GetOutput(int outputPort){}
+		public Playable[] GetOutputs(){}
+		private void GetInputsInternal(System.Object list){}
+		private void GetOutputsInternal(System.Object list){}
+		protected virtual void Finalize(){}
+		public sealed virtual void Dispose(){}
+		public virtual bool Equals(System.Object p){}
+		public virtual int GetHashCode(){}
+		internal static bool CompareIntPtr(Playable lhs, Playable rhs){}
+		internal static bool IsNativePlayableAlive(Playable p){}
+		internal static bool CheckPlayableValidity(Playable playable, string name){}
+		internal bool CheckInputBounds(int inputIndex){}
+		internal bool CheckInputBounds(int inputIndex, bool acceptAny){}
+		public float GetInputWeight(int inputIndex){}
+		public bool SetInputWeight(int inputIndex, float weight){}
+		public void GetInputs(List<Playable> inputList){}
+		public void GetOutputs(List<Playable> outputList){}
+		public virtual void PrepareFrame(FrameData info){}
+		public virtual void ProcessFrame(FrameData info, System.Object playerData){}
+		public virtual void OnSetTime(float localTime){}
+		public virtual void OnSetPlayState(PlayState newState){}
+		public Playable(){}
+		internal Playable(bool callCPPConstructor){}
+		public double time{ get	{} set	{} }
+		public PlayState state{ get	{} set	{} }
+		public int inputCount{ get	{} }
+		public int outputCount{ get	{} }
+		internal IntPtr m_Ptr;
+		internal int m_UniqueId;
+	}
+
+	public class	AnimationMixerPlayable: AnimationPlayable, IDisposable
+	{
+		private void InstantiateEnginePlayable(){}
+		public bool SetInputs(AnimationClip[] clips){}
+		public AnimationMixerPlayable(){}
+		public AnimationMixerPlayable(bool final){}
+	}
+
+	public sealed class	AnimationClipPlayable: AnimationPlayable, IDisposable
+	{
+		private void InstantiateEnginePlayable(AnimationClip clip){}
+		public virtual int AddInput(AnimationPlayable source){}
+		public virtual bool SetInput(AnimationPlayable source, int index){}
+		public virtual bool SetInputs(IEnumerable<AnimationPlayable> sources){}
+		public virtual bool RemoveInput(int index){}
+		public virtual bool RemoveInput(AnimationPlayable playable){}
+		public virtual bool RemoveAllInputs(){}
+		public AnimationClipPlayable(AnimationClip clip){}
+		public AnimationClip clip{ get	{} }
+		public float speed{ get	{} set	{} }
+	}
+
+	public class	AnimationPlayable: Playable, IDisposable
+	{
+		private void InstantiateEnginePlayable(){}
+		public virtual int AddInput(AnimationPlayable source){}
+		public virtual bool SetInput(AnimationPlayable source, int index){}
+		public virtual bool SetInputs(IEnumerable<AnimationPlayable> sources){}
+		public virtual bool RemoveInput(int index){}
+		public virtual bool RemoveInput(AnimationPlayable playable){}
+		public virtual bool RemoveAllInputs(){}
+		public AnimationPlayable(){}
+		public AnimationPlayable(bool final){}
+	}
+
+	public interface IAnimatorControllerPlayable	{
+		void PlayInFixedTime(int stateNameHash, int layer, float fixedTime);
+		void Play(string stateName, int layer, float normalizedTime);
+		void Play(int stateNameHash, int layer, float normalizedTime);
+		bool HasState(int layerIndex, int stateID);
+		float GetFloat(string name);
+		float GetFloat(int id);
+		void SetFloat(string name, float value);
+		void SetFloat(int id, float value);
+		bool GetBool(string name);
+		bool GetBool(int id);
+		void SetBool(string name, bool value);
+		void SetBool(int id, bool value);
+		int GetInteger(string name);
+		int GetInteger(int id);
+		void SetInteger(string name, int value);
+		void SetInteger(int id, int value);
+		void SetTrigger(string name);
+		void SetTrigger(int id);
+		void ResetTrigger(string name);
+		void ResetTrigger(int id);
+		bool IsParameterControlledByCurve(string name);
+		bool IsParameterControlledByCurve(int id);
+		string GetLayerName(int layerIndex);
+		int GetLayerIndex(string layerName);
+		float GetLayerWeight(int layerIndex);
+		void SetLayerWeight(int layerIndex, float weight);
+		AnimatorStateInfo GetCurrentAnimatorStateInfo(int layerIndex);
+		AnimatorStateInfo GetNextAnimatorStateInfo(int layerIndex);
+		AnimatorTransitionInfo GetAnimatorTransitionInfo(int layerIndex);
+		AnimatorClipInfo[] GetCurrentAnimatorClipInfo(int layerIndex);
+		AnimatorClipInfo[] GetNextAnimatorClipInfo(int layerIndex);
+		bool IsInTransition(int layerIndex);
+		AnimatorControllerParameter GetParameter(int index);
+		void CrossFadeInFixedTime(string stateName, float transitionDuration, int layer, float fixedTime);
+		void CrossFadeInFixedTime(int stateNameHash, float transitionDuration, int layer, float fixedTime);
+		void CrossFade(string stateName, float transitionDuration, int layer, float normalizedTime);
+		void CrossFade(int stateNameHash, float transitionDuration, int layer, float normalizedTime);
+		void PlayInFixedTime(string stateName, int layer, float fixedTime);
+		int layerCount{ get; }
+		int parameterCount{ get; }
+	}
+
+	public sealed class	AnimatorControllerPlayable: AnimationPlayable, IDisposable, IAnimatorControllerPlayable
+	{
+		private void InstantiateEnginePlayable(RuntimeAnimatorController controller){}
+		public virtual int AddInput(AnimationPlayable source){}
+		public virtual bool SetInput(AnimationPlayable source, int index){}
+		public virtual bool SetInputs(IEnumerable<AnimationPlayable> sources){}
+		public virtual bool RemoveInput(int index){}
+		public virtual bool RemoveInput(AnimationPlayable playable){}
+		public virtual bool RemoveAllInputs(){}
+		public sealed virtual float GetFloat(string name){}
+		public sealed virtual float GetFloat(int id){}
+		public sealed virtual void SetFloat(string name, float value){}
+		public sealed virtual void SetFloat(int id, float value){}
+		public sealed virtual bool GetBool(string name){}
+		public sealed virtual bool GetBool(int id){}
+		public sealed virtual void SetBool(string name, bool value){}
+		public sealed virtual void SetBool(int id, bool value){}
+		public sealed virtual int GetInteger(string name){}
+		public sealed virtual int GetInteger(int id){}
+		public sealed virtual void SetInteger(string name, int value){}
+		public sealed virtual void SetInteger(int id, int value){}
+		public sealed virtual void SetTrigger(string name){}
+		public sealed virtual void SetTrigger(int id){}
+		public sealed virtual void ResetTrigger(string name){}
+		public sealed virtual void ResetTrigger(int id){}
+		public sealed virtual bool IsParameterControlledByCurve(string name){}
+		public sealed virtual bool IsParameterControlledByCurve(int id){}
+		public sealed virtual string GetLayerName(int layerIndex){}
+		public sealed virtual int GetLayerIndex(string layerName){}
+		public sealed virtual float GetLayerWeight(int layerIndex){}
+		public sealed virtual void SetLayerWeight(int layerIndex, float weight){}
+		public sealed virtual AnimatorStateInfo GetCurrentAnimatorStateInfo(int layerIndex){}
+		public sealed virtual AnimatorStateInfo GetNextAnimatorStateInfo(int layerIndex){}
+		public sealed virtual AnimatorTransitionInfo GetAnimatorTransitionInfo(int layerIndex){}
+		public sealed virtual AnimatorClipInfo[] GetCurrentAnimatorClipInfo(int layerIndex){}
+		public sealed virtual AnimatorClipInfo[] GetNextAnimatorClipInfo(int layerIndex){}
+		internal string ResolveHash(int hash){}
+		public sealed virtual bool IsInTransition(int layerIndex){}
+		public sealed virtual AnimatorControllerParameter GetParameter(int index){}
+		private static int StringToHash(string name){}
+		public void CrossFadeInFixedTime(string stateName, float transitionDuration, int layer){}
+		public void CrossFadeInFixedTime(string stateName, float transitionDuration){}
+		public sealed virtual void CrossFadeInFixedTime(string stateName, float transitionDuration, int layer, float fixedTime){}
+		public sealed virtual void CrossFadeInFixedTime(int stateNameHash, float transitionDuration, int layer, float fixedTime){}
+		public void CrossFadeInFixedTime(int stateNameHash, float transitionDuration, int layer){}
+		public void CrossFadeInFixedTime(int stateNameHash, float transitionDuration){}
+		public void CrossFade(string stateName, float transitionDuration, int layer){}
+		public void CrossFade(string stateName, float transitionDuration){}
+		public sealed virtual void CrossFade(string stateName, float transitionDuration, int layer, float normalizedTime){}
+		public sealed virtual void CrossFade(int stateNameHash, float transitionDuration, int layer, float normalizedTime){}
+		public void CrossFade(int stateNameHash, float transitionDuration, int layer){}
+		public void CrossFade(int stateNameHash, float transitionDuration){}
+		public void PlayInFixedTime(string stateName, int layer){}
+		public void PlayInFixedTime(string stateName){}
+		public sealed virtual void PlayInFixedTime(string stateName, int layer, float fixedTime){}
+		public sealed virtual void PlayInFixedTime(int stateNameHash, int layer, float fixedTime){}
+		public void PlayInFixedTime(int stateNameHash, int layer){}
+		public void PlayInFixedTime(int stateNameHash){}
+		public void Play(string stateName, int layer){}
+		public void Play(string stateName){}
+		public sealed virtual void Play(string stateName, int layer, float normalizedTime){}
+		public sealed virtual void Play(int stateNameHash, int layer, float normalizedTime){}
+		public void Play(int stateNameHash, int layer){}
+		public void Play(int stateNameHash){}
+		public sealed virtual bool HasState(int layerIndex, int stateID){}
+		private void SetFloatString(string name, float value){}
+		private void SetFloatID(int id, float value){}
+		private float GetFloatString(string name){}
+		private float GetFloatID(int id){}
+		private void SetBoolString(string name, bool value){}
+		private void SetBoolID(int id, bool value){}
+		private bool GetBoolString(string name){}
+		private bool GetBoolID(int id){}
+		private void SetIntegerString(string name, int value){}
+		private void SetIntegerID(int id, int value){}
+		private int GetIntegerString(string name){}
+		private int GetIntegerID(int id){}
+		private void SetTriggerString(string name){}
+		private void SetTriggerID(int id){}
+		private void ResetTriggerString(string name){}
+		private void ResetTriggerID(int id){}
+		private bool IsParameterControlledByCurveString(string name){}
+		private bool IsParameterControlledByCurveID(int id){}
+		public AnimatorControllerPlayable(RuntimeAnimatorController controller){}
+		public RuntimeAnimatorController animatorController{ get	{} }
+		public sealed virtual int layerCount{ get	{} }
+		public sealed virtual int parameterCount{ get	{} }
+	}
+
+}
+
+namespace UnityEngine.Advertisements {
+	delegate void UnityAdsDelegate();
+
+	delegate void UnityAdsDelegate<T1, T2>(T1 p1, T2 p2);
 
 }
 
@@ -6402,6 +7561,793 @@ namespace UnityEngine.Audio {
 	{
 		internal AudioMixerGroup(){}
 		public AudioMixer audioMixer{ get	{} }
+	}
+
+}
+
+namespace UnityEngine.Experimental.Networking {
+	public sealed class	UnityWebRequest: Object, IDisposable
+	{
+		public static UnityWebRequest Get(string uri){}
+		public static UnityWebRequest Delete(string uri){}
+		public static UnityWebRequest Head(string uri){}
+		public static UnityWebRequest GetTexture(string uri){}
+		public static UnityWebRequest GetTexture(string uri, bool nonReadable){}
+		public static UnityWebRequest GetAssetBundle(string uri){}
+		public static UnityWebRequest GetAssetBundle(string uri, uint crc){}
+		public static UnityWebRequest GetAssetBundle(string uri, uint version, uint crc){}
+		public static UnityWebRequest GetAssetBundle(string uri, Hash128 hash, uint crc){}
+		public static UnityWebRequest Put(string uri, Byte[] bodyData){}
+		public static UnityWebRequest Put(string uri, string bodyData){}
+		public static UnityWebRequest Post(string uri, string postData){}
+		public static UnityWebRequest Post(string uri, WWWForm formData){}
+		public static UnityWebRequest Post(string uri, List<IMultipartFormSection> multipartFormSections){}
+		public static UnityWebRequest Post(string uri, List<IMultipartFormSection> multipartFormSections, Byte[] boundary){}
+		public static UnityWebRequest Post(string uri, Dictionary<String, String> formFields){}
+		public static Byte[] SerializeFormSections(List<IMultipartFormSection> multipartFormSections, Byte[] boundary){}
+		public static Byte[] GenerateBoundary(){}
+		public static Byte[] SerializeSimpleForm(Dictionary<String, String> formFields){}
+		internal void InternalCreate(){}
+		internal void InternalDestroy(){}
+		private void InternalSetDefaults(){}
+		protected virtual void Finalize(){}
+		public sealed virtual void Dispose(){}
+		internal AsyncOperation InternalBegin(){}
+		internal void InternalAbort(){}
+		public AsyncOperation Send(){}
+		public void Abort(){}
+		internal void InternalSetMethod(UnityWebRequestMethod methodType){}
+		internal void InternalSetCustomMethod(string customMethodName){}
+		internal int InternalGetMethod(){}
+		internal string InternalGetCustomMethod(){}
+		internal int InternalGetError(){}
+		private string InternalGetUrl(){}
+		private void InternalSetUrl(string url){}
+		public string GetRequestHeader(string name){}
+		internal void InternalSetRequestHeader(string name, string value){}
+		public void SetRequestHeader(string name, string value){}
+		public string GetResponseHeader(string name){}
+		internal String[] InternalGetResponseHeaderKeys(){}
+		public Dictionary<String, String> GetResponseHeaders(){}
+		private static bool ContainsForbiddenCharacters(string s, int firstAllowedCharCode){}
+		private static bool IsHeaderNameLegal(string headerName){}
+		private static bool IsHeaderValueLegal(string headerValue){}
+		private static string GetErrorDescription(UnityWebRequestError errorCode){}
+		public UnityWebRequest(){}
+		public UnityWebRequest(string url){}
+		public UnityWebRequest(string url, string method){}
+		public UnityWebRequest(string url, string method, DownloadHandler downloadHandler, UploadHandler uploadHandler){}
+		private static UnityWebRequest(){}
+		public bool disposeDownloadHandlerOnDispose{ get	{} set	{} }
+		public bool disposeUploadHandlerOnDispose{ get	{} set	{} }
+		public string method{ get	{} set	{} }
+		public string error{ get	{} }
+		public bool useHttpContinue{ get	{} set	{} }
+		public string url{ get	{} set	{} }
+		public long responseCode{ get	{} }
+		public float uploadProgress{ get	{} }
+		public bool isModifiable{ get	{} }
+		public bool isDone{ get	{} }
+		public bool isError{ get	{} }
+		public float downloadProgress{ get	{} }
+		public ulong uploadedBytes{ get	{} }
+		public ulong downloadedBytes{ get	{} }
+		public int redirectLimit{ get	{} set	{} }
+		public bool chunkedTransfer{ get	{} set	{} }
+		public UploadHandler uploadHandler{ get	{} set	{} }
+		public DownloadHandler downloadHandler{ get	{} set	{} }
+		internal IntPtr m_Ptr;
+		private bool <disposeDownloadHandlerOnDispose>k__BackingField;
+		private bool <disposeUploadHandlerOnDispose>k__BackingField;
+		private static Regex domainRegex;
+		private readonly static String[] forbiddenHeaderKeys;
+		private static Dictionary<String, Int32> <>f__switch$map1;
+		public const string kHttpVerbGET = null;
+		public const string kHttpVerbHEAD = null;
+		public const string kHttpVerbPOST = null;
+		public const string kHttpVerbPUT = null;
+		public const string kHttpVerbCREATE = null;
+		public const string kHttpVerbDELETE = null;
+	}
+
+	public interface IMultipartFormSection	{
+		string sectionName{ get; }
+		Byte[] sectionData{ get; }
+		string fileName{ get; }
+		string contentType{ get; }
+	}
+
+	public class	MultipartFormDataSection: Object, IMultipartFormSection
+	{
+		public MultipartFormDataSection(string name, Byte[] data, string contentType){}
+		public MultipartFormDataSection(string name, Byte[] data){}
+		public MultipartFormDataSection(Byte[] data){}
+		public MultipartFormDataSection(string name, string data, Encoding encoding, string contentType){}
+		public MultipartFormDataSection(string name, string data, string contentType){}
+		public MultipartFormDataSection(string name, string data){}
+		public MultipartFormDataSection(string data){}
+		public sealed virtual string sectionName{ get	{} }
+		public sealed virtual Byte[] sectionData{ get	{} }
+		public sealed virtual string fileName{ get	{} }
+		public sealed virtual string contentType{ get	{} }
+		private string name;
+		private Byte[] data;
+		private string content;
+	}
+
+	public class	MultipartFormFileSection: Object, IMultipartFormSection
+	{
+		private void Init(string name, Byte[] data, string fileName, string contentType){}
+		public MultipartFormFileSection(string name, Byte[] data, string fileName, string contentType){}
+		public MultipartFormFileSection(Byte[] data){}
+		public MultipartFormFileSection(string fileName, Byte[] data){}
+		public MultipartFormFileSection(string name, string data, Encoding dataEncoding, string fileName){}
+		public MultipartFormFileSection(string data, Encoding dataEncoding, string fileName){}
+		public MultipartFormFileSection(string data, string fileName){}
+		public sealed virtual string sectionName{ get	{} }
+		public sealed virtual Byte[] sectionData{ get	{} }
+		public sealed virtual string fileName{ get	{} }
+		public sealed virtual string contentType{ get	{} }
+		private string name;
+		private Byte[] data;
+		private string file;
+		private string content;
+	}
+
+	public class	UploadHandler: Object, IDisposable
+	{
+		internal void InternalCreateRaw(Byte[] data){}
+		private void InternalDestroy(){}
+		protected virtual void Finalize(){}
+		public sealed virtual void Dispose(){}
+		internal virtual Byte[] GetData(){}
+		internal virtual string GetContentType(){}
+		internal virtual void SetContentType(string newContentType){}
+		internal virtual float GetProgress(){}
+		internal UploadHandler(){}
+		public Byte[] data{ get	{} }
+		public string contentType{ get	{} set	{} }
+		public float progress{ get	{} }
+		internal IntPtr m_Ptr;
+	}
+
+	public sealed class	UploadHandlerRaw: UploadHandler, IDisposable
+	{
+		private string InternalGetContentType(){}
+		private void InternalSetContentType(string newContentType){}
+		private Byte[] InternalGetData(){}
+		private float InternalGetProgress(){}
+		internal virtual string GetContentType(){}
+		internal virtual void SetContentType(string newContentType){}
+		internal virtual Byte[] GetData(){}
+		internal virtual float GetProgress(){}
+		public UploadHandlerRaw(Byte[] data){}
+	}
+
+	public class	DownloadHandler: Object, IDisposable
+	{
+		internal void InternalCreateString(){}
+		internal void InternalCreateScript(){}
+		internal void InternalCreateTexture(bool readable){}
+		internal void InternalCreateWebStream(string url, uint crc){}
+		internal void InternalCreateWebStream(string url, Hash128 hash, uint crc){}
+		private static void INTERNAL_CALL_InternalCreateWebStream(DownloadHandler self, string url, ref Hash128 hash, uint crc){}
+		private void InternalDestroy(){}
+		protected virtual void Finalize(){}
+		public sealed virtual void Dispose(){}
+		protected virtual Byte[] GetData(){}
+		protected virtual string GetText(){}
+		protected virtual bool ReceiveData(Byte[] data, int dataLength){}
+		protected virtual void ReceiveContentLength(int contentLength){}
+		protected virtual void CompleteContent(){}
+		protected virtual float GetProgress(){}
+		internal DownloadHandler(){}
+		public bool isDone{ get	{} }
+		public Byte[] data{ get	{} }
+		public string text{ get	{} }
+		internal IntPtr m_Ptr;
+	}
+
+	public sealed class	DownloadHandlerBuffer: DownloadHandler, IDisposable
+	{
+		protected virtual Byte[] GetData(){}
+		protected virtual string GetText(){}
+		private Byte[] InternalGetData(){}
+		private string InternalGetText(){}
+		public DownloadHandlerBuffer(){}
+	}
+
+	public class	DownloadHandlerScript: DownloadHandler, IDisposable
+	{
+		private void InternalSetPreallocatedBuffer(Byte[] buffer){}
+		public DownloadHandlerScript(){}
+		public DownloadHandlerScript(Byte[] preallocatedBuffer){}
+	}
+
+	public sealed class	DownloadHandlerTexture: DownloadHandler, IDisposable
+	{
+		protected virtual Byte[] GetData(){}
+		private Texture2D InternalGetTexture(){}
+		private Byte[] InternalGetData(){}
+		public DownloadHandlerTexture(){}
+		public DownloadHandlerTexture(bool readable){}
+		public Texture2D texture{ get	{} }
+	}
+
+	public sealed class	DownloadHandlerAssetBundle: DownloadHandler, IDisposable
+	{
+		protected virtual Byte[] GetData(){}
+		protected virtual string GetText(){}
+		public DownloadHandlerAssetBundle(string url, uint crc){}
+		public DownloadHandlerAssetBundle(string url, uint version, uint crc){}
+		public DownloadHandlerAssetBundle(string url, Hash128 hash, uint crc){}
+		public AssetBundle assetBundle{ get	{} }
+	}
+
+}
+
+namespace UnityEngine.Networking.Match {
+	public abstract	class	Request: Object
+	{
+		public virtual bool IsValid(){}
+		public virtual string ToString(){}
+		protected Request(){}
+		public SourceID sourceId{ get	{} set	{} }
+		public string projectId{ get	{} set	{} }
+		public AppID appId{ get	{} set	{} }
+		public string accessTokenString{ get	{} set	{} }
+		public int domain{ get	{} set	{} }
+		public int version;
+		private SourceID <sourceId>k__BackingField;
+		private string <projectId>k__BackingField;
+		private AppID <appId>k__BackingField;
+		private string <accessTokenString>k__BackingField;
+		private int <domain>k__BackingField;
+	}
+
+	public abstract	class	ResponseBase: Object
+	{
+		public abstract virtual void Parse(System.Object obj);
+		internal string ParseJSONString(string name, System.Object obj, IDictionary<String, Object> dictJsonObj){}
+		internal short ParseJSONInt16(string name, System.Object obj, IDictionary<String, Object> dictJsonObj){}
+		internal int ParseJSONInt32(string name, System.Object obj, IDictionary<String, Object> dictJsonObj){}
+		internal long ParseJSONInt64(string name, System.Object obj, IDictionary<String, Object> dictJsonObj){}
+		internal ushort ParseJSONUInt16(string name, System.Object obj, IDictionary<String, Object> dictJsonObj){}
+		internal uint ParseJSONUInt32(string name, System.Object obj, IDictionary<String, Object> dictJsonObj){}
+		internal ulong ParseJSONUInt64(string name, System.Object obj, IDictionary<String, Object> dictJsonObj){}
+		internal bool ParseJSONBool(string name, System.Object obj, IDictionary<String, Object> dictJsonObj){}
+		internal DateTime ParseJSONDateTime(string name, System.Object obj, IDictionary<String, Object> dictJsonObj){}
+		internal List<String> ParseJSONListOfStrings(string name, System.Object obj, IDictionary<String, Object> dictJsonObj){}
+		internal List<T> ParseJSONList(string name, System.Object obj, IDictionary<String, Object> dictJsonObj){}
+		protected ResponseBase(){}
+	}
+
+	public interface IResponse	{
+		void SetSuccess();
+		void SetFailure(string info);
+	}
+
+	public abstract	class	Response: ResponseBase, IResponse
+	{
+		public sealed virtual void SetSuccess(){}
+		public sealed virtual void SetFailure(string info){}
+		public virtual string ToString(){}
+		public virtual void Parse(System.Object obj){}
+		protected Response(){}
+		public bool success{ get	{} set	{} }
+		public string extendedInfo{ get	{} set	{} }
+		private bool <success>k__BackingField;
+		private string <extendedInfo>k__BackingField;
+	}
+
+	public class	BasicResponse: Response, IResponse
+	{
+		public BasicResponse(){}
+	}
+
+	public class	StopDedicatedMatchRequest: Request
+	{
+		public StopDedicatedMatchRequest(){}
+		public NetworkID networkId{ get	{} set	{} }
+		private NetworkID <networkId>k__BackingField;
+	}
+
+	public class	StopDedicatedMatchResponse: BasicResponse, IResponse
+	{
+		public StopDedicatedMatchResponse(){}
+	}
+
+	public class	CreateMatchRequest: Request
+	{
+		public virtual string ToString(){}
+		public virtual bool IsValid(){}
+		public CreateMatchRequest(){}
+		public string name{ get	{} set	{} }
+		public uint size{ get	{} set	{} }
+		public string publicAddress{ get	{} set	{} }
+		public string privateAddress{ get	{} set	{} }
+		public int eloScore{ get	{} set	{} }
+		public bool advertise{ get	{} set	{} }
+		public string password{ get	{} set	{} }
+		public Dictionary<String, Int64> matchAttributes{ get	{} set	{} }
+		private string <name>k__BackingField;
+		private uint <size>k__BackingField;
+		private string <publicAddress>k__BackingField;
+		private string <privateAddress>k__BackingField;
+		private int <eloScore>k__BackingField;
+		private bool <advertise>k__BackingField;
+		private string <password>k__BackingField;
+		private Dictionary<String, Int64> <matchAttributes>k__BackingField;
+	}
+
+	public class	CreateMatchResponse: BasicResponse, IResponse
+	{
+		public virtual string ToString(){}
+		public virtual void Parse(System.Object obj){}
+		public CreateMatchResponse(){}
+		public string address{ get	{} set	{} }
+		public int port{ get	{} set	{} }
+		public NetworkID networkId{ get	{} set	{} }
+		public string accessTokenString{ get	{} set	{} }
+		public NodeID nodeId{ get	{} set	{} }
+		public bool usingRelay{ get	{} set	{} }
+		private string <address>k__BackingField;
+		private int <port>k__BackingField;
+		private NetworkID <networkId>k__BackingField;
+		private string <accessTokenString>k__BackingField;
+		private NodeID <nodeId>k__BackingField;
+		private bool <usingRelay>k__BackingField;
+	}
+
+	public class	JoinMatchRequest: Request
+	{
+		public virtual string ToString(){}
+		public virtual bool IsValid(){}
+		public JoinMatchRequest(){}
+		public NetworkID networkId{ get	{} set	{} }
+		public string publicAddress{ get	{} set	{} }
+		public string privateAddress{ get	{} set	{} }
+		public int eloScore{ get	{} set	{} }
+		public string password{ get	{} set	{} }
+		private NetworkID <networkId>k__BackingField;
+		private string <publicAddress>k__BackingField;
+		private string <privateAddress>k__BackingField;
+		private int <eloScore>k__BackingField;
+		private string <password>k__BackingField;
+	}
+
+	public class	JoinMatchResponse: BasicResponse, IResponse
+	{
+		public virtual string ToString(){}
+		public virtual void Parse(System.Object obj){}
+		public JoinMatchResponse(){}
+		public string address{ get	{} set	{} }
+		public int port{ get	{} set	{} }
+		public NetworkID networkId{ get	{} set	{} }
+		public string accessTokenString{ get	{} set	{} }
+		public NodeID nodeId{ get	{} set	{} }
+		public bool usingRelay{ get	{} set	{} }
+		private string <address>k__BackingField;
+		private int <port>k__BackingField;
+		private NetworkID <networkId>k__BackingField;
+		private string <accessTokenString>k__BackingField;
+		private NodeID <nodeId>k__BackingField;
+		private bool <usingRelay>k__BackingField;
+	}
+
+	public class	DestroyMatchRequest: Request
+	{
+		public virtual string ToString(){}
+		public virtual bool IsValid(){}
+		public DestroyMatchRequest(){}
+		public NetworkID networkId{ get	{} set	{} }
+		private NetworkID <networkId>k__BackingField;
+	}
+
+	public class	DropConnectionRequest: Request
+	{
+		public virtual string ToString(){}
+		public virtual bool IsValid(){}
+		public DropConnectionRequest(){}
+		public NetworkID networkId{ get	{} set	{} }
+		public NodeID nodeId{ get	{} set	{} }
+		private NetworkID <networkId>k__BackingField;
+		private NodeID <nodeId>k__BackingField;
+	}
+
+	public class	ListMatchRequest: Request
+	{
+		public virtual string ToString(){}
+		public virtual bool IsValid(){}
+		public ListMatchRequest(){}
+		public int pageSize{ get	{} set	{} }
+		public int pageNum{ get	{} set	{} }
+		public string nameFilter{ get	{} set	{} }
+		public bool includePasswordMatches{ get	{} set	{} }
+		public int eloScore{ get	{} set	{} }
+		public Dictionary<String, Int64> matchAttributeFilterLessThan{ get	{} set	{} }
+		public Dictionary<String, Int64> matchAttributeFilterEqualTo{ get	{} set	{} }
+		public Dictionary<String, Int64> matchAttributeFilterGreaterThan{ get	{} set	{} }
+		private int <pageSize>k__BackingField;
+		private int <pageNum>k__BackingField;
+		private string <nameFilter>k__BackingField;
+		private bool <includePasswordMatches>k__BackingField;
+		private int <eloScore>k__BackingField;
+		private Dictionary<String, Int64> <matchAttributeFilterLessThan>k__BackingField;
+		private Dictionary<String, Int64> <matchAttributeFilterEqualTo>k__BackingField;
+		private Dictionary<String, Int64> <matchAttributeFilterGreaterThan>k__BackingField;
+	}
+
+	public class	MatchDirectConnectInfo: ResponseBase
+	{
+		public virtual string ToString(){}
+		public virtual void Parse(System.Object obj){}
+		public MatchDirectConnectInfo(){}
+		public NodeID nodeId{ get	{} set	{} }
+		public string publicAddress{ get	{} set	{} }
+		public string privateAddress{ get	{} set	{} }
+		private NodeID <nodeId>k__BackingField;
+		private string <publicAddress>k__BackingField;
+		private string <privateAddress>k__BackingField;
+	}
+
+	public class	MatchDesc: ResponseBase
+	{
+		public virtual string ToString(){}
+		public virtual void Parse(System.Object obj){}
+		public MatchDesc(){}
+		public NetworkID networkId{ get	{} set	{} }
+		public string name{ get	{} set	{} }
+		public int averageEloScore{ get	{} set	{} }
+		public int maxSize{ get	{} set	{} }
+		public int currentSize{ get	{} set	{} }
+		public bool isPrivate{ get	{} set	{} }
+		public Dictionary<String, Int64> matchAttributes{ get	{} set	{} }
+		public NodeID hostNodeId{ get	{} set	{} }
+		public List<MatchDirectConnectInfo> directConnectInfos{ get	{} set	{} }
+		private NetworkID <networkId>k__BackingField;
+		private string <name>k__BackingField;
+		private int <averageEloScore>k__BackingField;
+		private int <maxSize>k__BackingField;
+		private int <currentSize>k__BackingField;
+		private bool <isPrivate>k__BackingField;
+		private Dictionary<String, Int64> <matchAttributes>k__BackingField;
+		private NodeID <hostNodeId>k__BackingField;
+		private List<MatchDirectConnectInfo> <directConnectInfos>k__BackingField;
+	}
+
+	public class	ListMatchResponse: BasicResponse, IResponse
+	{
+		public virtual string ToString(){}
+		public virtual void Parse(System.Object obj){}
+		public ListMatchResponse(){}
+		public ListMatchResponse(List<MatchDesc> otherMatches){}
+		public List<MatchDesc> matches{ get	{} set	{} }
+		private List<MatchDesc> <matches>k__BackingField;
+	}
+
+	public class	CreateDedicatedMatchRequest: Request
+	{
+		public virtual bool IsValid(){}
+		public CreateDedicatedMatchRequest(){}
+		public string name{ get	{} set	{} }
+		public uint size{ get	{} set	{} }
+		public bool advertise{ get	{} set	{} }
+		public string password{ get	{} set	{} }
+		public string publicAddress{ get	{} set	{} }
+		public string privateAddress{ get	{} set	{} }
+		public int eloScore{ get	{} set	{} }
+		public Dictionary<String, Int64> matchAttributes{ get	{} set	{} }
+		private string <name>k__BackingField;
+		private uint <size>k__BackingField;
+		private bool <advertise>k__BackingField;
+		private string <password>k__BackingField;
+		private string <publicAddress>k__BackingField;
+		private string <privateAddress>k__BackingField;
+		private int <eloScore>k__BackingField;
+		private Dictionary<String, Int64> <matchAttributes>k__BackingField;
+	}
+
+	public class	CreateDedicatedMatchResponse: BasicResponse, IResponse
+	{
+		public virtual void Parse(System.Object obj){}
+		public CreateDedicatedMatchResponse(){}
+		public NetworkID networkId{ get	{} set	{} }
+		public NodeID nodeId{ get	{} set	{} }
+		public string address{ get	{} set	{} }
+		public int port{ get	{} set	{} }
+		public string accessTokenString{ get	{} set	{} }
+		private NetworkID <networkId>k__BackingField;
+		private NodeID <nodeId>k__BackingField;
+		private string <address>k__BackingField;
+		private int <port>k__BackingField;
+		private string <accessTokenString>k__BackingField;
+	}
+
+	public class	CreateOrJoinMatchRequest: CreateMatchRequest
+	{
+		public CreateOrJoinMatchRequest(){}
+	}
+
+	public class	MatchInfo: Object
+	{
+		public virtual string ToString(){}
+		public MatchInfo(CreateMatchResponse matchResponse){}
+		public MatchInfo(JoinMatchResponse matchResponse){}
+		public string address{ get	{} set	{} }
+		public int port{ get	{} set	{} }
+		public NetworkID networkId{ get	{} set	{} }
+		public NetworkAccessToken accessToken{ get	{} set	{} }
+		public NodeID nodeId{ get	{} set	{} }
+		public bool usingRelay{ get	{} set	{} }
+		private string <address>k__BackingField;
+		private int <port>k__BackingField;
+		private NetworkID <networkId>k__BackingField;
+		private NetworkAccessToken <accessToken>k__BackingField;
+		private NodeID <nodeId>k__BackingField;
+		private bool <usingRelay>k__BackingField;
+	}
+
+	public class	NetworkMatch: MonoBehaviour
+	{
+		public void SetProgramAppID(AppID programAppID){}
+		public Coroutine CreateMatch(string matchName, uint matchSize, bool matchAdvertise, string matchPassword, ResponseDelegate<CreateMatchResponse> callback){}
+		public Coroutine CreateMatch(CreateMatchRequest req, ResponseDelegate<CreateMatchResponse> callback){}
+		public Coroutine JoinMatch(NetworkID netId, string matchPassword, ResponseDelegate<JoinMatchResponse> callback){}
+		public Coroutine JoinMatch(JoinMatchRequest req, ResponseDelegate<JoinMatchResponse> callback){}
+		public Coroutine DestroyMatch(NetworkID netId, ResponseDelegate<BasicResponse> callback){}
+		public Coroutine DestroyMatch(DestroyMatchRequest req, ResponseDelegate<BasicResponse> callback){}
+		public Coroutine DropConnection(NetworkID netId, NodeID dropNodeId, ResponseDelegate<BasicResponse> callback){}
+		public Coroutine DropConnection(DropConnectionRequest req, ResponseDelegate<BasicResponse> callback){}
+		public Coroutine ListMatches(int startPageNumber, int resultPageSize, string matchNameFilter, ResponseDelegate<ListMatchResponse> callback){}
+		public Coroutine ListMatches(ListMatchRequest req, ResponseDelegate<ListMatchResponse> callback){}
+		private IEnumerator ProcessMatchResponse(WWW client, ResponseDelegate<JSONRESPONSE> callback){}
+		public NetworkMatch(){}
+		public Uri baseUri{ get	{} set	{} }
+		private Uri m_BaseUri;
+		private const string kMultiplayerNetworkingIdKey = null;
+	}
+
+	delegate void ResponseDelegate<T>(T response);
+
+}
+
+namespace UnityEngine.Networking.Types {
+	public class	NetworkAccessToken: Object
+	{
+		public string GetByteString(){}
+		public bool IsValid(){}
+		public NetworkAccessToken(){}
+		public NetworkAccessToken(Byte[] array){}
+		public NetworkAccessToken(string strArray){}
+		public Byte[] array;
+		private const int NETWORK_ACCESS_TOKEN_SIZE = null;
+	}
+
+}
+
+namespace UnityEngine.Networking {
+	public sealed class	Utility: Object
+	{
+		public static SourceID GetSourceID(){}
+		private static void SetUseRandomSourceID(bool useRandomSourceID){}
+		public static void SetAppID(AppID newAppID){}
+		public static AppID GetAppID(){}
+		public static void SetAccessTokenForNetwork(NetworkID netId, NetworkAccessToken accessToken){}
+		public static NetworkAccessToken GetAccessTokenForNetwork(NetworkID netId){}
+		internal static void FetchNetworkingId(string projectId){}
+		private Utility(){}
+		private static Utility(){}
+		public static bool useRandomSourceID{ get	{} set	{} }
+		private static Random s_randomGenerator;
+		private static bool s_useRandomSourceID;
+		private static int s_randomSourceComponent;
+		private static AppID s_programAppID;
+		private static Dictionary<NetworkID, NetworkAccessToken> s_dictTokens;
+	}
+
+	public sealed class	NetworkTransport: Object
+	{
+		public static int ConnectEndPoint(int hostId, EndPoint xboxOneEndPoint, int exceptionConnectionId, out byte error){}
+		public static void Init(){}
+		public static void Init(GlobalConfig config){}
+		private static void InitWithNoParameters(){}
+		private static void InitWithParameters(GlobalConfigInternal config){}
+		public static void Shutdown(){}
+		public static string GetAssetId(GameObject go){}
+		public static void AddSceneId(int id){}
+		public static int GetNextSceneId(){}
+		public static void ConnectAsNetworkHost(int hostId, string address, int port, NetworkID network, SourceID source, NodeID node, out byte error){}
+		public static void DisconnectNetworkHost(int hostId, out byte error){}
+		public static NetworkEventType ReceiveRelayEventFromHost(int hostId, out byte error){}
+		public static int ConnectToNetworkPeer(int hostId, string address, int port, int exceptionConnectionId, int relaySlotId, NetworkID network, SourceID source, NodeID node, int bytesPerSec, float bucketSizeFactor, out byte error){}
+		public static int ConnectToNetworkPeer(int hostId, string address, int port, int exceptionConnectionId, int relaySlotId, NetworkID network, SourceID source, NodeID node, out byte error){}
+		public static int GetCurrentIncomingMessageAmount(){}
+		public static int GetCurrentOutgoingMessageAmount(){}
+		public static int GetCurrentRtt(int hostId, int connectionId, out byte error){}
+		public static int GetNetworkLostPacketNum(int hostId, int connectionId, out byte error){}
+		public static int GetPacketSentRate(int hostId, int connectionId, out byte error){}
+		public static int GetPacketReceivedRate(int hostId, int connectionId, out byte error){}
+		public static int GetRemotePacketReceivedRate(int hostId, int connectionId, out byte error){}
+		public static int GetNetIOTimeuS(){}
+		public static void GetConnectionInfo(int hostId, int connectionId, out string address, out int port, out NetworkID network, out NodeID dstNode, out byte error){}
+		public static string GetConnectionInfo(int hostId, int connectionId, out int port, out ulong network, out ushort dstNode, out byte error){}
+		public static int GetNetworkTimestamp(){}
+		public static int GetRemoteDelayTimeMS(int hostId, int connectionId, int remoteTime, out byte error){}
+		public static bool StartSendMulticast(int hostId, int channelId, Byte[] buffer, int size, out byte error){}
+		public static bool SendMulticast(int hostId, int connectionId, out byte error){}
+		public static bool FinishSendMulticast(int hostId, out byte error){}
+		private static int AddWsHostWrapper(HostTopologyInternal topologyInt, string ip, int port){}
+		private static int AddWsHostWrapperWithoutIp(HostTopologyInternal topologyInt, int port){}
+		public static int AddWebsocketHost(HostTopology topology, int port){}
+		public static int AddWebsocketHost(HostTopology topology, int port, string ip){}
+		private static int AddHostWrapper(HostTopologyInternal topologyInt, string ip, int port, int minTimeout, int maxTimeout){}
+		private static int AddHostWrapperWithoutIp(HostTopologyInternal topologyInt, int port, int minTimeout, int maxTimeout){}
+		public static int AddHost(HostTopology topology, int port){}
+		public static int AddHost(HostTopology topology){}
+		public static int AddHost(HostTopology topology, int port, string ip){}
+		public static int AddHostWithSimulator(HostTopology topology, int minTimeout, int maxTimeout, int port){}
+		public static int AddHostWithSimulator(HostTopology topology, int minTimeout, int maxTimeout){}
+		public static int AddHostWithSimulator(HostTopology topology, int minTimeout, int maxTimeout, int port, string ip){}
+		public static bool RemoveHost(int hostId){}
+		public static int Connect(int hostId, string address, int port, int exeptionConnectionId, out byte error){}
+		private static int Internal_ConnectEndPoint(int hostId, IntPtr sockAddrStorage, int sockAddrStorageLen, int exceptionConnectionId, out byte error){}
+		public static int ConnectWithSimulator(int hostId, string address, int port, int exeptionConnectionId, out byte error, ConnectionSimulatorConfig conf){}
+		public static bool Disconnect(int hostId, int connectionId, out byte error){}
+		public static bool Send(int hostId, int connectionId, int channelId, Byte[] buffer, int size, out byte error){}
+		private static bool SendWrapper(int hostId, int connectionId, int channelId, Byte[] buffer, int size, out byte error){}
+		public static NetworkEventType Receive(out int hostId, out int connectionId, out int channelId, Byte[] buffer, int bufferSize, out int receivedSize, out byte error){}
+		public static NetworkEventType ReceiveFromHost(int hostId, out int connectionId, out int channelId, Byte[] buffer, int bufferSize, out int receivedSize, out byte error){}
+		public static void SetPacketStat(int direction, int packetStatId, int numMsgs, int numBytes){}
+		public static bool StartBroadcastDiscovery(int hostId, int broadcastPort, int key, int version, int subversion, Byte[] buffer, int size, int timeout, out byte error){}
+		public static void StopBroadcastDiscovery(){}
+		public static bool IsBroadcastDiscoveryRunning(){}
+		public static void SetBroadcastCredentials(int hostId, int key, int version, int subversion, out byte error){}
+		public static string GetBroadcastConnectionInfo(int hostId, out int port, out byte error){}
+		public static void GetBroadcastConnectionInfo(int hostId, out string address, out int port, out byte error){}
+		public static void GetBroadcastConnectionMessage(int hostId, Byte[] buffer, int bufferSize, out int receivedSize, out byte error){}
+		private NetworkTransport(){}
+		public static bool IsStarted{ get	{} }
+	}
+
+	public class	ChannelQOS: Object
+	{
+		public ChannelQOS(QosType value){}
+		public ChannelQOS(){}
+		public ChannelQOS(ChannelQOS channel){}
+		public QosType QOS{ get	{} }
+		internal QosType m_Type;
+	}
+
+	public class	ConnectionConfig: Object
+	{
+		public static void Validate(ConnectionConfig config){}
+		public byte AddChannel(QosType value){}
+		public QosType GetChannel(byte idx){}
+		public ConnectionConfig(){}
+		public ConnectionConfig(ConnectionConfig config){}
+		public ushort PacketSize{ get	{} set	{} }
+		public ushort FragmentSize{ get	{} set	{} }
+		public uint ResendTimeout{ get	{} set	{} }
+		public uint DisconnectTimeout{ get	{} set	{} }
+		public uint ConnectTimeout{ get	{} set	{} }
+		public uint MinUpdateTimeout{ get	{} set	{} }
+		public uint PingTimeout{ get	{} set	{} }
+		public uint ReducedPingTimeout{ get	{} set	{} }
+		public uint AllCostTimeout{ get	{} set	{} }
+		public byte NetworkDropThreshold{ get	{} set	{} }
+		public byte OverflowDropThreshold{ get	{} set	{} }
+		public byte MaxConnectionAttempt{ get	{} set	{} }
+		public uint AckDelay{ get	{} set	{} }
+		public ushort MaxCombinedReliableMessageSize{ get	{} set	{} }
+		public ushort MaxCombinedReliableMessageCount{ get	{} set	{} }
+		public ushort MaxSentMessageQueueSize{ get	{} set	{} }
+		public bool IsAcksLong{ get	{} set	{} }
+		public int ChannelCount{ get	{} }
+		public List<ChannelQOS> Channels{ get	{} }
+		private ushort m_PacketSize;
+		private ushort m_FragmentSize;
+		private uint m_ResendTimeout;
+		private uint m_DisconnectTimeout;
+		private uint m_ConnectTimeout;
+		private uint m_MinUpdateTimeout;
+		private uint m_PingTimeout;
+		private uint m_ReducedPingTimeout;
+		private uint m_AllCostTimeout;
+		private byte m_NetworkDropThreshold;
+		private byte m_OverflowDropThreshold;
+		private byte m_MaxConnectionAttempt;
+		private uint m_AckDelay;
+		private ushort m_MaxCombinedReliableMessageSize;
+		private ushort m_MaxCombinedReliableMessageCount;
+		private ushort m_MaxSentMessageQueueSize;
+		private bool m_IsAcksLong;
+		internal List<ChannelQOS> m_Channels;
+		private const int g_MinPacketSize = null;
+	}
+
+	public class	HostTopology: Object
+	{
+		public ConnectionConfig GetSpecialConnectionConfig(int i){}
+		public int AddSpecialConnectionConfig(ConnectionConfig config){}
+		public HostTopology(ConnectionConfig defaultConfig, int maxDefaultConnections){}
+		private HostTopology(){}
+		public ConnectionConfig DefaultConfig{ get	{} }
+		public int MaxDefaultConnections{ get	{} }
+		public int SpecialConnectionConfigsCount{ get	{} }
+		public List<ConnectionConfig> SpecialConnectionConfigs{ get	{} }
+		public ushort ReceivedMessagePoolSize{ get	{} set	{} }
+		public ushort SentMessagePoolSize{ get	{} set	{} }
+		public float MessagePoolSizeGrowthFactor{ get	{} set	{} }
+		private ConnectionConfig m_DefConfig;
+		private int m_MaxDefConnections;
+		private List<ConnectionConfig> m_SpecialConnections;
+		private ushort m_ReceivedMessagePoolSize;
+		private ushort m_SentMessagePoolSize;
+		private float m_MessagePoolSizeGrowthFactor;
+	}
+
+	public class	GlobalConfig: Object
+	{
+		public GlobalConfig(){}
+		public uint ThreadAwakeTimeout{ get	{} set	{} }
+		public ReactorModel ReactorModel{ get	{} set	{} }
+		public ushort ReactorMaximumReceivedMessages{ get	{} set	{} }
+		public ushort ReactorMaximumSentMessages{ get	{} set	{} }
+		public ushort MaxPacketSize{ get	{} set	{} }
+		private uint m_ThreadAwakeTimeout;
+		private ReactorModel m_ReactorModel;
+		private ushort m_ReactorMaximumReceivedMessages;
+		private ushort m_ReactorMaximumSentMessages;
+		private ushort m_MaxPacketSize;
+	}
+
+	public sealed class	ConnectionSimulatorConfig: Object, IDisposable
+	{
+		public sealed virtual void Dispose(){}
+		protected virtual void Finalize(){}
+		public ConnectionSimulatorConfig(int outMinDelay, int outAvgDelay, int inMinDelay, int inAvgDelay, float packetLossPercentage){}
+		internal IntPtr m_Ptr;
+	}
+
+}
+
+namespace SimpleJson.Reflection {
+	delegate System.Object GetDelegate(System.Object source);
+
+	delegate void SetDelegate(System.Object source, System.Object value);
+
+	delegate System.Object ConstructorDelegate(Object[] args);
+
+	delegate TValue ThreadSafeDictionaryValueFactory<TKey, TValue>(TKey key);
+
+}
+
+namespace UnityEngine.VR {
+	public sealed class	VRSettings: Object
+	{
+		public VRSettings(){}
+		public static bool enabled{ get	{} set	{} }
+		public static bool showDeviceView{ get	{} set	{} }
+		public static float renderScale{ get	{} set	{} }
+		public static VRDeviceType loadedDevice{ get	{} set	{} }
+	}
+
+	public sealed class	VRDevice: Object
+	{
+		public static IntPtr GetNativePtr(){}
+		public VRDevice(){}
+		public static bool isPresent{ get	{} }
+		public static string family{ get	{} }
+		public static string model{ get	{} }
+	}
+
+	public sealed class	InputTracking: Object
+	{
+		public static Vector3 GetLocalPosition(VRNode node){}
+		public static Quaternion GetLocalRotation(VRNode node){}
+		public static void Recenter(){}
+		public InputTracking(){}
 	}
 
 }
@@ -6717,7 +8663,7 @@ namespace UnityEngine.SocialPlatforms {
 		private bool VerifyUser(){}
 		private void PopulateStaticData(){}
 		private Texture2D CreateDummyTexture(int width, int height){}
-		private static int <SortScores>m__0(Score s1, Score s2){}
+		private static int <SortScores>m__5(Score s1, Score s2){}
 		public Local(){}
 		private static Local(){}
 		public sealed virtual ILocalUser localUser{ get	{} }
@@ -6833,6 +8779,25 @@ namespace UnityEngine.Events {
 		protected void Invoke(Object[] parameters){}
 		public virtual string ToString(){}
 		public static MethodInfo GetValidMethodInfo(System.Object obj, string functionName, Type[] argumentTypes){}
+		protected bool ValidateRegistration(MethodInfo method, System.Object targetObj, PersistentListenerMode mode){}
+		protected bool ValidateRegistration(MethodInfo method, System.Object targetObj, PersistentListenerMode mode, Type argumentType){}
+		internal void AddPersistentListener(){}
+		protected void RegisterPersistentListener(int index, System.Object targetObj, MethodInfo method){}
+		internal void RemovePersistentListener(System.Object target, MethodInfo method){}
+		internal void RemovePersistentListener(int index){}
+		internal void UnregisterPersistentListener(int index){}
+		internal void AddVoidPersistentListener(UnityAction call){}
+		internal void RegisterVoidPersistentListener(int index, UnityAction call){}
+		internal void AddIntPersistentListener(UnityAction<Int32> call, int argument){}
+		internal void RegisterIntPersistentListener(int index, UnityAction<Int32> call, int argument){}
+		internal void AddFloatPersistentListener(UnityAction<Single> call, float argument){}
+		internal void RegisterFloatPersistentListener(int index, UnityAction<Single> call, float argument){}
+		internal void AddBoolPersistentListener(UnityAction<Boolean> call, bool argument){}
+		internal void RegisterBoolPersistentListener(int index, UnityAction<Boolean> call, bool argument){}
+		internal void AddStringPersistentListener(UnityAction<String> call, string argument){}
+		internal void RegisterStringPersistentListener(int index, UnityAction<String> call, string argument){}
+		internal void AddObjectPersistentListener(UnityAction<T> call, T argument){}
+		internal void RegisterObjectPersistentListener(int index, UnityAction<T> call, T argument){}
 		protected UnityEventBase(){}
 		private InvokableCallList m_Calls;
 		private PersistentCallGroup m_PersistentCalls;
@@ -6848,6 +8813,9 @@ namespace UnityEngine.Events {
 		internal virtual BaseInvokableCall GetDelegate(System.Object target, MethodInfo theFunction){}
 		private static BaseInvokableCall GetDelegate(UnityAction action){}
 		public void Invoke(){}
+		internal void AddPersistentListener(UnityAction call){}
+		internal void AddPersistentListener(UnityAction call, UnityEventCallState callState){}
+		internal void RegisterPersistentListener(int index, UnityAction call){}
 		public UnityEvent(){}
 		private readonly Object[] m_InvokeArray;
 	}
@@ -6860,6 +8828,9 @@ namespace UnityEngine.Events {
 		internal virtual BaseInvokableCall GetDelegate(System.Object target, MethodInfo theFunction){}
 		private static BaseInvokableCall GetDelegate(UnityAction<T0> action){}
 		public void Invoke(T0 arg0){}
+		internal void AddPersistentListener(UnityAction<T0> call){}
+		internal void AddPersistentListener(UnityAction<T0> call, UnityEventCallState callState){}
+		internal void RegisterPersistentListener(int index, UnityAction<T0> call){}
 		protected UnityEvent(){}
 		private readonly Object[] m_InvokeArray;
 	}
@@ -6872,6 +8843,9 @@ namespace UnityEngine.Events {
 		internal virtual BaseInvokableCall GetDelegate(System.Object target, MethodInfo theFunction){}
 		private static BaseInvokableCall GetDelegate(UnityAction<T0, T1> action){}
 		public void Invoke(T0 arg0, T1 arg1){}
+		internal void AddPersistentListener(UnityAction<T0, T1> call){}
+		internal void AddPersistentListener(UnityAction<T0, T1> call, UnityEventCallState callState){}
+		internal void RegisterPersistentListener(int index, UnityAction<T0, T1> call){}
 		protected UnityEvent(){}
 		private readonly Object[] m_InvokeArray;
 	}
@@ -6884,6 +8858,9 @@ namespace UnityEngine.Events {
 		internal virtual BaseInvokableCall GetDelegate(System.Object target, MethodInfo theFunction){}
 		private static BaseInvokableCall GetDelegate(UnityAction<T0, T1, T2> action){}
 		public void Invoke(T0 arg0, T1 arg1, T2 arg2){}
+		internal void AddPersistentListener(UnityAction<T0, T1, T2> call){}
+		internal void AddPersistentListener(UnityAction<T0, T1, T2> call, UnityEventCallState callState){}
+		internal void RegisterPersistentListener(int index, UnityAction<T0, T1, T2> call){}
 		protected UnityEvent(){}
 		private readonly Object[] m_InvokeArray;
 	}
@@ -6896,6 +8873,9 @@ namespace UnityEngine.Events {
 		internal virtual BaseInvokableCall GetDelegate(System.Object target, MethodInfo theFunction){}
 		private static BaseInvokableCall GetDelegate(UnityAction<T0, T1, T2, T3> action){}
 		public void Invoke(T0 arg0, T1 arg1, T2 arg2, T3 arg3){}
+		internal void AddPersistentListener(UnityAction<T0, T1, T2, T3> call){}
+		internal void AddPersistentListener(UnityAction<T0, T1, T2, T3> call, UnityEventCallState callState){}
+		internal void RegisterPersistentListener(int index, UnityAction<T0, T1, T2, T3> call){}
 		protected UnityEvent(){}
 		private readonly Object[] m_InvokeArray;
 	}
@@ -6909,6 +8889,75 @@ namespace UnityEngine.Events {
 	delegate void UnityAction<T0, T1, T2>(T0 arg0, T1 arg1, T2 arg2);
 
 	delegate void UnityAction<T0, T1, T2, T3>(T0 arg0, T1 arg1, T2 arg2, T3 arg3);
+
+}
+
+namespace UnityEngine.Assertions {
+	public sealed abstract	class	Assert: Object
+	{
+		private static void Fail(string message, string userMessage){}
+		public static void IsTrue(bool condition){}
+		public static void IsTrue(bool condition, string message){}
+		public static void IsFalse(bool condition){}
+		public static void IsFalse(bool condition, string message){}
+		public static void AreApproximatelyEqual(float expected, float actual){}
+		public static void AreApproximatelyEqual(float expected, float actual, string message){}
+		public static void AreApproximatelyEqual(float expected, float actual, float tolerance){}
+		public static void AreApproximatelyEqual(float expected, float actual, float tolerance, string message){}
+		public static void AreNotApproximatelyEqual(float expected, float actual){}
+		public static void AreNotApproximatelyEqual(float expected, float actual, string message){}
+		public static void AreNotApproximatelyEqual(float expected, float actual, float tolerance){}
+		public static void AreNotApproximatelyEqual(float expected, float actual, float tolerance, string message){}
+		public static void AreEqual(T expected, T actual){}
+		public static void AreEqual(T expected, T actual, string message){}
+		public static void AreEqual(T expected, T actual, string message, IEqualityComparer<T> comparer){}
+		public static void AreNotEqual(T expected, T actual){}
+		public static void AreNotEqual(T expected, T actual, string message){}
+		public static void AreNotEqual(T expected, T actual, string message, IEqualityComparer<T> comparer){}
+		private static IEqualityComparer<T> GetEqualityComparer(Object[] args){}
+		public static void IsNull(T value){}
+		public static void IsNull(T value, string message){}
+		public static void IsNotNull(T value){}
+		public static void IsNotNull(T value, string message){}
+		private static Assert(){}
+		public static bool raiseExceptions;
+		private readonly static Dictionary<Type, Object> m_ComparersCache;
+		internal const string UNITY_ASSERTIONS = null;
+	}
+
+	public class	AssertionException: Exception, ISerializable, _Exception
+	{
+		public AssertionException(string message, string userMessage){}
+		public virtual string Message{ get	{} }
+		private string m_UserMessage;
+	}
+
+}
+
+namespace UnityEngine.Assertions.Must {
+	public sealed abstract	class	MustExtensions: Object
+	{
+		public static void MustBeTrue(bool value){}
+		public static void MustBeTrue(bool value, string message){}
+		public static void MustBeFalse(bool value){}
+		public static void MustBeFalse(bool value, string message){}
+		public static void MustBeApproximatelyEqual(float actual, float expected){}
+		public static void MustBeApproximatelyEqual(float actual, float expected, string message){}
+		public static void MustBeApproximatelyEqual(float actual, float expected, float tolerance){}
+		public static void MustBeApproximatelyEqual(float actual, float expected, float tolerance, string message){}
+		public static void MustNotBeApproximatelyEqual(float actual, float expected){}
+		public static void MustNotBeApproximatelyEqual(float actual, float expected, string message){}
+		public static void MustNotBeApproximatelyEqual(float actual, float expected, float tolerance){}
+		public static void MustNotBeApproximatelyEqual(float actual, float expected, float tolerance, string message){}
+		public static void MustBeEqual(T actual, T expected){}
+		public static void MustBeEqual(T actual, T expected, string message){}
+		public static void MustNotBeEqual(T actual, T expected){}
+		public static void MustNotBeEqual(T actual, T expected, string message){}
+		public static void MustBeNull(T expected){}
+		public static void MustBeNull(T expected, string message){}
+		public static void MustNotBeNull(T expected){}
+		public static void MustNotBeNull(T expected, string message){}
+	}
 
 }
 
@@ -6929,6 +8978,14 @@ namespace UnityEngine.Internal {
 
 }
 
+namespace UnityEngine.Scripting {
+	public class	PreserveAttribute: Attribute, _Attribute
+	{
+		public PreserveAttribute(){}
+	}
+
+}
+
 namespace UnityEngine.Serialization {
 	public class	FormerlySerializedAsAttribute: Attribute, _Attribute
 	{
@@ -6943,6 +9000,20 @@ namespace UnityEngine.Serialization {
 		public sealed virtual void ChainSelector(ISurrogateSelector selector){}
 		public sealed virtual ISurrogateSelector GetNextSelector(){}
 		public UnitySurrogateSelector(){}
+	}
+
+}
+
+namespace UnityEditor.Advertisements {
+	public sealed abstract	class	AdvertisementSettings: Object
+	{
+		public static bool IsPlatformEnabled(RuntimePlatform platform){}
+		public static void SetPlatformEnabled(RuntimePlatform platform, bool value){}
+		public static string GetGameId(RuntimePlatform platform){}
+		public static void SetGameId(RuntimePlatform platform, string gameId){}
+		public static bool enabled{ get	{} set	{} }
+		public static bool initializeOnStartup{ get	{} set	{} }
+		public static bool testMode{ get	{} set	{} }
 	}
 
 }
